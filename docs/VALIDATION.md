@@ -9,6 +9,7 @@
 - Atualização dos covers: quatro verificações de renderização e acessibilidade executadas novamente e aprovadas em desktop/mobile; os cinco links indicados pelo usuário estão presentes no HTML final.
 - Atualização da Freenote: dois ebooks de guitarra e busca completa incluídos; tipos, dados e build aprovados. As quatro verificações de renderização e acessibilidade passaram novamente em desktop/mobile. Os dois links de produto e a busca com termo preservado foram conferidos no HTML final.
 - Guitarristas: seis na seleção, incluindo Samuel Zechin, Marcelo Barbosa e Alex Lima; tipos, dados e build aprovados, com quatro verificações de renderização e acessibilidade novamente aprovadas em desktop/mobile. Instagram de Samuel e canais de Marcelo confirmados pelos sites pessoais e metadados públicos. YouTube antigo de Samuel retorna 404 e foi omitido. Alex foi indicado pelo usuário; nome confirmado nos metadados de @alekissss10, sem inferir músicas específicas ou outros canais.
+- Tipografia do hero: webfont local `dreamsoftheatre` carregada e conferida visualmente em desktop e celular, preservando o H1 como texto. Seis verificações de layout, acessibilidade e ampliação aprovadas; após o ajuste final de tamanho mobile, as quatro de layout/navegação/ampliação foram repetidas e aprovadas. Origem e condições de uso em `src/assets/fonts/README.md`.
 - axe-core: nenhuma violação WCAG A/AA detectada nas páginas testadas. Isso é uma verificação automática, não uma certificação de acessibilidade.
 - Conferidos: seleção exclusiva de shows no Brasil, filtros de discografia, datas decrescentes, âncoras, header fixo, WhatsApp, ampliação de texto a 200%, navegação por teclado, fechamento do player e retorno do foco.
 - Sem JavaScript: conteúdo completo, âncoras e destinos externos continuam presentes; filtros ficam ocultos.
@@ -31,7 +32,7 @@
 
 ## Build e publicação
 
-- Build: 47 arquivos, cerca de 1,24 MB no total, incluindo 30 imagens WebP locais.
+- Build: 48 arquivos, cerca de 1,25 MB no total, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
 - JavaScript da aplicação: **2.945 bytes**, incorporado pelo Astro; nenhum framework de hidratação.
 - Fontes locais. Conteúdo e capas independem de acesso externo no build.
 - Conferidos: canonical, description, Open Graph, Twitter Cards, H1 único, alt text, favicon, sitemap, robots e CNAME.

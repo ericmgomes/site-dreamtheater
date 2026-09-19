@@ -89,3 +89,5 @@ O remoto `origin` está configurado para [ericmgomes/site-dreamtheater](https://
 ## Créditos
 
 Feito por [Eric Gomes](https://bio.ericgomes.me). Projeto brasileiro independente, não afiliado oficialmente ao Dream Theater. Capas, fotografias, música e marcas pertencem aos respectivos titulares. Capas e referências da discografia vêm do site oficial; thumbnails são fornecidas pelo YouTube. O projeto organiza links e não redistribui músicas, vídeos, livros ou transcrições comerciais.
+
+O hero usa **dreamsoftheatre**, de JoannaVu, uma fonte inspirada no lettering da banda e disponível para uso não comercial. Arquivo local, origem e condições em [src/assets/fonts/README.md](src/assets/fonts/README.md).
