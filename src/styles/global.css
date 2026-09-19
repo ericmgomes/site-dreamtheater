@@ -56,7 +56,9 @@
   .hero-place { font-size: .75rem; letter-spacing: .12em; color: var(--muted); }
   .hero h1 { display: flex; flex-wrap: wrap; align-items: baseline; gap: .08em .25em; font-family: var(--heading); font-size: clamp(3rem, 6.8vw, 5.8rem); font-weight: 600; letter-spacing: -.015em; line-height: 1.15; }
   .hero-band-name { font-family: 'Dream Theater', Georgia, serif; font-weight: 400; font-synthesis: none; letter-spacing: 0; }
-  .hero-country { color: var(--accent); }
+  .hero-country { color: #fff; }
+  .hero-country > span { display: inline-block; position: relative; }
+  .hero-country > span::after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: clamp(3px, .055em, 5px); border-radius: 2px; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); }
   .hero-bottom { margin-top: 20px; display: flex; justify-content: space-between; gap: 24px; align-items: center; }
   .hero-verbs { font-family: var(--heading); font-weight: 600; text-transform: uppercase; font-size: 1.65rem; line-height: 1.2; }
   .hero-verbs span { padding-inline: 5px; color: #64665e; }
