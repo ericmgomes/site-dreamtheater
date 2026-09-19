@@ -1,0 +1,167 @@
+{
+  "researchedAt": "2026-09-19",
+  "scope": "Shows realizados pelo Dream Theater no Brasil desde a primeira visita em 1997 até 2010 inclusive.",
+  "sourceUrls": [
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=1997",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2005",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2010",
+    "https://guestpectacular.com/artists/dream-theater/events/country/brazil",
+    "https://whiplash.net/materias/diaadia_fatos/269548-dreamtheater.html",
+    "https://dreamtheater.fandom.com/wiki/Touring_Into_Infinity",
+    "https://www.concertarchives.org/bands/dream-theater?year=1998",
+    "https://www.metalunderground.com/news/details.cfm?newsid=52934",
+    "https://www.notreble.com/buzz/2010/02/10/dream-theater-announces-south-america-mexico-tour-dates/"
+  ],
+  "notes": [
+    "14 shows encontrados nesta faixa: 1997 (3), 1998 (1), 2005 (3), 2008 (3), 2010 (4). Todos possuem página individual no setlist.fm com data, local e repertório; as URLs foram obtidas da busca ou dos links da cronologia do próprio setlist.fm, sem construção por suposição.",
+    "A relação completa por país no Guestpectacular contém estes mesmos 14 registros anteriores a 2011. O mapa de concertos do setlist.fm informa 48 apresentações no Brasil no total até a consulta. Os mapas anuais consultados confirmam 3 em 1997, 3 em 2005 e 4 em 2010.",
+    "Whiplash registra a primeira visita em 11 e 12/09/1997 no Aramaçan e 15/09/1997 no Imperator, seguida do retorno ao Monsters of Rock em 26/09/1998. As duas noites no Aramaçan e as duas noites no Credicard Hall em 2005 são apresentações distintas, não duplicatas.",
+    "Excluído o Monsters of Rock originalmente previsto para 30/08/1997: Whiplash confirma que o festival foi cancelado e substituído pela turnê própria do Dream Theater. Tardes de autógrafos e workshop solo de John Petrucci não são shows do Dream Theater e não entram na lista.",
+    "Biografias replicadas em Eventim/Livepass/Wikipedia citam também 10/03/2008, mas não trazem local nem evidência de um quarto show. As três páginas individuais verificadas são 07/03 no Rio, 08/03 em São Paulo e 09/03 em Belo Horizonte. A cronologia do setlist.fm segue de Belo Horizonte para Bogotá em 12/03. Portanto nenhuma apresentação hipotética de 10/03 foi incluída.",
+    "Comunicado com declaração de Mike Portnoy reproduzido pelo Metal Underground em 2010 identifica visitas brasileiras em 1997, 1998 e retorno em 2005. A agenda de 2010 reproduzida pelo No Treble contém as quatro cidades e datas abaixo. A página atual dreamtheater.net/tour-history/ não forneceu conteúdo acessível; a conferência histórica foi feita com os registros individuais e fontes contemporâneas listadas.",
+    "Os nomes das casas são os usados na época em cada página do setlist.fm. Não foram substituídos pelas marcas atuais dos mesmos locais. Sem lacunas identificadas dentro desta faixa nas fontes consultadas. A completude é relativa aos registros históricos disponíveis, não uma garantia contra futuras correções das fontes."
+  ],
+  "setlists": [
+    {
+      "date": "2010-03-20",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Citibank Hall",
+      "tour": "Black Clouds & Silver Touring",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/citibank-hall-rio-de-janeiro-brazil-6bd4aac6.html"
+    },
+    {
+      "date": "2010-03-19",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Credicard Hall",
+      "tour": "Black Clouds & Silver Touring",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/credicard-hall-sao-paulo-brazil-63d4aa07.html"
+    },
+    {
+      "date": "2010-03-18",
+      "city": "Curitiba",
+      "region": "PR",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Curitiba Master Hall",
+      "tour": "Black Clouds & Silver Touring",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/curitiba-master-hall-curitiba-brazil-2bd4a8aa.html"
+    },
+    {
+      "date": "2010-03-16",
+      "city": "Porto Alegre",
+      "region": "RS",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Pepsi On Stage",
+      "tour": "Black Clouds & Silver Touring",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/pepsi-on-stage-porto-alegre-brazil-3bd4acb8.html"
+    },
+    {
+      "date": "2008-03-09",
+      "city": "Belo Horizonte",
+      "region": "MG",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Chevrolet Hall",
+      "tour": "Chaos in Motion",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/chevrolet-hall-belo-horizonte-brazil-3d6d19b.html"
+    },
+    {
+      "date": "2008-03-08",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Credicard Hall",
+      "tour": "Chaos in Motion",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/credicard-hall-sao-paulo-brazil-3d6a9bb.html"
+    },
+    {
+      "date": "2008-03-07",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Citibank Hall",
+      "tour": "Chaos in Motion",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/citibank-hall-rio-de-janeiro-brazil-13d6d1a5.html"
+    },
+    {
+      "date": "2005-12-11",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Credicard Hall",
+      "tour": "Octavarium",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-1bd6ed00.html"
+    },
+    {
+      "date": "2005-12-10",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Credicard Hall",
+      "tour": "Octavarium",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-13d6ed05.html"
+    },
+    {
+      "date": "2005-12-09",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Claro Hall",
+      "tour": "Octavarium",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/claro-hall-rio-de-janeiro-brazil-23d6d0a7.html"
+    },
+    {
+      "date": "1998-09-26",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Pista de Atletismo do Ibirapuera",
+      "tour": "Touring Into Infinity",
+      "url": "https://www.setlist.fm/setlist/dream-theater/1998/pista-de-atletismo-do-ibirapuera-sao-paulo-brazil-3bd6cc60.html"
+    },
+    {
+      "date": "1997-09-15",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Imperator",
+      "tour": "Touring Into Infinity",
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/imperator-rio-de-janeiro-brazil-3bd6cc4c.html"
+    },
+    {
+      "date": "1997-09-12",
+      "city": "Santo André",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Clube Atlético Aramaçan",
+      "tour": "Touring Into Infinity",
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-33d6cc4d.html"
+    },
+    {
+      "date": "1997-09-11",
+      "city": "Santo André",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Clube Atlético Aramaçan",
+      "tour": "Touring Into Infinity",
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-2bd6cc4e.html"
+    }
+  ]
+}

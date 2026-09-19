@@ -1,0 +1,35 @@
+{
+  "researchedAt": "2026-09-19",
+  "countryCode": "BR",
+  "expectedTotal": 48,
+  "firstDate": "1997-09-11",
+  "lastDate": "2026-05-12",
+  "countsByYear": {
+    "1997": 3,
+    "1998": 1,
+    "2005": 3,
+    "2008": 3,
+    "2010": 4,
+    "2012": 5,
+    "2014": 7,
+    "2016": 4,
+    "2019": 5,
+    "2022": 2,
+    "2024": 5,
+    "2026": 6
+  },
+  "sourceUrls": [
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html",
+    "https://guestpectacular.com/artists/dream-theater/events/country/brazil"
+  ],
+  "researchFiles": [
+    "brazil-setlists-through-2010.json",
+    "brazil-setlists-2011-2022.json",
+    "brazil-setlists-2023-2026.json"
+  ],
+  "notes": [
+    "O mapa de concertos do setlist.fm informa Brazil: 48. A soma dos registros individuais conferidos é 48: 14 até 2010, 23 entre 2011 e 2022 e 11 entre 2023 e 2026.",
+    "Cobertura completa dos registros brasileiros identificados no setlist.fm até 19/09/2026, conferida com índices anuais e fontes contemporâneas. O arquivo colaborativo pode receber correções posteriores.",
+    "Shows cancelados, workshops, bandas tributo e datas não corroboradas não foram promovidos a apresentações realizadas. As exclusões e divergências estão documentadas nos arquivos por período."
+  ]
+}

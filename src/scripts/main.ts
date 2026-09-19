@@ -1,4 +1,51 @@
-// Only interaction code is shipped. All content is already in the static HTML.
+// All shows are present in the static HTML; reveal another page near the list's end.
+const historyScroller = document.querySelector<HTMLElement>('[data-setlist-scroll]');
+const historySentinel = document.querySelector<HTMLElement>('[data-setlist-sentinel]');
+const historyMore = document.querySelector<HTMLButtonElement>('[data-setlist-more]');
+if (historyScroller && historySentinel && historyMore) {
+  const rows = [...historyScroller.querySelectorAll<HTMLElement>('[data-setlist]')];
+  const pageSize = Number(historyScroller.dataset.pageSize) || 12;
+  const status = document.querySelector<HTMLElement>('[data-setlist-status]');
+  const hint = document.querySelector<HTMLElement>('[data-setlist-hint]');
+  const supportsAutoLoad = typeof IntersectionObserver === 'function';
+  let visibleCount = Math.min(pageSize, rows.length);
+  let observer: IntersectionObserver | undefined;
+  const updateHistory = () => {
+    rows.forEach((row, index) => { row.hidden = index >= visibleCount; });
+    const complete = visibleCount >= rows.length;
+    historySentinel.hidden = complete;
+    if (status) status.textContent = complete ? `Todos os ${rows.length} shows carregados.` : `${visibleCount} de ${rows.length} shows carregados.`;
+    if (hint) hint.textContent = complete ? 'Histórico completo · Do mais recente ao mais antigo.' : supportsAutoLoad ? 'Continue rolando para carregar mais shows.' : 'Use Carregar mais shows para continuar.';
+    if (complete) observer?.disconnect();
+  };
+  const loadMore = (manual = false) => {
+    if (visibleCount >= rows.length) return;
+    const firstNew = rows[visibleCount];
+    visibleCount = Math.min(visibleCount + pageSize, rows.length);
+    updateHistory();
+    // Reobserve after appending so fast scrolling cannot skip the next intersection.
+    if (observer && visibleCount < rows.length) {
+      observer.unobserve(historySentinel);
+      observer.observe(historySentinel);
+    }
+    if (manual) firstNew?.querySelector<HTMLAnchorElement>('a')?.focus({ preventScroll: false });
+  };
+  historyMore.addEventListener('click', () => loadMore(true));
+  historyMore.addEventListener('blur', () => {
+    if (observer && visibleCount < rows.length) {
+      observer.unobserve(historySentinel);
+      observer.observe(historySentinel);
+    }
+  });
+  updateHistory();
+  if (supportsAutoLoad && visibleCount < rows.length) {
+    observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting) && document.activeElement !== historyMore) loadMore();
+    }, { root: historyScroller, rootMargin: '0px 0px 120px 0px' });
+    observer.observe(historySentinel);
+  }
+}
+
 document.querySelectorAll<HTMLElement>('[data-filter-group="album"]').forEach(group => {
   const items = document.querySelectorAll<HTMLElement>('[data-album]');
   const status = document.querySelector<HTMLElement>('[data-album-status]');

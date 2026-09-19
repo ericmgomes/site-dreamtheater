@@ -4,8 +4,8 @@
 
 - Astro: build estático concluído; uma página HTML, sem saída de servidor.
 - TypeScript/Astro: **0 erros, 0 avisos, 0 hints**.
-- Playwright: **12 testes aprovados**, em desktop 1440 × 1000 e mobile 390 × 844.
-- Restrição do Relembre ao Brasil: suíte completa de 12 testes executada novamente e aprovada, incluindo sete shows brasileiros visíveis com e sem JavaScript e ausência do filtro de país. Validação dos dados impede a inclusão de outros países.
+- Playwright: **16 cenários aprovados**, em desktop 1440 × 1000 e mobile 390 × 844. Os quatro cenários do histórico foram reexecutados após corrigir uma interrupção do carregamento em rolagem rápida; todos passaram.
+- Relembre: todos os 48 registros brasileiros pesquisados no setlist.fm. A lista tem rolagem vertical e revela mais 12 shows ao se aproximar do fim, preservando os anteriores e a posição da rolagem. Conferidos o carregamento até 48 sem duplicatas, o botão alternativo sem IntersectionObserver, a navegação por teclado, a manutenção do foco e o histórico integral sem JavaScript. Validação dos dados confere países, total, anos e URLs com as fontes por período.
 - Atualização dos covers: quatro verificações de renderização e acessibilidade executadas novamente e aprovadas em desktop/mobile; os cinco links indicados pelo usuário estão presentes no HTML final.
 - Atualização da Freenote: dois ebooks de guitarra e busca completa incluídos; tipos, dados e build aprovados. As quatro verificações de renderização e acessibilidade passaram novamente em desktop/mobile. Os dois links de produto e a busca com termo preservado foram conferidos no HTML final.
 - Guitarristas: seis na seleção, incluindo Samuel Zechin, Marcelo Barbosa e Alex Lima; tipos, dados e build aprovados, com quatro verificações de renderização e acessibilidade novamente aprovadas em desktop/mobile. Instagram de Samuel e canais de Marcelo confirmados pelos sites pessoais e metadados públicos. YouTube antigo de Samuel retorna 404 e foi omitido. Alex foi indicado pelo usuário; nome confirmado nos metadados de @alekissss10, sem inferir músicas específicas ou outros canais.
@@ -19,12 +19,12 @@
 
 ## Dados e links
 
-- 7 setlists individuais, todos brasileiros, sem eventos futuros misturados ao histórico. O filtro de país foi removido; a seleção permanece exclusivamente brasileira mesmo sem JavaScript.
+- 48 setlists individuais brasileiros, de 11/09/1997 a 12/05/2026, sem eventos futuros misturados ao histórico. A contagem coincide com o mapa de concertos do setlist.fm; cobertura e divergências documentadas em `docs/research/brazil-setlists*.json`. Shows cancelados, workshops e bandas tributo não entram na lista.
 - Os seis registros brasileiros de 2026 possuem músicas registradas; não são eventos vazios.
 - Agenda futura: nenhuma data posterior à pesquisa confirmada nas fontes consultadas; a página oferece a agenda oficial e informa a data da consulta.
 - Discografia: 28 páginas oficiais percorridas; 28 capas verificadas e otimizadas; categoria e ordem do índice preservadas.
 - Doze perfis Instagram exigiram login para navegação completa. URLs respaldadas por fontes e indicações do usuário; nomes dos quatro novos covers, Samuel Zechin, Marcelo Barbosa e Alex Lima confirmados nos metadados públicos. A navegação completa continua identificada como `login-gated`.
-- Relatório da versão final: **95 URLs responderam**, **12 exigem login**, **0 links quebrados detectados**; o canonical fica separado como `deployment-pending`.
+- Relatório da versão final: **136 URLs responderam**, **12 exigem login**, **0 links quebrados detectados**; o canonical fica separado como `deployment-pending`.
 - Autoria: rodapé credita Eric Gomes com link para `https://bio.ericgomes.me`, confirmado por HTTP 200. Texto de autoria coletiva removido da página e README; build e HTML final conferidos.
 - Materiais: 14 referências. A busca da Freenote retornou 19 produtos, sendo dois explicitamente marcados como livro digital. Ambos foram conferidos nas páginas individuais: leitura online por código no Hal Leonard MyLibrary. Evidências em `docs/research/freenote-ebooks.json`.
 - Seis tributos brasileiros na seleção, incluindo Dream Theater Cover, Dream Theater Classics, Dream Theater Cover BH, Banda Dream Machine e o site do VRA! solicitados pelo usuário. Não foram inferidas datas de atividade recente para os novos perfis.
@@ -32,8 +32,8 @@
 
 ## Build e publicação
 
-- Build: 48 arquivos, cerca de 1,25 MB no total, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
-- JavaScript da aplicação: **2.945 bytes**, incorporado pelo Astro; nenhum framework de hidratação.
+- Build: 49 arquivos, cerca de 1,29 MB no total, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
+- JavaScript da aplicação: **4.171 bytes**, em arquivo estático; nenhum framework de hidratação. O histórico não consulta serviços externos ao rolar: todos os registros vêm no HTML.
 - Fontes locais. Conteúdo e capas independem de acesso externo no build.
 - Conferidos: canonical, description, Open Graph, Twitter Cards, H1 único, alt text, favicon, sitemap, robots e CNAME.
 - YAML do GitHub Actions validado: dispara em `main`, usa Node 24, verifica tipos/dados/build, publica somente `dist/`, com permissões de Pages/OIDC no job de deploy.

@@ -1,0 +1,49 @@
+{
+  "researchedAt": "2026-09-19",
+  "scope": "Shows realizados pelo Dream Theater no Brasil de 2011 a 2022, inclusive. 23 registros individuais: 2012=5, 2014=7, 2016=4, 2019=5, 2022=2.",
+  "sourceUrls": [
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html",
+    "https://guestpectacular.com/artists/dream-theater/events/country/brazil",
+    "https://dreamtheater.net/gallery/a-dramatic-turn-of-events-tour-2011/",
+    "https://www.omelete.com.br/musica/dream-theater-grupo-confirma-cinco-shows-no-brasil",
+    "https://mercuryconcerts.com/shows-anteriores/2014/dreamtheater/",
+    "https://www.midiorama.com/dream-theater-apresenta-sua-nova-turne-em-sete-estados-brasileiros",
+    "https://www.teclacenter.com.br/blog/jordan-rudess-e-dream-theater-no-brasil/",
+    "https://www.omelete.com.br/musica/dream-theater-anuncia-cinco-shows-no-brasil-em-dezembro",
+    "https://www.tenhomaisdiscosqueamigos.com/2019/12/05/dream-theater-brasilia-2019/"
+  ],
+  "notes": [
+    "A lista nacional do Guestpectacular e o mapa do setlist.fm contabilizam 48 shows no Brasil, dos quais 23 estão neste intervalo. Todos os 23 registros possuem URL individual real do setlist.fm localizada por pesquisa ou navegação nos links da cronologia.",
+    "A comparação por passagem corresponde a cinco datas em 2012 (comunicado reproduzido pelo Omelete), sete em 2014 (arquivo da produtora Mercury Concerts e assessoria Midiorama), quatro em 2016 (Teclacenter e cronologia setlist.fm), cinco em 2019 (anúncio e cobertura do show de abertura) e duas em 2022 (cronologia setlist.fm). Não foram encontrados shows brasileiros de Dream Theater em 2011, 2013, 2015, 2017, 2018, 2020 ou 2021.",
+    "Não foram incluídos tributos, concertos solo de integrantes ou Metal All Stars. Não houve registro cancelado ou duplicado entre as 23 apresentações selecionadas.",
+    "O show de 10/10/2014 é anunciado como Recife, mas o Chevrolet Hall fica em Olinda/PE; preservada a cidade do registro individual setlist.fm. O show de Fortaleza está como Siará Hall no setlist.fm e no comunicado da Midiorama; alguns agregadores exibem Centro de Eventos do Ceará, divergência não adotada.",
+    "Rock in Rio 2022 está datado em 02/09/2022 conforme o dia do festival e seu registro no setlist.fm. A apresentação iniciou após meia-noite; não deve gerar um segundo registro em 03/09.",
+    "Uma resenha de Rio 2012 traz 31/08 no subtítulo; o anúncio, a cobertura publicada em 31/08 mencionando a noite anterior e o setlist.fm confirmam 30/08/2012. Não são dois shows.",
+    "Nomes das casas são os utilizados na época dos shows. Setlists são conteúdo comunitário; a conferência de completude vale para os registros localizados em 19/09/2026."
+  ],
+  "setlists": [
+    {"date":"2022-09-02","city":"Rio de Janeiro","region":"RJ","country":"Brasil","countryCode":"BR","venue":"Parque Olímpico — Rock in Rio","tour":"Top of the World","url":"https://www.setlist.fm/setlist/dream-theater/2022/parque-olimpico-rio-de-janeiro-brazil-1bb0ad98.html"},
+    {"date":"2022-08-31","city":"São Paulo","region":"SP","country":"Brasil","countryCode":"BR","venue":"Tokio Marine Hall","tour":"Top of the World","url":"https://www.setlist.fm/setlist/dream-theater/2022/tokio-marine-hall-sao-paulo-brazil-63b34227.html"},
+    {"date":"2019-12-10","city":"Porto Alegre","region":"RS","country":"Brasil","countryCode":"BR","venue":"Pepsi On Stage","tour":"Distance over Time","url":"https://www.setlist.fm/setlist/dream-theater/2019/pepsi-on-stage-porto-alegre-brazil-6b9a560a.html"},
+    {"date":"2019-12-08","city":"Curitiba","region":"PR","country":"Brasil","countryCode":"BR","venue":"Ópera de Arame","tour":"Distance over Time","url":"https://www.setlist.fm/setlist/dream-theater/2019/opera-de-arame-curitiba-brazil-b9a6186.html"},
+    {"date":"2019-12-07","city":"São Paulo","region":"SP","country":"Brasil","countryCode":"BR","venue":"Arena Anhembi — Dream Festival","tour":"Distance over Time","url":"https://www.setlist.fm/setlist/dream-theater/2019/arena-anhembi-sao-paulo-brazil-39a697b.html"},
+    {"date":"2019-12-06","city":"Rio de Janeiro","region":"RJ","country":"Brasil","countryCode":"BR","venue":"Vivo Rio","tour":"Distance over Time","url":"https://www.setlist.fm/setlist/dream-theater/2019/vivo-rio-rio-de-janeiro-brazil-b9a71d6.html"},
+    {"date":"2019-12-04","city":"Brasília","region":"DF","country":"Brasil","countryCode":"BR","venue":"Centro de Convenções Ulysses Guimarães","tour":"Distance over Time","url":"https://www.setlist.fm/setlist/dream-theater/2019/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3b9a00fc.html"},
+    {"date":"2016-06-25","city":"Curitiba","region":"PR","country":"Brasil","countryCode":"BR","venue":"Ópera de Arame","tour":"The Astonishing Live","url":"https://www.setlist.fm/setlist/dream-theater/2016/opera-de-arame-curitiba-brazil-23fe401b.html"},
+    {"date":"2016-06-23","city":"Rio de Janeiro","region":"RJ","country":"Brasil","countryCode":"BR","venue":"Vivo Rio","tour":"The Astonishing Live","url":"https://www.setlist.fm/setlist/dream-theater/2016/vivo-rio-rio-de-janeiro-brazil-1bfe49b4.html"},
+    {"date":"2016-06-22","city":"São Paulo","region":"SP","country":"Brasil","countryCode":"BR","venue":"Espaço das Américas","tour":"The Astonishing Live","url":"https://www.setlist.fm/setlist/dream-theater/2016/espaco-das-americas-sao-paulo-brazil-2bfe5046.html"},
+    {"date":"2016-06-21","city":"Belo Horizonte","region":"MG","country":"Brasil","countryCode":"BR","venue":"Grande Teatro do Minascentro","tour":"The Astonishing Live","url":"https://www.setlist.fm/setlist/dream-theater/2016/grande-teatro-do-minascentro-belo-horizonte-brazil-43fe575f.html"},
+    {"date":"2014-10-11","city":"Fortaleza","region":"CE","country":"Brasil","countryCode":"BR","venue":"Siará Hall","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/siara-hall-fortaleza-brazil-7bcca2b4.html"},
+    {"date":"2014-10-10","city":"Olinda","region":"PE","country":"Brasil","countryCode":"BR","venue":"Chevrolet Hall","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/chevrolet-hall-olinda-brazil-2bcca8b2.html"},
+    {"date":"2014-10-07","city":"Brasília","region":"DF","country":"Brasil","countryCode":"BR","venue":"NET Live Brasília","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/net-live-brasilia-brasilia-brazil-3bccbca0.html"},
+    {"date":"2014-10-05","city":"Rio de Janeiro","region":"RJ","country":"Brasil","countryCode":"BR","venue":"Vivo Rio","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/vivo-rio-rio-de-janeiro-brazil-6bcf52b2.html"},
+    {"date":"2014-10-04","city":"São Paulo","region":"SP","country":"Brasil","countryCode":"BR","venue":"Espaço das Américas","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/espaco-das-americas-sao-paulo-brazil-33cf587d.html"},
+    {"date":"2014-10-02","city":"Curitiba","region":"PR","country":"Brasil","countryCode":"BR","venue":"Curitiba Master Hall","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/curitiba-master-hall-curitiba-brazil-bcf657e.html"},
+    {"date":"2014-09-30","city":"Porto Alegre","region":"RS","country":"Brasil","countryCode":"BR","venue":"Pepsi On Stage","tour":"Along for the Ride","url":"https://www.setlist.fm/setlist/dream-theater/2014/pepsi-on-stage-porto-alegre-brazil-73cf7661.html"},
+    {"date":"2012-09-01","city":"Brasília","region":"DF","country":"Brasil","countryCode":"BR","venue":"Centro de Convenções Ulysses Guimarães","tour":"A Dramatic Tour of Events","url":"https://www.setlist.fm/setlist/dream-theater/2012/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3dc59eb.html"},
+    {"date":"2012-08-30","city":"Rio de Janeiro","region":"RJ","country":"Brasil","countryCode":"BR","venue":"Citibank Hall","tour":"A Dramatic Tour of Events","url":"https://www.setlist.fm/setlist/dream-theater/2012/citibank-hall-rio-de-janeiro-brazil-3dc6113.html"},
+    {"date":"2012-08-29","city":"Belo Horizonte","region":"MG","country":"Brasil","countryCode":"BR","venue":"Chevrolet Hall","tour":"A Dramatic Tour of Events","url":"https://www.setlist.fm/setlist/dream-theater/2012/chevrolet-hall-belo-horizonte-brazil-43dc67e7.html"},
+    {"date":"2012-08-26","city":"São Paulo","region":"SP","country":"Brasil","countryCode":"BR","venue":"Credicard Hall","tour":"A Dramatic Tour of Events","url":"https://www.setlist.fm/setlist/dream-theater/2012/credicard-hall-sao-paulo-brazil-33dc7005.html"},
+    {"date":"2012-08-24","city":"Porto Alegre","region":"RS","country":"Brasil","countryCode":"BR","venue":"Pepsi On Stage","tour":"A Dramatic Tour of Events","url":"https://www.setlist.fm/setlist/dream-theater/2012/pepsi-on-stage-porto-alegre-brazil-7bdc7ea4.html"}
+  ]
+}

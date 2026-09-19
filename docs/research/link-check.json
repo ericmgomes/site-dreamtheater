@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-19T05:21:57.511Z",
+  "checkedAt": "2026-09-19T05:43:24.408Z",
   "counts": {
-    "ok": 95,
+    "ok": 136,
     "deployment-pending": 1,
     "login-gated": 12
   },
@@ -575,10 +575,256 @@
       "finalUrl": "https://www.instagram.com/tributedreamtheater/"
     },
     {
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-2bd6cc4e.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-2bd6cc4e.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-33d6cc4d.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-33d6cc4d.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/1997/imperator-rio-de-janeiro-brazil-3bd6cc4c.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/1997/imperator-rio-de-janeiro-brazil-3bd6cc4c.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/1998/pista-de-atletismo-do-ibirapuera-sao-paulo-brazil-3bd6cc60.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/1998/pista-de-atletismo-do-ibirapuera-sao-paulo-brazil-3bd6cc60.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/claro-hall-rio-de-janeiro-brazil-23d6d0a7.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2005/claro-hall-rio-de-janeiro-brazil-23d6d0a7.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-13d6ed05.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-13d6ed05.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-1bd6ed00.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2005/credicard-hall-sao-paulo-brazil-1bd6ed00.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/chevrolet-hall-belo-horizonte-brazil-3d6d19b.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2008/chevrolet-hall-belo-horizonte-brazil-3d6d19b.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/citibank-hall-rio-de-janeiro-brazil-13d6d1a5.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2008/citibank-hall-rio-de-janeiro-brazil-13d6d1a5.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2008/credicard-hall-sao-paulo-brazil-3d6a9bb.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2008/credicard-hall-sao-paulo-brazil-3d6a9bb.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/citibank-hall-rio-de-janeiro-brazil-6bd4aac6.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2010/citibank-hall-rio-de-janeiro-brazil-6bd4aac6.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/credicard-hall-sao-paulo-brazil-63d4aa07.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2010/credicard-hall-sao-paulo-brazil-63d4aa07.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/curitiba-master-hall-curitiba-brazil-2bd4a8aa.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2010/curitiba-master-hall-curitiba-brazil-2bd4a8aa.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2010/pepsi-on-stage-porto-alegre-brazil-3bd4acb8.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2010/pepsi-on-stage-porto-alegre-brazil-3bd4acb8.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2012/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3dc59eb.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2012/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3dc59eb.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2012/chevrolet-hall-belo-horizonte-brazil-43dc67e7.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2012/chevrolet-hall-belo-horizonte-brazil-43dc67e7.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2012/citibank-hall-rio-de-janeiro-brazil-3dc6113.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2012/citibank-hall-rio-de-janeiro-brazil-3dc6113.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2012/credicard-hall-sao-paulo-brazil-33dc7005.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2012/credicard-hall-sao-paulo-brazil-33dc7005.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2012/pepsi-on-stage-porto-alegre-brazil-7bdc7ea4.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2012/pepsi-on-stage-porto-alegre-brazil-7bdc7ea4.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/chevrolet-hall-olinda-brazil-2bcca8b2.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/chevrolet-hall-olinda-brazil-2bcca8b2.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/curitiba-master-hall-curitiba-brazil-bcf657e.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/curitiba-master-hall-curitiba-brazil-bcf657e.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/espaco-das-americas-sao-paulo-brazil-33cf587d.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/espaco-das-americas-sao-paulo-brazil-33cf587d.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/net-live-brasilia-brasilia-brazil-3bccbca0.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/net-live-brasilia-brasilia-brazil-3bccbca0.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/pepsi-on-stage-porto-alegre-brazil-73cf7661.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/pepsi-on-stage-porto-alegre-brazil-73cf7661.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/siara-hall-fortaleza-brazil-7bcca2b4.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/siara-hall-fortaleza-brazil-7bcca2b4.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2014/vivo-rio-rio-de-janeiro-brazil-6bcf52b2.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2014/vivo-rio-rio-de-janeiro-brazil-6bcf52b2.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2016/espaco-das-americas-sao-paulo-brazil-2bfe5046.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2016/espaco-das-americas-sao-paulo-brazil-2bfe5046.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2016/grande-teatro-do-minascentro-belo-horizonte-brazil-43fe575f.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2016/grande-teatro-do-minascentro-belo-horizonte-brazil-43fe575f.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2016/opera-de-arame-curitiba-brazil-23fe401b.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2016/opera-de-arame-curitiba-brazil-23fe401b.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2016/vivo-rio-rio-de-janeiro-brazil-1bfe49b4.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2016/vivo-rio-rio-de-janeiro-brazil-1bfe49b4.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2019/arena-anhembi-sao-paulo-brazil-39a697b.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2019/arena-anhembi-sao-paulo-brazil-39a697b.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2019/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3b9a00fc.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2019/centro-de-convencoes-ulysses-guimaraes-brasilia-brazil-3b9a00fc.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2019/opera-de-arame-curitiba-brazil-b9a6186.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2019/opera-de-arame-curitiba-brazil-b9a6186.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2019/pepsi-on-stage-porto-alegre-brazil-6b9a560a.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2019/pepsi-on-stage-porto-alegre-brazil-6b9a560a.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2019/vivo-rio-rio-de-janeiro-brazil-b9a71d6.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2019/vivo-rio-rio-de-janeiro-brazil-b9a71d6.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2022/parque-olimpico-rio-de-janeiro-brazil-1bb0ad98.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2022/parque-olimpico-rio-de-janeiro-brazil-1bb0ad98.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2022/tokio-marine-hall-sao-paulo-brazil-63b34227.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2022/tokio-marine-hall-sao-paulo-brazil-63b34227.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/auditorio-araujo-vianna-porto-alegre-brazil-5b54f3f8.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/auditorio-araujo-vianna-porto-alegre-brazil-5b54f3f8.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/befly-hall-belo-horizonte-brazil-3553133.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/befly-hall-belo-horizonte-brazil-3553133.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/live-curitiba-curitiba-brazil-ba90daa.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/live-curitiba-curitiba-brazil-ba90daa.html"
+    },
+    {
       "url": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html",
       "status": "ok",
       "http": 202,
       "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/vivo-rio-rio-de-janeiro-brazil-13a90db5.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/vivo-rio-rio-de-janeiro-brazil-13a90db5.html"
     },
     {
       "url": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html",

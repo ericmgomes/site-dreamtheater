@@ -1,0 +1,144 @@
+{
+  "researchedAt": "2026-09-19",
+  "scope": "Shows realizados pelo Dream Theater no Brasil entre 2023-01-01 e 2026-09-19, com links individuais verificados do setlist.fm.",
+  "sourceUrls": [
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2023",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2024",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2025",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html?year=2026",
+    "https://www.setlist.fm/stats/concert-map/dream-theater-bd6a102.html",
+    "https://www.setlist.fm/setlists/dream-theater-bd6a102.html",
+    "https://guestpectacular.com/artists/dream-theater/events/country/brazil",
+    "https://guestpectacular.com/artists/dream-theater/tours",
+    "https://dreamtheater.net/dream-theater-is-coming-to-brazil-in-december-2024/",
+    "https://dreamtheater.net/tour/",
+    "https://liberationmc.com/site/tours/",
+    "https://liberationmc.com/hotsite/dreamtheater/",
+    "https://liberationmc.com/site/os-icones-da-musica-progressiva-dream-theater-anunciam-a-turne-parasomnia-2026-pelo-brasil-em-maio-de-2026/",
+    "https://billboard.com.br/dream-theater-no-brasil-em-2026-saiba-os-detalhes/"
+  ],
+  "notes": [
+    "Total no recorte: 11 shows, sendo cinco em 2024 e seis em 2026. Os mapas anuais do setlist.fm confirmam exatamente esses totais para o Brasil; o país não aparece nos mapas de 2023 e 2025.",
+    "Todos os 11 links individuais foram localizados e consultados. As páginas têm repertório preenchido; datas e locais coincidem com a agenda da produtora Liberation MC. Nenhum registro desta lista está marcado como cancelado.",
+    "O anúncio inicial de 14/05/2024 no site da banda lista somente Rio de Janeiro, São Paulo e Curitiba. O hotsite da produtora e sua agenda consolidada acrescentam Belo Horizonte em 10/12 e Porto Alegre em 17/12; ambos possuem setlists individuais de apresentações realizadas. Não limitar a cobertura ao anúncio inicial.",
+    "O hotsite de 2024 repete os links das cinco datas em duas seções e preserva um parágrafo antigo que cita três capitais. Essas repetições de navegação não representam apresentações adicionais.",
+    "Para 2026, o anúncio oficial da produtora em 08/12/2025 confirma as seis datas e denomina a turnê Parasomnia 2026, em concordância com o campo Tour do setlist.fm. O site atual da banda usa o título mais amplo 40th Anniversary Tour Latin America 2026. Foi preservado Parasomnia no campo tour.",
+    "Espaço Dois Ipês é a grafia do local de Brasília no setlist.fm; a produtora o apresenta como Dois Ipês (antigo Opera Hall). Trata-se do mesmo show em 07/05/2026, não de dois locais ou eventos.",
+    "As UFs das seis capitais estão explicitadas na relação de datas da Billboard Brasil. Foram aplicadas também aos mesmos municípios da turnê de 2024.",
+    "Não foram encontrados shows realizados da banda no Brasil em 2023 ou 2025 nas fontes consultadas. Resultados de bandas tributo e covers, como Dream Theater Tribute em Brasília em 18/04/2025, foram excluídos por serem outro artista.",
+    "O Guestpectacular e o mapa global do setlist.fm apresentam 48 shows brasileiros no histórico completo. O acesso direto à lista nacional do Guestpectacular retornou proteção de acesso; a contagem foi confirmada no resultado indexado, e a listagem de turnês indexada confirma as seis datas de 2026. A prova principal deste recorte é formada pelos mapas anuais, setlists individuais e agenda oficial da produtora.",
+    "Nenhum cancelamento ou duplicação de evento foi identificado no recorte. A ausência de ocorrências em 2023 e 2025 se refere aos registros consultados até a data desta pesquisa, não a uma garantia contra futuras correções dos arquivos colaborativos."
+  ],
+  "setlists": [
+    {
+      "date": "2026-05-12",
+      "city": "Belo Horizonte",
+      "region": "MG",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "BeFly Hall",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/befly-hall-belo-horizonte-brazil-5b4c77d4.html"
+    },
+    {
+      "date": "2026-05-10",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vivo Rio",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vivo-rio-rio-de-janeiro-brazil-4b4c77d6.html"
+    },
+    {
+      "date": "2026-05-09",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vibra São Paulo",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vibra-sao-paulo-sao-paulo-brazil-5b4c77d0.html"
+    },
+    {
+      "date": "2026-05-07",
+      "city": "Brasília",
+      "region": "DF",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Espaço Dois Ipês",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/espaco-dois-ipes-brasilia-brazil-434c77d7.html"
+    },
+    {
+      "date": "2026-05-05",
+      "city": "Curitiba",
+      "region": "PR",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Live Curitiba",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/live-curitiba-curitiba-brazil-534c77dd.html"
+    },
+    {
+      "date": "2026-05-03",
+      "city": "Porto Alegre",
+      "region": "RS",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Auditório Araújo Vianna",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html"
+    },
+    {
+      "date": "2024-12-17",
+      "city": "Porto Alegre",
+      "region": "RS",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Auditório Araújo Vianna",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/auditorio-araujo-vianna-porto-alegre-brazil-5b54f3f8.html"
+    },
+    {
+      "date": "2024-12-16",
+      "city": "Curitiba",
+      "region": "PR",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Live Curitiba",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/live-curitiba-curitiba-brazil-ba90daa.html"
+    },
+    {
+      "date": "2024-12-15",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vibra São Paulo",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html"
+    },
+    {
+      "date": "2024-12-13",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vivo Rio",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/vivo-rio-rio-de-janeiro-brazil-13a90db5.html"
+    },
+    {
+      "date": "2024-12-10",
+      "city": "Belo Horizonte",
+      "region": "MG",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "BeFly Hall",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/befly-hall-belo-horizonte-brazil-3553133.html"
+    }
+  ]
+}

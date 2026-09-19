@@ -11,8 +11,16 @@ const { materials } = await loadData('materials');
 const { discography } = await loadData('discography');
 const { researchedAt } = await loadData('site');
 const canonical = JSON.parse(await readFile('docs/research/discography.json', 'utf8'));
+const historyCoverage = JSON.parse(await readFile('docs/research/brazil-setlists.json', 'utf8'));
+assert.equal(setlists.length, historyCoverage.expectedTotal, 'Incomplete Brazilian show history');
+assert.equal(setlists[0]?.date, historyCoverage.lastDate, 'Latest Brazilian show missing');
+assert.equal(setlists.at(-1)?.date, historyCoverage.firstDate, 'Earliest Brazilian show missing');
+const historyByYear = setlists.reduce((counts, show) => ({ ...counts, [show.date.slice(0, 4)]: (counts[show.date.slice(0, 4)] || 0) + 1 }), {});
+assert.deepEqual(historyByYear, historyCoverage.countsByYear, 'Brazilian history year coverage changed');
 assert(setlists.length > 0, 'Brazilian show history is empty');
 assert.equal(setlists.length, new Set(setlists.map(show => show.url)).size, 'Duplicate setlists');
+const historyResearch = (await Promise.all(historyCoverage.researchFiles.map(async file => JSON.parse(await readFile(`docs/research/${file}`, 'utf8'))))).flatMap(part => part.setlists);
+assert.deepEqual(setlists.map(show => show.url).sort(), historyResearch.map(show => show.url).sort(), 'Brazilian history must match verified sources');
 for (const [index, show] of setlists.entries()) {
   assert.equal(show.countryCode, 'BR', 'History must contain only Brazilian shows');
   assert.match(show.date, /^\d{4}-\d{2}-\d{2}$/);

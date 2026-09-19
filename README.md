@@ -2,7 +2,7 @@
 
 Hub brasileiro independente de curadoria: **RELEMBRE · VEJA · VÁ · TOQUE · OUÇA**.
 
-Uma página em Astro e TypeScript, com CSS próprio, fontes locais e JavaScript somente para filtros, indicação de seção e players sob demanda. Sem React, backend, SSR, banco de dados ou serviços de IA. O build gera apenas arquivos estáticos em `dist/`.
+Uma página em Astro e TypeScript, com CSS próprio, fontes locais e JavaScript para paginação ao rolar o histórico, filtros, indicação de seção e players sob demanda. Sem React, backend, SSR, banco de dados ou serviços de IA. O build gera apenas arquivos estáticos em `dist/`.
 
 ## Executar
 
@@ -28,7 +28,7 @@ O build usa apenas dados e imagens já presentes no repositório. Não consulta 
 
 Pesquisa registrada em **19/09/2026**:
 
-- 7 registros individuais do setlist.fm, exclusivamente de shows no Brasil, em ordem decrescente.
+- Todos os 48 registros brasileiros identificados no setlist.fm, de 1997 a 2026, em ordem decrescente. Histórico com rolagem vertical e carregamento automático de mais 12 shows ao chegar ao fim; mantém os anteriores visíveis. Botão “Carregar mais shows” como alternativa; sem JavaScript, os 48 ficam disponíveis na lista.
 - 6 vídeos do canal oficial Dream Theater, confirmados também por oEmbed e metadados de incorporação.
 - 6 projetos brasileiros de tributo e 6 guitarristas com conteúdo de Dream Theater, incluindo Samuel Zechin, Marcelo Barbosa e Alex Lima. A seleção inclui os quatro perfis de tributos indicados pelo responsável pelo projeto e o site do VRA!.
 - 14 materiais de guitarra, baixo, bateria e teclado, incluindo os ebooks de Distance Over Time e Selections from The Astonishing na Freenote. Edições digitais e físicas identificadas; acesso à busca completa da loja. Freenote confirmada na Rua Teodoro Sampaio, 785, São Paulo.
@@ -51,7 +51,7 @@ Os dados ficam em `src/data/`, separados da apresentação:
 | `discography.ts` | Índice oficial, capas e Spotify por álbum |
 | `site.ts` | Metadados, data da pesquisa e WhatsApp |
 
-Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Relembre aceita somente shows realizados no Brasil. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
+Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Relembre aceita somente shows realizados no Brasil. Ao ampliar o histórico, atualize os registros e o manifesto de cobertura `docs/research/brazil-setlists.json`; ele confere o total, os anos e a correspondência com as fontes por período. Shows cancelados e workshops ficam fora do histórico. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
 
 Para atualizar a discografia, consulte primeiro o índice e cada página em `dreamtheater.net`, atualize `docs/research/discography.json` e execute `npm run sync:images`. Esse comando de manutenção baixa as capas oficiais, gera WebP local e atualiza `discography.ts`. Exige acesso à internet; não faz parte do build. Os retratos são dos sites dos músicos e as fontes estão documentadas.
 

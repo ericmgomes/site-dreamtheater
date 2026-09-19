@@ -1,5 +1,6 @@
 import { test, expect, type Locator } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import { setlists } from '../src/data/setlists';
 
 test('static page, metadata, chronology, assets and responsive layout', async ({ page }, testInfo) => {
   const errors: string[] = [];
@@ -22,12 +23,50 @@ test('static page, metadata, chronology, assets and responsive layout', async ({
   expect(errors).toEqual([]);
 });
 
-test('Brazilian show history and album filters preserve content and counts', async ({ page }) => {
+test('Brazilian history loads every page while scrolling and preserves earlier shows', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);
-  await expect(page.locator('[data-setlist]')).toHaveCount(7);
-  await expect(page.locator('[data-setlist]:visible')).toHaveCount(7);
-  await expect(page.locator('[data-setlist][data-country="BR"]:visible')).toHaveCount(7);
+  await expect(page.locator('[data-setlist]')).toHaveCount(setlists.length);
+  await expect(page.locator('[data-setlist][data-country="BR"]')).toHaveCount(setlists.length);
+  const scroller = page.getByRole('region',{name:'Histórico de shows no Brasil'});
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(12);
+  expect(await scroller.evaluate(element => element.scrollHeight > element.clientHeight)).toBeTruthy();
+  await scroller.focus();
+  await page.keyboard.press('PageDown');
+  await expect.poll(() => scroller.evaluate(element => element.scrollTop)).toBeGreaterThan(0);
+  for (let previous = 12; previous < setlists.length; previous += 12) {
+    const count = Math.min(previous + 12,setlists.length);
+    const position = await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; return element.scrollTop; });
+    await expect(page.locator('[data-setlist]:visible')).toHaveCount(count);
+    expect(await scroller.evaluate(element => element.scrollTop)).toBeCloseTo(position,0);
+    await expect(page.locator('[data-setlist]').first()).not.toHaveAttribute('hidden');
+  }
+  const links = await page.locator('[data-setlist]:visible a').evaluateAll(items => items.map(item => (item as HTMLAnchorElement).href));
+  expect(links).toEqual(setlists.map(show => show.url));
+  expect(new Set(links).size).toBe(setlists.length);
+  await expect(page.locator('[data-setlist-status]')).toHaveText(`Todos os ${setlists.length} shows carregados.`);
+  await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
+  await scroller.evaluate(element => { element.scrollTop = 0; });
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(setlists.length);
+});
+
+test('history load-more fallback works without IntersectionObserver and preserves focus', async ({ page, isMobile }) => {
+  await page.addInitScript(() => { Reflect.deleteProperty(window,'IntersectionObserver'); });
+  await page.goto('/');
+  for (let previous = 12; previous < setlists.length; previous += 12) {
+    await page.getByRole('button',{name:'Carregar mais shows'}).click();
+    await expect(page.locator('[data-setlist]:visible')).toHaveCount(Math.min(previous + 12,setlists.length));
+    const firstNew = page.locator('[data-setlist] a').nth(previous);
+    await expect(firstNew).toBeFocused();
+    const link = (await firstNew.boundingBox())!;
+    const boundary = (await page.locator(isMobile ? '[data-setlist-scroll]' : '.show-table-head').boundingBox())!;
+    expect(link.y).toBeGreaterThanOrEqual(isMobile ? boundary.y : boundary.y + boundary.height);
+  }
+  await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
+});
+
+test('album filters preserve content and counts', async ({ page }) => {
+  await page.goto('/');
   const filters = page.getByRole('group',{name:'Filtrar discografia'});
   for (const [name,count] of [['Studio',16],['Live',10],['Compilations',1],['EPs',1],['Todos',28]] as const) {
     await filters.getByRole('button',{name,exact:true}).click();
@@ -105,8 +144,9 @@ test('core content and external destinations work without JavaScript', async ({ 
   const page=await context.newPage();
   await page.goto('http://127.0.0.1:4322/');
   await expect(page.locator('[data-album]')).toHaveCount(28);
-  await expect(page.locator('[data-setlist]')).toHaveCount(7);
-  await expect(page.locator('[data-setlist][data-country="BR"]:visible')).toHaveCount(7);
+  await expect(page.locator('[data-setlist]')).toHaveCount(setlists.length);
+  await expect(page.locator('[data-setlist][data-country="BR"]:visible')).toHaveCount(setlists.length);
+  await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);
   await expect(page.locator('[data-video]').first()).toHaveAttribute('href','https://www.youtube.com/watch?v=s6JJJyMaIfg');
   await expect(page.locator('[data-spotify]').first()).toHaveAttribute('href','https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB');
