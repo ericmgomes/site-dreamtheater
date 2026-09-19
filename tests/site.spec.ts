@@ -76,6 +76,60 @@ test('scroll lists have manual fallback without IntersectionObserver and preserv
   await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
 });
 
+test('show timeline follows loaded records in both directions and after responsive resize', async ({ page, isMobile }) => {
+  await page.goto('/');
+  const scroller = page.locator('[data-setlist-scroll]');
+  const timeline = page.locator('[data-show-timeline]');
+  const activeYear = timeline.locator('[aria-current="date"]');
+  const progress = () => timeline.evaluate(element => parseFloat(element.style.getPropertyValue('--timeline-progress')));
+  await expect(timeline).toBeVisible();
+  await expect(timeline.locator('[data-timeline-year]')).toHaveText([...new Set(setlists.map(show => show.date.slice(0,4)))]);
+  await expect(activeYear).toHaveText('2026');
+  expect(await progress()).toBe(0);
+  await scroller.focus();
+  for (let previous = 12; previous < setlists.length; previous += 12) {
+    await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; });
+    await expect(page.locator('[data-setlist]:visible')).toHaveCount(previous + 12);
+    await expect(activeYear).not.toHaveText('1997');
+    await expect(scroller).toBeFocused();
+  }
+  await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; });
+  await expect(activeYear).toHaveText('1997');
+  await expect.poll(progress).toBe(100);
+  const goToCard = async (index: number) => {
+    await page.locator('[data-setlist]').nth(index).evaluate(card => {
+      const container = card.closest<HTMLElement>('[data-setlist-scroll]')!;
+      container.scrollTop += card.getBoundingClientRect().top - container.getBoundingClientRect().top - 4;
+    });
+  };
+  await goToCard(24);
+  await expect(activeYear).toHaveText('2014');
+  await page.locator('#relembre').evaluate(section => section.scrollIntoView({block:'start'}));
+  await page.screenshot({path:`test-results/timeline-${isMobile ? 'mobile' : 'desktop'}.png`});
+  const middle = await progress();
+  await goToCard(18);
+  await expect(activeYear).toHaveText('2016');
+  expect(await progress()).toBeLessThan(middle);
+  if (!isMobile) {
+    for (const width of [900,390,1440]) {
+      await page.setViewportSize({width,height:1000});
+      await expect.poll(async () => {
+        const year = await activeYear.textContent();
+        return page.locator('[data-setlist-scroll]').evaluate((element, year) => {
+          const viewport = element.getBoundingClientRect();
+          return [...element.querySelectorAll<HTMLElement>('[data-setlist]')].some(card => {
+            const rect = card.getBoundingClientRect();
+            return !card.hidden && card.dataset.year === year && rect.bottom > viewport.top && rect.top < viewport.bottom;
+          });
+        },year);
+      }).toBeTruthy();
+    }
+  }
+  await scroller.evaluate(element => { element.scrollTop = 0; });
+  await expect(activeYear).toHaveText('2026');
+  await expect.poll(progress).toBe(0);
+});
+
 test('Brazil video ranking scrolls independently and covers are grouped by instrument', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('[data-nav="relembre"]')).toHaveText('Shows');
@@ -134,6 +188,8 @@ test('fixed navigation, anchors, WhatsApp and enlarged text', async ({ page }) =
   expect((await whatsapp.boundingBox())!.width).toBeGreaterThanOrEqual(44);
   await page.addStyleTag({content:'html { font-size: 200%; }'});
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
+  const timelineLabelRight = await page.locator('[data-timeline-year]').evaluateAll(labels => Math.max(...labels.map(label => label.getBoundingClientRect().right)));
+  expect(timelineLabelRight).toBeLessThan((await page.locator('[data-setlist-scroll]').boundingBox())!.x);
 });
 
 test('YouTube and Spotify load only on demand and release previous players', async ({ page, isMobile }) => {
@@ -187,6 +243,7 @@ test('core content and external destinations work without JavaScript', async ({ 
   await expect(page.locator('[data-album]')).toHaveCount(28);
   await expect(page.locator('[data-setlist]')).toHaveCount(setlists.length);
   await expect(page.locator('[data-setlist][data-country="BR"]:visible')).toHaveCount(setlists.length);
+  await expect(page.locator('[data-show-timeline]')).toBeHidden();
   await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);
   await expect(page.locator('[data-video]').first()).toHaveAttribute('href',videos[0].url);

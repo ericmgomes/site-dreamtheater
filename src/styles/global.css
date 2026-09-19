@@ -77,6 +77,19 @@
   .filters button[aria-pressed='true'] { background: var(--accent); color: #181d10; }
   .filters button:hover[aria-pressed='false'] { background: #232521; border-color: #3e4238; }
   .quiet-label { color: var(--muted); font-size: .75rem; letter-spacing: .12em; }
+  .setlist-browser { display: grid; grid-template-columns: minmax(0, 1fr); }
+  .setlist-browser.has-timeline { grid-template-columns: 4.375rem minmax(0, 1fr); gap: 16px; }
+  .show-timeline { --timeline-progress: 0%; display: flex; flex-direction: column; min-height: 0; padding: 3px 0 10px; }
+  .timeline-label { color: var(--muted); font-size: .625rem; text-transform: uppercase; letter-spacing: .12em; }
+  .timeline-track { position: relative; flex: 1; margin-block: 14px 8px; }
+  .timeline-track::before { content: ''; position: absolute; top: 0; bottom: 0; left: 5px; width: 1px; background: var(--line); }
+  .timeline-progress { position: absolute; top: 0; left: 4px; width: 3px; height: var(--timeline-progress); background: var(--accent); }
+  .timeline-years { margin: 0; padding: 0; list-style: none; }
+  .timeline-years li { position: absolute; top: var(--year-position); left: 0; transform: translateY(-50%); padding-left: 21px; font-size: .75rem; line-height: 1; font-variant-numeric: tabular-nums; color: var(--muted); }
+  .timeline-years li::before { content: ''; position: absolute; top: 50%; left: 3px; width: 5px; height: 5px; transform: translateY(-50%); border-radius: 50%; background: #64665e; }
+  .timeline-years li[aria-current] { color: var(--accent); font-weight: 600; }
+  .timeline-years li[aria-current]::before { background: var(--accent); }
+  .timeline-marker { position: absolute; top: var(--timeline-progress); left: 1px; width: 9px; height: 9px; transform: translateY(-50%); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--bg); }
   .setlist-scroll { max-height: 440px; overflow-y: auto; overflow-anchor: none; scroll-padding-block: 4px; scrollbar-gutter: stable; scrollbar-color: #778a57 var(--surface); padding: 3px 8px 10px 3px; }
   .setlist-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
   .setlist-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; margin-top: 16px; }
@@ -252,6 +265,8 @@
     .section-toolbar { margin-bottom: 16px; }
     .remember .section-toolbar { flex-wrap: wrap; gap: 8px; }
     .setlist-scroll { max-height: min(440px, 60svh); }
+    .setlist-browser.has-timeline { grid-template-columns: 2.8125rem minmax(0, 1fr); gap: 8px; }
+    .timeline-years li { padding-left: 15px; font-size: .625rem; }
     .setlist-list { grid-template-columns: 1fr; gap: 8px; }
     .setlist-card-link { min-height: 0; padding: 10px 12px; gap: 5px; }
     .show-location h3 { font-size: .875rem; }

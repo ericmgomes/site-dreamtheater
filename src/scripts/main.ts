@@ -1,3 +1,5 @@
+import { initializeShowTimeline } from './show-timeline';
+
 // Static content stays complete without JS; each scroll area reveals its own pages.
 function initializeScrollPagination(prefix: string, rowSelector: string, noun: string, completeHint: string) {
   const scroller = document.querySelector<HTMLElement>(`[data-${prefix}-scroll]`);
@@ -18,6 +20,7 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
     if (status) status.textContent = complete ? `Todos os ${rows.length} ${noun} carregados.` : `${visibleCount} de ${rows.length} ${noun} carregados.`;
     if (hint) hint.textContent = complete ? completeHint : supportsAutoLoad ? `Continue rolando para carregar mais ${noun}.` : `Use Carregar mais ${noun} para continuar.`;
     if (complete) observer?.disconnect();
+    scroller.dispatchEvent(new Event('listpagechange'));
   };
   // Reobserve after appending or leaving the button so fast scrolling cannot skip a page.
   const observeNext = () => {
@@ -46,6 +49,7 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
 }
 initializeScrollPagination('setlist', '[data-setlist]', 'shows', 'Histórico completo · Do mais recente ao mais antigo.');
 initializeScrollPagination('ranking', '[data-ranked-video]', 'vídeos', 'Lista completa · Do mais visto ao menos visto.');
+initializeShowTimeline();
 
 document.querySelectorAll<HTMLElement>('[data-filter-group="album"]').forEach(group => {
   const items = document.querySelectorAll<HTMLElement>('[data-album]');
