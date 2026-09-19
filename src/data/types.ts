@@ -7,14 +7,16 @@ export interface Show {
 }
 export interface Video {
   title: string; youtubeId: string; source: string; sourceUrl: string; category: string; description: string; url: string;
+  viewCount: number; location: string; countryCode: 'BR';
 }
 export interface CoverBand {
   name: string; location?: string; description: string; instagram: string; youtube?: string; website?: string;
   sourceUrls: string[]; activityNote: string; instagramLabel?: string;
 }
-export interface Guitarist {
-  name: string; description: string; instagram: string; youtube?: string; image?: string; sourceUrls: string[];
+export interface CoverMusician {
+  name: string; description: string; instagram?: string; youtube?: string; website?: string; image?: string; sourceUrls: string[];
 }
+export type Guitarist = CoverMusician & { instagram: string };
 export type Instrument = 'guitar' | 'bass' | 'drums' | 'keys';
 export interface Material {
   title: string; album?: string; instrument: Instrument; type: string; source: string;

@@ -1,10 +1,12 @@
 ---
 import SectionHeading from './SectionHeading.astro';
 import Icon from './Icon.astro';
-import { videos } from '../data/videos';
+import { videos, moreVideos, rankingMetadata } from '../data/videos';
+const views = (count: number) => new Intl.NumberFormat('pt-BR').format(count);
 ---
 <section class="section watch" id="veja" aria-labelledby="watch-title"><div class="wrap">
-  <SectionHeading id="watch-title" number="02" title="Veja" description="Aperte o play. Aumente o volume." />
+  <SectionHeading id="watch-title" number="02" title="Veja" description="O Dream Theater no Brasil. Aperte o play." />
+  <div class="section-toolbar"><span class="quiet-label">TOP 6 · MAIS VISTOS DA SELEÇÃO</span><span class="data-note">Shows no Brasil · YouTube</span></div>
   <div class="video-grid">{videos.map((video, index) => <article class="video-card">
     <div class="video-media" data-video-container>
       <a href={video.url} target="_blank" rel="noopener noreferrer" class="video-trigger" data-video={video.youtubeId} data-title={video.title} aria-label={`Assistir ${video.title}`}>
@@ -12,6 +14,21 @@ import { videos } from '../data/videos';
         <span class="video-category">{video.category}</span><span class="play-button"><Icon name="play" size={24}/></span>
       </a>
     </div>
-    <div class="video-caption"><span class="item-number">0{index + 1}</span><div><h3><a href={video.url} target="_blank" rel="noopener noreferrer">{video.title}</a></h3><p>{video.source}</p></div><Icon size={17}/></div>
+    <div class="video-caption"><span class="item-number">0{index + 1}</span><div><h3><a href={video.url} target="_blank" rel="noopener noreferrer">{video.title}</a></h3><p>{video.location} · {video.source}</p><p class="video-views">{views(video.viewCount)} visualizações</p></div><Icon size={17}/></div>
   </article>)}</div>
+  <div class="subsection-heading"><h3>Continue assistindo.</h3><span class="eyebrow">Posições 7 a {videos.length + moreVideos.length} · no YouTube</span></div>
+  <div class="video-ranking-scroll" id="video-ranking" role="region" aria-label="Mais vídeos do Dream Theater no Brasil" aria-describedby="ranking-status ranking-method" tabindex="0" data-ranking-scroll data-page-size="5" data-load-margin="32">
+    <ol class="video-ranking-list" start="7">
+      {moreVideos.map((video, index) => <li data-ranked-video data-country={video.countryCode}>
+        <a class="ranked-video-link" href={video.url} target="_blank" rel="noopener noreferrer">
+          <span class="item-number" aria-hidden="true">{String(index + 7).padStart(2, '0')}</span>
+          <span class="ranked-video-info"><span class="ranked-video-title">{video.title}</span><span class="ranked-video-detail">{video.location} · {video.source}</span></span>
+          <span class="ranked-video-views">{views(video.viewCount)}<span>visualizações</span></span><Icon size={18}/>
+        </a>
+      </li>)}
+    </ol>
+    <div class="setlist-load-more" data-ranking-sentinel hidden><button type="button" data-ranking-more aria-controls="video-ranking">Carregar mais vídeos</button></div>
+  </div>
+  <div class="setlist-summary"><p id="ranking-status" class="data-note" role="status" aria-live="polite" aria-atomic="true" data-ranking-status>{moreVideos.length} vídeos na lista.</p><span class="data-note" data-ranking-hint>Role a lista para ver mais vídeos.</span></div>
+  <p class="ranking-method data-note" id="ranking-method">Ranking dos registros de shows no Brasil encontrados na pesquisa, por visualizações totais no YouTube em {rankingMetadata.dateLabel}. {rankingMetadata.candidateCount} vídeos disponíveis no Brasil conferidos. As contagens mudam; a seleção não representa um censo de todo o YouTube.</p>
 </div></section>

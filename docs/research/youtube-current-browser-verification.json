@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-19T06:00:48.941Z",
+  "videoId": "TqoCg7ezIxY",
+  "preview": "http://127.0.0.1:4321/",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/TqoCg7ezIxY?autoplay=1&rel=0",
+  "frameText": "Dream Theater- These Walls\nDiegoTheater\nDiegoTheater\n39 subscribers\n0:02\nTime elapsed 2 seconds\n/6:37\nTime duration 6 minutes, 37 seconds\n7:12\nDream Theater - Panic attack\n20 years ago\n8:50\nDream Theater The Root Of All Evil\n20 years ago\n6:54\nDream Theater - Lie\n20 years ago\n6:42\nDream Theater - Never Enough\n20 years ago\n5:07\nDream Theater\n20 years ago\n6:50\nDream Theater - The Spirits Carries On\n20 years ago\n3:38\nDream Theater - Overture 1928\n20 years ago\n4:35\nMORTEM - Satan Curse\n19 years ago",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "status": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "status": 200,
+      "horizontalOverflow": false
+    }
+  ],
+  "note": "Observação de um player real sem mocks; não comprova reprodução integral dos 26 vídeos."
+}

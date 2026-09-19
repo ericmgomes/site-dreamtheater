@@ -1,0 +1,741 @@
+{
+  "asOf": "2026-09-19",
+  "retrievedAt": "2026-09-19T05:52:33.975Z",
+  "scope": "Candidatos de apresentações da banda Dream Theater no Brasil, fora Rock in Rio 2022, pesquisados em uploads públicos oficiais ou de fãs. Os candidatos confirmados nesta pesquisa são uploads de fãs.",
+  "methodology": [
+    "Busca pública do YouTube com nome da banda, Brasil/Brazil, cidades brasileiras e anos de passagens, incluindo ordenação por visualizações.",
+    "Para cada candidato, consulta HTTPS da página watch e leitura de ytInitialPlayerResponse para contagem inteira, canal, título, duração, status, possibilidade de incorporação e lista de países disponíveis.",
+    "O local brasileiro foi conferido no título ou descrição. Falsos positivos de outros países, covers e vídeos sem confirmação suficiente foram excluídos. Não houve download de mídia.",
+    "Ordenação reflete os candidatos localizados, não uma garantia de ranking exaustivo de todos os uploads do YouTube. A busca retorna resultados relevantes de outros países e a cobertura depende da indexação.",
+    "Nenhum candidato aceito indicou bloqueio ao Brasil: todos possuem status OK, playableInEmbed true e BR na lista de países. Esses metadados não equivalem a um teste de reprodução em cada navegador.",
+    "Trechos curtos e solos executados durante shows foram mantidos e identificados na categoria. Não confundir a data do upload com a data da apresentação."
+  ],
+  "searchUrls": [
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Brazil%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22S%C3%A3o%20Paulo%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Brasilia%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Rio%20de%20Janeiro%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Belo%20Horizonte%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Curitiba%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Porto%20Alegre%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Monsters%20of%20Rock%22&sp=CAMSAhAB"
+  ],
+  "candidates": [
+    {
+      "id": "TqoCg7ezIxY",
+      "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
+      "name": "Dream Theater- These Walls",
+      "viewCount": 359038,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "uploadDate": "2006-03-19T12:15:01-08:00",
+      "durationSeconds": 398,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "São Paulo indicado na descrição do upload."
+      }
+    },
+    {
+      "id": "vSBopDijt7A",
+      "url": "https://www.youtube.com/watch?v=vSBopDijt7A",
+      "name": "Dream Theater - The Dark Eternal Night [Mike Mangini drum cam] - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 270140,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "uploadDate": "2012-08-29T08:42:19-07:00",
+      "durationSeconds": 617,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=vSBopDijt7A",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "uoARgJzqGDQ",
+      "url": "https://www.youtube.com/watch?v=uoARgJzqGDQ",
+      "name": "Dream Theater - The Mirror",
+      "viewCount": 185314,
+      "uploader": "DiegoDT",
+      "channelId": "UCfa2Fb_u1c4aZ95chr3FyUA",
+      "uploadDate": "2006-03-09T18:04:53-08:00",
+      "durationSeconds": 494,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=uoARgJzqGDQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Scenes From São Paulo indicado na descrição do upload."
+      }
+    },
+    {
+      "id": "hFvy508WExk",
+      "url": "https://www.youtube.com/watch?v=hFvy508WExk",
+      "name": "Mike Mangini drum solo - Dream Theater live at Credicard Hall - São Paulo - 08.26.12",
+      "viewCount": 170750,
+      "uploader": "Raphael",
+      "channelId": "UCc_qjWEngdOd6bXNOIK1IuA",
+      "uploadDate": "2012-08-28T17:00:35-07:00",
+      "durationSeconds": 397,
+      "category": "Solo de bateria",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=hFvy508WExk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "Eyq-YaVayXk",
+      "url": "https://www.youtube.com/watch?v=Eyq-YaVayXk",
+      "name": "Mike Portnoy - Dream Theater - Finally Free - Live in Sao Paulo",
+      "viewCount": 132098,
+      "uploader": "Nilton Junior",
+      "channelId": "UCF-uCIJU2gGaXpWwM3gM5lg",
+      "uploadDate": "2006-09-14T23:26:50-07:00",
+      "durationSeconds": 88,
+      "category": "Trecho ao vivo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=Eyq-YaVayXk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "PQDcNEcNyIw",
+      "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
+      "name": "Dream Theater - The Spirits Carries On",
+      "viewCount": 121685,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "uploadDate": "2006-07-06T14:32:47-07:00",
+      "durationSeconds": 409,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Brasil indicado na descrição; cidade e data não especificadas."
+      }
+    },
+    {
+      "id": "tkdK4doF3s8",
+      "url": "https://www.youtube.com/watch?v=tkdK4doF3s8",
+      "name": "Dream Theater - Overture 1928",
+      "viewCount": 96090,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "uploadDate": "2006-03-21T16:34:13-08:00",
+      "durationSeconds": 217,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=tkdK4doF3s8",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "São Paulo, Brasil indicado na descrição do upload."
+      }
+    },
+    {
+      "id": "ezKw4PNeRtQ",
+      "url": "https://www.youtube.com/watch?v=ezKw4PNeRtQ",
+      "name": "Dream Theater - Lie",
+      "viewCount": 92689,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "uploadDate": "2006-03-17T17:51:30-08:00",
+      "durationSeconds": 414,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=ezKw4PNeRtQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "São Paulo, Brasil indicado na descrição do upload."
+      }
+    },
+    {
+      "id": "Jln0mVAhpM0",
+      "url": "https://www.youtube.com/watch?v=Jln0mVAhpM0",
+      "name": "Portnoy on Guitar and Petrucci on Drums in Belo Horizonte",
+      "viewCount": 82838,
+      "uploader": "andrewsvt",
+      "channelId": "UCGwt0VpzWlBIH-XYuGwDe_g",
+      "uploadDate": "2008-03-11T12:46:55-07:00",
+      "durationSeconds": 77,
+      "category": "Trecho ao vivo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=Jln0mVAhpM0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Descrição informa Belo Horizonte em 09/03/2008."
+      }
+    },
+    {
+      "id": "R3AcVkFZxlo",
+      "url": "https://www.youtube.com/watch?v=R3AcVkFZxlo",
+      "name": "Dream Theater Live in Rio 2010 - A Rite of Passage",
+      "viewCount": 58733,
+      "uploader": "Paulo Gouvêa - Vaizé",
+      "channelId": "UCvNHicXL2yX97QcyH1kB9sQ",
+      "uploadDate": "2010-03-23T20:02:22-07:00",
+      "durationSeconds": 535,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=R3AcVkFZxlo",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "jcwlngZVRj8",
+      "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
+      "name": "Dream Theater - The Mirror (Live in Belo Horizonte, Brazil - December 10th, 2024)",
+      "viewCount": 58705,
+      "uploader": "Rafael Pezzuti Dias",
+      "channelId": "UCAIOIUsadQZdZFsG8coE7dA",
+      "uploadDate": "2024-12-10T20:10:32-08:00",
+      "durationSeconds": 601,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "1gvuhcWN4Z4",
+      "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
+      "name": "Dream Theater - Portnoy plays guitar & Petrucci plays drums",
+      "viewCount": 58452,
+      "uploader": "Pedro Renault",
+      "channelId": "UCUx-mF1ddj14fT0DiZ-g7ag",
+      "uploadDate": "2008-03-11T09:43:28-07:00",
+      "durationSeconds": 48,
+      "category": "Trecho ao vivo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Descrição informa Belo Horizonte em 09/03/2008."
+      }
+    },
+    {
+      "id": "U7YdvThW8kc",
+      "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
+      "name": "DREAM THEATER - PARASOMNIA 2026 - Vivo Rio ,10/05/2026",
+      "viewCount": 47367,
+      "uploader": "Evandro Amaro",
+      "channelId": "UCt8Gjxm7rra38aNKHCqguHQ",
+      "uploadDate": "2026-05-11T11:30:41-07:00",
+      "durationSeconds": 9452,
+      "category": "Show completo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "wtrHKOqdJf4",
+      "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
+      "name": "Dream Theater - Just Let Me Breath",
+      "viewCount": 34167,
+      "uploader": "DiegoDT",
+      "channelId": "UCfa2Fb_u1c4aZ95chr3FyUA",
+      "uploadDate": "2006-03-11T17:34:33-08:00",
+      "durationSeconds": 406,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "São Paulo, Brasil indicado na descrição do upload."
+      }
+    },
+    {
+      "id": "6j1D-cnlj64",
+      "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
+      "name": "Dream Theater - \"A Nightmare to Remember\" Live in São Paulo 2010",
+      "viewCount": 29277,
+      "uploader": "Bellini´s Treasure Chest",
+      "channelId": "UCIqgg5xZuO-fLXY4_4tKI5w",
+      "uploadDate": "2016-03-15T17:04:05-07:00",
+      "durationSeconds": 934,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "K6nWJyra9y0",
+      "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
+      "name": "Dream Theater - Brazilian Tour 2012 (Multi-câmera)",
+      "viewCount": 29059,
+      "uploader": "DTBrazilianTour12",
+      "channelId": "UCWeAq5Qurh0c_nFTtXN508g",
+      "uploadDate": "2013-08-30T15:34:58-07:00",
+      "durationSeconds": 8135,
+      "category": "Show completo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "EbGKRKQcA14",
+      "url": "https://www.youtube.com/watch?v=EbGKRKQcA14",
+      "name": "Dream Theater Live in Rio 2010 - A Nightmare to Remember (Opening song)",
+      "viewCount": 25411,
+      "uploader": "Paulo Gouvêa - Vaizé",
+      "channelId": "UCvNHicXL2yX97QcyH1kB9sQ",
+      "uploadDate": "2010-08-26T05:20:35-07:00",
+      "durationSeconds": 899,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=EbGKRKQcA14",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "_tM7GlmRaug",
+      "url": "https://www.youtube.com/watch?v=_tM7GlmRaug",
+      "name": "Dream Theater - (WITHER)Live In São Paulo/Brazil 19-03-2010",
+      "viewCount": 24854,
+      "uploader": "Pirickas",
+      "channelId": "UCR8sBcqF8HcrmtU6grFy1Nw",
+      "uploadDate": "2010-03-20T05:05:52-07:00",
+      "durationSeconds": 342,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=_tM7GlmRaug",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "UaAYbrfJ2LE",
+      "url": "https://www.youtube.com/watch?v=UaAYbrfJ2LE",
+      "name": "Dream Theater - live in Brasil - As I am",
+      "viewCount": 23855,
+      "uploader": "eu396",
+      "channelId": "UClWrLumXNiNjiiX7zEKh51Q",
+      "uploadDate": "2006-06-15T15:34:01-07:00",
+      "durationSeconds": 433,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=UaAYbrfJ2LE",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Brasil indicado no título e descrição; cidade e data não especificadas."
+      }
+    },
+    {
+      "id": "FGXywX2FFYY",
+      "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
+      "name": "DREAM THEATER - 40 Anniversary Tour 2024 - Rio de Janeiro/Brazil.",
+      "viewCount": 20406,
+      "uploader": "Evandro Amaro",
+      "channelId": "UCt8Gjxm7rra38aNKHCqguHQ",
+      "uploadDate": "2024-12-19T06:15:13-08:00",
+      "durationSeconds": 10116,
+      "category": "Show completo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "n6VtFq8cBlg",
+      "url": "https://www.youtube.com/watch?v=n6VtFq8cBlg",
+      "name": "Dream Theater - Panic Attack (Live in Belo Horizonte)",
+      "viewCount": 18173,
+      "uploader": "Nienna",
+      "channelId": "UCRg688iWpDld6q2WMq1M3fQ",
+      "uploadDate": "2008-03-10T17:07:24-07:00",
+      "durationSeconds": 445,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=n6VtFq8cBlg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "uvJ_7supwxk",
+      "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
+      "name": "Dream Theater Pull Me Under Monsters of Rock Brasil 1998",
+      "viewCount": 17839,
+      "uploader": "alefernan",
+      "channelId": "UC1-XqJcqzTZHmAkFBUqrueg",
+      "uploadDate": "2012-03-10T00:55:18-08:00",
+      "durationSeconds": 446,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "R6GIQQyuT2U",
+      "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
+      "name": "Dream Theater - Full Show - Show Completo - Ao Vivo em São Paulo - 15-12-24",
+      "viewCount": 16760,
+      "uploader": "tonirossi",
+      "channelId": "UC9C79JlDKnmUm2gNjLMMecQ",
+      "uploadDate": "2024-12-16T06:05:05-08:00",
+      "durationSeconds": 9925,
+      "category": "Show completo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "MseevwwamT4",
+      "url": "https://www.youtube.com/watch?v=MseevwwamT4",
+      "name": "Dream Theater - Breaking All Illusions - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 15471,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "uploadDate": "2012-08-27T09:00:46-07:00",
+      "durationSeconds": 740,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=MseevwwamT4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "3iQ-Apk_RRU",
+      "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
+      "name": "Dream Theater - Live Curitiba - Barstool Warrior (Guitar Fail)",
+      "viewCount": 15109,
+      "uploader": "Lucas Medina",
+      "channelId": "UCys9FGSmPyVd_f3dr6Tjb-w",
+      "uploadDate": "2024-12-19T08:36:06-08:00",
+      "durationSeconds": 83,
+      "category": "Trecho ao vivo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "01ga1MXwruA",
+      "url": "https://www.youtube.com/watch?v=01ga1MXwruA",
+      "name": "Dream theater - Endless sacrifice live in São Paulo - 31/08/22",
+      "viewCount": 14662,
+      "uploader": "Ritieli Dos Santos",
+      "channelId": "UCtu87GGryApNZxT-zUk_4fA",
+      "uploadDate": "2022-09-02T19:04:42-07:00",
+      "durationSeconds": 717,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=01ga1MXwruA",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "sf6ZbHSiZMg",
+      "url": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+      "name": "Dream Theater - The Spirit Carries On (High Definition)",
+      "viewCount": 13771,
+      "uploader": "cristianocosta",
+      "channelId": "UCDDItsvpNyvV26cVMDy29xg",
+      "uploadDate": "2010-05-23T22:56:50-07:00",
+      "durationSeconds": 376,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Descrição informa Credicard Hall, São Paulo em 19/03/2010."
+      }
+    },
+    {
+      "id": "d_XEd8g7g3w",
+      "url": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+      "name": "Dream Theater - At Wit's End Live at Vivo Rio(06/12/2019)",
+      "viewCount": 12247,
+      "uploader": "Carcass",
+      "channelId": "UCd7yfbwSp8lJhmuBfOCtCoA",
+      "uploadDate": "2019-12-07T12:27:54-08:00",
+      "durationSeconds": 568,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "zEfN3QPLjBg",
+      "url": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+      "name": "Dream Theater - Caught in a Web (live in Brazil)",
+      "viewCount": 12120,
+      "uploader": "LuizaFTF",
+      "channelId": "UCEzoQbdL4xsldnnQoyRpxlQ",
+      "uploadDate": "2006-06-16T17:00:59-07:00",
+      "durationSeconds": 335,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Credicard Hall, São Paulo, Brasil indicado na descrição."
+      }
+    },
+    {
+      "id": "6rKMKG7IASM",
+      "url": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+      "name": "Dream Theater - Overture 1928 + Strange Deja Vu live in Porto Alegre 2019 (4K).",
+      "viewCount": 11301,
+      "uploader": "Lucas Barros",
+      "channelId": "UCIGW5mROAmUCyPO0782WuUA",
+      "uploadDate": "2019-12-12T18:41:35-08:00",
+      "durationSeconds": 520,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "roQjVFCz2v0",
+      "url": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+      "name": "Dream Theater - 6:00 - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 10795,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "uploadDate": "2012-08-28T06:40:27-07:00",
+      "durationSeconds": 335,
+      "category": "Ao vivo no Brasil",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    },
+    {
+      "id": "S5ZluOXX2jw",
+      "url": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+      "name": "Dream Theater - Scenes from São Paulo (11/12/2005)",
+      "viewCount": 9090,
+      "uploader": "Ledones",
+      "channelId": "UCMROEO_PM6HJqM8scBf52aw",
+      "uploadDate": "2014-10-14T11:45:15-07:00",
+      "durationSeconds": 9925,
+      "category": "Show completo",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "uploaderField": "ytInitialPlayerResponse.videoDetails.author",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Cidade/país brasileiros e/ou casa de shows brasileira identificados no título ou descrição do upload."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "NTDlFkyPF-E",
+      "url": "https://www.youtube.com/watch?v=NTDlFkyPF-E",
+      "name": "Dream Theater - A Nightmare To Remember Live (HD)",
+      "viewCount": 529188,
+      "reason": "Descrição identifica Santiago, Chile."
+    },
+    {
+      "id": "wnynC1qbgdk",
+      "url": "https://www.youtube.com/watch?v=wnynC1qbgdk",
+      "name": "Dream Theater - Finally Free (live)",
+      "viewCount": 17428,
+      "reason": "Descrição identifica Upper Darby, Pensilvânia, Estados Unidos."
+    },
+    {
+      "id": "XW7WZGCXjMo",
+      "url": "https://www.youtube.com/watch?v=XW7WZGCXjMo",
+      "name": "Dream Theater - Hilarious 1998 live moment!",
+      "viewCount": 14407,
+      "reason": "Título e descrição não confirmam Brasil; excluído por procedência insuficiente."
+    },
+    {
+      "id": "DwFgzA7SxFQ",
+      "url": "https://www.youtube.com/watch?v=DwFgzA7SxFQ",
+      "name": "Dream Theater - Under A Glass Moon",
+      "viewCount": 253081,
+      "reason": "Descrição identifica Tóquio, Japão."
+    },
+    {
+      "id": "7OVNq1NjRzk",
+      "url": "https://www.youtube.com/watch?v=7OVNq1NjRzk",
+      "name": "Dream Theater - These Walls",
+      "viewCount": 49548,
+      "reason": "Descrição indica músicos refazendo uma versão; não confirma banda original ou Brasil."
+    },
+    {
+      "id": "Q4kDgm-_Rac",
+      "url": "https://www.youtube.com/watch?v=Q4kDgm-_Rac",
+      "name": "Dream Theater - Home (Live)",
+      "viewCount": 60816,
+      "reason": "Descrição identifica Upper Darby, Pensilvânia, Estados Unidos."
+    }
+  ]
+}

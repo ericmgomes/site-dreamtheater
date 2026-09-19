@@ -1,6 +1,7 @@
 import { test, expect, type Locator } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { setlists } from '../src/data/setlists';
+import { videos, moreVideos } from '../src/data/videos';
 
 test('static page, metadata, chronology, assets and responsive layout', async ({ page }, testInfo) => {
   const errors: string[] = [];
@@ -50,7 +51,7 @@ test('Brazilian history loads every page while scrolling and preserves earlier s
   await expect(page.locator('[data-setlist]:visible')).toHaveCount(setlists.length);
 });
 
-test('history load-more fallback works without IntersectionObserver and preserves focus', async ({ page, isMobile }) => {
+test('scroll lists have manual fallback without IntersectionObserver and preserve focus', async ({ page, isMobile }) => {
   await page.addInitScript(() => { Reflect.deleteProperty(window,'IntersectionObserver'); });
   await page.goto('/');
   for (let previous = 12; previous < setlists.length; previous += 12) {
@@ -63,6 +64,42 @@ test('history load-more fallback works without IntersectionObserver and preserve
     expect(link.y).toBeGreaterThanOrEqual(isMobile ? boundary.y : boundary.y + boundary.height);
   }
   await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
+  for (let previous = 5; previous < moreVideos.length; previous += 5) {
+    await page.getByRole('button',{name:'Carregar mais vídeos'}).click();
+    await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(Math.min(previous + 5,moreVideos.length));
+    await expect(page.locator('[data-ranked-video] a').nth(previous)).toBeFocused();
+  }
+  await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
+});
+
+test('Brazil video ranking scrolls independently and covers are grouped by instrument', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('[data-nav="relembre"]')).toHaveText('Shows');
+  await expect(page.locator('[data-nav="va"]')).toHaveText('Covers');
+  await expect(page.locator('#remember-title')).toHaveText('Shows');
+  await expect(page.locator('#go-title')).toHaveText('Covers');
+  await expect(page.locator('#relembre .tour-panel')).toHaveCount(1);
+  await expect(page.locator('#va .tour-panel')).toHaveCount(0);
+  await expect(page.locator('.video-card')).toHaveCount(6);
+  const scroller = page.getByRole('region',{name:'Mais vídeos do Dream Theater no Brasil'});
+  await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(5);
+  await expect(page.locator('[data-ranked-video][data-country="BR"]')).toHaveCount(20);
+  expect(await scroller.evaluate(element => element.scrollHeight > element.clientHeight)).toBeTruthy();
+  await scroller.focus();
+  for (let previous = 5; previous < moreVideos.length; previous += 5) {
+    const position = await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; return element.scrollTop; });
+    await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(previous + 5);
+    expect(await scroller.evaluate(element => element.scrollTop)).toBeCloseTo(position,0);
+  }
+  expect(await page.locator('[data-ranked-video] a').evaluateAll(links => links.map(link => (link as HTMLAnchorElement).href))).toEqual(moreVideos.map(video => video.url));
+  await expect(page.locator('[data-ranking-status]')).toHaveText('Todos os 20 vídeos carregados.');
+  await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
+  // Loading videos must not consume a page of the separate show history.
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(12);
+  for (const [instrument,count] of [['guitar',6],['bass',3],['keys',3]] as const) {
+    await expect(page.locator(`#va [data-instrument="${instrument}"] .musician-item`)).toHaveCount(count);
+  }
+  for (const name of ['Samuel Zechin','Marcelo Barbosa','Alex Lima']) await expect(page.locator('#va').getByRole('heading',{name,exact:true})).toHaveCount(1);
 });
 
 test('album filters preserve content and counts', async ({ page }) => {
@@ -110,7 +147,7 @@ test('YouTube and Spotify load only on demand and release previous players', asy
   await expect(page.locator('iframe')).toHaveCount(0);
   await activate(page.locator('[data-video]').first());
   await expect(page.locator('iframe')).toHaveCount(1);
-  await expect(page.locator('iframe')).toHaveAttribute('src',/youtube-nocookie\.com\/embed\/s6JJJyMaIfg/);
+  await expect(page.locator('iframe')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${videos[0].youtubeId}?autoplay=1&rel=0`);
   await expect(page.frameLocator('iframe').getByText('External media')).toBeVisible();
   await activate(page.locator('[data-video]').last());
   await expect(page.locator('iframe')).toHaveCount(1);
@@ -148,7 +185,9 @@ test('core content and external destinations work without JavaScript', async ({ 
   await expect(page.locator('[data-setlist][data-country="BR"]:visible')).toHaveCount(setlists.length);
   await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);
-  await expect(page.locator('[data-video]').first()).toHaveAttribute('href','https://www.youtube.com/watch?v=s6JJJyMaIfg');
+  await expect(page.locator('[data-video]').first()).toHaveAttribute('href',videos[0].url);
+  await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(20);
+  await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
   await expect(page.locator('[data-spotify]').first()).toHaveAttribute('href','https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB');
   await expect(page.locator('iframe')).toHaveCount(0);
   await context.close();

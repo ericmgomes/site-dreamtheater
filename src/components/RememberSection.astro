@@ -1,6 +1,7 @@
 ---
 import SectionHeading from './SectionHeading.astro';
 import Icon from './Icon.astro';
+import UpcomingShows from './UpcomingShows.astro';
 import { setlists } from '../data/setlists';
 import { researchedLabel } from '../data/site';
 const dateParts = (date: string) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).formatToParts(new Date(`${date}T12:00:00Z`));
@@ -9,7 +10,7 @@ const firstYear = setlists.at(-1)?.date.slice(0, 4);
 const lastYear = setlists[0]?.date.slice(0, 4);
 ---
 <section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
-  <SectionHeading id="remember-title" number="01" title="Relembre" description="O show acaba. A memória fica." />
+  <SectionHeading id="remember-title" number="01" title="Shows" description="O show acaba. A memória fica." />
   <div class="section-toolbar"><span class="quiet-label">SHOWS NO BRASIL · SETLIST.FM</span><span class="data-note">{setlists.length} shows · {firstYear}–{lastYear}</span></div>
   <div class="show-table setlist-scroll" id="setlist-history" role="region" aria-label="Histórico de shows no Brasil" aria-describedby="setlist-status" tabindex="0" data-setlist-scroll data-page-size={pageSize}>
     <div class="show-table-head" aria-hidden="true"><span>Data</span><span>Cidade / local</span><span>Turnê</span><span>Setlist</span></div>
@@ -27,4 +28,5 @@ const lastYear = setlists[0]?.date.slice(0, 4);
   </div>
   <div class="setlist-summary"><p id="setlist-status" class="data-note" role="status" aria-live="polite" aria-atomic="true" data-setlist-status>{setlists.length} shows no Brasil.</p><span class="data-note" data-setlist-hint>Role a lista para consultar o histórico.</span></div>
   <div class="section-foot"><span class="data-note">Histórico no Brasil · Atualizado em {researchedLabel}</span></div>
+  <UpcomingShows />
 </section>

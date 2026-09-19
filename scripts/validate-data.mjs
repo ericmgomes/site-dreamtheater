@@ -3,10 +3,11 @@ import { readFile } from 'node:fs/promises';
 import { loadData } from './load-data.mjs';
 
 const { setlists } = await loadData('setlists');
-const { videos } = await loadData('videos');
+const { videos, moreVideos, rankedVideos, rankingMetadata } = await loadData('videos');
 const { shows } = await loadData('shows');
 const { coverBands } = await loadData('coverBands');
 const { guitarists } = await loadData('guitarists');
+const { bassists, keyboardists } = await loadData('coverMusicians');
 const { materials } = await loadData('materials');
 const { discography } = await loadData('discography');
 const { researchedAt } = await loadData('site');
@@ -30,11 +31,28 @@ for (const [index, show] of setlists.entries()) {
 }
 for (const show of shows) assert(show.date > researchedAt, 'Past event shown as upcoming');
 assert.equal(videos.length, 6);
-for (const video of videos) { assert.match(video.youtubeId, /^[\w-]{11}$/); assert(video.url.endsWith(video.youtubeId)); }
+assert.equal(moreVideos.length, 20);
+const videoCoverage = JSON.parse(await readFile('docs/research/youtube-ranking.json', 'utf8'));
+const videoCandidates = (await Promise.all(videoCoverage.researchFiles.map(async file => JSON.parse(await readFile(`docs/research/${file}`, 'utf8'))))).flatMap(part => part.candidates);
+const eligibleVideos = [...new Map(videoCandidates.filter(video => video.availableInBrazil && video.playabilityStatus === 'OK').map(video => [video.id, video])).values()].sort((a, b) => b.viewCount - a.viewCount);
+assert.equal(rankingMetadata.candidateCount, eligibleVideos.length);
+assert.equal(rankingMetadata.date, videoCoverage.asOf);
+assert.deepEqual(rankedVideos.map(video => video.youtubeId), eligibleVideos.slice(0, 26).map(video => video.id), 'Ranking must reflect researched view counts');
+assert.deepEqual(rankedVideos.map(video => video.youtubeId), videoCoverage.selectedIds);
+for (const [index, video] of rankedVideos.entries()) {
+  assert.match(video.youtubeId, /^[\w-]{11}$/);
+  assert(video.url.endsWith(video.youtubeId));
+  assert.equal(video.countryCode, 'BR');
+  assert.equal(video.viewCount, eligibleVideos[index].viewCount);
+  assert(Number.isInteger(video.viewCount) && video.viewCount > 0);
+  if (index < 6) assert(eligibleVideos[index].playableInEmbed, 'Featured video must allow embedding');
+}
 assert(coverBands.length >= 1);
 assert(guitarists.length >= 1);
-for (const person of [...coverBands, ...guitarists]) {
-  assert.match(person.instagram, /^https:\/\/www\.instagram\.com\//);
+assert(bassists.length >= 1 && keyboardists.length >= 1, 'Cover instruments must be represented');
+for (const person of [...coverBands, ...guitarists, ...bassists, ...keyboardists]) {
+  if (person.instagram) assert.match(person.instagram, /^https:\/\/www\.instagram\.com\//);
+  assert(person.instagram || person.youtube || person.website, 'Missing musician destination');
   assert(person.sourceUrls.length > 0, 'Missing provenance');
 }
 for (const instrument of ['guitar', 'bass', 'drums', 'keys']) assert(materials.some(item => item.instrument === instrument), `Missing material for ${instrument}`);
@@ -48,12 +66,12 @@ for (const [index, album] of discography.entries()) {
   if (album.spotifyUrl) assert.match(album.spotifyUrl, /^https:\/\/open\.spotify\.com\/album\/[a-zA-Z0-9]{22}$/);
   assert(['studio', 'live', 'compilation', 'ep'].includes(album.category));
 }
-for (const list of [setlists, videos, shows, coverBands, guitarists, materials, discography]) {
+for (const list of [setlists, rankedVideos, shows, coverBands, guitarists, bassists, keyboardists, materials, discography]) {
   for (const item of list) {
     for (const value of Object.values(item)) {
       if (typeof value === 'string' && value.startsWith('https://')) assert.equal(new URL(value).protocol, 'https:');
     }
   }
 }
-console.log(`Data OK: ${setlists.length} setlists, ${videos.length} videos, ${coverBands.length} tribute bands, ${guitarists.length} guitarists, ${materials.length} materials, ${discography.length} albums.`);
+console.log(`Data OK: ${setlists.length} setlists, ${rankedVideos.length} ranked videos, ${coverBands.length} tribute bands, ${guitarists.length + bassists.length + keyboardists.length} musicians, ${materials.length} materials, ${discography.length} albums.`);
 if (!shows.length) console.log('Upcoming dates: none confirmed as of research date; official schedule fallback is intentional.');

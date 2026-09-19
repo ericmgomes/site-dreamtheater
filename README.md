@@ -1,8 +1,8 @@
 # Dream Theater Brasil
 
-Hub brasileiro independente de curadoria: **RELEMBRE · VEJA · VÁ · TOQUE · OUÇA**.
+Hub brasileiro independente de curadoria: **SHOWS · VEJA · COVERS · TOQUE · OUÇA**.
 
-Uma página em Astro e TypeScript, com CSS próprio, fontes locais e JavaScript para paginação ao rolar o histórico, filtros, indicação de seção e players sob demanda. Sem React, backend, SSR, banco de dados ou serviços de IA. O build gera apenas arquivos estáticos em `dist/`.
+Uma página em Astro e TypeScript, com CSS próprio, fontes locais e JavaScript para paginação ao rolar o histórico e a lista de vídeos, filtros, indicação de seção e players sob demanda. Sem React, backend, SSR, banco de dados ou serviços de IA. O build gera apenas arquivos estáticos em `dist/`.
 
 ## Executar
 
@@ -24,13 +24,13 @@ npm run preview
 
 O build usa apenas dados e imagens já presentes no repositório. Não consulta Spotify, YouTube, setlist.fm ou redes sociais para gerar a página.
 
-## Conteúdo da primeira versão
+## Conteúdo atual
 
 Pesquisa registrada em **19/09/2026**:
 
 - Todos os 48 registros brasileiros identificados no setlist.fm, de 1997 a 2026, em ordem decrescente. Histórico com rolagem vertical e carregamento automático de mais 12 shows ao chegar ao fim; mantém os anteriores visíveis. Botão “Carregar mais shows” como alternativa; sem JavaScript, os 48 ficam disponíveis na lista.
-- 6 vídeos do canal oficial Dream Theater, confirmados também por oEmbed e metadados de incorporação.
-- 6 projetos brasileiros de tributo e 6 guitarristas com conteúdo de Dream Theater, incluindo Samuel Zechin, Marcelo Barbosa e Alex Lima. A seleção inclui os quatro perfis de tributos indicados pelo responsável pelo projeto e o site do VRA!.
+- Ranking de 26 vídeos de shows do Dream Theater no Brasil: 6 destaques e outros 20 links em uma lista com rolagem própria, revelados em lotes de 5. Ordenados por visualizações totais entre 44 candidatos verificados em 19/09/2026. Vídeos bloqueados no Brasil foram excluídos; trechos e solos estão identificados. A seleção não é um censo de todo o YouTube.
+- 6 projetos brasileiros de tributo e músicos separados por instrumento: 6 guitarristas (incluindo Samuel Zechin, Marcelo Barbosa e Alex Lima), 3 baixistas (Felipe Campos, Alexandre Panta e Felipe Andreoli) e 3 tecladistas (Daniel Jorge, César Zolhof e Junior Carelli). A seleção mantém todos os projetos indicados pelo responsável pelo site.
 - 14 materiais de guitarra, baixo, bateria e teclado, incluindo os ebooks de Distance Over Time e Selections from The Astonishing na Freenote. Edições digitais e físicas identificadas; acesso à busca completa da loja. Freenote confirmada na Rua Teodoro Sampaio, 785, São Paulo.
 - Os 28 lançamentos do índice oficial: 16 de estúdio, 10 ao vivo, 1 coletânea e 1 EP. Os 27 links Spotify vêm exclusivamente das páginas oficiais de cada álbum.
 
@@ -43,15 +43,18 @@ Os dados ficam em `src/data/`, separados da apresentação:
 | Arquivo | Conteúdo |
 | --- | --- |
 | `setlists.ts` | Datas, locais, turnês e links individuais |
-| `videos.ts` | IDs YouTube e páginas de origem |
+| `videos.ts` | Ranking brasileiro, IDs YouTube, contagens, local e canal |
 | `shows.ts` | Somente apresentações futuras confirmadas |
 | `coverBands.ts` | Tributos, redes e evidências de atividade |
-| `guitarists.ts` | Músicos, redes, retratos e evidências |
+| `guitarists.ts` | Guitarristas, redes, retratos e evidências |
+| `coverMusicians.ts` | Baixistas e tecladistas, redes e evidências |
 | `materials.ts` | Produtos e materiais por instrumento |
 | `discography.ts` | Índice oficial, capas e Spotify por álbum |
 | `site.ts` | Metadados, data da pesquisa e WhatsApp |
 
-Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Relembre aceita somente shows realizados no Brasil. Ao ampliar o histórico, atualize os registros e o manifesto de cobertura `docs/research/brazil-setlists.json`; ele confere o total, os anos e a correspondência com as fontes por período. Shows cancelados e workshops ficam fora do histórico. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
+Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Shows aceita somente shows no Brasil e também apresenta a consulta à agenda futura brasileira. Os IDs de âncora `relembre` e `va` foram preservados para manter links antigos funcionando. Ao ampliar o histórico, atualize os registros e o manifesto de cobertura `docs/research/brazil-setlists.json`; ele confere o total, os anos e a correspondência com as fontes por período. Shows cancelados e workshops ficam fora do histórico. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
+
+Para atualizar o ranking, pesquise registros brasileiros, confira título/descrição, contagem inteira, canal e disponibilidade territorial no YouTube. Atualize os arquivos `docs/research/youtube-*-candidates.json`, o manifesto `youtube-ranking.json` e `src/data/videos.ts`. A validação exige que os 26 selecionados sejam os mais vistos entre os candidatos elegíveis e que os seis destaques permitam incorporação. As contagens são totais do vídeo, não apenas de espectadores brasileiros. Sem JavaScript, os 20 links continuam disponíveis na área de rolagem.
 
 Para atualizar a discografia, consulte primeiro o índice e cada página em `dreamtheater.net`, atualize `docs/research/discography.json` e execute `npm run sync:images`. Esse comando de manutenção baixa as capas oficiais, gera WebP local e atualiza `discography.ts`. Exige acesso à internet; não faz parte do build. Os retratos são dos sites dos músicos e as fontes estão documentadas.
 
@@ -65,11 +68,11 @@ npm run validate:links   # Rede; salva o relatório em docs/research/link-check.
 npm run test:e2e         # Chrome: desktop, mobile, teclado, filtros e acessibilidade
 ```
 
-Os testes usam Chrome instalado. Se necessário, execute `npx playwright install chrome`. `scripts/serve-static.mjs` serve apenas `dist/` durante o teste; não é backend da aplicação e não é publicado. Para medir as interações independentemente de publicidade/login, os testes de players substituem somente o documento externo do iframe. A disponibilidade real dos seis vídeos e dos 27 álbuns foi conferida separadamente e está documentada.
+Os testes usam Chrome instalado. Se necessário, execute `npx playwright install chrome`. `scripts/serve-static.mjs` serve apenas `dist/` durante o teste; não é backend da aplicação e não é publicado. Para medir as interações independentemente de publicidade/login, os testes de players substituem somente o documento externo do iframe. Os metadados de disponibilidade no Brasil e incorporação dos vídeos, e os 27 destinos Spotify, são conferidos separadamente. Metadados válidos não comprovam reprodução integral no navegador.
 
 Instagram pode exigir login; HTTP 200 nessa tela não é confirmação de acesso ao perfil. O relatório distingue `ok`, `login-gated`, `restricted`, `unavailable`, `broken` e `deployment-pending`. Embeds e imagens de YouTube continuam sujeitos às regras de cada plataforma. Links diretos permanecem disponíveis; conteúdo e destinos também funcionam sem JavaScript, enquanto os filtros são ocultados nesse caso.
 
-Resultados e limitações: [docs/VALIDATION.md](docs/VALIDATION.md). No navegador automatizado, a reprodução real do YouTube retornou indisponibilidade para dois vídeos testados, apesar de metadados válidos; sua causa não foi determinada. O carregamento real do álbum Spotify foi confirmado. Verifique novamente o YouTube após publicar no domínio definitivo.
+Resultados e limitações: [docs/VALIDATION.md](docs/VALIDATION.md). O primeiro vídeo do ranking, These Walls, iniciou reprodução real na prévia local; os demais possuem metadados de disponibilidade e incorporação verificados, sem teste integral de reprodução. O carregamento real do álbum Spotify foi confirmado em validação anterior. Verifique novamente os players após publicar no domínio definitivo.
 
 ## Publicar no GitHub Pages
 

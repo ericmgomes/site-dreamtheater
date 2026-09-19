@@ -1,0 +1,151 @@
+{
+  "researchedAt": "2026-09-19",
+  "bass": [
+    {
+      "name": "Felipe Campos",
+      "description": "Baixista dos covers do VRA!, com versões de A Nightmare to Remember e tutorial de Fatal Tragedy.",
+      "youtube": "https://www.youtube.com/user/FelipeCamposBass",
+      "sourceUrls": [
+        "https://www.youtube.com/user/FelipeCamposBass/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=qRkmClW9I4k",
+        "https://www.youtube.com/watch?v=n4JfBg6JdPo",
+        "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
+        "https://www.dreamtheatercover.com/collaborators",
+        "https://www.thiagocamposofficial.com/vra-split-screen-covers"
+      ],
+      "evidence": [
+        "Canal pessoal consultado por HTTP 200; título público Felipe Campos; channelId UC0Wrp-2YW-B2Bsc3hdFKqAQ. O próprio YouTube informa o handle @felipecamposbass.",
+        "A Nightmare to Remember: vídeo qRkmClW9I4k identifica Felipe Campos como autor e baixista; a descrição credita César Zolhof nos teclados e Thiago Campos na guitarra.",
+        "Fatal Tragedy: vídeo n4JfBg6JdPo identifica Felipe Campos como autor de um tutorial do trecho final de baixo, com execução em diferentes andamentos.",
+        "Os dois vídeos individuais retornaram HTTP 200 e playabilityStatus OK na consulta. O canal também lista Metropolis Pt. 1, Constant Motion e Lifting Shadows Off a Dream.",
+        "O site oficial do VRA! lista Felipe Campos entre os baixistas. O site de Thiago descreve Felipe como colaborador regular e documenta a formação de Brasília.",
+        "Instagram pessoal e site próprio não confirmados; foram omitidos. Não se afirma agenda atual de shows ou frequência recente de publicações."
+      ]
+    },
+    {
+      "name": "Alexandre Panta",
+      "description": "Baixista e professor com covers de Take the Time, 6:00, Caught in a Web e outros clássicos do Dream Theater.",
+      "instagram": "https://www.instagram.com/alexandre_panta/",
+      "youtube": "https://www.youtube.com/channel/UCbJok9Hzl6GGNL-H-2mtQiw",
+      "website": "https://alexandrepanta.com.br/",
+      "sourceUrls": [
+        "https://alexandrepanta.com.br/",
+        "https://alexandrepanta.com.br/videos/",
+        "https://www.instagram.com/alexandre_panta/",
+        "https://www.youtube.com/channel/UCbJok9Hzl6GGNL-H-2mtQiw/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=wVs4c7SMARg",
+        "https://www.youtube.com/watch?v=1avKqiXl1Lc",
+        "https://www.youtube.com/watch?v=jHfYf-yP-V4"
+      ],
+      "evidence": [
+        "O site pessoal publica exatamente o Instagram @alexandre_panta e o canal UCbJok9Hzl6GGNL-H-2mtQiw; ambos retornaram HTTP 200 com nome público Alexandre Panta.",
+        "Take the Time: vídeo wVs4c7SMARg, autor Alexandre Panta, identificado no título como bass cover. A descrição também indica o canal do projeto Dream Theater Cover.",
+        "6:00: vídeo 1avKqiXl1Lc, autor Alexandre Panta, identificado no título como bass cover. Os dois vídeos retornaram playabilityStatus OK.",
+        "A pesquisa dentro do canal também mostrou covers de Caught in a Web, Beyond This Life, Home, Repentance e This Dying Soul, além de vídeos com a banda cover.",
+        "O site pessoal documenta o projeto Scenes From a Dream. Os registros antigos do site não foram tratados como confirmação de uma formação ou agenda atual."
+      ]
+    },
+    {
+      "name": "Felipe Andreoli",
+      "description": "Baixista com versões de The Dance of Eternity e Learning to Live, além de apresentações com o Dream Theater Tribute.",
+      "instagram": "https://www.instagram.com/felipeandreoli/",
+      "youtube": "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ",
+      "website": "https://www.felipeandreoli.com/",
+      "sourceUrls": [
+        "https://www.felipeandreoli.com/",
+        "https://www.felipeandreoli.com/about",
+        "https://www.instagram.com/felipeandreoli/",
+        "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=zDN9xOyWav0",
+        "https://www.youtube.com/watch?v=iAsCPjlpvhU",
+        "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
+        "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
+      ],
+      "evidence": [
+        "O site pessoal de Felipe Andreoli publica o Instagram @felipeandreoli e o canal UCRB2asBIDMEcSgIJp64NonQ. Os links retornaram HTTP 200, com nome público Felipe Andreoli. A biografia oficial o identifica como baixista natural de São Paulo, Brasil.",
+        "The Dance of Eternity: vídeo zDN9xOyWav0, autor Felipe Andreoli, título explícito Bass Cover e descrição com os mesmos links oficiais.",
+        "Learning to Live: vídeo iAsCPjlpvhU, autor Felipe Andreoli, título explícito Bass Cover. Ambos retornaram playabilityStatus OK.",
+        "O canal também apresenta Lines in the Sand, Home, Caught in a Web e Metropolis Pt. 1, comprovando repertório recorrente de Dream Theater.",
+        "Os anúncios dos organizadores em BaladAPP e Sympla confirmam Felipe Andreoli no Dream Theater Tribute em Goiânia, 17/04/2025, e Brasília, 18/04/2025. A página de Goiânia explicita o instrumento baixo.",
+        "Este é o baixista, identificado pelo site felipeandreoli.com e Instagram @felipeandreoli, não o jornalista de nome semelhante."
+      ]
+    }
+  ],
+  "keys": [
+    {
+      "name": "Daniel Jorge",
+      "description": "Tecladista do Dream Theater Tribute, com covers de The Enemy Inside e Solitary Shell em seu canal.",
+      "instagram": "https://www.instagram.com/daniel_jorge/",
+      "youtube": "https://www.youtube.com/@MrDanijs",
+      "website": "https://linktr.ee/daniel_jorge",
+      "sourceUrls": [
+        "https://linktr.ee/daniel_jorge",
+        "https://www.instagram.com/daniel_jorge/",
+        "https://www.youtube.com/@MrDanijs/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=Vm1JDLyYvNw",
+        "https://www.youtube.com/watch?v=w3LeWmhZ164",
+        "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
+        "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
+      ],
+      "evidence": [
+        "O Linktree pessoal identifica Daniel como tecladista, produtor e professor; publica o Instagram @daniel_jorge, o canal @MrDanijs e links dos projetos Dream Theater Cover e Dream Theater Tribute.",
+        "Instagram e YouTube retornaram HTTP 200 e nome público Daniel Jorge; channelId UCEpPaJCfl6VMQ_pBhzcpMfQ.",
+        "The Enemy Inside: vídeo Vm1JDLyYvNw, autor Daniel Jorge, título explícito Keyboard Cover.",
+        "Solitary Shell: vídeo w3LeWmhZ164, autor Daniel Jorge; descrição identifica show do Dream Theater Cover no Manifesto Bar em 09/11/2013. Ambos os vídeos retornaram playabilityStatus OK.",
+        "A página do organizador no BaladAPP confirma Daniel Jorge nos teclados do Dream Theater Tribute em 17/04/2025; a Sympla confirma a mesma formação em Brasília em 18/04/2025."
+      ]
+    },
+    {
+      "name": "César Zolhof",
+      "description": "Tecladista dos primeiros covers do VRA!, com versões de Metropolis Pt. 1, The Mirror e Pull Me Under.",
+      "youtube": "https://www.youtube.com/user/zolhof",
+      "sourceUrls": [
+        "https://www.youtube.com/user/zolhof/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
+        "https://www.youtube.com/watch?v=muiVxd3eazw",
+        "https://www.youtube.com/watch?v=jGnVZV_HaW8",
+        "https://www.dreamtheatercover.com/collaborators",
+        "https://www.thiagocamposofficial.com/vra-split-screen-covers"
+      ],
+      "evidence": [
+        "Canal pessoal zolhof retornou HTTP 200; channelId UC2Y_RtRvnC-As0bkJVHoJ8A, handle @zolhof.",
+        "Metropolis Part 1: vídeo N9f2c4ZdI7w, autor zolhof. A descrição credita explicitamente César Zolhof nos teclados e vincula o canal pessoal.",
+        "The Mirror: vídeo muiVxd3eazw, autor zolhof, título explícito Keyboard cover; descrição detalha a execução com teclado controlador e aplicativos. Ambos retornaram playabilityStatus OK.",
+        "O canal também lista Ytse Jam, Pull Me Under, Constant Motion, Lifting Shadows Off a Dream e Repentance em versões de teclado ou colaborações do VRA!.",
+        "O site oficial do VRA! lista César entre os tecladistas; o site de Thiago Campos documenta a formação inicial em Brasília, em 2009, com César nos teclados.",
+        "Instagram pessoal e site próprio não confirmados; foram omitidos. A descrição se refere à participação histórica, sem afirmar atividade recente de shows."
+      ]
+    },
+    {
+      "name": "Junior Carelli",
+      "description": "Pianista e tecladista com versões de Wait for Sleep e The Spirit Carries On, além de The Dance of Eternity em colaboração.",
+      "instagram": "https://www.instagram.com/juninhocarelli/",
+      "youtube": "https://www.youtube.com/user/Juninhocarelli",
+      "website": "https://www.juniorcarelli.com/",
+      "sourceUrls": [
+        "https://www.juniorcarelli.com/",
+        "https://www.instagram.com/juninhocarelli/",
+        "https://www.youtube.com/user/Juninhocarelli/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=jCS9LowSAMk",
+        "https://www.youtube.com/watch?v=G_w-umkYfdI",
+        "https://www.wikimetal.com.br/musicos-do-noturnall-fazem-cover-de-dance-of-eternity-do-dream-theater/",
+        "https://www.facebook.com/noturnallband/videos/10155222468942668/",
+        "https://whiplash.net/materias/news_814/205838-noturnall.html"
+      ],
+      "evidence": [
+        "O site oficial juniorcarelli.com publica o Instagram @juninhocarelli e o canal /user/Juninhocarelli. Ambos retornaram HTTP 200; os títulos públicos identificam Junior Carelli. O channelId é UCI5A21uYnRy05l0W8HdoSmQ.",
+        "Wait for Sleep: vídeo jCS9LowSAMk, autor Junior Carelli, título explícito de versão de Dream Theater para piano e voz.",
+        "The Spirit Carries On: vídeo G_w-umkYfdI, mesmo autor; a descrição confirma ser cover de Dream Theater, com piano, voz, orquestra e participação do guitarrista Leonidas Martins. Ambos retornaram playabilityStatus OK.",
+        "A matéria do Wikimetal de 16/01/2017 identifica Junior Carelli nos teclados do cover de The Dance of Eternity com Aquiles Priester, Gustavo Carmo e Bruno Ladislau. O iframe da matéria aponta ao vídeo publicado no Facebook oficial do Noturnall; este vídeo social não foi usado como única evidência.",
+        "Em entrevista publicada no Whiplash em 2014, Junior relata ter integrado uma banda cover de Dream Theater. Não foi presumido vínculo atual com algum tributo específico."
+      ]
+    }
+  ],
+  "notes": [
+    "Curadoria com três baixistas e três tecladistas. Todos têm pelo menos dois vídeos específicos de Dream Theater confirmados em seus próprios canais, além de fontes para identificação e instrumento.",
+    "Verificação em 19/09/2026: páginas de canais, quatro Instagrams, sites pessoais e 12 vídeos individuais consultados por HTTP público. Os 12 vídeos retornaram playabilityStatus OK; títulos, autores e channelIds foram lidos dos metadados públicos do YouTube.",
+    "A data de pesquisa não significa publicação recente de cada cover. Não se afirma agenda futura, frequência atual de shows ou formação fixa sem evidência específica.",
+    "Felipe Campos e César Zolhof foram incluídos com YouTube verificado; não foram inventados links de Instagram. Os outros quatro perfis possuem Instagram vinculado por site pessoal ou Linktree e confirmado por metadados públicos.",
+    "Dados de seguidores, preços de cursos e números de visualizações foram omitidos por não serem necessários à curadoria e mudarem com frequência."
+  ]
+}

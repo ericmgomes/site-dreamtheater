@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-09-19",
+  "scope": "Registros de shows da banda Dream Theater no Brasil, incluindo solos e trechos identificados. Somente vídeos sem bloqueio territorial no Brasil conforme metadados públicos. Não é um ranking exaustivo de todo o YouTube.",
+  "researchFiles": [
+    "youtube-brazil-candidates.json",
+    "youtube-rock-in-rio-candidates.json"
+  ],
+  "candidateCount": 44,
+  "featuredCount": 6,
+  "additionalCount": 20,
+  "selectedIds": [
+    "TqoCg7ezIxY",
+    "vSBopDijt7A",
+    "uoARgJzqGDQ",
+    "hFvy508WExk",
+    "Eyq-YaVayXk",
+    "PQDcNEcNyIw",
+    "tkdK4doF3s8",
+    "ezKw4PNeRtQ",
+    "Jln0mVAhpM0",
+    "R3AcVkFZxlo",
+    "jcwlngZVRj8",
+    "1gvuhcWN4Z4",
+    "U7YdvThW8kc",
+    "wtrHKOqdJf4",
+    "6j1D-cnlj64",
+    "K6nWJyra9y0",
+    "EbGKRKQcA14",
+    "_tM7GlmRaug",
+    "UaAYbrfJ2LE",
+    "4c-gMqPjmHU",
+    "FGXywX2FFYY",
+    "n6VtFq8cBlg",
+    "uvJ_7supwxk",
+    "R6GIQQyuT2U",
+    "MseevwwamT4",
+    "3iQ-Apk_RRU"
+  ],
+  "ordering": "viewCount decrescente; contagens totais do vídeo, não visualizações apenas de espectadores brasileiros.",
+  "ui": "Seis destaques e 20 links seguintes, com rolagem vertical própria e lotes de cinco.",
+  "verification": "Status, disponibilidade territorial e permissão de incorporação conferidos em cada vídeo. Não equivalem à reprodução real em todos os navegadores."
+}

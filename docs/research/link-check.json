@@ -1,12 +1,18 @@
 {
-  "checkedAt": "2026-09-19T05:43:24.408Z",
+  "checkedAt": "2026-09-19T05:59:12.961Z",
   "counts": {
-    "ok": 136,
+    "ok": 166,
     "deployment-pending": 1,
-    "login-gated": 12
+    "login-gated": 16
   },
   "explanation": "HTTP/oEmbed validates reachability, not full playback. Restricted or login-gated links must be checked against source evidence; never counted as OK.",
   "results": [
+    {
+      "url": "https://alexandrepanta.com.br/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://alexandrepanta.com.br/"
+    },
     {
       "url": "https://bio.ericgomes.me",
       "status": "ok",
@@ -223,6 +229,12 @@
       "finalUrl": "https://hudsonmusic.com/product/anthology-volume-1/"
     },
     {
+      "url": "https://linktr.ee/daniel_jorge",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://linktr.ee/daniel_jorge"
+    },
+    {
       "url": "https://open.spotify.com/album/0ER7sdwIe6mfM63TbWcHmd",
       "status": "ok",
       "http": 200,
@@ -431,6 +443,12 @@
       "finalUrl": "https://www.dreamtheatercover.com/"
     },
     {
+      "url": "https://www.felipeandreoli.com/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.felipeandreoli.com/"
+    },
+    {
       "url": "https://www.freenote.com.br/busca.asp?f_stype=ALL&f_instru=ALL&f_search_string=dream%20theater",
       "status": "ok",
       "http": 200,
@@ -509,10 +527,22 @@
       "finalUrl": "https://www.instagram.com/alekissss10/"
     },
     {
+      "url": "https://www.instagram.com/alexandre_panta/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/alexandre_panta/"
+    },
+    {
       "url": "https://www.instagram.com/brunogodinhoguitar/",
       "status": "login-gated",
       "http": 200,
       "finalUrl": "https://www.instagram.com/brunogodinhoguitar/"
+    },
+    {
+      "url": "https://www.instagram.com/daniel_jorge/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/daniel_jorge/"
     },
     {
       "url": "https://www.instagram.com/dreamtheatercover.rj/",
@@ -545,10 +575,22 @@
       "finalUrl": "https://www.instagram.com/dtclassics/"
     },
     {
+      "url": "https://www.instagram.com/felipeandreoli/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/felipeandreoli/"
+    },
+    {
       "url": "https://www.instagram.com/gustavoguerraguitarrista/",
       "status": "login-gated",
       "http": 200,
       "finalUrl": "https://www.instagram.com/gustavoguerraguitarrista/"
+    },
+    {
+      "url": "https://www.instagram.com/juninhocarelli/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/juninhocarelli/"
     },
     {
       "url": "https://www.instagram.com/marcelobarbosagtr/",
@@ -573,6 +615,12 @@
       "status": "login-gated",
       "http": 200,
       "finalUrl": "https://www.instagram.com/tributedreamtheater/"
+    },
+    {
+      "url": "https://www.juniorcarelli.com/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.juniorcarelli.com/"
     },
     {
       "url": "https://www.setlist.fm/setlist/dream-theater/1997/clube-atletico-aramacan-santo-andre-brazil-2bd6cc4e.html",
@@ -875,10 +923,34 @@
       "finalUrl": "https://www.youtube.com/@dreamtheaterofficial"
     },
     {
+      "url": "https://www.youtube.com/@MrDanijs",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/@MrDanijs"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCbJok9Hzl6GGNL-H-2mtQiw",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/channel/UCbJok9Hzl6GGNL-H-2mtQiw"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ"
+    },
+    {
       "url": "https://www.youtube.com/thiagocamposofficial/",
       "status": "ok",
       "http": 200,
       "finalUrl": "https://www.youtube.com/thiagocamposofficial/"
+    },
+    {
+      "url": "https://www.youtube.com/user/FelipeCamposBass",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/user/FelipeCamposBass"
     },
     {
       "url": "https://www.youtube.com/user/GGuerra",
@@ -887,58 +959,230 @@
       "finalUrl": "https://www.youtube.com/user/GGuerra"
     },
     {
+      "url": "https://www.youtube.com/user/Juninhocarelli",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/user/Juninhocarelli"
+    },
+    {
       "url": "https://www.youtube.com/user/marcelogtr",
       "status": "ok",
       "http": 200,
       "finalUrl": "https://www.youtube.com/user/marcelogtr"
     },
     {
-      "url": "https://www.youtube.com/watch?v=2IPT60hvGw4",
+      "url": "https://www.youtube.com/user/zolhof",
       "status": "ok",
       "http": 200,
-      "method": "oEmbed",
-      "title": "Dream Theater - Night Terror (Official Video)",
-      "author": "Dream Theater"
+      "finalUrl": "https://www.youtube.com/user/zolhof"
     },
     {
-      "url": "https://www.youtube.com/watch?v=JfTganSU_qE",
+      "url": "https://www.youtube.com/watch?v=_tM7GlmRaug",
       "status": "ok",
       "http": 200,
       "method": "oEmbed",
-      "title": "Dream Theater -  The Spirit Carries On (from Distant Memories - Live in London)",
-      "author": "Dream Theater"
+      "title": "Dream Theater - (WITHER)Live In São Paulo/Brazil 19-03-2010",
+      "author": "Pirickas"
     },
     {
-      "url": "https://www.youtube.com/watch?v=JuZ2zp-6lLY",
+      "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
       "status": "ok",
       "http": 200,
       "method": "oEmbed",
-      "title": "Dream Theater - Bend The Clock (Official Video)",
-      "author": "Dream Theater"
+      "title": "Dream Theater - Portnoy plays guitar & Petrucci plays drums",
+      "author": "Pedro Renault"
     },
     {
-      "url": "https://www.youtube.com/watch?v=mipc-JxrhRk",
+      "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
       "status": "ok",
       "http": 200,
       "method": "oEmbed",
-      "title": "Dream Theater - Pull Me Under [OFFICIAL VIDEO]",
-      "author": "Dream Theater"
+      "title": "Dream Theater - Live Curitiba - Barstool Warrior (Guitar Fail)",
+      "author": "Lucas Medina"
     },
     {
-      "url": "https://www.youtube.com/watch?v=rcCH8ndt8qA",
+      "url": "https://www.youtube.com/watch?v=4c-gMqPjmHU",
       "status": "ok",
       "http": 200,
       "method": "oEmbed",
-      "title": "Dream Theater - Enigma Machine",
-      "author": "Dream Theater"
+      "title": "Dream Theater Rock in Rio 02-09-2022 (The Count of Tuscany)",
+      "author": "Rafael Chacon"
     },
     {
-      "url": "https://www.youtube.com/watch?v=s6JJJyMaIfg",
+      "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
       "status": "ok",
       "http": 200,
       "method": "oEmbed",
-      "title": "Dream Theater - Afterlife (from Score)",
-      "author": "Dream Theater"
+      "title": "Dream Theater - \"A Nightmare to Remember\" Live in São Paulo 2010",
+      "author": "Bellini´s Treasure Chest"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EbGKRKQcA14",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater Live in Rio 2010 - A Nightmare to Remember (Opening song)",
+      "author": "Paulo Gouvêa - Vaizé"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Eyq-YaVayXk",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Mike Portnoy - Dream Theater - Finally Free - Live in Sao Paulo",
+      "author": "Nilton Junior"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ezKw4PNeRtQ",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Lie",
+      "author": "DiegoTheater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "DREAM THEATER - 40 Anniversary Tour 2024 - Rio de Janeiro/Brazil.",
+      "author": "Evandro Amaro"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hFvy508WExk",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Mike Mangini drum solo - Dream Theater live at Credicard Hall - São Paulo - 08.26.12",
+      "author": "Raphael"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - The Mirror (Live in Belo Horizonte, Brazil - December 10th, 2024)",
+      "author": "Rafael Pezzuti Dias"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jln0mVAhpM0",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Portnoy on Guitar and Petrucci on Drums in Belo Horizonte",
+      "author": "andrewsvt"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Brazilian Tour 2012 (Multi-câmera)",
+      "author": "DTBrazilianTour12"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MseevwwamT4",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Breaking All Illusions - 08/26/2012 - Sao Paulo, Brazil",
+      "author": "MFranklin1910"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n6VtFq8cBlg",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Panic Attack (Live in Belo Horizonte)",
+      "author": "Nienna"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - The Spirits Carries On",
+      "author": "DiegoTheater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R3AcVkFZxlo",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater Live in Rio 2010 - A Rite of Passage",
+      "author": "Paulo Gouvêa - Vaizé"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Full Show - Show Completo - Ao Vivo em São Paulo - 15-12-24",
+      "author": "tonirossi"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tkdK4doF3s8",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Overture 1928",
+      "author": "DiegoTheater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater- These Walls",
+      "author": "DiegoTheater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "DREAM THEATER - PARASOMNIA 2026 - Vivo Rio ,10/05/2026",
+      "author": "Evandro Amaro"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UaAYbrfJ2LE",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - live in Brasil - As I am",
+      "author": "eu396"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uoARgJzqGDQ",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - The Mirror",
+      "author": "DiegoDT"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater Pull Me Under Monsters of Rock Brasil 1998",
+      "author": "alefernan"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vSBopDijt7A",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - The Dark Eternal Night [Mike Mangini drum cam] - 08/26/2012 - Sao Paulo, Brazil",
+      "author": "MFranklin1910"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Just Let Me Breath",
+      "author": "DiegoDT"
     }
   ]
 }
