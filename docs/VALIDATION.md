@@ -4,7 +4,7 @@
 
 - Astro estático: build concluído, uma página HTML, sem servidor ou hidratação de framework. Checagem Astro/TypeScript com **0 erros, 0 avisos e 0 hints**.
 - Playwright: **18 cenários aprovados** na execução final, em desktop 1440 × 1000 e mobile 390 × 844. Incluem conteúdo, imagens, metadados, filtros, navegação, ampliação a 200%, players sob demanda, teclado e funcionamento sem JavaScript.
-- Shows: todos os **48 registros brasileiros**, de 1997 a 2026, em ordem decrescente. Rolagem própria com lotes de 12, preservação dos anteriores e da posição, botão alternativo, foco no primeiro novo link e lista completa sem JavaScript.
+- Shows: todos os **48 registros brasileiros**, de 1997 a 2026, em ordem decrescente, agora em cards compactos (3 colunas no desktop, 2 no tablet e 1 no celular). Card inteiro clicável, com data, cidade, local e turnê; sem cabeçalho de tabela. Layout conferido em 1440, 900 e 390 px, sem transbordamento. Os 18 cenários passaram novamente após a mudança, incluindo foco e carregamento de todos os cards. Rolagem própria com lotes de 12, preservação dos anteriores e da posição, botão alternativo, foco no primeiro novo link e lista completa sem JavaScript.
 - Veja: seis destaques e **20 links seguintes**, em outra área de rolagem, com lotes de cinco. Testados o carregamento até o último, ordem, links, foco manual, fallback sem IntersectionObserver e independência do histórico de shows. Corrigida a margem de observação para evitar carregar o segundo lote antes da rolagem no desktop; a suíte completa passou após a correção.
 - Covers: seis projetos de tributo e **12 músicos** organizados em guitarra (6), baixo (3) e teclado (3). Samuel Zechin, Marcelo Barbosa e Alex Lima preservados. A agenda futura foi movida para Shows e exibe somente datas brasileiras.
 - Rótulos Shows e Covers atualizados na navegação, hero, títulos e rodapé. Os IDs `relembre` e `va` continuam funcionando para preservar links antigos.
@@ -33,7 +33,7 @@
 
 ## Build e publicação
 
-- **49 arquivos, 1.314.815 bytes**, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
+- **49 arquivos, 1.311.998 bytes**, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
 - JavaScript da aplicação: **4.285 bytes**. As listas não fazem chamadas de rede ao rolar; todos os registros estão no HTML.
 - Build independente de rede; fontes e capas locais. Conferidos canonical, description, Open Graph, Twitter Cards, H1 único, alt text, favicon, sitemap, robots e CNAME.
 - Workflow GitHub Actions preparado para `main`, Node 24, verificações de tipos/dados/build e publicação exclusiva de `dist/`.

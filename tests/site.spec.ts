@@ -35,6 +35,9 @@ test('Brazilian history loads every page while scrolling and preserves earlier s
   await scroller.focus();
   await page.keyboard.press('PageDown');
   await expect.poll(() => scroller.evaluate(element => element.scrollTop)).toBeGreaterThan(0);
+  // A compact grid can reach the next page with one PageDown; reset for exact batch checks.
+  await page.reload();
+  await scroller.focus();
   for (let previous = 12; previous < setlists.length; previous += 12) {
     const count = Math.min(previous + 12,setlists.length);
     const position = await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; return element.scrollTop; });
@@ -51,7 +54,7 @@ test('Brazilian history loads every page while scrolling and preserves earlier s
   await expect(page.locator('[data-setlist]:visible')).toHaveCount(setlists.length);
 });
 
-test('scroll lists have manual fallback without IntersectionObserver and preserve focus', async ({ page, isMobile }) => {
+test('scroll lists have manual fallback without IntersectionObserver and preserve focus', async ({ page }) => {
   await page.addInitScript(() => { Reflect.deleteProperty(window,'IntersectionObserver'); });
   await page.goto('/');
   for (let previous = 12; previous < setlists.length; previous += 12) {
@@ -60,8 +63,9 @@ test('scroll lists have manual fallback without IntersectionObserver and preserv
     const firstNew = page.locator('[data-setlist] a').nth(previous);
     await expect(firstNew).toBeFocused();
     const link = (await firstNew.boundingBox())!;
-    const boundary = (await page.locator(isMobile ? '[data-setlist-scroll]' : '.show-table-head').boundingBox())!;
-    expect(link.y).toBeGreaterThanOrEqual(isMobile ? boundary.y : boundary.y + boundary.height);
+    const boundary = (await page.locator('[data-setlist-scroll]').boundingBox())!;
+    expect(link.y).toBeGreaterThanOrEqual(boundary.y);
+    expect(link.y + link.height).toBeLessThanOrEqual(boundary.y + boundary.height);
   }
   await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
   for (let previous = 5; previous < moreVideos.length; previous += 5) {

@@ -77,32 +77,24 @@
   .filters button[aria-pressed='true'] { background: var(--accent); color: #181d10; }
   .filters button:hover[aria-pressed='false'] { background: #232521; border-color: #3e4238; }
   .quiet-label { color: var(--muted); font-size: .75rem; letter-spacing: .12em; }
-  .show-table-head, .setlist-row { display: grid; grid-template-columns: 128px minmax(200px, 1.5fr) minmax(120px, 1fr) 115px; gap: 24px; align-items: center; }
-  .setlist-scroll { max-height: 440px; overflow-y: auto; overflow-anchor: none; scroll-padding-top: 3.5rem; scrollbar-gutter: stable; scrollbar-color: #778a57 var(--surface); border-bottom: 1px solid var(--line); }
-  .setlist-scroll .show-table-head { position: sticky; top: 0; z-index: 1; background: var(--bg); }
+  .setlist-scroll { max-height: 440px; overflow-y: auto; overflow-anchor: none; scroll-padding-block: 4px; scrollbar-gutter: stable; scrollbar-color: #778a57 var(--surface); padding: 3px 8px 10px 3px; }
+  .setlist-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
   .setlist-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; margin-top: 16px; }
   .setlist-load-more { display: flex; justify-content: center; padding: 20px; }
   .setlist-load-more button { min-height: 44px; padding: 8px 18px; background: transparent; color: var(--accent); border: 1px solid var(--line); border-radius: 3px; font: 500 .75rem/1.5 var(--body); }
   .setlist-load-more button:hover { background: #232521; border-color: #778a57; }
-  .show-table-head { border-top: 1px solid var(--line); padding: 13px 20px; font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
-  .show-table-head span:last-child { text-align: right; }
-  .setlist-row { position: relative; padding: 17px 20px; min-height: 88px; border-top: 1px solid var(--line); transition: background .18s; }
-  .setlist-row:last-child { border-bottom: 1px solid var(--line); }
-  .setlist-row:hover { background: #1a1c18; }
-  .setlist-row.is-brazil { background: linear-gradient(90deg, rgb(199 237 128 / 4%), transparent 60%); }
-  .setlist-row.is-brazil::before { content: ''; position: absolute; left: 0; top: 28%; height: 44%; width: 2px; background: var(--accent); }
-  .setlist-row time { display: grid; grid-template-columns: auto 1fr; column-gap: 8px; width: fit-content; line-height: 1.15; }
-  .date-day { grid-row: span 2; font: 500 2rem/1 var(--heading); }
-  .date-month { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
-  .date-year { font-size: .75rem; color: var(--muted); }
-  .show-location h3 { display: flex; flex-wrap: wrap; align-items: baseline; font-size: .9375rem; font-weight: 500; line-height: 1.5; }
-  .show-location h3 > span:not(.brazil-badge) { color: var(--muted); }
-  .brazil-badge { font-size: .75rem; line-height: 1; letter-spacing: .07em; color: var(--accent); margin-left: 10px; padding: 4px 5px; border: 1px solid #465132; border-radius: 2px; }
-  .show-location p { font-size: .75rem; color: var(--muted); line-height: 1.5; margin-top: 3px; }
-  .tour-name { font-size: .8125rem; color: var(--muted); }
-  .setlist-link { display: flex; align-items: center; justify-content: flex-end; min-height: 44px; gap: 12px; font-size: .75rem; white-space: nowrap; }
-  .setlist-link svg { color: var(--accent); }
-  .setlist-link:hover { color: var(--accent); }
+  .setlist-card { min-width: 0; }
+  .setlist-card-link { display: flex; flex-direction: column; gap: 7px; height: 100%; min-height: 118px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); transition: background .18s, border-color .18s; }
+  .setlist-card-link:hover { background: #1c2018; border-color: #697c49; }
+  .setlist-card-link:focus-visible { outline-offset: 1px; }
+  .show-card-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 4px 12px; font-size: .6875rem; }
+  .show-card-top time { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .show-card-top > span { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+  .show-card-top svg { color: var(--accent); }
+  .show-location h3 { font-size: .9375rem; font-weight: 500; line-height: 1.35; }
+  .show-location h3 > span { color: var(--muted); }
+  .show-location p { font-size: .75rem; color: var(--muted); line-height: 1.4; margin-top: 2px; }
+  .tour-name { margin-top: auto; font-size: .6875rem; color: var(--muted); line-height: 1.4; }
   .section-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 16px; }
   .watch, .play { background: var(--surface); border-block: 1px solid var(--line); }
   .video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 38px 24px; }
@@ -222,7 +214,7 @@
     .hero h1 { font-size: clamp(3rem, 8vw, 5.4rem); }
     .hero-bottom { align-items: flex-start; }
     .hero-verbs { font-size: 1.4rem; }
-    .show-table-head, .setlist-row { grid-template-columns: 100px minmax(200px, 1.6fr) 1fr 95px; gap: 16px; padding-inline: 14px; }
+    .setlist-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .album-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     .materials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
@@ -259,18 +251,10 @@
     .quiet-label { display: none; }
     .section-toolbar { margin-bottom: 16px; }
     .remember .section-toolbar { flex-wrap: wrap; gap: 8px; }
-    .setlist-scroll { max-height: min(460px, 65svh); scroll-padding-top: 0; }
-    .show-table-head { display: none; }
-    .setlist-row { grid-template-columns: 58px minmax(0, 1fr) 31px; gap: 12px; padding: 15px 9px 15px 13px; min-height: 99px; }
-    .setlist-row time { column-gap: 6px; }
-    .date-day { font-size: 1.7rem; }
-    .date-month, .date-year { font-size: .75rem; }
+    .setlist-scroll { max-height: min(440px, 60svh); }
+    .setlist-list { grid-template-columns: 1fr; gap: 8px; }
+    .setlist-card-link { min-height: 0; padding: 10px 12px; gap: 5px; }
     .show-location h3 { font-size: .875rem; }
-    .brazil-badge { margin-left: 7px; font-size: .75rem; padding-inline: 3px; }
-    .show-location p { font-size: .75rem; }
-    .tour-name { grid-column: 2; grid-row: 2; font-size: .75rem; margin-top: -10px; }
-    .setlist-link { grid-column: 3; grid-row: 1 / span 2; min-width: 31px; overflow: hidden; font-size: 0; gap: 0; justify-content: center; }
-    .setlist-link svg { width: 21px; height: 21px; }
     .section-foot { flex-direction: column; align-items: flex-start; gap: 3px; }
     .section-foot .data-note { font-size: .75rem; }
     .video-grid { gap: 28px 18px; }

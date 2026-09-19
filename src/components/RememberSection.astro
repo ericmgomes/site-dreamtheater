@@ -4,7 +4,7 @@ import Icon from './Icon.astro';
 import UpcomingShows from './UpcomingShows.astro';
 import { setlists } from '../data/setlists';
 import { researchedLabel } from '../data/site';
-const dateParts = (date: string) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).formatToParts(new Date(`${date}T12:00:00Z`));
+const formatDate = (date: string) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));
 const pageSize = 12;
 const firstYear = setlists.at(-1)?.date.slice(0, 4);
 const lastYear = setlists[0]?.date.slice(0, 4);
@@ -12,14 +12,14 @@ const lastYear = setlists[0]?.date.slice(0, 4);
 <section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
   <SectionHeading id="remember-title" number="01" title="Shows" description="O show acaba. A memória fica." />
   <div class="section-toolbar"><span class="quiet-label">SHOWS NO BRASIL · SETLIST.FM</span><span class="data-note">{setlists.length} shows · {firstYear}–{lastYear}</span></div>
-  <div class="show-table setlist-scroll" id="setlist-history" role="region" aria-label="Histórico de shows no Brasil" aria-describedby="setlist-status" tabindex="0" data-setlist-scroll data-page-size={pageSize}>
-    <div class="show-table-head" aria-hidden="true"><span>Data</span><span>Cidade / local</span><span>Turnê</span><span>Setlist</span></div>
-    <ul class="setlist-list">
-      {setlists.map(show => <li class="setlist-row is-brazil" data-setlist data-country={show.countryCode}>
-        <time datetime={show.date}>{dateParts(show.date).filter(p => p.type !== 'literal').map(p => <span class={`date-${p.type}`}>{p.value.replace('.', '')}</span>)}</time>
-        <div class="show-location"><h3>{show.city}{show.region && <span>, {show.region}</span>}<span class="brazil-badge">BRASIL</span></h3><p>{show.venue}</p></div>
-        <p class="tour-name">{show.tour || '—'}</p>
-        <a href={show.url} target="_blank" rel="noopener noreferrer" class="setlist-link" aria-label={`Ver setlist: ${show.city}, ${show.date}`}>Ver setlist <Icon size={17}/></a>
+  <div class="setlist-scroll" id="setlist-history" role="region" aria-label="Histórico de shows no Brasil" aria-describedby="setlist-status" tabindex="0" data-setlist-scroll data-page-size={pageSize} data-load-margin="32">
+    <ul class="setlist-list" role="list">
+      {setlists.map(show => <li class="setlist-card" data-setlist data-country={show.countryCode}>
+        <a href={show.url} target="_blank" rel="noopener noreferrer" class="setlist-card-link" aria-label={`Ver setlist: ${show.city}, ${formatDate(show.date)}, ${show.venue}${show.tour ? `, ${show.tour}` : ''}`}>
+          <div class="show-card-top"><time datetime={show.date}>{formatDate(show.date)}</time><span>Setlist <Icon size={14}/></span></div>
+          <div class="show-location"><h3>{show.city}{show.region && <span>, {show.region}</span>}</h3><p>{show.venue}</p></div>
+          {show.tour && <p class="tour-name">{show.tour}</p>}
+        </a>
       </li>)}
     </ul>
     <div class="setlist-load-more" data-setlist-sentinel hidden>
