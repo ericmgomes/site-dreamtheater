@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-19T04:54:44.402Z",
+  "results": [
+    {
+      "kind": "youtube",
+      "responses": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/s6JJJyMaIfg?autoplay=1&rel=0",
+          "status": 200
+        }
+      ],
+      "playerText": "This video is unavailable"
+    },
+    {
+      "kind": "spotify",
+      "responses": [
+        {
+          "url": "https://open.spotify.com/embed/album/0VIr9Gyc0xkTFfAf18iPRB?utm_source=generator&theme=0",
+          "status": 200
+        }
+      ],
+      "playerText": "Quarantième: Live à Paris·Dream Theater\n1\nMetropolis Pt. 1 - Live à Paris 2024\nDream Theater\n10:14\n2\nOverture 1928 - Live à Paris 2024\nDream Theater\n03:24\n3\nStrange Déjà Vu - Live à Paris 2024\nDream Theater\n05:08\n4\nThe Mirror - Live à Paris 2024\nDream Theater\n08:40\n5\nPanic Attack - Live à Paris 2024\nDream Theater\n08:01\n6\nBarstool Warrior - Live à Paris 2024\nDream Theater\n06:36\n7\nHollow Years - Live à Paris 2024\nDream Theater\n14:16\n8\nConstant Motion - Live à Paris 2024\nDream Theater\n06:59\n9\nAs I Am - Live à Paris 2024\nEDream Theater\n07:41\n10\nOrchestral Overture - Live à Paris 2024\nDream Theater\n04:04\n11\nNight Terror - Live à Paris 2024\nDream Theater\n09:47\n12\nUnder a Glass Moon - Live à Paris 2024\nDream Theater\n07:36\n13\nThis is the Life - Live à Paris 2024\nDream Theater\n07:00\n14\nVacant - Live à Paris 2024\nDream Theater\n03:27\n15\nStream of Consciousness - Live à Paris 2024\nDream Theater\n10:40\n16\nOctavarium - Live à Paris 2024\nDream Theater\n24:16\n17\nHome - Live à Paris 2024\nDream Theater\n13:36\n18\nThe Spirit Carries On - Live à Paris 2024\nDream Theater\n06:51\n19\nPull Me Under - Live à Paris 2024\nDream Theater\n08:34"
+    }
+  ],
+  "note": "Real player rendering checked separately from deterministic interaction tests. Full playback and account/regional availability not asserted."
+}

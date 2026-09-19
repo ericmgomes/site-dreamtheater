@@ -1,0 +1,698 @@
+{
+  "checkedAt": "2026-09-19T05:21:57.511Z",
+  "counts": {
+    "ok": 95,
+    "deployment-pending": 1,
+    "login-gated": 12
+  },
+  "explanation": "HTTP/oEmbed validates reachability, not full playback. Restricted or login-gated links must be checked against source evidence; never counted as OK.",
+  "results": [
+    {
+      "url": "https://bio.ericgomes.me",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://bio.ericgomes.me/"
+    },
+    {
+      "url": "https://dreamtheater.com.br/",
+      "status": "deployment-pending",
+      "note": "Canonical/custom domain validated in static output; requires published repository and DNS."
+    },
+    {
+      "url": "https://dreamtheater.net/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/a-change-of-seasons/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/a-change-of-seasons/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/a-dramatic-turn-of-events/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/a-dramatic-turn-of-events/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/a-view-from-the-top-of-the-world/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/a-view-from-the-top-of-the-world/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/awake/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/awake/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/black-clouds-silver-linings/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/black-clouds-silver-linings/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/breaking-the-fourth-wall/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/breaking-the-fourth-wall/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/chaos-in-motion/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/chaos-in-motion/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/distance-over-time/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/distance-over-time/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/distant-memories-live-in-london/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/distant-memories-live-in-london/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/dream-theater/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/dream-theater/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/falling-into-infinity/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/falling-into-infinity/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/greatest-hit-and-21-other-pretty-cool-songs/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/greatest-hit-and-21-other-pretty-cool-songs/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/images-and-words/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/images-and-words/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/live-at-budokan/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/live-at-budokan/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/live-at-luna-park/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/live-at-luna-park/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/live-at-the-marquee/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/live-at-the-marquee/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/live-scenes-from-new-york/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/live-scenes-from-new-york/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/metropolis-pt-2-scenes-from-a-memory/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/metropolis-pt-2-scenes-from-a-memory/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/octavarium/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/octavarium/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/once-in-a-livetime/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/once-in-a-livetime/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/parasomnia/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/parasomnia/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/quarantieme-live-a-paris/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/quarantieme-live-a-paris/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/score/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/score/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/six-degrees-of-inner-turbulence/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/six-degrees-of-inner-turbulence/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/systematic-chaos/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/systematic-chaos/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/the-astonishing/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/the-astonishing/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/train-of-thought/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/train-of-thought/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography-item/when-dream-and-day-unite/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography-item/when-dream-and-day-unite/"
+    },
+    {
+      "url": "https://dreamtheater.net/discography/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/discography/"
+    },
+    {
+      "url": "https://dreamtheater.net/tour/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://dreamtheater.net/tour/"
+    },
+    {
+      "url": "https://freenote.com.br/produto.asp?shw_ukey=42430125154UKGHUW4",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://freenote.com.br/produto.asp?shw_ukey=42430125154UKGHUW4"
+    },
+    {
+      "url": "https://hudsonmusic.com/mike-portnoy-hells-kitchen/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://hudsonmusic.com/mike-portnoy-hells-kitchen/"
+    },
+    {
+      "url": "https://hudsonmusic.com/product/anthology-volume-1/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://hudsonmusic.com/product/anthology-volume-1/"
+    },
+    {
+      "url": "https://open.spotify.com/album/0ER7sdwIe6mfM63TbWcHmd",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Parasomnia"
+    },
+    {
+      "url": "https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Quarantième: Live à Paris"
+    },
+    {
+      "url": "https://open.spotify.com/album/14QaJFHVWAcCEVaPku7meG",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Live at the Marquee"
+    },
+    {
+      "url": "https://open.spotify.com/album/1ALR5shWvJ99oItXgRTbKj",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "A Change of Seasons"
+    },
+    {
+      "url": "https://open.spotify.com/album/1AznpOdGM8OcHYmqOUBXy3",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "When Dream And Day Unite"
+    },
+    {
+      "url": "https://open.spotify.com/album/1JkOxZpalTNifJKu30HpzL",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Live Scenes from New York"
+    },
+    {
+      "url": "https://open.spotify.com/album/1Kzi6plI5f8WWo6nRTM1Uy",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Live at Budokan"
+    },
+    {
+      "url": "https://open.spotify.com/album/1QZi8laY96nhaeGSklvN4D",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Metropolis, Pt. 2: Scenes from a Memory"
+    },
+    {
+      "url": "https://open.spotify.com/album/1RJPFhFEBkO2paJndLYHTp",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Chaos in Motion 2007 - 2008"
+    },
+    {
+      "url": "https://open.spotify.com/album/1sRDi0MSGOy91fHhcpXIu4",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Distance Over Time (Bonus track version)"
+    },
+    {
+      "url": "https://open.spotify.com/album/1vh3fsDzq7UevW5TS3DbIo",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Distant Memories - Live in London (Bonus Track Edition)"
+    },
+    {
+      "url": "https://open.spotify.com/album/1yAbzShRcY4muLKsX8UWxj",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Train of Thought"
+    },
+    {
+      "url": "https://open.spotify.com/album/2AcOiEYDeMTAzUdVLJ0DP7",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Falling into Infinity"
+    },
+    {
+      "url": "https://open.spotify.com/album/2QgGoL5VSQhPHudTObS7zK",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Images and Words"
+    },
+    {
+      "url": "https://open.spotify.com/album/2qMujQgkbogm4owxpt8aVP",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Black Clouds & Silver Linings (Special Edition)"
+    },
+    {
+      "url": "https://open.spotify.com/album/2xumpnhKzt3P0hMlYeuOHe",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Score: 20th Anniversary World Tour Live with the Octavarium Orchestra [w/Interactive Booklet]"
+    },
+    {
+      "url": "https://open.spotify.com/album/2yzeTza4DXX5XpzJYY7CXO",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater"
+    },
+    {
+      "url": "https://open.spotify.com/album/4INFVEhhhnLiqNR4MVPaX8",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Six Degrees of Inner Turbulence"
+    },
+    {
+      "url": "https://open.spotify.com/album/4jP59Kwqvy3n09eUe1Cge7",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Awake"
+    },
+    {
+      "url": "https://open.spotify.com/album/4v6kYkn7mYjlWS9vONmmCP",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Octavarium"
+    },
+    {
+      "url": "https://open.spotify.com/album/4vF1FkpZqNCykxTmw0gB60",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Once in a Livetime"
+    },
+    {
+      "url": "https://open.spotify.com/album/5eukDoHISjksEavVxVKcXn",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "A View From The Top Of The World"
+    },
+    {
+      "url": "https://open.spotify.com/album/5ORyMl3oua4PPIWXZVN8kz",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Systematic Chaos"
+    },
+    {
+      "url": "https://open.spotify.com/album/614UaPeReIQiqIVZhtYID5",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Breaking the Fourth Wall (Live at the Boston Opera House, Boston, MA, 3/25/2014)"
+    },
+    {
+      "url": "https://open.spotify.com/album/6jZmSESlazZBmqucZlN3mP",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Greatest Hit (...and 21 Other Pretty Cool Songs)"
+    },
+    {
+      "url": "https://open.spotify.com/album/6nTSYgih82tTwdWvmbtPHW",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "A Dramatic Turn of Events"
+    },
+    {
+      "url": "https://open.spotify.com/album/6SRlWxC7lMPu2qlwOMslrk",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "The Astonishing"
+    },
+    {
+      "url": "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater"
+    },
+    {
+      "url": "https://wa.me/5511999503930",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://api.whatsapp.com/send/?phone=5511999503930&text&type=phone_number&app_absent=0"
+    },
+    {
+      "url": "https://www.dreamtheatercover.com/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.dreamtheatercover.com/"
+    },
+    {
+      "url": "https://www.freenote.com.br/busca.asp?f_stype=ALL&f_instru=ALL&f_search_string=dream%20theater",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/busca.asp?f_stype=ALL&f_instru=ALL&f_search_string=dream%20theater"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=37636153740F85R5PF",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=37636153740F85R5PF"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=3954612070411E8MV0",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=3954612070411E8MV0"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=39965161114SW79M1B",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=39965161114SW79M1B"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=424301235510D4JNBB",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=424301235510D4JNBB"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=424301246484AEGFYH",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=424301246484AEGFYH"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=44035123615DGM72S1",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=44035123615DGM72S1"
+    },
+    {
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=4619914200762YWUPA",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.freenote.com.br/produto.asp?shw_ukey=4619914200762YWUPA"
+    },
+    {
+      "url": "https://www.guitar-pro.com/tabs/t/1380-constant-motion",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.guitar-pro.com/tabs/t/1380-constant-motion"
+    },
+    {
+      "url": "https://www.guitar-pro.com/tabs/t/5012-pull-me-under",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.guitar-pro.com/tabs/t/5012-pull-me-under"
+    },
+    {
+      "url": "https://www.halleonard.com/product/111941/dream-theater",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.halleonard.com/product/111941/dream-theater"
+    },
+    {
+      "url": "https://www.halleonard.com/product/321544/dream-theater-keyboard-anthology",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.halleonard.com/product/321544/dream-theater-keyboard-anthology"
+    },
+    {
+      "url": "https://www.instagram.com/alekissss10/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/alekissss10/"
+    },
+    {
+      "url": "https://www.instagram.com/brunogodinhoguitar/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/brunogodinhoguitar/"
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheatercover.rj/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/dreamtheatercover.rj/"
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheatercover/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/dreamtheatercover/"
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheatercoverbh/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/dreamtheatercoverbh/"
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheaterofficial/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/dreamtheaterofficial/"
+    },
+    {
+      "url": "https://www.instagram.com/dtclassics/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/dtclassics/"
+    },
+    {
+      "url": "https://www.instagram.com/gustavoguerraguitarrista/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/gustavoguerraguitarrista/"
+    },
+    {
+      "url": "https://www.instagram.com/marcelobarbosagtr/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/marcelobarbosagtr/"
+    },
+    {
+      "url": "https://www.instagram.com/samuelzechin/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/samuelzechin/"
+    },
+    {
+      "url": "https://www.instagram.com/thiagocamposofficial/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/thiagocamposofficial/"
+    },
+    {
+      "url": "https://www.instagram.com/tributedreamtheater/",
+      "status": "login-gated",
+      "http": 200,
+      "finalUrl": "https://www.instagram.com/tributedreamtheater/"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/befly-hall-belo-horizonte-brazil-5b4c77d4.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/befly-hall-belo-horizonte-brazil-5b4c77d4.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/espaco-dois-ipes-brasilia-brazil-434c77d7.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/espaco-dois-ipes-brasilia-brazil-434c77d7.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/live-curitiba-curitiba-brazil-534c77dd.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/live-curitiba-curitiba-brazil-534c77dd.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vibra-sao-paulo-sao-paulo-brazil-5b4c77d0.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/vibra-sao-paulo-sao-paulo-brazil-5b4c77d0.html"
+    },
+    {
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vivo-rio-rio-de-janeiro-brazil-4b4c77d6.html",
+      "status": "ok",
+      "http": 202,
+      "finalUrl": "https://www.setlist.fm/setlist/dream-theater/2026/vivo-rio-rio-de-janeiro-brazil-4b4c77d6.html"
+    },
+    {
+      "url": "https://www.youtube.com/@BrunoGodinhoGuitar",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/@BrunoGodinhoGuitar"
+    },
+    {
+      "url": "https://www.youtube.com/@dreamtheaterofficial",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/@dreamtheaterofficial"
+    },
+    {
+      "url": "https://www.youtube.com/thiagocamposofficial/",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/thiagocamposofficial/"
+    },
+    {
+      "url": "https://www.youtube.com/user/GGuerra",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/user/GGuerra"
+    },
+    {
+      "url": "https://www.youtube.com/user/marcelogtr",
+      "status": "ok",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/user/marcelogtr"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2IPT60hvGw4",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Night Terror (Official Video)",
+      "author": "Dream Theater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JfTganSU_qE",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater -  The Spirit Carries On (from Distant Memories - Live in London)",
+      "author": "Dream Theater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JuZ2zp-6lLY",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Bend The Clock (Official Video)",
+      "author": "Dream Theater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mipc-JxrhRk",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Pull Me Under [OFFICIAL VIDEO]",
+      "author": "Dream Theater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rcCH8ndt8qA",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Enigma Machine",
+      "author": "Dream Theater"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=s6JJJyMaIfg",
+      "status": "ok",
+      "http": 200,
+      "method": "oEmbed",
+      "title": "Dream Theater - Afterlife (from Score)",
+      "author": "Dream Theater"
+    }
+  ]
+}

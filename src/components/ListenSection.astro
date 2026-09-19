@@ -1,0 +1,17 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import Icon from './Icon.astro';
+import { discography } from '../data/discography';
+const categories = { studio: 'Studio Albums', live: 'Live Albums', compilation: 'Compilations', ep: 'EPs / Mini Albums' };
+---
+<section class="section listen wrap" id="ouca" aria-labelledby="listen-title">
+  <SectionHeading id="listen-title" number="05" title="Ouça" description="Escolha um disco. Entre em outro universo." />
+  <div class="section-toolbar"><div class="filters album-filters" role="group" aria-label="Filtrar discografia" data-filter-group="album"><button type="button" data-filter="all" aria-pressed="true">Todos</button><button type="button" data-filter="studio" aria-pressed="false">Studio</button><button type="button" data-filter="live" aria-pressed="false">Live</button><button type="button" data-filter="compilation" aria-pressed="false">Compilations</button><button type="button" data-filter="ep" aria-pressed="false">EPs</button></div><span class="quiet-label">DISCOGRAFIA OFICIAL</span></div>
+  <p class="sr-only" aria-live="polite" data-album-status></p>
+  <div class="album-grid">{discography.map(album => <article class="album" data-album data-category={album.category}>
+    <a class="album-art" href={album.spotifyUrl || album.officialUrl} target="_blank" rel="noopener noreferrer" data-spotify={album.spotifyUrl || undefined} data-album-title={album.title} aria-label={album.spotifyUrl ? `Ouvir ${album.title} no Spotify` : `Ver ${album.title} no site oficial`}><img src={album.cover} alt={`Capa de ${album.title}`} width="400" height="400" loading="lazy" decoding="async"/><span class="album-listen"><Icon name={album.spotifyUrl ? 'spotify' : 'arrow'} size={22}/>{album.spotifyUrl ? 'Ouvir álbum' : 'Site oficial'}</span></a>
+    <div class="album-meta"><span>{album.year}</span><span>{categories[album.category]}</span></div><h3>{album.title}</h3><a class="album-official" href={album.officialUrl} target="_blank" rel="noopener noreferrer">Ver no site oficial <Icon size={13}/></a>
+  </article>)}</div>
+  <div class="section-foot"><a class="text-link" href="https://dreamtheater.net/discography/" target="_blank" rel="noopener noreferrer">Explorar discografia oficial <Icon size={17}/></a><span class="data-note">Capas e referências: Dream Theater</span></div>
+  <dialog class="spotify-dialog" aria-labelledby="player-title"><div class="player-heading"><div><span class="eyebrow">Agora no Spotify</span><h3 id="player-title"></h3></div><button type="button" class="close-player" aria-label="Fechar player"><Icon name="close"/></button></div><div data-spotify-container></div><a class="text-link player-external" href={discography.find(album => album.spotifyUrl)?.spotifyUrl || 'https://dreamtheater.net/discography/'} target="_blank" rel="noopener noreferrer">Abrir no Spotify <Icon size={17}/></a><p class="data-note">A reprodução e a disponibilidade dependem do Spotify.</p></dialog>
+</section>

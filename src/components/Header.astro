@@ -1,0 +1,11 @@
+---
+import { sections } from '../data/site';
+---
+<header class="site-header">
+  <div class="header-inner wrap">
+    <a class="brand" href="#inicio" aria-label="Dream Theater Brasil — início"><span class="brand-monogram" aria-hidden="true">DT<span> / </span></span><span>Dream Theater <b>Brasil</b></span></a>
+    <nav aria-label="Navegação principal">
+      {sections.map(section => <a href={`#${section.id}`} data-nav={section.id}>{section.label}</a>)}
+    </nav>
+  </div>
+</header>

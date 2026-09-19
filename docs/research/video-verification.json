@@ -1,0 +1,96 @@
+{
+  "researchedAt": "2026-09-19",
+  "method": "Public YouTube oEmbed and ytInitialPlayerResponse obtained by HTTPS",
+  "videos": [
+    {
+      "id": "s6JJJyMaIfg",
+      "title": "Afterlife — Score",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/video-content/afterlife-from-score/"
+    },
+    {
+      "id": "rcCH8ndt8qA",
+      "title": "Enigma Machine",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/video-content/enigma-machine/"
+    },
+    {
+      "id": "mipc-JxrhRk",
+      "title": "Pull Me Under",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/video-content/pull-me-under/"
+    },
+    {
+      "id": "2IPT60hvGw4",
+      "title": "Night Terror",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/"
+    },
+    {
+      "id": "JuZ2zp-6lLY",
+      "title": "Bend the Clock",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/"
+    },
+    {
+      "id": "JfTganSU_qE",
+      "title": "The Spirit Carries On — Live in London",
+      "author_name": "Dream Theater",
+      "author_url": "https://www.youtube.com/@dreamtheaterofficial",
+      "channelId": "UCBHhdnYxvu94yefpeZABY9g",
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "source": "https://dreamtheater.net/video-content/the-spirit-carries-on-from-distant-memories/"
+    }
+  ],
+  "replacedVideo": {
+    "id": "l7j0rB4hC0A",
+    "oembed": {
+      "title": "Dream Theater - As I Am (Live at Budokan, 2004) (UHD 4K)",
+      "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/l7j0rB4hC0A?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Dream Theater - As I Am (Live at Budokan, 2004) (UHD 4K)\"></iframe>",
+      "author_url": "https://www.youtube.com/@Kaslivtsev",
+      "author_name": "Roman Kaslivtsev"
+    },
+    "player": {
+      "channelId": "UCrONvcSwTrxWTywyL7b1pLQ",
+      "author": "Roman Kaslivtsev",
+      "isLive": false,
+      "title": "Dream Theater - As I Am (Live at Budokan, 2004) (UHD 4K)",
+      "isFamilySafe": true,
+      "playabilityStatus": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "contextParams": "Q0FFU0FnZ0I="
+      }
+    }
+  },
+  "alternative": {
+    "id": "pEkWYrmk7OA",
+    "title": "Dream Theater Metropolis Pt. 1 (Live At Luna Park DVD)",
+    "author_name": "Dream Theater",
+    "playabilityStatus": "OK",
+    "playableInEmbed": true,
+    "source": "https://dreamtheater.net/video-content/metropolis-pt-1-live-at-luna-park/"
+  },
+  "limitation": "Metadata confirms availability and embed permission at request time. Full playback through the website has not been tested."
+}

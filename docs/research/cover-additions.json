@@ -1,0 +1,48 @@
+{
+  "researchedAt": "2026-09-19",
+  "providedBy": "user",
+  "profiles": [
+    {
+      "url": "https://www.instagram.com/dreamtheatercover/",
+      "http": 200,
+      "providedBy": "user",
+      "metadata": [
+        "Dream Theater Cover (@dreamtheatercover) • Instagram photos and videos",
+        "1,726 Followers, 555 Following, 201 Posts - Dream Theater Cover (@dreamtheatercover) on Instagram: \"Igor Ferrante - Vocals\n@samuelzechin - Guitars\n@daniel_jorge - Keyboards\n@lucasefdias - Drums\""
+      ],
+      "note": "Public profile metadata read without login; dated post activity not independently confirmed."
+    },
+    {
+      "url": "https://www.instagram.com/dtclassics/",
+      "http": 200,
+      "providedBy": "user",
+      "metadata": [
+        "Dream Theater Classics (@dtclassics) • Instagram photos and videos",
+        "2,501 Followers, 493 Following, 127 Posts - Dream Theater Classics (@dtclassics) on Instagram: \"Tributo à fase clássica do Dream Theater\n🎸 Uma homenagem à era de ouro do Dream Theater.\n🎶 Clássicos executados com fidelidade.\""
+      ],
+      "note": "Public profile metadata read without login; dated post activity not independently confirmed."
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheatercoverbh/",
+      "http": 200,
+      "providedBy": "user",
+      "name": "Dream Theater Cover BH",
+      "note": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente.",
+      "method": "Public Instagram title and bio read without login in independent research."
+    },
+    {
+      "url": "https://www.instagram.com/dreamtheatercover.rj/",
+      "http": 200,
+      "providedBy": "user",
+      "name": "Banda Dream Machine",
+      "location": "Rio de Janeiro, RJ",
+      "note": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados.",
+      "method": "Public Instagram title and bio read without login in independent research."
+    }
+  ],
+  "website": {
+    "url": "https://www.dreamtheatercover.com/",
+    "name": "VRA! — Dream Theater Cover",
+    "note": "Confirmed project site; added as a visible link on the existing VRA! entry."
+  }
+}

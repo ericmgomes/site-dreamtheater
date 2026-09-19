@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2026-05-12",
+    "city": "Belo Horizonte",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/befly-hall-belo-horizonte-brazil-5b4c77d4.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-05-10",
+    "city": "Rio de Janeiro",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/vivo-rio-rio-de-janeiro-brazil-4b4c77d6.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-05-09",
+    "city": "São Paulo",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/vibra-sao-paulo-sao-paulo-brazil-5b4c77d0.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-05-07",
+    "city": "Brasília",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/espaco-dois-ipes-brasilia-brazil-434c77d7.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-05-05",
+    "city": "Curitiba",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/live-curitiba-curitiba-brazil-534c77dd.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-05-03",
+    "city": "Porto Alegre",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-04-28",
+    "city": "Assunção",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/puerto-de-asuncion-asuncion-paraguay-b4bc156.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-04-26",
+    "city": "Córdoba",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/plaza-de-la-musica-cordoba-argentina-534c77a9.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-04-24",
+    "city": "Buenos Aires",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/movistar-arena-buenos-aires-argentina-5b4c6bc0.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  },
+  {
+    "date": "2026-04-22",
+    "city": "Santiago",
+    "url": "https://www.setlist.fm/setlist/dream-theater/2026/movistar-arena-santiago-chile-2b4a80ae.html",
+    "populated": true,
+    "confirmedSongs": [
+      "In the Arms of Morpheus",
+      "Night Terror",
+      "A Broken Man"
+    ],
+    "method": "web open/find recovered setlist.fm text",
+    "directHttpAttempt": "202 with empty body; not a song-count result"
+  }
+]

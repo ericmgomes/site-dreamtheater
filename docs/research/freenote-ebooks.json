@@ -1,0 +1,29 @@
+{
+  "researchedAt": "2026-09-19",
+  "searchUrl": "https://www.freenote.com.br/busca.asp?f_stype=ALL&f_instru=ALL&f_search_string=dream%20theater",
+  "searchEvidence": "Busca por dream theater conferida por GET e POST, com HTTP 200 e título Freenote - Busca dream theater. Retornou 19 produtos, em uma página. Dois títulos estavam explicitamente identificados como LIVRO DIGITAL. O link GET conserva o termo de busca.",
+  "ebooks": [
+    {
+      "title": "Distance Over Time",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=44035123615DGM72S1",
+      "instrument": "guitar",
+      "publisher": "Hal Leonard Digital",
+      "evidence": "Produto HTTP 200. Campo Formato indica Livro Digital / Partitura e Tablatura. Dez músicas confirmadas na descrição. Compra entrega um código para leitura online no Hal Leonard MyLibrary, com internet e conta do comprador; não entrega arquivo."
+    },
+    {
+      "title": "Selections from The Astonishing — Guitar",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=4619914200762YWUPA",
+      "instrument": "guitar",
+      "publisher": "Hal Leonard Digital",
+      "evidence": "Produto HTTP 200. Campo Formato indica Livro Digital / Partitura; a descrição confirma partitura e tablatura de 16 músicas. Código para leitura online no Hal Leonard MyLibrary, com internet e conta do comprador; sem transferência de arquivo e sem impressão."
+    }
+  ],
+  "physicalEditionsRechecked": [
+    "https://www.freenote.com.br/produto.asp?shw_ukey=37636153740F85R5PF",
+    "https://www.freenote.com.br/produto.asp?shw_ukey=424301246484AEGFYH",
+    "https://freenote.com.br/produto.asp?shw_ukey=42430125154UKGHUW4",
+    "https://www.freenote.com.br/produto.asp?shw_ukey=39965161114SW79M1B"
+  ],
+  "physicalEditionEvidence": "Images and Words, Bass Play-Along 47, Drum Play-Along 30 e Keyboard Experience indicam Livro Físico no campo Formato. Áudio online não caracteriza o livro como ebook.",
+  "notes": "Pesquisa feita nas páginas públicas da loja, sem carrinho, login ou compra. Preços e estoque não foram reproduzidos no site por serem variáveis."
+}

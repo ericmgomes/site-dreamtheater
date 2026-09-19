@@ -1,0 +1,210 @@
+{
+  "researchedAt": "2026-09-19",
+  "setlistArtistUrl": "https://www.setlist.fm/setlists/dream-theater-bd6a102.html",
+  "setlists": [
+    {
+      "date": "2026-05-12",
+      "city": "Belo Horizonte",
+      "region": "MG",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "BeFly Hall",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/befly-hall-belo-horizonte-brazil-5b4c77d4.html"
+    },
+    {
+      "date": "2026-05-10",
+      "city": "Rio de Janeiro",
+      "region": "RJ",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vivo Rio",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vivo-rio-rio-de-janeiro-brazil-4b4c77d6.html"
+    },
+    {
+      "date": "2026-05-09",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vibra São Paulo",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/vibra-sao-paulo-sao-paulo-brazil-5b4c77d0.html"
+    },
+    {
+      "date": "2026-05-07",
+      "city": "Brasília",
+      "region": "DF",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Espaço Dois Ipês",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/espaco-dois-ipes-brasilia-brazil-434c77d7.html"
+    },
+    {
+      "date": "2026-05-05",
+      "city": "Curitiba",
+      "region": "PR",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Live Curitiba",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/live-curitiba-curitiba-brazil-534c77dd.html"
+    },
+    {
+      "date": "2026-05-03",
+      "city": "Porto Alegre",
+      "region": "RS",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Auditório Araújo Vianna",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/auditorio-araujo-vianna-porto-alegre-brazil-434c77db.html"
+    },
+    {
+      "date": "2026-04-28",
+      "city": "Assunção",
+      "country": "Paraguai",
+      "countryCode": "PY",
+      "venue": "Puerto de Asunción",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/puerto-de-asuncion-asuncion-paraguay-b4bc156.html"
+    },
+    {
+      "date": "2026-04-26",
+      "city": "Córdoba",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "venue": "Plaza de la Música",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/plaza-de-la-musica-cordoba-argentina-534c77a9.html"
+    },
+    {
+      "date": "2026-04-24",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR",
+      "venue": "Movistar Arena",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/movistar-arena-buenos-aires-argentina-5b4c6bc0.html"
+    },
+    {
+      "date": "2026-04-22",
+      "city": "Santiago",
+      "country": "Chile",
+      "countryCode": "CL",
+      "venue": "Movistar Arena",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2026/movistar-arena-santiago-chile-2b4a80ae.html"
+    },
+    {
+      "date": "2025-09-05",
+      "city": "Reading",
+      "region": "PA",
+      "country": "Estados Unidos",
+      "countryCode": "US",
+      "venue": "Santander Performing Arts Center",
+      "tour": "Parasomnia",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2025/santander-performing-arts-center-reading-pa-4b47cbd2.html"
+    },
+    {
+      "date": "2024-12-15",
+      "city": "São Paulo",
+      "region": "SP",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "venue": "Vibra São Paulo",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/vibra-sao-paulo-sao-paulo-brazil-3a90dab.html"
+    },
+    {
+      "date": "2024-10-20",
+      "city": "Londres",
+      "region": "Inglaterra",
+      "country": "Reino Unido",
+      "countryCode": "GB",
+      "venue": "The O2 Arena",
+      "tour": "40th Anniversary Tour",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2024/the-o2-arena-london-england-1bab6574.html"
+    },
+    {
+      "date": "2006-04-01",
+      "city": "Nova York",
+      "region": "NY",
+      "country": "Estados Unidos",
+      "countryCode": "US",
+      "venue": "Radio City Music Hall",
+      "tour": "Octavarium",
+      "url": "https://www.setlist.fm/setlist/dream-theater/2006/radio-city-music-hall-new-york-ny-5bd6ab80.html"
+    }
+  ],
+  "shows": [],
+  "tourUrl": "https://dreamtheater.net/tour/",
+  "videos": [
+    {
+      "title": "Afterlife — Score",
+      "youtubeId": "s6JJJyMaIfg",
+      "source": "https://dreamtheater.net/video-content/afterlife-from-score/",
+      "category": "Ao vivo histórico",
+      "description": "Uma viagem às origens da banda no show de 20 anos, registrado em Score no Radio City Music Hall.",
+      "url": "https://www.youtube.com/watch?v=s6JJJyMaIfg"
+    },
+    {
+      "title": "Enigma Machine",
+      "youtubeId": "rcCH8ndt8qA",
+      "source": "https://dreamtheater.net/video-content/enigma-machine/",
+      "category": "Instrumental",
+      "description": "Guitarra, baixo, bateria e teclados em diálogo no instrumental do álbum Dream Theater.",
+      "url": "https://www.youtube.com/watch?v=rcCH8ndt8qA"
+    },
+    {
+      "title": "Pull Me Under",
+      "youtubeId": "mipc-JxrhRk",
+      "source": "https://dreamtheater.net/video-content/pull-me-under/",
+      "category": "Clássico",
+      "description": "O clipe de um dos grandes pontos de entrada para o universo de Images and Words.",
+      "url": "https://www.youtube.com/watch?v=mipc-JxrhRk"
+    },
+    {
+      "title": "Night Terror",
+      "youtubeId": "2IPT60hvGw4",
+      "source": "https://dreamtheater.net/",
+      "category": "Clipe oficial",
+      "description": "Uma viagem sombria ao universo de Parasomnia com Mike Portnoy de volta à bateria.",
+      "url": "https://www.youtube.com/watch?v=2IPT60hvGw4"
+    },
+    {
+      "title": "Bend the Clock",
+      "youtubeId": "JuZ2zp-6lLY",
+      "source": "https://dreamtheater.net/",
+      "category": "Fase recente",
+      "description": "O lado melódico de Parasomnia em um vídeo divulgado pelo site oficial.",
+      "url": "https://www.youtube.com/watch?v=JuZ2zp-6lLY"
+    },
+    {
+      "title": "The Spirit Carries On — Live in London",
+      "youtubeId": "JfTganSU_qE",
+      "source": "https://dreamtheater.net/video-content/the-spirit-carries-on-from-distant-memories/",
+      "category": "Performance marcante",
+      "description": "Um encontro entre banda e público registrado em Distant Memories — Live in London.",
+      "url": "https://www.youtube.com/watch?v=JfTganSU_qE"
+    }
+  ],
+  "officialLinks": {
+    "website": "https://dreamtheater.net/",
+    "instagram": "https://www.instagram.com/dreamtheaterofficial/",
+    "youtube": "https://www.youtube.com/@dreamtheaterofficial",
+    "spotify": "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+  },
+  "notes": [
+    "Pesquisa em 19/09/2026. A página oficial de agenda e o anúncio de 16/01/2026 consultados exibem a etapa de abril/maio de 2026, já encerrada. Não foi possível confirmar apresentações posteriores à data da pesquisa; manter shows vazio e publicar um estado honesto com link para a agenda oficial.",
+    "Fonte oficial das datas latino-americanas: https://dreamtheater.net/parasomnia-feat-a-change-of-seasons-tour-coming-to-the-americas-in-spring-2026/ . A lista vai de 08/04/2026 a 12/05/2026; não mostrar essas datas como próximos shows.",
+    "Os 14 links de setlist são registros individuais reais. A página do artista aponta Belo Horizonte em 12/05/2026 como último registro; os setlists são uma base colaborativa e podem ser revisados pela comunidade.",
+    "O setlist de Nova York 01/04/2006 foi confirmado no resultado indexado do próprio setlist.fm; a abertura adicional recebeu 429 temporário. Os 10 registros de 2026 e os de São Paulo 2024 e Londres 2024 abriram normalmente.",
+    "O Spotify foi confirmado no perfil da plataforma. Os perfis Instagram e YouTube constam no diretório Rockol https://www.rockol.it/artista/dream-theater . O acesso automatizado direto ao Instagram falhou; a página do canal YouTube excedeu o limite de conteúdo da ferramenta.",
+    "Observação de identidade existente: https://dreamtheater.net/links/ lista dreamtheater.com.br como YTSE Brazilian Fan Club. Manter o projeto claramente identificado como hub brasileiro de fãs, sem alegar ser o site oficial internacional.",
+    "Verificação complementar: oEmbed e ytInitialPlayerResponse confirmam título, canal Dream Theater (@dreamtheaterofficial), status OK e playableInEmbed:true para os seis vídeos atuais. As I Am/Budokan foi substituído por Afterlife/Score (s6JJJyMaIfg): o vídeo anterior era de Roman Kaslivtsev, apesar de estar embutido no site oficial. Todos os vídeos atuais são uploads do canal oficial.",
+    "Os 10 setlists de 2026 têm músicas registradas no conteúdo recuperado pela ferramenta web. Em todos foram confirmadas pelo menos In the Arms of Morpheus, Night Terror e A Broken Man; não são eventos vazios. Consulta direta por PowerShell recebeu HTTP 202 e corpo vazio, portanto os zeros dessa tentativa não significam setlists sem músicas."
+  ]
+}

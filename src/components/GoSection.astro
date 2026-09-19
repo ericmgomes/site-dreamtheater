@@ -1,0 +1,34 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import Icon from './Icon.astro';
+import { shows, tourUrl } from '../data/shows';
+import { coverBands } from '../data/coverBands';
+import { guitarists } from '../data/guitarists';
+import { researchedLabel } from '../data/site';
+---
+<section class="section go wrap" id="va" aria-labelledby="go-title">
+  <SectionHeading id="go-title" number="03" title="Vá" description="A música também acontece perto de você." />
+  <div class="tour-panel"><div class="tour-panel-title"><span class="eyebrow">Na estrada</span><h3>O próximo encontro.</h3><a class="text-link" href={tourUrl} target="_blank" rel="noopener noreferrer">Ver agenda completa <Icon size={18}/></a></div>
+    <div class="tour-panel-content">{shows.length ? <ul class="upcoming-list">{shows.map(show => <li class:list={{ 'is-brazil': show.countryCode === 'BR' }}><time datetime={show.date}>{new Intl.DateTimeFormat('pt-BR', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(`${show.date}T12:00:00Z`))}</time><div><h4>{show.city}, {show.country}</h4><p>{show.venue}</p></div><a href={show.url} target="_blank" rel="noopener noreferrer">Ver show <Icon size={16}/></a></li>)}</ul> : <><h4>De olho na próxima turnê.</h4><p>Na consulta de {researchedLabel}, a agenda oficial não apresentava novas datas futuras confirmadas. Acompanhe os próximos anúncios direto com a banda.</p><span class="data-note">Dream Theater · Agenda oficial</span></>}</div>
+  </div>
+  <div class="subsection-heading"><h3>O som é deles. A cena é nossa.</h3><span class="eyebrow">Tributos brasileiros</span></div>
+  <div class="cover-grid">
+    {coverBands.map((band, index) => (
+      <article class="cover-item">
+        <span class="cover-index">{String(index + 1).padStart(2, '0')}</span>
+        <p class="eyebrow">{band.location || 'Brasil'}</p>
+        <h4>{band.name}</h4>
+        <p class="cover-description">{band.description}</p>
+        <div class="social-links">
+          <a class="instagram-link" href={band.instagram} target="_blank" rel="noopener noreferrer">
+            <Icon name="instagram" size={19}/> {band.instagramLabel || 'Instagram'} <Icon size={15}/>
+          </a>
+          {band.website && <a href={band.website} target="_blank" rel="noopener noreferrer">Site do projeto <Icon size={15}/></a>}
+          {band.youtube && <a href={band.youtube} target="_blank" rel="noopener noreferrer">YouTube <Icon size={15}/></a>}
+        </div>
+      </article>
+    ))}
+  </div>
+  <div class="subsection-heading guitar-heading"><h3>Nas mãos de quem toca.</h3><span class="eyebrow">Guitarristas brasileiros</span></div>
+  <div class="guitarist-grid">{guitarists.map(guitarist => <article class="guitarist-item">{guitarist.image && <img class="guitarist-photo" src={guitarist.image} alt={guitarist.name} width="100" height="100" loading="lazy" decoding="async"/>}<div><h4>{guitarist.name}</h4><p>{guitarist.description}</p><div class="social-links"><a class="instagram-link" href={guitarist.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={19}/> Instagram <Icon size={15}/></a>{guitarist.youtube && <a href={guitarist.youtube} target="_blank" rel="noopener noreferrer">YouTube <Icon size={15}/></a>}</div></div></article>)}</div>
+</section>

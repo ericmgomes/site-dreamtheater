@@ -1,0 +1,17 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import Icon from './Icon.astro';
+import { videos } from '../data/videos';
+---
+<section class="section watch" id="veja" aria-labelledby="watch-title"><div class="wrap">
+  <SectionHeading id="watch-title" number="02" title="Veja" description="Aperte o play. Aumente o volume." />
+  <div class="video-grid">{videos.map((video, index) => <article class="video-card">
+    <div class="video-media" data-video-container>
+      <a href={video.url} target="_blank" rel="noopener noreferrer" class="video-trigger" data-video={video.youtubeId} data-title={video.title} aria-label={`Assistir ${video.title}`}>
+        <img src={`https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`} alt={`Dream Theater — ${video.title}`} width="480" height="360" loading="lazy" decoding="async" />
+        <span class="video-category">{video.category}</span><span class="play-button"><Icon name="play" size={24}/></span>
+      </a>
+    </div>
+    <div class="video-caption"><span class="item-number">0{index + 1}</span><div><h3><a href={video.url} target="_blank" rel="noopener noreferrer">{video.title}</a></h3><p>{video.source}</p></div><Icon size={17}/></div>
+  </article>)}</div>
+</div></section>

@@ -1,0 +1,23 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import Icon from './Icon.astro';
+import { setlists } from '../data/setlists';
+import { researchedLabel } from '../data/site';
+const dateParts = (date: string) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).formatToParts(new Date(`${date}T12:00:00Z`));
+---
+<section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
+  <SectionHeading id="remember-title" number="01" title="Relembre" description="O show acaba. A memória fica." />
+  <div class="section-toolbar"><span class="quiet-label">SHOWS NO BRASIL · SETLIST.FM</span></div>
+  <div class="show-table">
+    <div class="show-table-head" aria-hidden="true"><span>Data</span><span>Cidade / local</span><span>Turnê</span><span>Setlist</span></div>
+    <ul class="setlist-list">
+      {setlists.map(show => <li class="setlist-row is-brazil" data-setlist data-country={show.countryCode}>
+        <time datetime={show.date}>{dateParts(show.date).filter(p => p.type !== 'literal').map(p => <span class={`date-${p.type}`}>{p.value.replace('.', '')}</span>)}</time>
+        <div class="show-location"><h3>{show.city}{show.region && <span>, {show.region}</span>}<span class="brazil-badge">BRASIL</span></h3><p>{show.venue}</p></div>
+        <p class="tour-name">{show.tour || '—'}</p>
+        <a href={show.url} target="_blank" rel="noopener noreferrer" class="setlist-link" aria-label={`Ver setlist: ${show.city}, ${show.date}`}>Ver setlist <Icon size={17}/></a>
+      </li>)}
+    </ul>
+  </div>
+  <div class="section-foot"><span class="data-note">Seleção de shows no Brasil · Atualizada em {researchedLabel}</span></div>
+</section>

@@ -1,0 +1,619 @@
+{
+  "researchedAt": "2026-09-19",
+  "source": "https://dreamtheater.net/discography/",
+  "scope": "Todos os 28 itens do índice oficial e dos arquivos Studio Albums, Live Albums, Compilations, EPs / Mini Albums; não inclui bootlegs ou itens fora dessas categorias.",
+  "categorySources": [
+    "https://dreamtheater.net/discography-category/studio-albums/",
+    "https://dreamtheater.net/discography-category/studio-albums/page/2/",
+    "https://dreamtheater.net/discography-category/live-albums/",
+    "https://dreamtheater.net/discography-category/compilations/",
+    "https://dreamtheater.net/discography-category/eps-mini-albums/"
+  ],
+  "counts": {
+    "total": 28,
+    "studio": 16,
+    "live": 10,
+    "compilation": 1,
+    "ep": 1,
+    "spotify": 27,
+    "missingSpotify": 1
+  },
+  "notes": [
+    "As 28 páginas individuais foram consultadas e salvas como evidência temporária.",
+    "As 28 capas retornaram HTTP 200 image/jpeg e constam tanto no índice quanto na página individual.",
+    "Os 27 Spotify links foram derivados apenas dos iframes das páginas oficiais e normalizados para open.spotify.com/album/ID; os 27 oEmbed retornaram HTTP 200 e títulos compatíveis.",
+    "Live at Luna Park é o único item sem Spotify na página oficial; manter null e fallback claro.",
+    "Seis cabeçalhos antigos incorretamente usam 2024; datas corrigidas pelos metadados da própria página e arquivos oficiais.",
+    "Nenhum lançamento futuro consta desse índice na data de consulta. Parasomnia (2025) e Quarantième: Live à Paris (2025) já foram lançados."
+  ],
+  "albums": [
+    {
+      "title": "Quarantième: Live à Paris",
+      "slug": "quarantieme-live-a-paris",
+      "year": 2025,
+      "releaseDate": "2025-11-28",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2025/09/04142333/QUARANTIEME-LIVE-A-PARIS-slide-1.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/quarantieme-live-a-paris/",
+      "spotifyUrl": "https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "28 November 2025",
+        "officialDatePublished": "2025-11-28T14:29:10+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed/album/0VIr9Gyc0xkTFfAf18iPRB?utm_source=generator",
+        "spotifyVerifiedTitle": "Quarantième: Live à Paris",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Parasomnia",
+      "slug": "parasomnia",
+      "year": 2025,
+      "releaseDate": "2025-02-07",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141132/DreamTheater_Parasomnia_Cover_Embargo_11102024.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/parasomnia/",
+      "spotifyUrl": "https://open.spotify.com/album/0ER7sdwIe6mfM63TbWcHmd",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "7 February 2025",
+        "officialDatePublished": "2025-02-07T13:26:11+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed/album/0ER7sdwIe6mfM63TbWcHmd?utm_source=generator",
+        "spotifyVerifiedTitle": "Parasomnia",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "A View From The Top of The World",
+      "slug": "a-view-from-the-top-of-the-world",
+      "year": 2021,
+      "releaseDate": "2021-10-22",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2021/07/04133313/DT-TopWorld-Cover-HR-1-scaled.jpeg",
+      "officialUrl": "https://dreamtheater.net/discography-item/a-view-from-the-top-of-the-world/",
+      "spotifyUrl": "https://open.spotify.com/album/5eukDoHISjksEavVxVKcXn",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "22 October 2021",
+        "officialDatePublished": "2021-10-22T03:45:26+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed/album/5eukDoHISjksEavVxVKcXn",
+        "spotifyVerifiedTitle": "A View From The Top Of The World",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Distant Memories Live in London",
+      "slug": "distant-memories-live-in-london",
+      "year": 2020,
+      "releaseDate": "2020-11-27",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141444/dt-dm-scaled.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/distant-memories-live-in-london/",
+      "spotifyUrl": "https://open.spotify.com/album/1vh3fsDzq7UevW5TS3DbIo",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "27 November 2020",
+        "officialDatePublished": "2020-11-27T03:37:23+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed/album/1vh3fsDzq7UevW5TS3DbIo?utm_source=generator",
+        "spotifyVerifiedTitle": "Distant Memories - Live in London (Bonus Track Edition)",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Distance Over Time",
+      "slug": "distance-over-time",
+      "year": 2019,
+      "releaseDate": "2019-02-22",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141427/dt-dot-scaled.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/distance-over-time/",
+      "spotifyUrl": "https://open.spotify.com/album/1sRDi0MSGOy91fHhcpXIu4",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "22 February 2019",
+        "officialDatePublished": "2019-02-22T03:29:54+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed/album/1sRDi0MSGOy91fHhcpXIu4",
+        "spotifyVerifiedTitle": "Distance Over Time (Bonus track version)",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "The Astonishing",
+      "slug": "the-astonishing",
+      "year": 2016,
+      "releaseDate": "2016-01-29",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2016/01/04141419/dt-astonishing.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/the-astonishing/",
+      "spotifyUrl": "https://open.spotify.com/album/6SRlWxC7lMPu2qlwOMslrk",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "29 January 2016",
+        "officialDatePublished": "2016-01-29T03:22:58+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:6SRlWxC7lMPu2qlwOMslrk",
+        "spotifyVerifiedTitle": "The Astonishing",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Breaking The Fourth Wall",
+      "slug": "breaking-the-fourth-wall",
+      "year": 2014,
+      "releaseDate": "2014-09-29",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04113336/breakingfourthwall.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/breaking-the-fourth-wall/",
+      "spotifyUrl": "https://open.spotify.com/album/614UaPeReIQiqIVZhtYID5",
+      "sourceNote": "Categoria Live Albums confirmada no arquivo oficial; o cabeçalho da página omite o rótulo da categoria.",
+      "evidence": {
+        "sourceReleaseHeader": "29 September 2014",
+        "officialDatePublished": "2014-09-29T03:17:04+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:614UaPeReIQiqIVZhtYID5",
+        "spotifyVerifiedTitle": "Breaking the Fourth Wall (Live at the Boston Opera House, Boston, MA, 3/25/2014)",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Live at Luna Park",
+      "slug": "live-at-luna-park",
+      "year": 2013,
+      "releaseDate": "2013-11-10",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04113343/lunapark.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/live-at-luna-park/",
+      "spotifyUrl": null,
+      "sourceNote": "Não há URL nem iframe Spotify na página oficial. Não substituir por busca externa. Divergência interna de data: o cabeçalho e o arquivo oficial mostram 10/11/2013; a descrição menciona 05/11/2013. A data registrada segue o catálogo; exibir apenas 2013 evita falsa precisão.",
+      "evidence": {
+        "sourceReleaseHeader": "10 November 2013",
+        "officialDatePublished": "2013-11-10T03:11:59+00:00",
+        "sourceSpotifyEmbed": null,
+        "spotifyVerifiedTitle": null,
+        "spotifyOembedStatus": null,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Dream Theater",
+      "slug": "dream-theater",
+      "year": 2013,
+      "releaseDate": "2013-09-23",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141358/dt-selftitled.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/dream-theater/",
+      "spotifyUrl": "https://open.spotify.com/album/2yzeTza4DXX5XpzJYY7CXO",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "23 September 2013",
+        "officialDatePublished": "2013-09-23T03:11:05+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:2yzeTza4DXX5XpzJYY7CXO",
+        "spotifyVerifiedTitle": "Dream Theater",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "A Dramatic Turn of Events",
+      "slug": "a-dramatic-turn-of-events",
+      "year": 2011,
+      "releaseDate": "2011-09-12",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141341/dreamtheater_adramaticturnofevent_alrn.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/a-dramatic-turn-of-events/",
+      "spotifyUrl": "https://open.spotify.com/album/6nTSYgih82tTwdWvmbtPHW",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "12 September 2011",
+        "officialDatePublished": "2011-09-12T02:57:33+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:6nTSYgih82tTwdWvmbtPHW&theme=white",
+        "spotifyVerifiedTitle": "A Dramatic Turn of Events",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Black Clouds & Silver Linings",
+      "slug": "black-clouds-silver-linings",
+      "year": 2009,
+      "releaseDate": "2009-06-23",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141328/dreamtheater_blackcloudssilverlin_aldp.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/black-clouds-silver-linings/",
+      "spotifyUrl": "https://open.spotify.com/album/2qMujQgkbogm4owxpt8aVP",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "23 June 2009",
+        "officialDatePublished": "2009-06-23T02:48:57+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:2qMujQgkbogm4owxpt8aVP",
+        "spotifyVerifiedTitle": "Black Clouds & Silver Linings (Special Edition)",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Chaos in Motion",
+      "slug": "chaos-in-motion",
+      "year": 2008,
+      "releaseDate": "2008-09-30",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141320/chaosinmotion.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/chaos-in-motion/",
+      "spotifyUrl": "https://open.spotify.com/album/1RJPFhFEBkO2paJndLYHTp",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "30 September 2008",
+        "officialDatePublished": "2008-09-30T02:43:11+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1RJPFhFEBkO2paJndLYHTp",
+        "spotifyVerifiedTitle": "Chaos in Motion 2007 - 2008",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Greatest Hit (…And 21 Other Pretty Cool Songs)",
+      "slug": "greatest-hit-and-21-other-pretty-cool-songs",
+      "year": 2008,
+      "releaseDate": "2008-03-29",
+      "category": "compilation",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141311/greatest-hit.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/greatest-hit-and-21-other-pretty-cool-songs/",
+      "spotifyUrl": "https://open.spotify.com/album/6jZmSESlazZBmqucZlN3mP",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "29 March 2008",
+        "officialDatePublished": "2008-03-29T02:35:21+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:6jZmSESlazZBmqucZlN3mP",
+        "spotifyVerifiedTitle": "Greatest Hit (...and 21 Other Pretty Cool Songs)",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Systematic Chaos",
+      "slug": "systematic-chaos",
+      "year": 2007,
+      "releaseDate": "2007-06-04",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141256/systematicchaos-dt.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/systematic-chaos/",
+      "spotifyUrl": "https://open.spotify.com/album/5ORyMl3oua4PPIWXZVN8kz",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "4 June 2007",
+        "officialDatePublished": "2007-06-04T02:33:08+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:5ORyMl3oua4PPIWXZVN8kz",
+        "spotifyVerifiedTitle": "Systematic Chaos",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Score",
+      "slug": "score",
+      "year": 2006,
+      "releaseDate": "2006-08-29",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141249/dt-score.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/score/",
+      "spotifyUrl": "https://open.spotify.com/album/2xumpnhKzt3P0hMlYeuOHe",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "29 August 2006",
+        "officialDatePublished": "2006-08-29T02:10:50+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:2xumpnhKzt3P0hMlYeuOHe",
+        "spotifyVerifiedTitle": "Score: 20th Anniversary World Tour Live with the Octavarium Orchestra [w/Interactive Booklet]",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Octavarium",
+      "slug": "octavarium",
+      "year": 2005,
+      "releaseDate": "2005-06-07",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04141231/dreamtheater_octavarium12_h45s.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/octavarium/",
+      "spotifyUrl": "https://open.spotify.com/album/4v6kYkn7mYjlWS9vONmmCP",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "7 June 2005",
+        "officialDatePublished": "2005-06-07T02:07:39+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:4v6kYkn7mYjlWS9vONmmCP",
+        "spotifyVerifiedTitle": "Octavarium",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Live at Budokan",
+      "slug": "live-at-budokan",
+      "year": 2004,
+      "releaseDate": "2004-10-05",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134825/dt-budokan.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/live-at-budokan/",
+      "spotifyUrl": "https://open.spotify.com/album/1Kzi6plI5f8WWo6nRTM1Uy",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "5 October 2004",
+        "officialDatePublished": "2004-10-05T20:02:03+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1Kzi6plI5f8WWo6nRTM1Uy",
+        "spotifyVerifiedTitle": "Live at Budokan",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Train of Thought",
+      "slug": "train-of-thought",
+      "year": 2003,
+      "releaseDate": "2003-11-11",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04113058/trainofthought.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/train-of-thought/",
+      "spotifyUrl": "https://open.spotify.com/album/1yAbzShRcY4muLKsX8UWxj",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "11 November 2003",
+        "officialDatePublished": "2003-11-11T19:00:55+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1yAbzShRcY4muLKsX8UWxj",
+        "spotifyVerifiedTitle": "Train of Thought",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Six Degrees of Inner Turbulence",
+      "slug": "six-degrees-of-inner-turbulence",
+      "year": 2002,
+      "releaseDate": "2002-01-29",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04113114/sixdegrees.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/six-degrees-of-inner-turbulence/",
+      "spotifyUrl": "https://open.spotify.com/album/4INFVEhhhnLiqNR4MVPaX8",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "29 January 2002",
+        "officialDatePublished": "2002-01-29T18:56:34+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:4INFVEhhhnLiqNR4MVPaX8",
+        "spotifyVerifiedTitle": "Six Degrees of Inner Turbulence",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Live Scenes from New York",
+      "slug": "live-scenes-from-new-york",
+      "year": 2001,
+      "releaseDate": "2001-09-11",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134759/dreamtheater_livescenesfromnewyor_h7o2.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/live-scenes-from-new-york/",
+      "spotifyUrl": "https://open.spotify.com/album/1JkOxZpalTNifJKu30HpzL",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "11 September 2001",
+        "officialDatePublished": "2001-09-11T18:47:25+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1JkOxZpalTNifJKu30HpzL",
+        "spotifyVerifiedTitle": "Live Scenes from New York",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Metropolis Pt. 2: Scenes from a Memory",
+      "slug": "metropolis-pt-2-scenes-from-a-memory",
+      "year": 1999,
+      "releaseDate": "1999-10-26",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04112920/metropolispart2.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/metropolis-pt-2-scenes-from-a-memory/",
+      "spotifyUrl": "https://open.spotify.com/album/1QZi8laY96nhaeGSklvN4D",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "26 October 2024",
+        "officialDatePublished": "1999-10-26T18:20:53+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1QZi8laY96nhaeGSklvN4D",
+        "spotifyVerifiedTitle": "Metropolis, Pt. 2: Scenes from a Memory",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Once in a LIVEtime",
+      "slug": "once-in-a-livetime",
+      "year": 1998,
+      "releaseDate": "1998-10-27",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134732/dreamtheater_onceinalivetime_gr5q.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/once-in-a-livetime/",
+      "spotifyUrl": "https://open.spotify.com/album/4vF1FkpZqNCykxTmw0gB60",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "27 October 2024",
+        "officialDatePublished": "1998-10-27T18:13:01+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:4vF1FkpZqNCykxTmw0gB60",
+        "spotifyVerifiedTitle": "Once in a Livetime",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Falling Into Infinity",
+      "slug": "falling-into-infinity",
+      "year": 1997,
+      "releaseDate": "1997-09-23",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2017/07/04113130/falling.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/falling-into-infinity/",
+      "spotifyUrl": "https://open.spotify.com/album/2AcOiEYDeMTAzUdVLJ0DP7",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "23 September 1997",
+        "officialDatePublished": "1997-09-23T17:51:00+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:2AcOiEYDeMTAzUdVLJ0DP7",
+        "spotifyVerifiedTitle": "Falling into Infinity",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "A Change of Seasons",
+      "slug": "a-change-of-seasons",
+      "year": 1995,
+      "releaseDate": "1995-09-19",
+      "category": "ep",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134639/dreamtheater_achangeofseasons_gra7.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/a-change-of-seasons/",
+      "spotifyUrl": "https://open.spotify.com/album/1ALR5shWvJ99oItXgRTbKj",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "19 September 2024",
+        "officialDatePublished": "1995-09-19T17:40:34+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1ALR5shWvJ99oItXgRTbKj",
+        "spotifyVerifiedTitle": "A Change of Seasons",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Awake",
+      "slug": "awake",
+      "year": 1994,
+      "releaseDate": "1994-10-04",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134632/dreamtheater_awake12_al0p.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/awake/",
+      "spotifyUrl": "https://open.spotify.com/album/4jP59Kwqvy3n09eUe1Cge7",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "4 October 2024",
+        "officialDatePublished": "1994-10-04T17:29:50+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=https://open.spotify.com/album/4jP59Kwqvy3n09eUe1Cge7",
+        "spotifyVerifiedTitle": "Awake",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Live at the Marquee",
+      "slug": "live-at-the-marquee",
+      "year": 1993,
+      "releaseDate": "1993-09-03",
+      "category": "live",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134547/dreamtheater_liveatthemarquee_gra9.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/live-at-the-marquee/",
+      "spotifyUrl": "https://open.spotify.com/album/14QaJFHVWAcCEVaPku7meG",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "3 September 2024",
+        "officialDatePublished": "1993-09-03T16:46:59+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:14QaJFHVWAcCEVaPku7meG",
+        "spotifyVerifiedTitle": "Live at the Marquee",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "Images and Words",
+      "slug": "images-and-words",
+      "year": 1992,
+      "releaseDate": "1992-07-07",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134218/imagesandwords.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/images-and-words/",
+      "spotifyUrl": "https://open.spotify.com/album/2QgGoL5VSQhPHudTObS7zK",
+      "sourceNote": "O cabeçalho visível mostra incorretamente 2024. Ano/data histórica confirmados pelos metadados da mesma página e pelo arquivo da categoria oficial.",
+      "evidence": {
+        "sourceReleaseHeader": "7 July 2024",
+        "officialDatePublished": "1992-07-07T13:49:36+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:2QgGoL5VSQhPHudTObS7zK",
+        "spotifyVerifiedTitle": "Images and Words",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    },
+    {
+      "title": "When Dream and Day Unite",
+      "slug": "when-dream-and-day-unite",
+      "year": 1989,
+      "releaseDate": "1989-03-06",
+      "category": "studio",
+      "cover": "https://cdn.cspt.io/dreamtheater.net/uploads/2024/10/04134209/whendreamandday.jpg",
+      "officialUrl": "https://dreamtheater.net/discography-item/when-dream-and-day-unite/",
+      "spotifyUrl": "https://open.spotify.com/album/1AznpOdGM8OcHYmqOUBXy3",
+      "sourceNote": null,
+      "evidence": {
+        "sourceReleaseHeader": "6 March 1989",
+        "officialDatePublished": "1989-03-06T11:31:20+00:00",
+        "sourceSpotifyEmbed": "https://open.spotify.com/embed?uri=spotify:album:1AznpOdGM8OcHYmqOUBXy3",
+        "spotifyVerifiedTitle": "When Dream And Day Unite",
+        "spotifyOembedStatus": 200,
+        "coverStatus": 200,
+        "coverContentType": "image/jpeg",
+        "coverAlsoPresentInAlbumPage": true
+      }
+    }
+  ]
+}

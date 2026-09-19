@@ -1,0 +1,11 @@
+---
+import { sections } from '../data/site';
+---
+<section class="hero wrap" id="inicio" aria-labelledby="hero-title">
+  <div class="hero-eyebrow"><span class="eyebrow">Para fãs de Dream Theater.</span><span class="hero-place">BRASIL / PROGRESSIVE METAL</span></div>
+  <h1 id="hero-title">DREAM THEATER <span>BRASIL</span></h1>
+  <div class="hero-bottom">
+    <p class="hero-verbs">{sections.map((section, index) => <><a href={`#${section.id}`}>{section.label}</a>{index < 4 && <span aria-hidden="true"> · </span>}</>)}</p>
+    <p class="hero-subtitle">Um hub brasileiro independente<br class="desktop-break" /> para quem curte Dream Theater.</p>
+  </div>
+</section>

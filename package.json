@@ -1,0 +1,32 @@
+{
+  "name": "dream-theater-brasil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check && node scripts/validate-data.mjs",
+    "validate:build": "node scripts/validate-build.mjs",
+    "sync:images": "node scripts/sync-images.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.0",
+    "@fontsource/inter": "^5.2.0",
+    "astro": "^7.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "sharp": "^0.35.4",
+    "typescript": "^5.9.0"
+  }
+}

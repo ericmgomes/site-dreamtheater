@@ -1,0 +1,310 @@
+{
+  "researchedAt": "2026-09-19",
+  "coverBands": [
+    {
+      "name": "Dream Theater Cover",
+      "description": "Tributo brasileiro ao Dream Theater.",
+      "instagram": "https://www.instagram.com/dreamtheatercover/",
+      "sourceUrls": [
+        "https://www.instagram.com/dreamtheatercover/",
+        "https://linktr.ee/daniel_jorge"
+      ],
+      "activityNote": "Inclusão solicitada pelo usuário. Nome Dream Theater Cover confirmado nos metadados públicos do Instagram em 19/09/2026; bio menciona Igor Ferrante, Samuel Zechin, Daniel Jorge e Lucas Dias. Não inferir cidade ou datas recentes de shows. Projeto distinto do VRA!, cujo site é dreamtheatercover.com."
+    },
+    {
+      "name": "Dream Theater Classics",
+      "description": "Tributo à fase clássica do Dream Theater.",
+      "instagram": "https://www.instagram.com/dtclassics/",
+      "sourceUrls": [
+        "https://www.instagram.com/dtclassics/",
+        "https://linktr.ee/sobersband"
+      ],
+      "activityNote": "Inclusão solicitada pelo usuário. Nome e foco do tributo confirmados na bio pública do Instagram em 19/09/2026. Linktree oficial da Sobers divulga apresentação conjunta com DT Classics em 08/05; sem inferir cidade-base ou ano do show apenas por esse anúncio."
+    },
+    {
+      "name": "Dream Theater Cover BH",
+      "description": "Tributo a Dream Theater com voz, guitarra, baixo, bateria e teclado.",
+      "instagram": "https://www.instagram.com/dreamtheatercoverbh/",
+      "sourceUrls": [
+        "https://www.instagram.com/dreamtheatercoverbh/"
+      ],
+      "activityNote": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente."
+    },
+    {
+      "name": "Banda Dream Machine",
+      "location": "Rio de Janeiro, RJ",
+      "description": "Banda cover de Dream Theater do Rio de Janeiro.",
+      "instagram": "https://www.instagram.com/dreamtheatercover.rj/",
+      "sourceUrls": [
+        "https://www.instagram.com/dreamtheatercover.rj/"
+      ],
+      "activityNote": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados."
+    },
+    {
+      "name": "VRA! — Dream Theater Cover",
+      "location": "Brasília, DF",
+      "description": "Split-screen covers e tributo ao vivo liderado por Thiago Campos.",
+      "instagram": "https://www.instagram.com/thiagocamposofficial/",
+      "youtube": "https://www.youtube.com/thiagocamposofficial/",
+      "website": "https://www.dreamtheatercover.com/",
+      "sourceUrls": [
+        "https://www.dreamtheatercover.com/",
+        "https://www.dreamtheatercover.com/live-performances",
+        "https://www.thiagocamposofficial.com/",
+        "https://www.sympla.com.br/evento/dream-theater-tribute-vra-uk-music-hall/3208871",
+        "https://t.me/s/thiagocamposofficial"
+      ],
+      "activityNote": "Show em 20/11/2025 no UK Music Hall confirmado pela página do organizador. Site oficial lista Sacrificed Sons (14/05/2025) e Night Terror (20/12/2024). O Instagram e o YouTube são os canais do criador Thiago Campos, onde o projeto é publicado; rotular Instagram de Thiago / VRA!, sem sugerir perfil independente da banda.",
+      "instagramLabel": "Instagram · Thiago / VRA!"
+    },
+    {
+      "name": "Dream Theater Tribute",
+      "description": "Tributo brasileiro com Bruno Sutter, Felipe Andreoli, Marcelo Barbosa, Rodrigo Silveira e Daniel Jorge na formação anunciada em 2025.",
+      "instagram": "https://www.instagram.com/tributedreamtheater/",
+      "sourceUrls": [
+        "https://linktr.ee/daniel_jorge",
+        "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103",
+        "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372"
+      ],
+      "activityNote": "Shows confirmados em Goiânia (17/04/2025) e Brasília (18/04/2025). O Instagram é vinculado pelo Linktree do tecladista Daniel Jorge. Não inferir cidade-base a partir de local dos shows. YouTube dedicado não confirmado.",
+      "instagramLabel": "Instagram"
+    }
+  ],
+  "guitarists": [
+    {
+      "name": "Marcelo Barbosa",
+      "description": "Guitarrista do Angra e Khallice, com apresentações em tributo a Dream Theater.",
+      "instagram": "https://www.instagram.com/marcelobarbosagtr/",
+      "sourceUrls": [
+        "https://marcelobarbosa.com.br/website/",
+        "https://marcelogtr-eng.blogspot.com/2009/01/"
+      ],
+      "evidence": "Inclusão solicitada pelo usuário. O rodapé Social Media do site oficial indica o Instagram @marcelobarbosagtr. Biografia oficial relaciona o músico a Angra e Khallice; blog oficial de janeiro de 2009 documenta um tributo do Khallice a Images and Words realizado em 21/11/2008. Não foram inferidas novas datas de tributos. Instagram e YouTube indicados pelo site oficial responderam HTTP 200 e identificam Marcelo Barbosa nos metadados; o canal traz descrição Canal do guitarrista Marcelo Barbosa e o site oficial.",
+      "youtube": "https://www.youtube.com/user/marcelogtr"
+    },
+    {
+      "name": "Alex Lima",
+      "description": "Dream Theater na guitarra. Conheça o trabalho de Alex Lima no Instagram.",
+      "instagram": "https://www.instagram.com/alekissss10/",
+      "sourceUrls": [
+        "https://www.instagram.com/alekissss10/"
+      ],
+      "evidence": "Inclusão e vínculo com o repertório de Dream Theater indicados pelo usuário, que forneceu o Instagram @alekissss10. Consulta pública HTTP 200 em 19/09/2026 confirmou o nome Alex Lima no título e metadados. Posts completos e músicas específicas não foram verificados, pois a navegação exige login. Não foi inferido outro perfil, canal, cidade ou repertório específico."
+    },
+    {
+      "name": "Samuel Zechin",
+      "description": "Guitarrista do Dream Theater Cover, com interpretações como Pull Me Under.",
+      "instagram": "https://www.instagram.com/samuelzechin/",
+      "sourceUrls": [
+        "https://samuelzechin.wixsite.com/samuelzechin/contact",
+        "https://www.instagram.com/dreamtheatercover/",
+        "https://whiplash.net/materias/news_731/330991-brucedickinson.html"
+      ],
+      "evidence": "Inclusão solicitada pelo usuário. Instagram consta como link explícito na página de contato do site pessoal (HTTP 200); metadados públicos do Instagram identificam Samuel Zechin (@samuelzechin). A bio pública do Dream Theater Cover menciona Samuel; matéria de 11/05/2021 no Whiplash credita Samuel na guitarra de Pull Me Under com a banda. Texto da matéria recuperado na busca web; HTTP direto à matéria retornou 403. O YouTube antigo indicado pelo site, /SamyZechin, retornou 404; variantes /user/SamyZechin e /@SamyZechin também. Nenhum canal atual confirmado, por isso YouTube foi omitido do cadastro."
+    },
+    {
+      "name": "Thiago Campos",
+      "description": "Covers completos com o VRA!, solos de Petrucci, demonstrações e aulas de Dream Theater.",
+      "instagram": "https://www.instagram.com/thiagocamposofficial/",
+      "youtube": "https://www.youtube.com/thiagocamposofficial/",
+      "image": "https://static.wixstatic.com/media/af3b28_59ea947c825b4da3a875eb83a3c5d537%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/af3b28_59ea947c825b4da3a875eb83a3c5d537%7Emv2.jpg",
+      "sourceUrls": [
+        "https://www.thiagocamposofficial.com/",
+        "https://www.dreamtheatercover.com/",
+        "https://www.dreamtheatercover.com/collaborators",
+        "https://www.solosdomestre.com/"
+      ]
+    },
+    {
+      "name": "Gustavo Guerra",
+      "description": "Performances, solos e tutoriais de Dream Theater, incluindo The Best of Times, Pull Me Under, Overture 1928 e Another Day.",
+      "instagram": "https://www.instagram.com/gustavoguerraguitarrista/",
+      "youtube": "https://www.youtube.com/user/GGuerra",
+      "sourceUrls": [
+        "https://www.gustavoguerra.com.br/",
+        "https://www.gustavoguerra.com.br/aula/dream-theater--the-best-of-times/",
+        "https://www.gustavoguerra.com.br/aula/dream-theater--pull-me-under---guitar-solo---tutorial/",
+        "https://www.gustavoguerra.com.br/aula/dream-theater---overture-1928---backing-track/",
+        "https://www.gustavoguerra.com.br/aula/dream-theater---another-day---free-backing-track/",
+        "https://www.youtube.com/user/GGuerra/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=GrSKQ8Co-LU",
+        "https://www.youtube.com/watch?v=GjbBIeNzK30",
+        "https://www.youtube.com/watch?v=FanabhzRb7E",
+        "https://www.youtube.com/watch?v=YUvFxUQ45HQ",
+        "https://www.youtube.com/watch?v=dm0viYuQwEc"
+      ]
+    },
+    {
+      "name": "Bruno Godinho",
+      "description": "Covers, solos e estudos de Petrucci: Overture 1928, The Glass Prison, A Rite of Passage e Erotomania.",
+      "instagram": "https://www.instagram.com/brunogodinhoguitar/",
+      "youtube": "https://www.youtube.com/@BrunoGodinhoGuitar",
+      "image": "https://brunogodinho.com/wp-content/uploads/2024/08/retrato_quadrado.jpg",
+      "sourceUrls": [
+        "https://brunogodinho.com/",
+        "https://brunogodinho.com/aulas-particulares/",
+        "https://www.youtube.com/@BrunoGodinhoGuitar/search?query=dream%20theater",
+        "https://www.youtube.com/watch?v=HRsx7z3kQck",
+        "https://www.youtube.com/watch?v=J-NCsxGEjZU",
+        "https://www.youtube.com/watch?v=MwczvzzHAmY",
+        "https://www.youtube.com/watch?v=NvIkcspMcU8",
+        "https://whiplash.net/materias/biografias/245826-dreamtheater.html"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "title": "Images and Words",
+      "album": "Images and Words",
+      "instrument": "guitar",
+      "type": "Songbook · partitura e tablatura",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=37636153740F85R5PF",
+      "sourceUrls": [
+        "https://www.freenote.com.br/produto.asp?shw_ukey=37636153740F85R5PF",
+        "https://freenote.com.br/"
+      ],
+      "note": "Livro físico, 128 páginas. Loja na Rua Teodoro Sampaio, 785, Pinheiros, São Paulo/SP. Página indica em estoque na consulta; disponibilidade pode mudar."
+    },
+    {
+      "title": "Guitar Anthology",
+      "instrument": "guitar",
+      "type": "Songbook · partitura e tablatura",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=3954612070411E8MV0",
+      "sourceUrls": [
+        "https://www.freenote.com.br/produto.asp?shw_ukey=3954612070411E8MV0"
+      ],
+      "note": "208 páginas. Seleção de nove músicas por John Petrucci; disponível para encomendar na consulta."
+    },
+    {
+      "title": "Guitar Play-Along · Volume 167",
+      "instrument": "guitar",
+      "type": "Livro + áudio online",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=424301235510D4JNBB",
+      "sourceUrls": [
+        "https://www.freenote.com.br/produto.asp?shw_ukey=424301235510D4JNBB"
+      ],
+      "note": "160 páginas, partitura, tablatura e acompanhamento. Disponível para encomendar na consulta."
+    },
+    {
+      "title": "Constant Motion",
+      "album": "Systematic Chaos",
+      "instrument": "guitar",
+      "type": "Guitar Pro · partitura completa licenciada",
+      "source": "mySongBook · Arobas Music",
+      "url": "https://www.guitar-pro.com/tabs/t/1380-constant-motion",
+      "sourceUrls": [
+        "https://www.guitar-pro.com/tabs/t/1380-constant-motion"
+      ],
+      "note": "Full Score com guitarra, baixo, bateria e teclados. Página registra uso autorizado pela Alfred Music Publishing. Assinatura/condições de acesso no fornecedor."
+    },
+    {
+      "title": "Bass Play-Along · Volume 47",
+      "instrument": "bass",
+      "type": "Livro + áudio online",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=424301246484AEGFYH",
+      "sourceUrls": [
+        "https://www.freenote.com.br/produto.asp?shw_ukey=424301246484AEGFYH",
+        "https://www.halleonard.com/product/111940/dream-theaterdream-theater"
+      ],
+      "note": "144 páginas, partitura e tablatura de dez faixas. Disponível para encomendar na consulta."
+    },
+    {
+      "title": "Pull Me Under",
+      "album": "Images and Words",
+      "instrument": "bass",
+      "type": "Guitar Pro · baixo, guitarras e backing track",
+      "source": "mySongBook · Arobas Music",
+      "url": "https://www.guitar-pro.com/tabs/t/5012-pull-me-under",
+      "sourceUrls": [
+        "https://www.guitar-pro.com/tabs/t/5012-pull-me-under",
+        "https://www.guitar-pro.com/tabs/artists/425-dream-theater"
+      ],
+      "note": "Edição com faixa de baixo explicitamente demonstrada na prévia. Requer acesso ao mySongBook."
+    },
+    {
+      "title": "Drum Play-Along · Volume 30",
+      "instrument": "drums",
+      "type": "Livro + áudio online",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://freenote.com.br/produto.asp?shw_ukey=42430125154UKGHUW4",
+      "sourceUrls": [
+        "https://freenote.com.br/produto.asp?shw_ukey=42430125154UKGHUW4"
+      ],
+      "note": "120 páginas, notação de bateria e faixas de acompanhamento. Página indica em estoque na consulta."
+    },
+    {
+      "title": "Mike Portnoy: Anthology Volume 1",
+      "instrument": "drums",
+      "type": "Livro digital · transcrições",
+      "source": "Hudson Music",
+      "url": "https://hudsonmusic.com/product/anthology-volume-1/",
+      "sourceUrls": [
+        "https://hudsonmusic.com/product/anthology-volume-1/"
+      ],
+      "note": "Inclui transcrições de Dream Theater, Liquid Tension Experiment e Transatlantic. Livro digital no leitor da editora; não é PDF imprimível."
+    },
+    {
+      "title": "Hell’s Kitchen",
+      "album": "Falling Into Infinity",
+      "instrument": "drums",
+      "type": "Partitura gratuita · amostra autorizada",
+      "source": "Hudson Music",
+      "url": "https://hudsonmusic.com/mike-portnoy-hells-kitchen/",
+      "sourceUrls": [
+        "https://hudsonmusic.com/mike-portnoy-hells-kitchen/"
+      ],
+      "note": "A própria editora disponibiliza gratuitamente esta transcrição da Anthology Volume 1, com notas de Mike Portnoy e do transcritor."
+    },
+    {
+      "title": "Keyboard Experience",
+      "instrument": "keys",
+      "type": "Songbook · partituras e exercícios",
+      "source": "Freenote · Hal Leonard",
+      "url": "https://www.freenote.com.br/produto.asp?shw_ukey=39965161114SW79M1B",
+      "sourceUrls": [
+        "https://www.freenote.com.br/produto.asp?shw_ukey=39965161114SW79M1B",
+        "https://www.halleonard.com/product/701113/dream-theater-keyboard-experience"
+      ],
+      "note": "212 páginas; exercícios e comentários de Jordan Rudess. Disponível para encomendar na consulta."
+    },
+    {
+      "title": "Keyboard Anthology",
+      "instrument": "keys",
+      "type": "Songbook · transcrições de teclado",
+      "source": "Hal Leonard · Alfred",
+      "url": "https://www.halleonard.com/product/321544/dream-theater-keyboard-anthology",
+      "sourceUrls": [
+        "https://www.halleonard.com/product/321544/dream-theater-keyboard-anthology"
+      ],
+      "note": "176 páginas, inclui Learning to Live, Wait for Sleep, Overture 1928, Finally Free e Stream of Consciousness."
+    },
+    {
+      "title": "Keyboard Play-Along · Volume 24",
+      "instrument": "keys",
+      "type": "Livro + áudio online",
+      "source": "Hal Leonard",
+      "url": "https://www.halleonard.com/product/111941/dream-theater",
+      "sourceUrls": [
+        "https://www.halleonard.com/product/111941/dream-theater"
+      ],
+      "note": "136 páginas, partitura e acompanhamento. A página da editora também oferece ligação para versões digitais."
+    }
+  ],
+  "notes": [
+    "Todos os textos resumem páginas consultadas em 19/09/2026. Não colocar preços ou promessa de estoque no frontend, pois mudam.",
+    "Freenote confirmada por seu próprio rodapé: Rua Teodoro Sampaio, 785, Pinheiros, São Paulo/SP. Produtos específicos confirmados nos quatro instrumentos, incluindo baixo.",
+    "Instagram frequentemente bloqueia leitura automatizada: URLs foram obtidas dos sites oficiais dos músicos ou Linktree do integrante, não inferidas a partir do nome. A abertura humana dos perfis ainda pode pedir login.",
+    "Thiago Campos: site oficial do VRA! lista múltiplos vídeos de 2009 a 2025, incluindo Sacrificed Sons, Night Terror, Barstool Warrior, Metropolis Pt. 1, Fatal Tragedy, As I Am e The Enemy Inside. Sites oficiais confirmam Brasília/Brasil e canais sociais.",
+    "Gustavo Guerra: site oficial contém aulas/vídeos para quatro músicas diferentes. HTML do site fornece diretamente Instagram gustavoguerraguitarrista e YouTube user/GGuerra. Não é inclusão por um único cover.",
+    "Live Scenes From Rio tem apresentação confirmada em 08/08/2026 (https://meaple.com.br/calaboucorockbar/tributo-dream-theater-0808), mas Instagram principal não foi confirmado, portanto omitido do catálogo.",
+    "Dream Theater Tributo Brasil tem show em 21/03/2025 (https://goingressos.com.br/evento/prog-fest), porém Instagram principal não confirmado; omitido para não inventar URL.",
+    "Imagem do Thiago vem da og:image do site oficial. Recomenda-se verificar enquadramento e crédito antes de usar; imagem de Gustavo não incluída por falta de retrato inequívoco no HTML da página inicial.",
+    "Verificação adicional por leitura do HTML público do YouTube: canal GGuerra retornou títulos e IDs para The Spirit Carries On (GrSKQ8Co-LU), Fatal Tragedy (GjbBIeNzK30), The Best of Times (FanabhzRb7E), Under a Glass Moon (YUvFxUQ45HQ), Overture 1928 (XCoImopJEk0) e Dream Theater Medley (dm0viYuQwEc), entre outros. Portanto a recorrência no YouTube está confirmada diretamente, além dos tutoriais no site (que usam Vimeo).",
+    "Bruno Godinho agora incluído após verificação direta do canal público: The Glass Prison Arpeggios (HRsx7z3kQck), Overture 1928 (J-NCsxGEjZU), A Rite of Passage (MwczvzzHAmY), Erotomania (NvIkcspMcU8), The Enemy Inside solo (niPFDxa3ASQ), além de vários shorts de Petrucci. Instagram, canal e retrato foram lidos no HTML de seu site oficial.",
+    "Atualização solicitada pelo usuário: incluídos @dreamtheatercover, @dtclassics, @dreamtheatercoverbh e @dreamtheatercover.rj. Nomes e bios conferidos nos metadados públicos dos próprios perfis. Sem inferir atividade recente ou cidade quando a bio não confirma. Site do VRA! agora exposto na interface, separado de @dreamtheatercover."
+  ]
+}
