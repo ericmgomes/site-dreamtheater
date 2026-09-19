@@ -1,0 +1,31 @@
+{
+  "researchedAt": "2026-09-19",
+  "sourcePage": "https://dreamtheater.net/",
+  "provenance": "Arquivos apontados pelos links rel=icon e rel=apple-touch-icon no HTML do site oficial. Copiados sem modificação para servir localmente.",
+  "assets": [
+    {
+      "path": "public/favicon-32.png",
+      "url": "https://cdn.cspt.io/dreamtheater.net/uploads/2025/09/04142258/cropped-dt_favicon_2025-32x32.png",
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true,
+      "bytes": 1301
+    },
+    {
+      "path": "public/favicon-192.png",
+      "url": "https://cdn.cspt.io/dreamtheater.net/uploads/2025/09/04142258/cropped-dt_favicon_2025-192x192.png",
+      "width": 192,
+      "height": 192,
+      "hasAlpha": true,
+      "bytes": 7773
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "url": "https://cdn.cspt.io/dreamtheater.net/uploads/2025/09/04142258/cropped-dt_favicon_2025-180x180.png",
+      "width": 180,
+      "height": 180,
+      "hasAlpha": true,
+      "bytes": 7015
+    }
+  ]
+}

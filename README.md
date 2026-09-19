@@ -94,3 +94,5 @@ O remoto `origin` está configurado para [ericmgomes/site-dreamtheater](https://
 Feito por [Eric Gomes](https://bio.ericgomes.me). Projeto brasileiro independente, não afiliado oficialmente ao Dream Theater. Capas, fotografias, música e marcas pertencem aos respectivos titulares. Capas e referências da discografia vêm do site oficial; thumbnails são fornecidas pelo YouTube. O projeto organiza links e não redistribui músicas, vídeos, livros ou transcrições comerciais.
 
 O hero usa **dreamsoftheatre**, de JoannaVu, uma fonte inspirada no lettering da banda e disponível para uso não comercial. Arquivo local, origem e condições em [src/assets/fonts/README.md](src/assets/fonts/README.md).
+
+O favicon usa o símbolo Majesty dourado sobre fundo preto, a partir dos arquivos de ícone publicados no [site oficial do Dream Theater](https://dreamtheater.net/). Versões PNG de 32, 192 e 180 px copiadas sem modificação e servidas localmente; fontes registradas em `docs/research/favicon.json`.

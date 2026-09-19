@@ -24,6 +24,7 @@
 - Agenda futura: nenhuma nova data brasileira confirmada após a consulta; a interface informa a data e oferece a agenda oficial.
 - Discografia: 28 lançamentos oficiais e capas locais; 27 referências Spotify provenientes das páginas oficiais, validadas por oEmbed. Live at Luna Park leva ao site oficial.
 - Materiais: 14 referências, incluindo dois ebooks da Freenote e a busca com termo preservado. Evidências em `docs/research/freenote-ebooks.json`.
+- Favicon: símbolo Majesty dourado/preto do site oficial, copiado sem alteração. PNGs locais de 32 × 32, 192 × 192 e 180 × 180 px; cabeçalho e três respostas HTTP 200 image/png conferidos no Chrome. Monograma SVG anterior removido. Fonte e tamanhos em `docs/research/favicon.json`.
 - Autoria mantida: Eric Gomes, com link para `https://bio.ericgomes.me`. A fonte local do hero e suas condições estão em `src/assets/fonts/README.md`.
 
 ## Players externos
@@ -34,7 +35,7 @@
 
 ## Build e publicação
 
-- **49 arquivos, 1.317.585 bytes**, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
+- **51 arquivos, 1.333.733 bytes**, incluindo 30 imagens WebP locais e a webfont do hero (14.148 bytes).
 - JavaScript da aplicação: **6.108 bytes**. As listas não fazem chamadas de rede ao rolar; todos os registros estão no HTML.
 - Build independente de rede; fontes e capas locais. Conferidos canonical, description, Open Graph, Twitter Cards, H1 único, alt text, favicon, sitemap, robots e CNAME.
 - Workflow GitHub Actions preparado para `main`, Node 24, verificações de tipos/dados/build e publicação exclusiva de `dist/`.
