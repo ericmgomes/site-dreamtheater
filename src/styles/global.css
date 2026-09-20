@@ -57,8 +57,7 @@
   .hero h1 { display: flex; flex-wrap: wrap; align-items: baseline; gap: .08em .25em; font-family: var(--heading); font-size: clamp(3rem, 6.8vw, 5.8rem); font-weight: 600; letter-spacing: -.015em; line-height: 1.15; }
   .hero-band-name { font-family: 'Dream Theater', Georgia, serif; font-weight: 400; font-synthesis: none; letter-spacing: 0; }
   .hero-country { color: #fff; }
-  .hero-country > span { display: inline-block; position: relative; }
-  .hero-country > span::after { content: ''; position: absolute; right: 0; bottom: 0; left: 0; height: clamp(3px, .055em, 5px); border-radius: 2px; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); }
+  .hero-country > span { display: inline-block; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .hero-bottom { margin-top: 20px; display: flex; justify-content: space-between; gap: 24px; align-items: center; }
   .hero-verbs { font-family: var(--heading); font-weight: 600; text-transform: uppercase; font-size: 1.65rem; line-height: 1.2; }
   .hero-verbs span { padding-inline: 5px; color: #64665e; }
@@ -317,5 +316,6 @@
     .album-official { font-size: .75rem; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+  @media (forced-colors: active) { .hero-country > span { background: none; color: CanvasText; } }
   @media (hover: none) { .album-listen { opacity: 1; transform: none; } }
 }
