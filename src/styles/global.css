@@ -194,7 +194,7 @@
   .instrument-group h4 svg { flex-shrink: 0; margin-top: 4px; }
   .instrument-group p { font-size: .75rem; color: var(--muted); }
   .instrument-group .material-note { margin-top: 8px; }
-  .album-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 36px 24px; }
+  .album-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 36px 24px; }
   .album-art { display: block; position: relative; aspect-ratio: 1; background: var(--surface); overflow: hidden; }
   .album[data-category='studio'] .album-art { box-shadow: 0 0 0 2px var(--accent); }
   .album-art img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s; }
@@ -241,7 +241,7 @@
     .hero-verbs { font-size: 1.4rem; }
     .setlist-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .album-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .album-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
     .materials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
     .cover-grid { gap: 24px; }
     .tour-panel { gap: 30px; padding: 28px; }
