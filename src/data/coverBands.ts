@@ -3,6 +3,18 @@ import type { CoverBand } from './types';
 
 export const coverBands: CoverBand[] = [
   {
+    "name": "Dream Theater Tribute",
+    "description": "Tributo brasileiro com Bruno Sutter, Felipe Andreoli, Marcelo Barbosa, Rodrigo Silveira e Daniel Jorge na formação anunciada em 2025.",
+    "instagram": "https://www.instagram.com/tributedreamtheater/",
+    "sourceUrls": [
+      "https://linktr.ee/daniel_jorge",
+      "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103",
+      "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372"
+    ],
+    "activityNote": "Shows confirmados em Goiânia (17/04/2025) e Brasília (18/04/2025). O Instagram é vinculado pelo Linktree do tecladista Daniel Jorge. Não inferir cidade-base a partir de local dos shows. YouTube dedicado não confirmado.",
+    "instagramLabel": "Instagram"
+  },
+  {
     "name": "Dream Theater Cover",
     "description": "Tributo brasileiro ao Dream Theater.",
     "instagram": "https://www.instagram.com/dreamtheatercover/",
@@ -23,25 +35,6 @@ export const coverBands: CoverBand[] = [
     "activityNote": "Inclusão solicitada pelo usuário. Nome e foco do tributo confirmados na bio pública do Instagram em 19/09/2026. Linktree oficial da Sobers divulga apresentação conjunta com DT Classics em 08/05; sem inferir cidade-base ou ano do show apenas por esse anúncio."
   },
   {
-    "name": "Dream Theater Cover BH",
-    "description": "Tributo a Dream Theater com voz, guitarra, baixo, bateria e teclado.",
-    "instagram": "https://www.instagram.com/dreamtheatercoverbh/",
-    "sourceUrls": [
-      "https://www.instagram.com/dreamtheatercoverbh/"
-    ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente."
-  },
-  {
-    "name": "Banda Dream Machine",
-    "location": "Rio de Janeiro, RJ",
-    "description": "Banda cover de Dream Theater do Rio de Janeiro.",
-    "instagram": "https://www.instagram.com/dreamtheatercover.rj/",
-    "sourceUrls": [
-      "https://www.instagram.com/dreamtheatercover.rj/"
-    ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados."
-  },
-  {
     "name": "VRA! — Dream Theater Cover",
     "location": "Brasília, DF",
     "description": "Split-screen covers e tributo ao vivo liderado por Thiago Campos.",
@@ -59,15 +52,22 @@ export const coverBands: CoverBand[] = [
     "instagramLabel": "Instagram · Thiago / VRA!"
   },
   {
-    "name": "Dream Theater Tribute",
-    "description": "Tributo brasileiro com Bruno Sutter, Felipe Andreoli, Marcelo Barbosa, Rodrigo Silveira e Daniel Jorge na formação anunciada em 2025.",
-    "instagram": "https://www.instagram.com/tributedreamtheater/",
+    "name": "Dream Theater Cover BH",
+    "description": "Tributo a Dream Theater com voz, guitarra, baixo, bateria e teclado.",
+    "instagram": "https://www.instagram.com/dreamtheatercoverbh/",
     "sourceUrls": [
-      "https://linktr.ee/daniel_jorge",
-      "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103",
-      "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372"
+      "https://www.instagram.com/dreamtheatercoverbh/"
     ],
-    "activityNote": "Shows confirmados em Goiânia (17/04/2025) e Brasília (18/04/2025). O Instagram é vinculado pelo Linktree do tecladista Daniel Jorge. Não inferir cidade-base a partir de local dos shows. YouTube dedicado não confirmado.",
-    "instagramLabel": "Instagram"
+    "activityNote": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente."
+  },
+  {
+    "name": "Banda Dream Machine",
+    "location": "Rio de Janeiro, RJ",
+    "description": "Banda cover de Dream Theater do Rio de Janeiro.",
+    "instagram": "https://www.instagram.com/dreamtheatercover.rj/",
+    "sourceUrls": [
+      "https://www.instagram.com/dreamtheatercover.rj/"
+    ],
+    "activityNote": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados."
   }
 ];
