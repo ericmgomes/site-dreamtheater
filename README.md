@@ -34,7 +34,7 @@ Pesquisa registrada em **19/09/2026**:
 - 14 materiais de guitarra, baixo, bateria e teclado, incluindo os ebooks de Distance Over Time e Selections from The Astonishing na Freenote. Edições digitais e físicas identificadas; acesso à busca completa da loja. Freenote confirmada na Rua Teodoro Sampaio, 785, São Paulo.
 - Os 28 lançamentos do índice oficial: 16 de estúdio, 10 ao vivo, 1 coletânea e 1 EP. Os 27 links Spotify vêm exclusivamente das páginas oficiais de cada álbum.
 
-**Exceções de conteúdo tratadas explicitamente:** a agenda oficial consultada não trouxe datas futuras depois da pesquisa; a interface informa isso e oferece acesso à agenda. `Live at Luna Park` não contém Spotify em sua página oficial e leva ao site oficial. Alguns cabeçalhos antigos da discografia apresentam 2024 incorretamente; os anos históricos foram conferidos nos metadados e arquivos do próprio site.
+**Exceções de conteúdo tratadas explicitamente:** o bloco de próximos shows está temporariamente fora da página, a pedido do responsável pelo site. `Live at Luna Park` não contém Spotify em sua página oficial e leva ao site oficial. Alguns cabeçalhos antigos da discografia apresentam 2024 incorretamente; os anos históricos foram conferidos nos metadados e arquivos do próprio site.
 
 ## Atualizar a curadoria
 
@@ -44,7 +44,7 @@ Os dados ficam em `src/data/`, separados da apresentação:
 | --- | --- |
 | `setlists.ts` | Datas, locais, turnês e links individuais |
 | `videos.ts` | Ranking brasileiro, IDs YouTube, contagens, local e canal |
-| `shows.ts` | Somente apresentações futuras confirmadas |
+| `shows.ts` | Dados reservados para futuras apresentações; bloco temporariamente fora da página |
 | `coverBands.ts` | Tributos, redes e evidências de atividade |
 | `guitarists.ts` | Guitarristas, redes, retratos e evidências |
 | `coverMusicians.ts` | Baixistas e tecladistas, redes e evidências |
@@ -52,7 +52,7 @@ Os dados ficam em `src/data/`, separados da apresentação:
 | `discography.ts` | Índice oficial, capas e Spotify por álbum |
 | `site.ts` | Metadados, data da pesquisa e WhatsApp |
 
-Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Shows aceita somente shows no Brasil e também apresenta a consulta à agenda futura brasileira. Os IDs de âncora `relembre` e `va` foram preservados para manter links antigos funcionando. Ao ampliar o histórico, atualize os registros e o manifesto de cobertura `docs/research/brazil-setlists.json`; ele confere o total, os anos e a correspondência com as fontes por período. Shows cancelados e workshops ficam fora do histórico. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
+Consulte `docs/research/` para as URLs e evidências, inclusive as limitações da verificação. Atualize a data de pesquisa somente depois de conferir as informações. A seção Shows apresenta somente o histórico de shows no Brasil. O componente `UpcomingShows.astro` está reservado para uma futura reativação e não é renderizado. Os IDs de âncora `relembre` e `va` foram preservados para manter links antigos funcionando. Ao ampliar o histórico, atualize os registros e o manifesto de cobertura `docs/research/brazil-setlists.json`; ele confere o total, os anos e a correspondência com as fontes por período. Shows cancelados e workshops ficam fora do histórico. Não promova shows passados a “próximos shows”. Não deduza perfis sociais pelo nome.
 
 Para atualizar o ranking, pesquise registros brasileiros, confira título/descrição, contagem inteira, canal e disponibilidade territorial no YouTube. Atualize os arquivos `docs/research/youtube-*-candidates.json`, o manifesto `youtube-ranking.json` e `src/data/videos.ts`. A validação exige que os 26 selecionados sejam os mais vistos entre os candidatos elegíveis e que os seis destaques permitam incorporação. As contagens são totais do vídeo, não apenas de espectadores brasileiros. Sem JavaScript, os 20 links continuam disponíveis na área de rolagem.
 

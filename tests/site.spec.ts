@@ -136,8 +136,7 @@ test('Brazil video ranking scrolls independently and covers are grouped by instr
   await expect(page.locator('[data-nav="va"]')).toHaveText('Covers');
   await expect(page.locator('#remember-title')).toHaveText('Shows');
   await expect(page.locator('#go-title')).toHaveText('Covers');
-  await expect(page.locator('#relembre .tour-panel')).toHaveCount(1);
-  await expect(page.locator('#va .tour-panel')).toHaveCount(0);
+  await expect(page.locator('.tour-panel')).toHaveCount(0);
   await expect(page.locator('.video-card')).toHaveCount(6);
   const scroller = page.getByRole('region',{name:'Mais vídeos do Dream Theater no Brasil'});
   await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(5);

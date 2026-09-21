@@ -1,7 +1,6 @@
 ---
 import SectionHeading from './SectionHeading.astro';
 import Icon from './Icon.astro';
-import UpcomingShows from './UpcomingShows.astro';
 import { setlists } from '../data/setlists';
 import { researchedLabel } from '../data/site';
 const formatDate = (date: string) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));
@@ -40,5 +39,4 @@ const years = [...new Set(setlists.map(show => show.date.slice(0, 4)))];
   </div>
   <div class="setlist-summary"><p id="setlist-status" class="data-note" role="status" aria-live="polite" aria-atomic="true" data-setlist-status>{setlists.length} shows no Brasil.</p><span class="data-note" data-setlist-hint>Role a lista para consultar o histórico.</span></div>
   <div class="section-foot"><span class="data-note">Histórico no Brasil · Atualizado em {researchedLabel}</span></div>
-  <UpcomingShows />
 </section>

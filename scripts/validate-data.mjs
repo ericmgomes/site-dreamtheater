@@ -74,4 +74,4 @@ for (const list of [setlists, rankedVideos, shows, coverBands, guitarists, bassi
   }
 }
 console.log(`Data OK: ${setlists.length} setlists, ${rankedVideos.length} ranked videos, ${coverBands.length} tribute bands, ${guitarists.length + bassists.length + keyboardists.length} musicians, ${materials.length} materials, ${discography.length} albums.`);
-if (!shows.length) console.log('Upcoming dates: none confirmed as of research date; official schedule fallback is intentional.');
+if (!shows.length) console.log('Upcoming dates dataset: none confirmed as of research date; section currently not rendered.');
