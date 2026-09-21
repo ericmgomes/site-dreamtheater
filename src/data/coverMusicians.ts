@@ -4,18 +4,22 @@ import type { CoverMusician } from './types';
 
 export const bassists: CoverMusician[] = [
   {
-    "name": "Felipe Campos",
-    "description": "Baixista dos covers do VRA!, com versões de A Nightmare to Remember e tutorial de Fatal Tragedy.",
-    "youtube": "https://www.youtube.com/user/FelipeCamposBass",
+    "name": "Felipe Andreoli",
+    "description": "Baixista com versões de The Dance of Eternity e Learning to Live, além de apresentações com o Dream Theater Tribute.",
+    "instagram": "https://www.instagram.com/felipeandreoli/",
+    "youtube": "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ",
+    "website": "https://www.felipeandreoli.com/",
     "sourceUrls": [
-      "https://www.youtube.com/user/FelipeCamposBass/search?query=dream%20theater",
-      "https://www.youtube.com/watch?v=qRkmClW9I4k",
-      "https://www.youtube.com/watch?v=n4JfBg6JdPo",
-      "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
-      "https://www.dreamtheatercover.com/collaborators",
-      "https://www.thiagocamposofficial.com/vra-split-screen-covers"
+      "https://www.felipeandreoli.com/",
+      "https://www.felipeandreoli.com/about",
+      "https://www.instagram.com/felipeandreoli/",
+      "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ/search?query=dream%20theater",
+      "https://www.youtube.com/watch?v=zDN9xOyWav0",
+      "https://www.youtube.com/watch?v=iAsCPjlpvhU",
+      "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
+      "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
     ],
-    "image": "/images/profiles/felipecamposbass.webp"
+    "image": "/images/profiles/felipeandreoli.webp"
   },
   {
     "name": "Alexandre Panta",
@@ -35,22 +39,18 @@ export const bassists: CoverMusician[] = [
     "image": "/images/profiles/alexandre_panta.webp"
   },
   {
-    "name": "Felipe Andreoli",
-    "description": "Baixista com versões de The Dance of Eternity e Learning to Live, além de apresentações com o Dream Theater Tribute.",
-    "instagram": "https://www.instagram.com/felipeandreoli/",
-    "youtube": "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ",
-    "website": "https://www.felipeandreoli.com/",
+    "name": "Felipe Campos",
+    "description": "Baixista dos covers do VRA!, com versões de A Nightmare to Remember e tutorial de Fatal Tragedy.",
+    "youtube": "https://www.youtube.com/user/FelipeCamposBass",
     "sourceUrls": [
-      "https://www.felipeandreoli.com/",
-      "https://www.felipeandreoli.com/about",
-      "https://www.instagram.com/felipeandreoli/",
-      "https://www.youtube.com/channel/UCRB2asBIDMEcSgIJp64NonQ/search?query=dream%20theater",
-      "https://www.youtube.com/watch?v=zDN9xOyWav0",
-      "https://www.youtube.com/watch?v=iAsCPjlpvhU",
-      "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
-      "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
+      "https://www.youtube.com/user/FelipeCamposBass/search?query=dream%20theater",
+      "https://www.youtube.com/watch?v=qRkmClW9I4k",
+      "https://www.youtube.com/watch?v=n4JfBg6JdPo",
+      "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
+      "https://www.dreamtheatercover.com/collaborators",
+      "https://www.thiagocamposofficial.com/vra-split-screen-covers"
     ],
-    "image": "/images/profiles/felipeandreoli.webp"
+    "image": "/images/profiles/felipecamposbass.webp"
   }
 ];
 
@@ -73,20 +73,6 @@ export const keyboardists: CoverMusician[] = [
     "image": "/images/profiles/daniel_jorge.webp"
   },
   {
-    "name": "César Zolhof",
-    "description": "Tecladista dos primeiros covers do VRA!, com versões de Metropolis Pt. 1, The Mirror e Pull Me Under.",
-    "youtube": "https://www.youtube.com/user/zolhof",
-    "sourceUrls": [
-      "https://www.youtube.com/user/zolhof/search?query=dream%20theater",
-      "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
-      "https://www.youtube.com/watch?v=muiVxd3eazw",
-      "https://www.youtube.com/watch?v=jGnVZV_HaW8",
-      "https://www.dreamtheatercover.com/collaborators",
-      "https://www.thiagocamposofficial.com/vra-split-screen-covers"
-    ],
-    "image": "/images/profiles/zolhof.webp"
-  },
-  {
     "name": "Junior Carelli",
     "description": "Pianista e tecladista com versões de Wait for Sleep e The Spirit Carries On, além de The Dance of Eternity em colaboração.",
     "instagram": "https://www.instagram.com/juninhocarelli/",
@@ -103,5 +89,19 @@ export const keyboardists: CoverMusician[] = [
       "https://whiplash.net/materias/news_814/205838-noturnall.html"
     ],
     "image": "/images/profiles/juninhocarelli.webp"
+  },
+  {
+    "name": "César Zolhof",
+    "description": "Tecladista dos primeiros covers do VRA!, com versões de Metropolis Pt. 1, The Mirror e Pull Me Under.",
+    "youtube": "https://www.youtube.com/user/zolhof",
+    "sourceUrls": [
+      "https://www.youtube.com/user/zolhof/search?query=dream%20theater",
+      "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
+      "https://www.youtube.com/watch?v=muiVxd3eazw",
+      "https://www.youtube.com/watch?v=jGnVZV_HaW8",
+      "https://www.dreamtheatercover.com/collaborators",
+      "https://www.thiagocamposofficial.com/vra-split-screen-covers"
+    ],
+    "image": "/images/profiles/zolhof.webp"
   }
 ];
