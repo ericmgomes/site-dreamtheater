@@ -88,31 +88,43 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', updateActiveSection, { passive: true });
 updateActiveSection();
 
-// One YouTube player at a time; links are still usable if embeds are blocked or JS is off.
-let activeVideo: { container: HTMLElement; trigger: HTMLAnchorElement } | undefined;
+// Native modal keeps videos large while links still work without JavaScript.
+const videoDialog = document.querySelector<HTMLDialogElement>('.video-dialog');
+const videoContainer = document.querySelector<HTMLElement>('[data-youtube-container]');
+const videoTitle = document.getElementById('video-player-title');
+const videoExternal = document.querySelector<HTMLAnchorElement>('[data-youtube-external]');
 const stopVideo = () => {
-  if (activeVideo) activeVideo.container.replaceChildren(activeVideo.trigger);
-  activeVideo = undefined;
+  videoContainer?.replaceChildren();
+  if (videoDialog?.open) videoDialog.close();
 };
-document.querySelectorAll<HTMLAnchorElement>('[data-video]').forEach(trigger => {
-  trigger.addEventListener('click', event => {
-    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    const container = trigger.closest<HTMLElement>('[data-video-container]');
-    if (!container) return;
-    event.preventDefault();
-    stopVideo();
-    const iframe = document.createElement('iframe');
-    iframe.src = `https://www.youtube-nocookie.com/embed/${trigger.dataset.video}?autoplay=1&rel=0`;
-    iframe.title = trigger.dataset.title ?? 'Vídeo do Dream Theater';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    iframe.allowFullscreen = true;
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    container.replaceChildren(iframe);
-    activeVideo = { container, trigger };
-    // Transfer keyboard focus without moving the viewport or capturing a touch gesture.
-    if (event.detail === 0) iframe.focus({ preventScroll: true });
+if (videoDialog && videoContainer && videoTitle && videoExternal) {
+  document.querySelectorAll<HTMLAnchorElement>('[data-video]').forEach(trigger => {
+    trigger.addEventListener('click', event => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || !videoDialog.showModal) return;
+      const videoId = trigger.dataset.video;
+      if (!videoId || !/^[\w-]{11}$/.test(videoId)) return;
+      event.preventDefault();
+      document.querySelector<HTMLDialogElement>('.spotify-dialog[open]')?.close();
+      document.querySelector('[data-spotify-container]')?.replaceChildren();
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = trigger.dataset.title ?? 'Vídeo do Dream Theater';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      videoTitle.textContent = iframe.title;
+      videoExternal.href = trigger.href;
+      videoContainer.replaceChildren(iframe);
+      if (!videoDialog.open) videoDialog.showModal();
+    });
   });
-});
+  videoDialog.querySelector('[data-close-video]')?.addEventListener('click', stopVideo);
+  videoDialog.addEventListener('close', () => { if (!videoDialog.open) videoContainer.replaceChildren(); });
+  videoDialog.addEventListener('click', event => {
+    const rect = videoDialog.getBoundingClientRect();
+    if (event.target === videoDialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) stopVideo();
+  });
+}
 
 // Native dialog gives focus containment, Escape and focus restoration without a UI framework.
 const dialog = document.querySelector<HTMLDialogElement>('.spotify-dialog');

@@ -13,6 +13,7 @@
 - Prévia local reiniciada após criar componentes: HTTP 200 em desktop e celular, sem transbordamento horizontal. Screenshots de vídeos, lista e músicos conferidos visualmente.
 - axe-core: nenhuma violação WCAG A/AA detectada. Verificação automática, não certificação de acessibilidade.
 - Nenhum iframe no HTML inicial. Apenas um vídeo por vez; abrir Spotify interrompe o vídeo. Fechar o diálogo remove o iframe e devolve o foco.
+- Modal YouTube (21/09/2026): miniaturas, títulos e os 20 links adicionais abrem o vídeo em um diálogo com 96vw, limitado à altura disponível. Conferidos fechamento por botão, Escape e fundo, remoção do iframe e retorno do foco. Link externo preservado. Seis testes de players, assets/layout e conteúdo sem JavaScript aprovados em desktop e celular; auditoria de acessibilidade também executada com o modal aberto. Testes de interação usam iframe externo simulado, sem comprovar reprodução integral dos vídeos.
 
 ## Pesquisa e links
 
