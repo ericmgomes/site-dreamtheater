@@ -31,13 +31,15 @@ for (const [index, show] of setlists.entries()) {
 }
 for (const show of shows) assert(show.date > researchedAt, 'Past event shown as upcoming');
 assert.equal(videos.length, 6);
-assert.equal(moreVideos.length, 20);
+assert.equal(moreVideos.length, 44);
+assert.equal(rankedVideos.length, 50);
+assert.equal(new Set(rankedVideos.map(video => video.youtubeId)).size, 50);
 const videoCoverage = JSON.parse(await readFile('docs/research/youtube-ranking.json', 'utf8'));
 const videoCandidates = (await Promise.all(videoCoverage.researchFiles.map(async file => JSON.parse(await readFile(`docs/research/${file}`, 'utf8'))))).flatMap(part => part.candidates);
 const eligibleVideos = [...new Map(videoCandidates.filter(video => video.availableInBrazil && video.playabilityStatus === 'OK').map(video => [video.id, video])).values()].sort((a, b) => b.viewCount - a.viewCount);
 assert.equal(rankingMetadata.candidateCount, eligibleVideos.length);
 assert.equal(rankingMetadata.date, videoCoverage.asOf);
-assert.deepEqual(rankedVideos.map(video => video.youtubeId), eligibleVideos.slice(0, 26).map(video => video.id), 'Ranking must reflect researched view counts');
+assert.deepEqual(rankedVideos.map(video => video.youtubeId), eligibleVideos.slice(0, 50).map(video => video.id), 'Ranking must reflect researched view counts');
 assert.deepEqual(rankedVideos.map(video => video.youtubeId), videoCoverage.selectedIds);
 for (const [index, video] of rankedVideos.entries()) {
   assert.match(video.youtubeId, /^[\w-]{11}$/);

@@ -6,15 +6,15 @@ const views = (count: number) => new Intl.NumberFormat('pt-BR').format(count);
 ---
 <section class="section watch" id="veja" aria-labelledby="watch-title"><div class="wrap">
   <SectionHeading id="watch-title" number="02" title="Veja" description="O Dream Theater no Brasil. Aperte o play." />
-  <div class="section-toolbar"><span class="quiet-label">TOP 6 · MAIS VISTOS DA SELEÇÃO</span><span class="data-note">Shows no Brasil · YouTube</span></div>
+  <div class="section-toolbar"><span class="quiet-label">TOP 50 · SHOWS NO BRASIL</span><span class="data-note">Os 6 mais vistos da seleção</span></div>
   <div class="video-grid">{videos.map((video, index) => <article class="video-card">
     <div class="video-media">
       <a href={video.url} target="_blank" rel="noopener noreferrer" class="video-trigger" data-video={video.youtubeId} data-title={video.title} aria-label={`Assistir ${video.title}`}>
         <img src={`https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`} alt={`Dream Theater — ${video.title}`} width="480" height="360" loading="lazy" decoding="async" />
-        <span class="video-category">{video.category}</span><span class="play-button"><Icon name="play" size={24}/></span>
+        <span class="play-button"><Icon name="play" size={18}/></span>
       </a>
     </div>
-    <div class="video-caption"><span class="item-number">0{index + 1}</span><div><h3><a href={video.url} target="_blank" rel="noopener noreferrer" data-video={video.youtubeId} data-title={video.title}>{video.title}</a></h3><p>{video.location} · {video.source}</p><p class="video-views">{views(video.viewCount)} visualizações</p></div><Icon size={17}/></div>
+    <div class="video-caption"><span class="item-number">0{index + 1}</span><div><h3><a href={video.url} target="_blank" rel="noopener noreferrer" data-video={video.youtubeId} data-title={video.title}>{video.title}</a></h3><p class="video-category">{video.category}</p><p>{video.location} · {video.source}</p><p class="video-views">{views(video.viewCount)} visualizações</p></div><Icon size={17}/></div>
   </article>)}</div>
   <div class="subsection-heading"><h3>Continue assistindo.</h3><span class="eyebrow">Posições 7 a {videos.length + moreVideos.length} · no YouTube</span></div>
   <div class="video-ranking-scroll" id="video-ranking" role="region" aria-label="Mais vídeos do Dream Theater no Brasil" aria-describedby="ranking-status ranking-method" tabindex="0" data-ranking-scroll data-page-size="5" data-load-margin="32">

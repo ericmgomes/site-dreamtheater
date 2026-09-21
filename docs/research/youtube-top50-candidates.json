@@ -1,0 +1,1342 @@
+{
+  "asOf": "2026-09-21",
+  "methodology": [
+    "Reconsulta dos 44 candidatos anteriormente aceitos e busca pública de mais registros por visualizações, com cidades brasileiras.",
+    "Foram consultados 70 vídeos; 6 resultados foram excluídos por serem covers, comentários ou shows em outros países.",
+    "Os 64 candidatos elegíveis têm local brasileiro confirmado no título/descrição, status OK, BR em availableCountries e playableInEmbed true. Contagens inteiras em videoDetails.viewCount.",
+    "Top 50 entre os candidatos encontrados; não é um censo exaustivo do YouTube. Visualizações são totais, não somente da audiência brasileira.",
+    "Metadados não comprovam reprodução integral em todos os navegadores. Nenhuma mídia foi baixada."
+  ],
+  "searchUrls": [
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Brazil%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22S%C3%A3o%20Paulo%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Curitiba%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Porto%20Alegre%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Belo%20Horizonte%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Brasilia%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Recife%22&sp=CAMSAhAB",
+    "https://www.youtube.com/results?search_query=%22Dream%20Theater%22%20%22Rock%20in%20Rio%22&sp=CAMSAhAB"
+  ],
+  "candidates": [
+    {
+      "id": "TqoCg7ezIxY",
+      "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
+      "title": "Dream Theater- These Walls",
+      "viewCount": 359039,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "durationSeconds": 398,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:55.350541+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream THeater live Sao Paulo Brazil"
+      }
+    },
+    {
+      "id": "vSBopDijt7A",
+      "url": "https://www.youtube.com/watch?v=vSBopDijt7A",
+      "title": "Dream Theater - The Dark Eternal Night [Mike Mangini drum cam] - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 270140,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "durationSeconds": 617,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:55.295100+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=vSBopDijt7A",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Dark Eternal Night [Mike Mangini drum cam] - 08/26/2012 - Sao Paulo, Brazil"
+      }
+    },
+    {
+      "id": "uoARgJzqGDQ",
+      "url": "https://www.youtube.com/watch?v=uoARgJzqGDQ",
+      "title": "Dream Theater - The Mirror",
+      "viewCount": 185314,
+      "uploader": "DiegoDT",
+      "channelId": "UCfa2Fb_u1c4aZ95chr3FyUA",
+      "durationSeconds": 494,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:55.332929+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=uoARgJzqGDQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Scenes From Sao Paulo."
+      }
+    },
+    {
+      "id": "hFvy508WExk",
+      "url": "https://www.youtube.com/watch?v=hFvy508WExk",
+      "title": "Mike Mangini drum solo - Dream Theater live at Credicard Hall - São Paulo - 08.26.12",
+      "viewCount": 170758,
+      "uploader": "Raphael",
+      "channelId": "UCc_qjWEngdOd6bXNOIK1IuA",
+      "durationSeconds": 397,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:55.242761+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=hFvy508WExk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Mike Mangini drum solo - Dream Theater live at Credicard Hall - São Paulo - 08.26.12"
+      }
+    },
+    {
+      "id": "Eyq-YaVayXk",
+      "url": "https://www.youtube.com/watch?v=Eyq-YaVayXk",
+      "title": "Mike Portnoy - Dream Theater - Finally Free - Live in Sao Paulo",
+      "viewCount": 132098,
+      "uploader": "Nilton Junior",
+      "channelId": "UCF-uCIJU2gGaXpWwM3gM5lg",
+      "durationSeconds": 88,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:56.232259+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=Eyq-YaVayXk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Mike Portnoy - Dream Theater - Finally Free - Live in Sao Paulo"
+      }
+    },
+    {
+      "id": "PQDcNEcNyIw",
+      "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
+      "title": "Dream Theater - The Spirits Carries On",
+      "viewCount": 121686,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "durationSeconds": 409,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:56.068119+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater  The Spirits Carries On live Brazil!!"
+      }
+    },
+    {
+      "id": "tkdK4doF3s8",
+      "url": "https://www.youtube.com/watch?v=tkdK4doF3s8",
+      "title": "Dream Theater - Overture 1928",
+      "viewCount": 96090,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "durationSeconds": 217,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:56.314770+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=tkdK4doF3s8",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Overture 1928 live Sao Paulo Brazil"
+      }
+    },
+    {
+      "id": "ezKw4PNeRtQ",
+      "url": "https://www.youtube.com/watch?v=ezKw4PNeRtQ",
+      "title": "Dream Theater - Lie",
+      "viewCount": 92689,
+      "uploader": "DiegoTheater",
+      "channelId": "UCStcFiDyV-XEp6p4A1Z79tw",
+      "durationSeconds": 414,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:56.388963+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=ezKw4PNeRtQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream THeater Sao Paulo Brazil."
+      }
+    },
+    {
+      "id": "Jln0mVAhpM0",
+      "url": "https://www.youtube.com/watch?v=Jln0mVAhpM0",
+      "title": "Portnoy on Guitar and Petrucci on Drums in Belo Horizonte",
+      "viewCount": 82838,
+      "uploader": "andrewsvt",
+      "channelId": "UCGwt0VpzWlBIH-XYuGwDe_g",
+      "durationSeconds": 77,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:56.857032+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=Jln0mVAhpM0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Portnoy on Guitar and Petrucci on Drums in Belo Horizonte"
+      }
+    },
+    {
+      "id": "R3AcVkFZxlo",
+      "url": "https://www.youtube.com/watch?v=R3AcVkFZxlo",
+      "title": "Dream Theater Live in Rio 2010 - A Rite of Passage",
+      "viewCount": 58733,
+      "uploader": "Paulo Gouvêa - Vaizé",
+      "channelId": "UCvNHicXL2yX97QcyH1kB9sQ",
+      "durationSeconds": 535,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.042969+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=R3AcVkFZxlo",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Concert at  Citybank Hall in Rio de Janeiro, Brazil, 20-mar-2010. Opening by Bigelf."
+      }
+    },
+    {
+      "id": "jcwlngZVRj8",
+      "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
+      "title": "Dream Theater - The Mirror (Live in Belo Horizonte, Brazil - December 10th, 2024)",
+      "viewCount": 58724,
+      "uploader": "Rafael Pezzuti Dias",
+      "channelId": "UCAIOIUsadQZdZFsG8coE7dA",
+      "durationSeconds": 601,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.155053+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Mirror (Live in Belo Horizonte, Brazil - December 10th, 2024)"
+      }
+    },
+    {
+      "id": "1gvuhcWN4Z4",
+      "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
+      "title": "Dream Theater - Portnoy plays guitar & Petrucci plays drums",
+      "viewCount": 58453,
+      "uploader": "Pedro Renault",
+      "channelId": "UCUx-mF1ddj14fT0DiZ-g7ag",
+      "durationSeconds": 48,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.113916+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Belo Horizonte concert - 03/09/2008"
+      }
+    },
+    {
+      "id": "U7YdvThW8kc",
+      "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
+      "title": "DREAM THEATER - PARASOMNIA 2026 - Vivo Rio ,10/05/2026",
+      "viewCount": 47915,
+      "uploader": "Evandro Amaro",
+      "channelId": "UCt8Gjxm7rra38aNKHCqguHQ",
+      "durationSeconds": 9452,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.600754+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "DREAM THEATER - PARASOMNIA 2026 - Vivo Rio ,10/05/2026"
+      }
+    },
+    {
+      "id": "wtrHKOqdJf4",
+      "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
+      "title": "Dream Theater - Just Let Me Breath",
+      "viewCount": 34168,
+      "uploader": "DiegoDT",
+      "channelId": "UCfa2Fb_u1c4aZ95chr3FyUA",
+      "durationSeconds": 406,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.809010+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream THeater Sao Paulo -Brazil"
+      }
+    },
+    {
+      "id": "6j1D-cnlj64",
+      "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
+      "title": "Dream Theater - \"A Nightmare to Remember\" Live in São Paulo 2010",
+      "viewCount": 29283,
+      "uploader": "Bellini´s Treasure Chest",
+      "channelId": "UCIqgg5xZuO-fLXY4_4tKI5w",
+      "durationSeconds": 934,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.882788+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - \"A Nightmare to Remember\" Live in São Paulo 2010"
+      }
+    },
+    {
+      "id": "K6nWJyra9y0",
+      "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
+      "title": "Dream Theater - Brazilian Tour 2012 (Multi-câmera)",
+      "viewCount": 29062,
+      "uploader": "DTBrazilianTour12",
+      "channelId": "UCWeAq5Qurh0c_nFTtXN508g",
+      "durationSeconds": 8135,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:57.969117+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Brazilian Tour 2012 (Multi-câmera)"
+      }
+    },
+    {
+      "id": "EbGKRKQcA14",
+      "url": "https://www.youtube.com/watch?v=EbGKRKQcA14",
+      "title": "Dream Theater Live in Rio 2010 - A Nightmare to Remember (Opening song)",
+      "viewCount": 25411,
+      "uploader": "Paulo Gouvêa - Vaizé",
+      "channelId": "UCvNHicXL2yX97QcyH1kB9sQ",
+      "durationSeconds": 899,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:58.708939+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=EbGKRKQcA14",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Concert at Citybank Hall in Rio de Janeiro, Brazil, 20-mar-2010. This was the first song of DT concert. "
+      }
+    },
+    {
+      "id": "_tM7GlmRaug",
+      "url": "https://www.youtube.com/watch?v=_tM7GlmRaug",
+      "title": "Dream Theater - (WITHER)Live In São Paulo/Brazil 19-03-2010",
+      "viewCount": 24854,
+      "uploader": "Pirickas",
+      "channelId": "UCR8sBcqF8HcrmtU6grFy1Nw",
+      "durationSeconds": 342,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:58.995068+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=_tM7GlmRaug",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - (WITHER)Live In São Paulo/Brazil 19-03-2010"
+      }
+    },
+    {
+      "id": "UaAYbrfJ2LE",
+      "url": "https://www.youtube.com/watch?v=UaAYbrfJ2LE",
+      "title": "Dream Theater - live in Brasil - As I am",
+      "viewCount": 23855,
+      "uploader": "eu396",
+      "channelId": "UClWrLumXNiNjiiX7zEKh51Q",
+      "durationSeconds": 433,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:58.548879+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=UaAYbrfJ2LE",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - live in Brasil - As I am"
+      }
+    },
+    {
+      "id": "4c-gMqPjmHU",
+      "url": "https://www.youtube.com/watch?v=4c-gMqPjmHU",
+      "title": "Dream Theater Rock in Rio 02-09-2022 (The Count of Tuscany)",
+      "viewCount": 21901,
+      "uploader": "Rafael Chacon",
+      "channelId": "UCdkm2USmeUuO_Up3DyOp2LA",
+      "durationSeconds": 1192,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:02.591926+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=4c-gMqPjmHU",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Rock in Rio 02-09-2022 (The Count of Tuscany)"
+      }
+    },
+    {
+      "id": "FGXywX2FFYY",
+      "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
+      "title": "DREAM THEATER - 40 Anniversary Tour 2024 - Rio de Janeiro/Brazil.",
+      "viewCount": 20424,
+      "uploader": "Evandro Amaro",
+      "channelId": "UCt8Gjxm7rra38aNKHCqguHQ",
+      "durationSeconds": 10116,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:58.776056+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "DREAM THEATER - 40 Anniversary Tour 2024 - Rio de Janeiro/Brazil."
+      }
+    },
+    {
+      "id": "n6VtFq8cBlg",
+      "url": "https://www.youtube.com/watch?v=n6VtFq8cBlg",
+      "title": "Dream Theater - Panic Attack (Live in Belo Horizonte)",
+      "viewCount": 18173,
+      "uploader": "Nienna",
+      "channelId": "UCRg688iWpDld6q2WMq1M3fQ",
+      "durationSeconds": 445,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:59.265758+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=n6VtFq8cBlg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Panic Attack (Live in Belo Horizonte)"
+      }
+    },
+    {
+      "id": "uvJ_7supwxk",
+      "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
+      "title": "Dream Theater Pull Me Under Monsters of Rock Brasil 1998",
+      "viewCount": 17842,
+      "uploader": "alefernan",
+      "channelId": "UC1-XqJcqzTZHmAkFBUqrueg",
+      "durationSeconds": 446,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:59.873990+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Pull Me Under Monsters of Rock Brasil 1998"
+      }
+    },
+    {
+      "id": "R6GIQQyuT2U",
+      "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
+      "title": "Dream Theater - Full Show - Show Completo - Ao Vivo em São Paulo - 15-12-24",
+      "viewCount": 16771,
+      "uploader": "tonirossi",
+      "channelId": "UC9C79JlDKnmUm2gNjLMMecQ",
+      "durationSeconds": 9925,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:00.037747+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Full Show - Show Completo - Ao Vivo em São Paulo - 15-12-24"
+      }
+    },
+    {
+      "id": "MseevwwamT4",
+      "url": "https://www.youtube.com/watch?v=MseevwwamT4",
+      "title": "Dream Theater - Breaking All Illusions - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 15471,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "durationSeconds": 740,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:53:59.782564+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=MseevwwamT4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Breaking All Illusions - 08/26/2012 - Sao Paulo, Brazil"
+      }
+    },
+    {
+      "id": "3iQ-Apk_RRU",
+      "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
+      "title": "Dream Theater - Live Curitiba - Barstool Warrior (Guitar Fail)",
+      "viewCount": 15126,
+      "uploader": "Lucas Medina",
+      "channelId": "UCys9FGSmPyVd_f3dr6Tjb-w",
+      "durationSeconds": 83,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:00.460719+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Live Curitiba - Barstool Warrior (Guitar Fail)"
+      }
+    },
+    {
+      "id": "01ga1MXwruA",
+      "url": "https://www.youtube.com/watch?v=01ga1MXwruA",
+      "title": "Dream theater - Endless sacrifice live in São Paulo - 31/08/22",
+      "viewCount": 14664,
+      "uploader": "Ritieli Dos Santos",
+      "channelId": "UCtu87GGryApNZxT-zUk_4fA",
+      "durationSeconds": 717,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:00.692726+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=01ga1MXwruA",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream theater - Endless sacrifice live in São Paulo - 31/08/22"
+      }
+    },
+    {
+      "id": "sf6ZbHSiZMg",
+      "url": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+      "title": "Dream Theater - The Spirit Carries On (High Definition)",
+      "viewCount": 13771,
+      "uploader": "cristianocosta",
+      "channelId": "UCDDItsvpNyvV26cVMDy29xg",
+      "durationSeconds": 376,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:00.792456+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Live at Credicar Hall (Sao Paulo - Brazil)"
+      }
+    },
+    {
+      "id": "xIBC8JpM9RA",
+      "url": "https://www.youtube.com/watch?v=xIBC8JpM9RA",
+      "title": "Dream Theater - 6:00 - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K",
+      "viewCount": 12325,
+      "uploader": "shadzbr",
+      "channelId": "UCc-qCqhvYyMNrKmyZ2s91Ig",
+      "durationSeconds": 144,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:02.867025+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=xIBC8JpM9RA",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - 6:00 - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K"
+      }
+    },
+    {
+      "id": "d_XEd8g7g3w",
+      "url": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+      "title": "Dream Theater - At Wit's End Live at Vivo Rio(06/12/2019)",
+      "viewCount": 12250,
+      "uploader": "Carcass",
+      "channelId": "UCd7yfbwSp8lJhmuBfOCtCoA",
+      "durationSeconds": 568,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:01.075055+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - At Wit's End Live at Vivo Rio(06/12/2019)"
+      }
+    },
+    {
+      "id": "zEfN3QPLjBg",
+      "url": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+      "title": "Dream Theater - Caught in a Web (live in Brazil)",
+      "viewCount": 12120,
+      "uploader": "LuizaFTF",
+      "channelId": "UCEzoQbdL4xsldnnQoyRpxlQ",
+      "durationSeconds": 335,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:01.521906+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Caught in a Web (live in Brazil)"
+      }
+    },
+    {
+      "id": "UpSLS5gO3Zo",
+      "url": "https://www.youtube.com/watch?v=UpSLS5gO3Zo",
+      "title": "Dream Theater - Pull me Under (Rock in Rio 2022)",
+      "viewCount": 11825,
+      "uploader": "Matheus Queiroz",
+      "channelId": "UCAGp9iD2WdeSC90rJqJ4DLA",
+      "durationSeconds": 489,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:02.947825+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=UpSLS5gO3Zo",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Pull me Under (Rock in Rio 2022)"
+      }
+    },
+    {
+      "id": "6rKMKG7IASM",
+      "url": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+      "title": "Dream Theater - Overture 1928 + Strange Deja Vu live in Porto Alegre 2019 (4K).",
+      "viewCount": 11302,
+      "uploader": "Lucas Barros",
+      "channelId": "UCIGW5mROAmUCyPO0782WuUA",
+      "durationSeconds": 520,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:01.716973+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Overture 1928 + Strange Deja Vu live in Porto Alegre 2019 (4K)."
+      }
+    },
+    {
+      "id": "roQjVFCz2v0",
+      "url": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+      "title": "Dream Theater - 6:00 - 08/26/2012 - Sao Paulo, Brazil",
+      "viewCount": 10795,
+      "uploader": "MFranklin1910",
+      "channelId": "UCSHHQo5xRfv5qhzZq6eK1qQ",
+      "durationSeconds": 335,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:01.896767+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - 6:00 - 08/26/2012 - Sao Paulo, Brazil"
+      }
+    },
+    {
+      "id": "S5ZluOXX2jw",
+      "url": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+      "title": "Dream Theater - Scenes from São Paulo (11/12/2005)",
+      "viewCount": 9110,
+      "uploader": "Ledones",
+      "channelId": "UCMROEO_PM6HJqM8scBf52aw",
+      "durationSeconds": 9925,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:02.030526+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Scenes from São Paulo (11/12/2005)"
+      }
+    },
+    {
+      "id": "xz6ALZzG9v8",
+      "url": "https://www.youtube.com/watch?v=xz6ALZzG9v8",
+      "title": "Dream Theater - The Alien - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K",
+      "viewCount": 8925,
+      "uploader": "shadzbr",
+      "channelId": "UCc-qCqhvYyMNrKmyZ2s91Ig",
+      "durationSeconds": 553,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:02.788761+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=xz6ALZzG9v8",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Alien - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K"
+      }
+    },
+    {
+      "id": "GSZghfMGeEI",
+      "url": "https://www.youtube.com/watch?v=GSZghfMGeEI",
+      "title": "Dream Theater - Pull Me Under (Live in Belo Horizonte, Brazil - December 10th, 2024)",
+      "viewCount": 8815,
+      "uploader": "Rafael Pezzuti Dias",
+      "channelId": "UCAIOIUsadQZdZFsG8coE7dA",
+      "durationSeconds": 484,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:05.010722+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=GSZghfMGeEI",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Pull Me Under (Live in Belo Horizonte, Brazil - December 10th, 2024)"
+      }
+    },
+    {
+      "id": "JqnEi42XUm4",
+      "url": "https://www.youtube.com/watch?v=JqnEi42XUm4",
+      "title": "Dream Theater - 2010-03-18 @ Master Hall, Curitiba, Brazil",
+      "viewCount": 8741,
+      "uploader": "NothingIncarnate",
+      "channelId": "UCoGTTDNVOuqZxlCjB2F54HQ",
+      "durationSeconds": 6663,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:05.328285+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=JqnEi42XUm4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - 2010-03-18 @ Master Hall, Curitiba, Brazil"
+      }
+    },
+    {
+      "id": "-3-UCsBdgBU",
+      "url": "https://www.youtube.com/watch?v=-3-UCsBdgBU",
+      "title": "Dream Theater - In The Name Of God @ Curitiba, Brazil, 18/03/10 - HD",
+      "viewCount": 8282,
+      "uploader": "Boás Henrique Oliveira",
+      "channelId": "UCO4g41P7MJ-x8dRWwheJLhQ",
+      "durationSeconds": 600,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:05.250488+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=-3-UCsBdgBU",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - In The Name Of God @ Curitiba, Brazil, 18/03/10 - HD"
+      }
+    },
+    {
+      "id": "jrw24xupI4I",
+      "url": "https://www.youtube.com/watch?v=jrw24xupI4I",
+      "title": "Dream Theater - Under a Glass Moon + James LaBrie annoyed at a fan - Porto Alegre - 17/12/2024",
+      "viewCount": 8076,
+      "uploader": "i.",
+      "channelId": "UCms3esekWmjm6L8ndaCrpcg",
+      "durationSeconds": 594,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:06.837149+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=jrw24xupI4I",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Under a Glass Moon + James LaBrie annoyed at a fan - Porto Alegre - 17/12/2024"
+      }
+    },
+    {
+      "id": "YFUTaiYrstk",
+      "url": "https://www.youtube.com/watch?v=YFUTaiYrstk",
+      "title": "Jordan Rudess Keytar Solo in Recife, Brazil",
+      "viewCount": 8060,
+      "uploader": "Thomaz Freitas Barbosa",
+      "channelId": "UCvI29mH5lHqDqsmsG5K6XXg",
+      "durationSeconds": 62,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:07.888814+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=YFUTaiYrstk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Jordan Rudess Keytar Solo in Recife, Brazil",
+        "locationNote": "Upload usa Recife; apresentação de 10/10/2014 foi no Chevrolet Hall, Olinda, conforme histórico brasileiro já conferido em brazil-setlists.json."
+      }
+    },
+    {
+      "id": "mQqDddDf-VA",
+      "url": "https://www.youtube.com/watch?v=mQqDddDf-VA",
+      "title": "Take the Time (HD.720p) - Dream Theater - Curitiba/Brazil - 18-03-10",
+      "viewCount": 7219,
+      "uploader": "Alessandro Koccis",
+      "channelId": "UC3Qd5DLvDGGsv9GmKK0e_tg",
+      "durationSeconds": 454,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:05.433970+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=mQqDddDf-VA",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Take the Time (HD.720p) - Dream Theater - Curitiba/Brazil - 18-03-10"
+      }
+    },
+    {
+      "id": "xsXrb8-VcF4",
+      "url": "https://www.youtube.com/watch?v=xsXrb8-VcF4",
+      "title": "Dream Theater - The Mirror + Lie @ Curitiba, Brazil, 18/03/10 - HD",
+      "viewCount": 6890,
+      "uploader": "Boás Henrique Oliveira",
+      "channelId": "UCO4g41P7MJ-x8dRWwheJLhQ",
+      "durationSeconds": 600,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:06.952484+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=xsXrb8-VcF4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Mirror + Lie @ Curitiba, Brazil, 18/03/10 - HD"
+      }
+    },
+    {
+      "id": "JfSXViVhT2Y",
+      "url": "https://www.youtube.com/watch?v=JfSXViVhT2Y",
+      "title": "Dream Theater Rock in Rio 02-09-2022 (Pull Me Under)",
+      "viewCount": 6563,
+      "uploader": "Fate Skateboarder",
+      "channelId": "UCuueMKuXgm0tZ9p_KUz3AoA",
+      "durationSeconds": 473,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:03.226176+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=JfSXViVhT2Y",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater Rock in Rio 02-09-2022 (Pull Me Under)"
+      }
+    },
+    {
+      "id": "GSpaqjZBoW4",
+      "url": "https://www.youtube.com/watch?v=GSpaqjZBoW4",
+      "title": "Dream Theater São Paulo 2008 Surrounded",
+      "viewCount": 6010,
+      "uploader": "repacini",
+      "channelId": "UCLJNgEO5Lvjn-HVVhnIFCPg",
+      "durationSeconds": 449,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:07.028861+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=GSpaqjZBoW4",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater São Paulo 2008 Surrounded"
+      }
+    },
+    {
+      "id": "_XsvPdAqN1U",
+      "url": "https://www.youtube.com/watch?v=_XsvPdAqN1U",
+      "title": "Dream Theater - A Nightmare To Remember live in Porto Alegre 2019 (4K).",
+      "viewCount": 5929,
+      "uploader": "Lucas Barros",
+      "channelId": "UCIGW5mROAmUCyPO0782WuUA",
+      "durationSeconds": 919,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:07.110517+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=_XsvPdAqN1U",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - A Nightmare To Remember live in Porto Alegre 2019 (4K)."
+      }
+    },
+    {
+      "id": "6U-75uDA7lI",
+      "url": "https://www.youtube.com/watch?v=6U-75uDA7lI",
+      "title": "Dream Theater - São Paulo (10/12/2005)",
+      "viewCount": 3993,
+      "uploader": "Ledones",
+      "channelId": "UCMROEO_PM6HJqM8scBf52aw",
+      "durationSeconds": 8760,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:07.818049+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=6U-75uDA7lI",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - São Paulo (10/12/2005)"
+      }
+    },
+    {
+      "id": "M7Rx-6nA7rU",
+      "url": "https://www.youtube.com/watch?v=M7Rx-6nA7rU",
+      "title": "Dream Theater - Live at Rock in Rio 2022 • Intro + The Alien",
+      "viewCount": 3988,
+      "uploader": "Carlos Henrique Baier",
+      "channelId": "UCCVOI9lSxqM-MtXKXHIeF9Q",
+      "durationSeconds": 549,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:03.441735+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=M7Rx-6nA7rU",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Live at Rock in Rio 2022 • Intro + The Alien"
+      }
+    },
+    {
+      "id": "adM1MSuqtOY",
+      "url": "https://www.youtube.com/watch?v=adM1MSuqtOY",
+      "title": "Dream Theater - Astonishing (Live in Belo Horizonte - 2016)",
+      "viewCount": 3613,
+      "uploader": "História, Música & Prosa",
+      "channelId": "UCLywzm3pe25QGxb4xT3iONA",
+      "durationSeconds": 403,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:08.496765+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=adM1MSuqtOY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Astonishing (Live in Belo Horizonte - 2016)"
+      }
+    },
+    {
+      "id": "pNmMDSgl3Ps",
+      "url": "https://www.youtube.com/watch?v=pNmMDSgl3Ps",
+      "title": "Dream Theater - The Dance of Eternity (Ao vivo - Brasil - Recife - 10/10/2014)",
+      "viewCount": 3490,
+      "uploader": "wolframf",
+      "channelId": "UCET7Na2ULvxesauDdpEa18Q",
+      "durationSeconds": 378,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:08.695254+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=pNmMDSgl3Ps",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Dance of Eternity (Ao vivo - Brasil - Recife - 10/10/2014)",
+        "locationNote": "Upload usa Recife; apresentação de 10/10/2014 foi no Chevrolet Hall, Olinda, conforme histórico brasileiro já conferido em brazil-setlists.json."
+      }
+    },
+    {
+      "id": "KF7tPY2-bbM",
+      "url": "https://www.youtube.com/watch?v=KF7tPY2-bbM",
+      "title": "Dream Theater - Bridges in the Sky - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ 02/09/2022) 4K",
+      "viewCount": 3483,
+      "uploader": "shadzbr",
+      "channelId": "UCc-qCqhvYyMNrKmyZ2s91Ig",
+      "durationSeconds": 320,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:03.684254+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=KF7tPY2-bbM",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Bridges in the Sky - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ 02/09/2022) 4K"
+      }
+    },
+    {
+      "id": "iPC1efiUXe0",
+      "url": "https://www.youtube.com/watch?v=iPC1efiUXe0",
+      "title": "Dream Theater 17 METROPOLIS PT. 1: THE MIRACLE AND THE SLEEPER 01/09/2012 Brasilia Brazil 9-1-2012",
+      "viewCount": 2678,
+      "uploader": "higortm",
+      "channelId": "UCLxWY2sOfhYBSzQtPa_yYTQ",
+      "durationSeconds": 756,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:08.769395+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=iPC1efiUXe0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater 17 METROPOLIS PT. 1: THE MIRACLE AND THE SLEEPER 01/09/2012 Brasilia Brazil 9-1-2012"
+      }
+    },
+    {
+      "id": "anrdqFdW5rg",
+      "url": "https://www.youtube.com/watch?v=anrdqFdW5rg",
+      "title": "Dream Theater  -2005.12.11 - Sao Paulo - Scenes From A Memory",
+      "viewCount": 2404,
+      "uploader": "DreamTheaterBootlegs",
+      "channelId": "UCzcxHbjlPQ8Ey3VDfSW0sDA",
+      "durationSeconds": 4728,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:09.028168+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=anrdqFdW5rg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater  -2005.12.11 - Sao Paulo - Scenes From A Memory"
+      }
+    },
+    {
+      "id": "Ik7OtqsEvjg",
+      "url": "https://www.youtube.com/watch?v=Ik7OtqsEvjg",
+      "title": "Dream Theater - The Count of Tuscany (live), Rock in Rio Brasil 2022 [4K]",
+      "viewCount": 2362,
+      "uploader": "Karl-Gunnar Severinsen",
+      "channelId": "UCX22dCxOfrPryl09oQDD1Rg",
+      "durationSeconds": 1188,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:03.897038+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=Ik7OtqsEvjg",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Count of Tuscany (live), Rock in Rio Brasil 2022 [4K]"
+      }
+    },
+    {
+      "id": "MHp4BaeBeb0",
+      "url": "https://www.youtube.com/watch?v=MHp4BaeBeb0",
+      "title": "Dream Theater - Invisible Monster - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K",
+      "viewCount": 2065,
+      "uploader": "shadzbr",
+      "channelId": "UCc-qCqhvYyMNrKmyZ2s91Ig",
+      "durationSeconds": 374,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:04.279029+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=MHp4BaeBeb0",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Invisible Monster - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K"
+      }
+    },
+    {
+      "id": "HKiDOoOBIvk",
+      "url": "https://www.youtube.com/watch?v=HKiDOoOBIvk",
+      "title": "Dream Theater, Bridges in the Sky at Rock in Rio, Rio de Janeiro/Brazil 02.09.2022",
+      "viewCount": 1431,
+      "uploader": "HeavyRodrigoMetal",
+      "channelId": "UCcEKtO4n6nMFR-FtsJBcSzQ",
+      "durationSeconds": 665,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:04.210567+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=HKiDOoOBIvk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater, Bridges in the Sky at Rock in Rio, Rio de Janeiro/Brazil 02.09.2022"
+      }
+    },
+    {
+      "id": "qoFFGGKFCAw",
+      "url": "https://www.youtube.com/watch?v=qoFFGGKFCAw",
+      "title": "Dream Theater 08 THE SILENT MAN 01/09/2012 Brasilia Brazil 9-1-2012",
+      "viewCount": 1249,
+      "uploader": "higortm",
+      "channelId": "UCLxWY2sOfhYBSzQtPa_yYTQ",
+      "durationSeconds": 338,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:09.306015+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=qoFFGGKFCAw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater 08 THE SILENT MAN 01/09/2012 Brasilia Brazil 9-1-2012"
+      }
+    },
+    {
+      "id": "sYjHR7IhiiQ",
+      "url": "https://www.youtube.com/watch?v=sYjHR7IhiiQ",
+      "title": "Dream Theater - Endless Sacrifice - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K",
+      "viewCount": 1127,
+      "uploader": "shadzbr",
+      "channelId": "UCc-qCqhvYyMNrKmyZ2s91Ig",
+      "durationSeconds": 102,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:04.486220+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=sYjHR7IhiiQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Endless Sacrifice - Ao Vivo (Live Rock in Rio - Rio de Janeiro / RJ - 02/09/2022) 4K"
+      }
+    },
+    {
+      "id": "N2ti0YSVDCw",
+      "url": "https://www.youtube.com/watch?v=N2ti0YSVDCw",
+      "title": "Dream Theater em Brasília - Bridges In The Sky",
+      "viewCount": 1004,
+      "uploader": "Amilton Rodrigues",
+      "channelId": "UCGi-wYl8GRyN1aDQvdEJ1rw",
+      "durationSeconds": 491,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:09.619245+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=N2ti0YSVDCw",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater em Brasília - Bridges In The Sky"
+      }
+    },
+    {
+      "id": "sFbBNbnaeGQ",
+      "url": "https://www.youtube.com/watch?v=sFbBNbnaeGQ",
+      "title": "Dream Theater - The Spirit Carries On (Brasilia 01.09.2012)",
+      "viewCount": 781,
+      "uploader": "Daniel Vilar",
+      "channelId": "UCv_HYHBY3a2pwN6ww_c92aA",
+      "durationSeconds": 546,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:09.694080+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=sFbBNbnaeGQ",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - The Spirit Carries On (Brasilia 01.09.2012)"
+      }
+    },
+    {
+      "id": "luPKWGkumkY",
+      "url": "https://www.youtube.com/watch?v=luPKWGkumkY",
+      "title": "Dream Theater - Endless Sacrifice Live In Rock In Rio 02 09 2022",
+      "viewCount": 775,
+      "uploader": "Serpax",
+      "channelId": "UCWQ6u8TQ7whfLMKhfFK2KbQ",
+      "durationSeconds": 479,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:04.668257+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=luPKWGkumkY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Endless Sacrifice Live In Rock In Rio 02 09 2022"
+      }
+    },
+    {
+      "id": "awDu2Mk2nso",
+      "url": "https://www.youtube.com/watch?v=awDu2Mk2nso",
+      "title": "Dream Theater - Metropolis pt. I - The Miracle And the Sleeper (Brasilia 01.09.2012)",
+      "viewCount": 751,
+      "uploader": "Daniel Vilar",
+      "channelId": "UCv_HYHBY3a2pwN6ww_c92aA",
+      "durationSeconds": 770,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:09.940629+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=awDu2Mk2nso",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Metropolis pt. I - The Miracle And the Sleeper (Brasilia 01.09.2012)"
+      }
+    },
+    {
+      "id": "bsNdJVJqJEk",
+      "url": "https://www.youtube.com/watch?v=bsNdJVJqJEk",
+      "title": "Dream Theater - Dark Eternal Night (Live in Brasília)",
+      "viewCount": 719,
+      "uploader": "Rainer Gonçalves Sousa",
+      "channelId": "UCyFdUD-SeT4YrzGDXZS_LAA",
+      "durationSeconds": 595,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:10.082664+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=bsNdJVJqJEk",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Dark Eternal Night (Live in Brasília)"
+      }
+    },
+    {
+      "id": "LEuwemzkPLY",
+      "url": "https://www.youtube.com/watch?v=LEuwemzkPLY",
+      "title": "Dream Theater - Breaking All Illusions (Brasilia 01.09.2012)",
+      "viewCount": 682,
+      "uploader": "Daniel Vilar",
+      "channelId": "UCv_HYHBY3a2pwN6ww_c92aA",
+      "durationSeconds": 695,
+      "playabilityStatus": "OK",
+      "playableInEmbed": true,
+      "availableInBrazil": true,
+      "checkedAt": "2026-09-21T19:54:10.349772+00:00",
+      "countryCode": "BR",
+      "provenance": {
+        "url": "https://www.youtube.com/watch?v=LEuwemzkPLY",
+        "viewCountField": "ytInitialPlayerResponse.videoDetails.viewCount",
+        "regionField": "ytInitialPlayerResponse.microformat.playerMicroformatRenderer.availableCountries includes BR",
+        "brazilEvidence": "Dream Theater - Breaking All Illusions (Brasilia 01.09.2012)"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "qug_T4YYEIQ",
+      "url": "https://www.youtube.com/watch?v=qug_T4YYEIQ",
+      "title": "Dream Theater - A View From the Top of the World",
+      "reason": "Comentário/crítica de álbum por Regis Tadeu; não é registro de show."
+    },
+    {
+      "id": "wnynC1qbgdk",
+      "url": "https://www.youtube.com/watch?v=wnynC1qbgdk",
+      "title": "Dream Theater - Finally Free (live)",
+      "reason": "Show em Upper Darby, Estados Unidos."
+    },
+    {
+      "id": "VQJi5kRdMgg",
+      "url": "https://www.youtube.com/watch?v=VQJi5kRdMgg",
+      "title": "Dream Theater \"Sacrificed Sons\"",
+      "reason": "Cover da banda japonesa Dream Nantoka."
+    },
+    {
+      "id": "uzbddThziDE",
+      "url": "https://www.youtube.com/watch?v=uzbddThziDE",
+      "title": "Dream Theater - Overture - live 2007",
+      "reason": "Show no Coliseu do Porto, Portugal."
+    },
+    {
+      "id": "AKXrn4pJImM",
+      "url": "https://www.youtube.com/watch?v=AKXrn4pJImM",
+      "title": "Dream Theater - Panic Attack",
+      "reason": "Cover individual conforme descrição."
+    },
+    {
+      "id": "wPKYaDxIfAs",
+      "url": "https://www.youtube.com/watch?v=wPKYaDxIfAs",
+      "title": "Dream Theater - Under a Glass Moon",
+      "reason": "Show em Milwaukee, Estados Unidos."
+    }
+  ]
+}

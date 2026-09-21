@@ -140,16 +140,16 @@ test('Brazil video ranking scrolls independently and covers are grouped by instr
   await expect(page.locator('.video-card')).toHaveCount(6);
   const scroller = page.getByRole('region',{name:'Mais vídeos do Dream Theater no Brasil'});
   await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(5);
-  await expect(page.locator('[data-ranked-video][data-country="BR"]')).toHaveCount(20);
+  await expect(page.locator('[data-ranked-video][data-country="BR"]')).toHaveCount(44);
   expect(await scroller.evaluate(element => element.scrollHeight > element.clientHeight)).toBeTruthy();
   await scroller.focus();
   for (let previous = 5; previous < moreVideos.length; previous += 5) {
     const position = await scroller.evaluate(element => { element.scrollTop = element.scrollHeight; return element.scrollTop; });
-    await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(previous + 5);
+    await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(Math.min(previous + 5, moreVideos.length));
     expect(await scroller.evaluate(element => element.scrollTop)).toBeCloseTo(position,0);
   }
   expect(await page.locator('[data-ranked-video] a').evaluateAll(links => links.map(link => (link as HTMLAnchorElement).href))).toEqual(moreVideos.map(video => video.url));
-  await expect(page.locator('[data-ranking-status]')).toHaveText('Todos os 20 vídeos carregados.');
+  await expect(page.locator('[data-ranking-status]')).toHaveText('Todos os 44 vídeos carregados.');
   await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
   // Loading videos must not consume a page of the separate show history.
   await expect(page.locator('[data-setlist]:visible')).toHaveCount(12);
@@ -272,7 +272,7 @@ test('core content and external destinations work without JavaScript', async ({ 
   await expect(page.getByRole('button',{name:'Carregar mais shows'})).toBeHidden();
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);
   await expect(page.locator('[data-video]').first()).toHaveAttribute('href',videos[0].url);
-  await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(20);
+  await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(44);
   await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
   await expect(page.locator('[data-spotify]').first()).toHaveAttribute('href','https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB');
   await expect(page.locator('iframe')).toHaveCount(0);

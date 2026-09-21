@@ -1,10 +1,10 @@
-// Contagens e recorte: docs/research/youtube-ranking.json e arquivos de candidatos.
+// Contagens e recorte: docs/research/youtube-ranking.json e youtube-top50-candidates.json.
 import type { Video } from './types';
 
 export const rankingMetadata = {
-  "date": "2026-09-19",
-  "dateLabel": "19/09/2026",
-  "candidateCount": 44
+  "date": "2026-09-21",
+  "dateLabel": "21/09/2026",
+  "candidateCount": 64
 };
 
 export const rankedVideos: Video[] = [
@@ -16,7 +16,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
     "source": "DiegoTheater",
     "sourceUrl": "https://www.youtube.com/watch?v=TqoCg7ezIxY",
-    "viewCount": 359038,
+    "viewCount": 359039,
     "location": "São Paulo",
     "countryCode": "BR"
   },
@@ -52,7 +52,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=hFvy508WExk",
     "source": "Raphael",
     "sourceUrl": "https://www.youtube.com/watch?v=hFvy508WExk",
-    "viewCount": 170750,
+    "viewCount": 170758,
     "location": "São Paulo · 2012",
     "countryCode": "BR"
   },
@@ -76,7 +76,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
     "source": "DiegoTheater",
     "sourceUrl": "https://www.youtube.com/watch?v=PQDcNEcNyIw",
-    "viewCount": 121685,
+    "viewCount": 121686,
     "location": "Brasil",
     "countryCode": "BR"
   },
@@ -136,7 +136,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=jcwlngZVRj8",
     "source": "Rafael Pezzuti Dias",
     "sourceUrl": "https://www.youtube.com/watch?v=jcwlngZVRj8",
-    "viewCount": 58705,
+    "viewCount": 58724,
     "location": "Belo Horizonte · 2024",
     "countryCode": "BR"
   },
@@ -148,7 +148,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
     "source": "Pedro Renault",
     "sourceUrl": "https://www.youtube.com/watch?v=1gvuhcWN4Z4",
-    "viewCount": 58452,
+    "viewCount": 58453,
     "location": "Belo Horizonte",
     "countryCode": "BR"
   },
@@ -160,7 +160,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=U7YdvThW8kc",
     "source": "Evandro Amaro",
     "sourceUrl": "https://www.youtube.com/watch?v=U7YdvThW8kc",
-    "viewCount": 47367,
+    "viewCount": 47915,
     "location": "Rio de Janeiro · 2026",
     "countryCode": "BR"
   },
@@ -172,7 +172,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
     "source": "DiegoDT",
     "sourceUrl": "https://www.youtube.com/watch?v=wtrHKOqdJf4",
-    "viewCount": 34167,
+    "viewCount": 34168,
     "location": "Brasil",
     "countryCode": "BR"
   },
@@ -184,7 +184,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=6j1D-cnlj64",
     "source": "Bellini´s Treasure Chest",
     "sourceUrl": "https://www.youtube.com/watch?v=6j1D-cnlj64",
-    "viewCount": 29277,
+    "viewCount": 29283,
     "location": "São Paulo · 2010",
     "countryCode": "BR"
   },
@@ -196,7 +196,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=K6nWJyra9y0",
     "source": "DTBrazilianTour12",
     "sourceUrl": "https://www.youtube.com/watch?v=K6nWJyra9y0",
-    "viewCount": 29059,
+    "viewCount": 29062,
     "location": "Brasil · 2012",
     "countryCode": "BR"
   },
@@ -244,7 +244,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=4c-gMqPjmHU",
     "source": "Rafael Chacon",
     "sourceUrl": "https://www.youtube.com/watch?v=4c-gMqPjmHU",
-    "viewCount": 21885,
+    "viewCount": 21901,
     "location": "Rock in Rio · 2022",
     "countryCode": "BR"
   },
@@ -256,7 +256,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=FGXywX2FFYY",
     "source": "Evandro Amaro",
     "sourceUrl": "https://www.youtube.com/watch?v=FGXywX2FFYY",
-    "viewCount": 20406,
+    "viewCount": 20424,
     "location": "Rio de Janeiro · 2024",
     "countryCode": "BR"
   },
@@ -280,7 +280,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=uvJ_7supwxk",
     "source": "alefernan",
     "sourceUrl": "https://www.youtube.com/watch?v=uvJ_7supwxk",
-    "viewCount": 17839,
+    "viewCount": 17842,
     "location": "Monsters of Rock · São Paulo · 1998",
     "countryCode": "BR"
   },
@@ -292,7 +292,7 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
     "source": "tonirossi",
     "sourceUrl": "https://www.youtube.com/watch?v=R6GIQQyuT2U",
-    "viewCount": 16760,
+    "viewCount": 16771,
     "location": "São Paulo · 2024",
     "countryCode": "BR"
   },
@@ -316,9 +316,297 @@ export const rankedVideos: Video[] = [
     "url": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
     "source": "Lucas Medina",
     "sourceUrl": "https://www.youtube.com/watch?v=3iQ-Apk_RRU",
-    "viewCount": 15109,
+    "viewCount": 15126,
     "location": "Curitiba",
     "countryCode": "BR"
+  },
+  {
+    "title": "Endless Sacrifice",
+    "youtubeId": "01ga1MXwruA",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Endless Sacrifice.",
+    "url": "https://www.youtube.com/watch?v=01ga1MXwruA",
+    "source": "Ritieli Dos Santos",
+    "sourceUrl": "https://www.youtube.com/watch?v=01ga1MXwruA",
+    "location": "São Paulo · 2022",
+    "countryCode": "BR",
+    "viewCount": 14664
+  },
+  {
+    "title": "The Spirit Carries On",
+    "youtubeId": "sf6ZbHSiZMg",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: The Spirit Carries On.",
+    "url": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+    "source": "cristianocosta",
+    "sourceUrl": "https://www.youtube.com/watch?v=sf6ZbHSiZMg",
+    "location": "São Paulo · 2010",
+    "countryCode": "BR",
+    "viewCount": 13771
+  },
+  {
+    "title": "6:00 — trecho",
+    "youtubeId": "xIBC8JpM9RA",
+    "category": "Trecho ao vivo",
+    "description": "Registro do Dream Theater no Brasil: 6:00 — trecho.",
+    "url": "https://www.youtube.com/watch?v=xIBC8JpM9RA",
+    "source": "shadzbr",
+    "sourceUrl": "https://www.youtube.com/watch?v=xIBC8JpM9RA",
+    "location": "Rock in Rio · 2022",
+    "countryCode": "BR",
+    "viewCount": 12325
+  },
+  {
+    "title": "At Wit’s End",
+    "youtubeId": "d_XEd8g7g3w",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: At Wit’s End.",
+    "url": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+    "source": "Carcass",
+    "sourceUrl": "https://www.youtube.com/watch?v=d_XEd8g7g3w",
+    "location": "Rio de Janeiro · 2019",
+    "countryCode": "BR",
+    "viewCount": 12250
+  },
+  {
+    "title": "Caught in a Web",
+    "youtubeId": "zEfN3QPLjBg",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Caught in a Web.",
+    "url": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+    "source": "LuizaFTF",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEfN3QPLjBg",
+    "location": "Brasil",
+    "countryCode": "BR",
+    "viewCount": 12120
+  },
+  {
+    "title": "Pull Me Under",
+    "youtubeId": "UpSLS5gO3Zo",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Pull Me Under.",
+    "url": "https://www.youtube.com/watch?v=UpSLS5gO3Zo",
+    "source": "Matheus Queiroz",
+    "sourceUrl": "https://www.youtube.com/watch?v=UpSLS5gO3Zo",
+    "location": "Rock in Rio · 2022",
+    "countryCode": "BR",
+    "viewCount": 11825
+  },
+  {
+    "title": "Overture 1928 + Strange Déjà Vu",
+    "youtubeId": "6rKMKG7IASM",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Overture 1928 + Strange Déjà Vu.",
+    "url": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+    "source": "Lucas Barros",
+    "sourceUrl": "https://www.youtube.com/watch?v=6rKMKG7IASM",
+    "location": "Porto Alegre · 2019",
+    "countryCode": "BR",
+    "viewCount": 11302
+  },
+  {
+    "title": "6:00",
+    "youtubeId": "roQjVFCz2v0",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: 6:00.",
+    "url": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+    "source": "MFranklin1910",
+    "sourceUrl": "https://www.youtube.com/watch?v=roQjVFCz2v0",
+    "location": "São Paulo · 2012",
+    "countryCode": "BR",
+    "viewCount": 10795
+  },
+  {
+    "title": "Scenes from São Paulo",
+    "youtubeId": "S5ZluOXX2jw",
+    "category": "Registro de show",
+    "description": "Registro do Dream Theater no Brasil: Scenes from São Paulo.",
+    "url": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+    "source": "Ledones",
+    "sourceUrl": "https://www.youtube.com/watch?v=S5ZluOXX2jw",
+    "location": "São Paulo · 2005",
+    "countryCode": "BR",
+    "viewCount": 9110
+  },
+  {
+    "title": "The Alien",
+    "youtubeId": "xz6ALZzG9v8",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: The Alien.",
+    "url": "https://www.youtube.com/watch?v=xz6ALZzG9v8",
+    "source": "shadzbr",
+    "sourceUrl": "https://www.youtube.com/watch?v=xz6ALZzG9v8",
+    "location": "Rock in Rio · 2022",
+    "countryCode": "BR",
+    "viewCount": 8925
+  },
+  {
+    "title": "Pull Me Under",
+    "youtubeId": "GSZghfMGeEI",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Pull Me Under.",
+    "url": "https://www.youtube.com/watch?v=GSZghfMGeEI",
+    "source": "Rafael Pezzuti Dias",
+    "sourceUrl": "https://www.youtube.com/watch?v=GSZghfMGeEI",
+    "location": "Belo Horizonte · 2024",
+    "countryCode": "BR",
+    "viewCount": 8815
+  },
+  {
+    "title": "Black Clouds & Silver Linings — Master Hall",
+    "youtubeId": "JqnEi42XUm4",
+    "category": "Show com cortes",
+    "description": "Registro do Dream Theater no Brasil: Black Clouds & Silver Linings — Master Hall.",
+    "url": "https://www.youtube.com/watch?v=JqnEi42XUm4",
+    "source": "NothingIncarnate",
+    "sourceUrl": "https://www.youtube.com/watch?v=JqnEi42XUm4",
+    "location": "Curitiba · 2010",
+    "countryCode": "BR",
+    "viewCount": 8741
+  },
+  {
+    "title": "In the Name of God — trecho",
+    "youtubeId": "-3-UCsBdgBU",
+    "category": "Trecho ao vivo",
+    "description": "Registro do Dream Theater no Brasil: In the Name of God — trecho.",
+    "url": "https://www.youtube.com/watch?v=-3-UCsBdgBU",
+    "source": "Boás Henrique Oliveira",
+    "sourceUrl": "https://www.youtube.com/watch?v=-3-UCsBdgBU",
+    "location": "Curitiba · 2010",
+    "countryCode": "BR",
+    "viewCount": 8282
+  },
+  {
+    "title": "Under a Glass Moon + interação com o público",
+    "youtubeId": "jrw24xupI4I",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Under a Glass Moon + interação com o público.",
+    "url": "https://www.youtube.com/watch?v=jrw24xupI4I",
+    "source": "i.",
+    "sourceUrl": "https://www.youtube.com/watch?v=jrw24xupI4I",
+    "location": "Porto Alegre · 2024",
+    "countryCode": "BR",
+    "viewCount": 8076
+  },
+  {
+    "title": "Jordan Rudess — solo de keytar em Illumination Theory",
+    "youtubeId": "YFUTaiYrstk",
+    "category": "Solo · trecho",
+    "description": "Registro do Dream Theater no Brasil: Jordan Rudess — solo de keytar em Illumination Theory.",
+    "url": "https://www.youtube.com/watch?v=YFUTaiYrstk",
+    "source": "Thomaz Freitas Barbosa",
+    "sourceUrl": "https://www.youtube.com/watch?v=YFUTaiYrstk",
+    "location": "Olinda · 2014",
+    "countryCode": "BR",
+    "viewCount": 8060
+  },
+  {
+    "title": "Take the Time",
+    "youtubeId": "mQqDddDf-VA",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Take the Time.",
+    "url": "https://www.youtube.com/watch?v=mQqDddDf-VA",
+    "source": "Alessandro Koccis",
+    "sourceUrl": "https://www.youtube.com/watch?v=mQqDddDf-VA",
+    "location": "Curitiba · 2010",
+    "countryCode": "BR",
+    "viewCount": 7219
+  },
+  {
+    "title": "The Mirror + Lie — trecho",
+    "youtubeId": "xsXrb8-VcF4",
+    "category": "Trecho ao vivo",
+    "description": "Registro do Dream Theater no Brasil: The Mirror + Lie — trecho.",
+    "url": "https://www.youtube.com/watch?v=xsXrb8-VcF4",
+    "source": "Boás Henrique Oliveira",
+    "sourceUrl": "https://www.youtube.com/watch?v=xsXrb8-VcF4",
+    "location": "Curitiba · 2010",
+    "countryCode": "BR",
+    "viewCount": 6890
+  },
+  {
+    "title": "Pull Me Under",
+    "youtubeId": "JfSXViVhT2Y",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Pull Me Under.",
+    "url": "https://www.youtube.com/watch?v=JfSXViVhT2Y",
+    "source": "Fate Skateboarder",
+    "sourceUrl": "https://www.youtube.com/watch?v=JfSXViVhT2Y",
+    "location": "Rock in Rio · 2022",
+    "countryCode": "BR",
+    "viewCount": 6563
+  },
+  {
+    "title": "Surrounded",
+    "youtubeId": "GSpaqjZBoW4",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Surrounded.",
+    "url": "https://www.youtube.com/watch?v=GSpaqjZBoW4",
+    "source": "repacini",
+    "sourceUrl": "https://www.youtube.com/watch?v=GSpaqjZBoW4",
+    "location": "São Paulo · 2008",
+    "countryCode": "BR",
+    "viewCount": 6010
+  },
+  {
+    "title": "A Nightmare to Remember",
+    "youtubeId": "_XsvPdAqN1U",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: A Nightmare to Remember.",
+    "url": "https://www.youtube.com/watch?v=_XsvPdAqN1U",
+    "source": "Lucas Barros",
+    "sourceUrl": "https://www.youtube.com/watch?v=_XsvPdAqN1U",
+    "location": "Porto Alegre · 2019",
+    "countryCode": "BR",
+    "viewCount": 5929
+  },
+  {
+    "title": "Octavarium Tour — Credicard Hall",
+    "youtubeId": "6U-75uDA7lI",
+    "category": "Registro de show",
+    "description": "Registro do Dream Theater no Brasil: Octavarium Tour — Credicard Hall.",
+    "url": "https://www.youtube.com/watch?v=6U-75uDA7lI",
+    "source": "Ledones",
+    "sourceUrl": "https://www.youtube.com/watch?v=6U-75uDA7lI",
+    "location": "São Paulo · 2005",
+    "countryCode": "BR",
+    "viewCount": 3993
+  },
+  {
+    "title": "Intro + The Alien",
+    "youtubeId": "M7Rx-6nA7rU",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Intro + The Alien.",
+    "url": "https://www.youtube.com/watch?v=M7Rx-6nA7rU",
+    "source": "Carlos Henrique Baier",
+    "sourceUrl": "https://www.youtube.com/watch?v=M7Rx-6nA7rU",
+    "location": "Rock in Rio · 2022",
+    "countryCode": "BR",
+    "viewCount": 3988
+  },
+  {
+    "title": "Astonishing",
+    "youtubeId": "adM1MSuqtOY",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: Astonishing.",
+    "url": "https://www.youtube.com/watch?v=adM1MSuqtOY",
+    "source": "História, Música & Prosa",
+    "sourceUrl": "https://www.youtube.com/watch?v=adM1MSuqtOY",
+    "location": "Belo Horizonte · 2016",
+    "countryCode": "BR",
+    "viewCount": 3613
+  },
+  {
+    "title": "The Dance of Eternity",
+    "youtubeId": "pNmMDSgl3Ps",
+    "category": "Ao vivo no Brasil",
+    "description": "Registro do Dream Theater no Brasil: The Dance of Eternity.",
+    "url": "https://www.youtube.com/watch?v=pNmMDSgl3Ps",
+    "source": "wolframf",
+    "sourceUrl": "https://www.youtube.com/watch?v=pNmMDSgl3Ps",
+    "location": "Olinda · 2014",
+    "countryCode": "BR",
+    "viewCount": 3490
   }
 ];
 
