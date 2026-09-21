@@ -54,9 +54,41 @@ test('Brazilian history loads every page while scrolling and preserves earlier s
   await expect(page.locator('[data-setlist]:visible')).toHaveCount(setlists.length);
 });
 
+test('city filter updates shows, timeline and pagination when returning to all cities', async ({ page }) => {
+  await page.goto('/');
+  const filter = page.getByRole('combobox', {name:'Cidade',exact:true});
+  const scroller = page.locator('[data-setlist-scroll]');
+  const cities = [...new Set(setlists.map(show => show.city))].sort((a,b) => a.localeCompare(b,'pt-BR'));
+  expect(await filter.locator('option').evaluateAll(options => options.map(option => (option as HTMLOptionElement).value))).toEqual(['',...cities]);
+  for (const city of cities) {
+    await filter.selectOption(city);
+    const expected = setlists.filter(show => show.city === city);
+    await expect(page.locator('[data-setlist]:visible')).toHaveCount(Math.min(12,expected.length));
+    for (let count = 12; count < expected.length; count += 12) {
+      await scroller.evaluate(element => {element.scrollTop = element.scrollHeight;});
+      await expect(page.locator('[data-setlist]:visible')).toHaveCount(Math.min(count+12,expected.length));
+    }
+    expect(await page.locator('[data-setlist]:visible a').evaluateAll(links=>links.map(link=>(link as HTMLAnchorElement).href))).toEqual(expected.map(show=>show.url));
+    await expect(page.locator('[data-setlist-status]')).toContainText(city);
+    const years = [...new Set(expected.map(show=>show.date.slice(0,4)))];
+    await expect.poll(()=>page.locator('[data-timeline-year]:visible').allTextContents()).toEqual(years);
+    await expect(page.locator('[data-timeline-year][aria-current="date"]')).toBeVisible();
+    if (expected.length <= 12) await expect(page.locator('[data-setlist-more]')).toBeHidden();
+  }
+  await filter.selectOption('');
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(12);
+  expect(await scroller.evaluate(element=>element.scrollTop)).toBe(0);
+  await expect(page.locator('[data-timeline-year][aria-current="date"]')).toHaveText('2026');
+  await scroller.evaluate(element=>{element.scrollTop=element.scrollHeight;});
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(24);
+});
+
 test('scroll lists have manual fallback without IntersectionObserver and preserve focus', async ({ page }) => {
   await page.addInitScript(() => { Reflect.deleteProperty(window,'IntersectionObserver'); });
   await page.goto('/');
+  await page.getByRole('combobox',{name:'Cidade',exact:true}).selectOption('Olinda');
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(setlists.filter(show=>show.city==='Olinda').length);
+  await page.getByRole('combobox',{name:'Cidade',exact:true}).selectOption('');
   for (let previous = 12; previous < setlists.length; previous += 12) {
     await page.getByRole('button',{name:'Carregar mais shows'}).click();
     await expect(page.locator('[data-setlist]:visible')).toHaveCount(Math.min(previous + 12,setlists.length));

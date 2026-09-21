@@ -9,20 +9,28 @@ export function initializeShowTimeline() {
   const ticks = [...timeline.querySelectorAll<HTMLElement>('[data-timeline-year]')];
   const status = timeline.querySelector<HTMLElement>('[data-timeline-status]');
   if (!cards.length || !ticks.length) return;
-  const positions = new Map(ticks.map((tick, index) => [tick.dataset.timelineYear!, index / Math.max(1, ticks.length - 1) * 100]));
   let activeYear: string | undefined;
   let scheduled = false;
 
   function update() {
     scheduled = false;
-    const visible = cards.filter(card => !card.hidden);
+    const matching = cards.filter(card => card.dataset.filterMatch !== 'false');
+    const years = [...new Set(matching.map(card => card.dataset.year!))];
+    const positions = new Map(years.map((year, index) => [year, index / Math.max(1, years.length - 1) * 100]));
+    ticks.forEach(tick => {
+      tick.hidden = !positions.has(tick.dataset.timelineYear!);
+      tick.style.setProperty('--year-position', `${positions.get(tick.dataset.timelineYear!) ?? 0}%`);
+    });
+    timeline!.hidden = matching.length === 0;
+    browser!.classList.toggle('has-timeline', matching.length > 0);
+    const visible = matching.filter(card => !card.hidden);
     const bounds = visible.map(card => card.getBoundingClientRect());
     if (!bounds.length) return;
     const viewport = scroller!.getBoundingClientRect();
     const remaining = Math.max(0, scroller!.scrollHeight - scroller!.clientHeight - scroller!.scrollTop);
     // In the final viewport, move the reading point gradually toward the last card.
     // An intermediate page's end must never be treated as the end of the archive.
-    const endProgress = visible.length === cards.length ? Math.max(0, 1 - remaining / scroller!.clientHeight) : 0;
+    const endProgress = visible.length === matching.length ? Math.max(0, 1 - remaining / scroller!.clientHeight) : 0;
     const readingLine = viewport.top + 4 + endProgress * Math.max(0, scroller!.clientHeight - 8);
     const rows: { index: number; top: number; height: number }[] = [];
     bounds.forEach((rect, index) => {

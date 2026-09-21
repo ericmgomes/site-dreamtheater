@@ -7,6 +7,8 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
   const more = scroller?.querySelector<HTMLButtonElement>(`[data-${prefix}-more]`);
   if (!scroller || !sentinel || !more) return;
   const rows = [...scroller.querySelectorAll<HTMLElement>(rowSelector)];
+  const cityFilter = document.querySelector<HTMLSelectElement>(`[data-${prefix}-city]`);
+  let matchingRows = rows;
   const pageSize = Number(scroller.dataset.pageSize) || 12;
   const status = document.querySelector<HTMLElement>(`[data-${prefix}-status]`);
   const hint = document.querySelector<HTMLElement>(`[data-${prefix}-hint]`);
@@ -14,25 +16,28 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
   let visibleCount = Math.min(pageSize, rows.length);
   let observer: IntersectionObserver | undefined;
   const update = () => {
-    rows.forEach((row, index) => { row.hidden = index >= visibleCount; });
-    const complete = visibleCount >= rows.length;
+    rows.forEach(row => { row.hidden = true; });
+    matchingRows.slice(0, visibleCount).forEach(row => { row.hidden = false; });
+    const complete = visibleCount >= matchingRows.length;
     sentinel.hidden = complete;
-    if (status) status.textContent = complete ? `Todos os ${rows.length} ${noun} carregados.` : `${visibleCount} de ${rows.length} ${noun} carregados.`;
+    if (status) status.textContent = cityFilter?.value
+      ? complete ? `${matchingRows.length} ${matchingRows.length === 1 ? 'show' : noun} em ${cityFilter.value}.` : `${visibleCount} de ${matchingRows.length} ${noun} · ${cityFilter.value}.`
+      : complete ? `Todos os ${matchingRows.length} ${noun} carregados.` : `${visibleCount} de ${matchingRows.length} ${noun} carregados.`;
     if (hint) hint.textContent = complete ? completeHint : supportsAutoLoad ? `Continue rolando para carregar mais ${noun}.` : `Use Carregar mais ${noun} para continuar.`;
     if (complete) observer?.disconnect();
     scroller.dispatchEvent(new Event('listpagechange'));
   };
   // Reobserve after appending or leaving the button so fast scrolling cannot skip a page.
   const observeNext = () => {
-    if (observer && visibleCount < rows.length) {
+    if (observer && visibleCount < matchingRows.length) {
       observer.unobserve(sentinel);
       observer.observe(sentinel);
     }
   };
   const loadMore = (manual = false) => {
-    if (visibleCount >= rows.length) return;
-    const firstNew = rows[visibleCount];
-    visibleCount = Math.min(visibleCount + pageSize, rows.length);
+    if (visibleCount >= matchingRows.length) return;
+    const firstNew = matchingRows[visibleCount];
+    visibleCount = Math.min(visibleCount + pageSize, matchingRows.length);
     update();
     observeNext();
     if (manual) firstNew?.querySelector<HTMLAnchorElement>('a')?.focus({ preventScroll: false });
@@ -45,6 +50,18 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
       if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
     }, { root: scroller, rootMargin: `0px 0px ${Number(scroller.dataset.loadMargin ?? 120)}px 0px` });
     observer.observe(sentinel);
+  }
+  if (cityFilter) {
+    document.querySelector<HTMLElement>(`[data-${prefix}-filter]`)?.removeAttribute('hidden');
+    cityFilter.addEventListener('change', () => {
+      observer?.disconnect();
+      matchingRows = rows.filter(row => !cityFilter.value || row.dataset.city === cityFilter.value);
+      rows.forEach(row => { row.dataset.filterMatch = String(!cityFilter.value || row.dataset.city === cityFilter.value); });
+      visibleCount = Math.min(pageSize, matchingRows.length);
+      scroller.scrollTop = 0;
+      update();
+      observeNext();
+    });
   }
 }
 initializeScrollPagination('setlist', '[data-setlist]', 'shows', 'Histórico completo · Do mais recente ao mais antigo.');

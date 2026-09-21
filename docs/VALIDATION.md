@@ -3,7 +3,7 @@
 ## Aplicação
 
 - Astro estático: build concluído, uma página HTML, sem servidor ou hidratação de framework. Checagem Astro/TypeScript com **0 erros, 0 avisos e 0 hints**.
-- Playwright: **20 cenários aprovados** na execução completa, em desktop 1440 × 1000 e mobile 390 × 844. Incluem conteúdo, imagens, metadados, filtros, navegação, ampliação a 200%, players sob demanda, teclado e funcionamento sem JavaScript.
+- Playwright: **22 cenários aprovados** na execução completa, em desktop 1440 × 1000 e mobile 390 × 844. Incluem conteúdo, imagens, metadados, filtros, navegação, ampliação a 200%, players sob demanda, teclado e funcionamento sem JavaScript.
 - Shows: todos os **48 registros brasileiros**, de 1997 a 2026, em ordem decrescente, agora em cards compactos (3 colunas no desktop, 2 no tablet e 1 no celular). Card inteiro clicável, com data, cidade, local e turnê; sem cabeçalho de tabela. Layout conferido em 1440, 900 e 390 px, sem transbordamento. Os 20 cenários passaram após incluir a linha do tempo, incluindo foco e carregamento de todos os cards. Rolagem própria com lotes de 12, preservação dos anteriores e da posição, botão alternativo, foco no primeiro novo link e lista completa sem JavaScript.
 - Linha do tempo: 12 anos derivados dos 48 shows, de 2026 a 1997, com trilha preenchida, marcador móvel e ano destacado. Posição calculada pelos cards visíveis, sem usar o tamanho temporário da lista como fim do histórico. Conferidos rolagem nos dois sentidos, atualização após novos lotes, foco preservado, fim real em 1997 e retorno a 2026. Ajustada a tolerância para pixels fracionários no celular. Recalcula em resize e mudanças de layout; oculta sem JavaScript. Os quatro testes de timeline e navegação/ampliação passaram novamente após reservar espaço proporcional à fonte para os anos não sobreporem os cards a 200%.
 - Veja: seis destaques com miniaturas de até 240 px no desktop e 168 px no celular, limitadas a 48% da largura do card e **44 links seguintes**, em outra área de rolagem, com lotes de cinco. Testados o carregamento até o último, ordem, links, foco manual, fallback sem IntersectionObserver e independência do histórico de shows. Corrigida a margem de observação para evitar carregar o segundo lote antes da rolagem no desktop; a suíte completa passou após a correção.
@@ -14,6 +14,8 @@
 - axe-core: nenhuma violação WCAG A/AA detectada. Verificação automática, não certificação de acessibilidade.
 - Nenhum iframe no HTML inicial. Apenas um vídeo por vez; abrir Spotify interrompe o vídeo. Fechar o diálogo remove o iframe e devolve o foco.
 - Modal YouTube (21/09/2026): miniaturas, títulos e os links adicionais abrem o vídeo em um diálogo com 96vw, limitado à altura disponível. Conferidos fechamento por botão, Escape e fundo, remoção do iframe e retorno do foco. Link externo preservado. Seis testes de players, assets/layout e conteúdo sem JavaScript aprovados em desktop e celular; auditoria de acessibilidade também executada com o modal aberto. Testes de interação usam iframe externo simulado, sem comprovar reprodução integral dos vídeos.
+
+- Filtro de cidade (21/09/2026): nove cidades derivadas dos dados, com contagens e opção Todas as cidades. As nove seleções foram verificadas contra os links e anos esperados. Confirmados reinício da rolagem, linha do tempo apenas com anos correspondentes e retomada da paginação automática/manual ao limpar o filtro. Sem JavaScript, o controle fica oculto e os 48 shows continuam disponíveis. Suíte completa com 22 cenários aprovada em desktop e celular.
 
 ## Pesquisa e links
 

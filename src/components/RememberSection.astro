@@ -8,10 +8,18 @@ const pageSize = 12;
 const firstYear = setlists.at(-1)?.date.slice(0, 4);
 const lastYear = setlists[0]?.date.slice(0, 4);
 const years = [...new Set(setlists.map(show => show.date.slice(0, 4)))];
+const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 ---
 <section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
   <SectionHeading id="remember-title" number="01" title="Shows" description="O show acaba. A memória fica." />
   <div class="section-toolbar"><span class="quiet-label">SHOWS NO BRASIL · SETLIST.FM</span><span class="data-note">{setlists.length} shows · {firstYear}–{lastYear}</span></div>
+  <div class="show-city-filter" data-setlist-filter hidden>
+    <label for="show-city">Cidade</label>
+    <select id="show-city" data-setlist-city aria-controls="setlist-history">
+      <option value="">Todas as cidades</option>
+      {cities.map(city => <option value={city}>{city} ({setlists.filter(show => show.city === city).length})</option>)}
+    </select>
+  </div>
   <div class="setlist-browser" data-setlist-browser>
   <aside class="show-timeline" data-show-timeline aria-label="Linha do tempo dos shows no Brasil" hidden>
     <span class="timeline-label">Ano</span>
@@ -24,7 +32,7 @@ const years = [...new Set(setlists.map(show => show.date.slice(0, 4)))];
   </aside>
   <div class="setlist-scroll" id="setlist-history" role="region" aria-label="Histórico de shows no Brasil" aria-describedby="setlist-status" tabindex="0" data-setlist-scroll data-page-size={pageSize} data-load-margin="32">
     <ul class="setlist-list" role="list">
-      {setlists.map(show => <li class="setlist-card" data-setlist data-year={show.date.slice(0, 4)} data-country={show.countryCode}>
+      {setlists.map(show => <li class="setlist-card" data-setlist data-city={show.city} data-year={show.date.slice(0, 4)} data-country={show.countryCode}>
         <a href={show.url} target="_blank" rel="noopener noreferrer" class="setlist-card-link" aria-label={`Ver setlist: ${show.city}, ${formatDate(show.date)}, ${show.venue}${show.tour ? `, ${show.tour}` : ''}`}>
           <div class="show-card-top"><time datetime={show.date}>{formatDate(show.date)}</time><span>Setlist <Icon size={14}/></span></div>
           <div class="show-location"><h3>{show.city}{show.region && <span>, {show.region}</span>}</h3><p>{show.venue}</p></div>

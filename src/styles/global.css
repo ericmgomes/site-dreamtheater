@@ -90,6 +90,9 @@
   .timeline-years li[aria-current]::before { background: var(--accent); }
   .timeline-marker { position: absolute; top: var(--timeline-progress); left: 1px; width: 9px; height: 9px; transform: translateY(-50%); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--bg); }
   .setlist-scroll { max-height: 440px; overflow-y: auto; overflow-anchor: none; scroll-padding-block: 4px; scrollbar-gutter: stable; scrollbar-color: #778a57 var(--surface); padding: 3px 8px 10px 3px; }
+  .show-city-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .show-city-filter label { font-size: .875rem; color: var(--muted); }
+  .show-city-filter select { width: min(100%, 300px); min-height: 44px; padding: 10px 36px 10px 12px; border: 1px solid #657547; border-radius: 4px; background: var(--surface); color: var(--text); font: inherit; font-size: .875rem; }
   .setlist-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
   .setlist-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; margin-top: 16px; }
   .setlist-load-more { display: flex; justify-content: center; padding: 20px; }
