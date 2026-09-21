@@ -2,6 +2,7 @@
 import SectionHeading from './SectionHeading.astro';
 import Icon from './Icon.astro';
 import MusicianGroup from './MusicianGroup.astro';
+import ProfilePhoto from './ProfilePhoto.astro';
 import { coverBands } from '../data/coverBands';
 import { guitarists } from '../data/guitarists';
 import { bassists, keyboardists } from '../data/coverMusicians';
@@ -12,6 +13,7 @@ import { bassists, keyboardists } from '../data/coverMusicians';
   <div class="cover-grid">
     {coverBands.map((band, index) => (
       <article class="cover-item">
+        <ProfilePhoto name={band.name} image={band.image} />
         <span class="cover-index">{String(index + 1).padStart(2, '0')}</span>
         <p class="eyebrow">{band.location || 'Brasil'}</p>
         <h4>{band.name}</h4>

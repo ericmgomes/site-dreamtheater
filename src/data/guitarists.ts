@@ -1,3 +1,4 @@
+// Fotos de perfil: docs/research/profile-images-guitarists.json
 import type { Guitarist } from './types';
 
 export const guitarists: Guitarist[] = [
@@ -9,7 +10,8 @@ export const guitarists: Guitarist[] = [
     "sourceUrls": [
       "https://marcelobarbosa.com.br/website/",
       "https://marcelogtr-eng.blogspot.com/2009/01/"
-    ]
+    ],
+    "image": "/images/profiles/marcelobarbosagtr.webp"
   },
   {
     "name": "Alex Lima",
@@ -17,7 +19,8 @@ export const guitarists: Guitarist[] = [
     "instagram": "https://www.instagram.com/alekissss10/",
     "sourceUrls": [
       "https://www.instagram.com/alekissss10/"
-    ]
+    ],
+    "image": "/images/profiles/alekissss10.webp"
   },
   {
     "name": "Samuel Zechin",
@@ -27,14 +30,15 @@ export const guitarists: Guitarist[] = [
       "https://samuelzechin.wixsite.com/samuelzechin/contact",
       "https://www.instagram.com/dreamtheatercover/",
       "https://whiplash.net/materias/news_731/330991-brucedickinson.html"
-    ]
+    ],
+    "image": "/images/profiles/samuelzechin.webp"
   },
   {
     "name": "Thiago Campos",
     "description": "Covers completos com o VRA!, solos de Petrucci, demonstrações e aulas de Dream Theater.",
     "instagram": "https://www.instagram.com/thiagocamposofficial/",
     "youtube": "https://www.youtube.com/thiagocamposofficial/",
-    "image": "/images/musicians/thiago-campos.webp",
+    "image": "/images/profiles/thiagocamposofficial.webp",
     "sourceUrls": [
       "https://www.thiagocamposofficial.com/",
       "https://www.dreamtheatercover.com/",
@@ -59,14 +63,15 @@ export const guitarists: Guitarist[] = [
       "https://www.youtube.com/watch?v=FanabhzRb7E",
       "https://www.youtube.com/watch?v=YUvFxUQ45HQ",
       "https://www.youtube.com/watch?v=dm0viYuQwEc"
-    ]
+    ],
+    "image": "/images/profiles/gustavoguerraguitarrista.webp"
   },
   {
     "name": "Bruno Godinho",
     "description": "Covers, solos e estudos de Petrucci: Overture 1928, The Glass Prison, A Rite of Passage e Erotomania.",
     "instagram": "https://www.instagram.com/brunogodinhoguitar/",
     "youtube": "https://www.youtube.com/@BrunoGodinhoGuitar",
-    "image": "/images/musicians/bruno-godinho.webp",
+    "image": "/images/profiles/brunogodinhoguitar.webp",
     "sourceUrls": [
       "https://brunogodinho.com/",
       "https://brunogodinho.com/aulas-particulares/",

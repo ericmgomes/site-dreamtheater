@@ -1,0 +1,156 @@
+{
+  "asOf": "2026-09-21",
+  "method": "Fotos obtidas exclusivamente da meta og:image das páginas públicas dos perfis Instagram cadastrados. Identidade do perfil conferida em og:title. Sem imagens de posts, sem HTML ou dados pessoais adicionais armazenados. Inspeção visual das cinco fotos concluída antes da conversão.",
+  "profiles": [
+    {
+      "status": "saved",
+      "instagram": "https://www.instagram.com/marcelobarbosagtr/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/655443689_18570351592004680_5222807965116569123_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Xxa1OeGXoHgQ7kNvwEcUrSD&_nc_oc=Adplk-J5Fkyh2WJcUofqj7M0ZLlbF8D94mMMD2_ZK4MYl2sllMTu4_bt-TE8yNv_Kz5nmpi4jDZYOn5VgkmHG7Lh&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=NPP3v-zGvKTfIU4je4Qgqg&_nc_ss=7d60f&oh=00_AQL6k7EMq-k33nISrF7hPdsOK9jZAPimaeLdgdjXxyD-EQ&oe=6AB769B3",
+      "profileTitle": "Marcelo Barbosa (@marcelobarbosagtr) • Instagram photos and videos",
+      "checkedAt": "2026-09-21T19:35:47.4729934Z",
+      "name": "Marcelo Barbosa",
+      "sourceField": "og:image da página do perfil",
+      "handle": "marcelobarbosagtr",
+      "localImage": "/images/profiles/marcelobarbosagtr.webp",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Foto original convertida e redimensionada ao centro para 240×240, sem filtros de cor.",
+      "problems": [
+        "og:image forneceu miniatura de perfil menor que 240 px; ampliada para as dimensões solicitadas."
+      ]
+    },
+    {
+      "status": "saved",
+      "instagram": "https://www.instagram.com/alekissss10/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/616190879_18302804476262590_6758871560463746212_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0I2HYMlofpYQ7kNvwFXInd8&_nc_oc=AdpmD5YzfBo-l41SHLQ1NZmzcDPpLSXhv9_9v6zkVuBTTwl3Mu-5DfGw02r_JQyranr_NSo306lMGW8dHjzdC6ye&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=gU_VjMpaAquCtnqyOkfZqg&_nc_ss=7d60f&oh=00_AQJhT2aeKv0WhcNqp3xng5xJ9f2X94-Kn3yMmF4NW23A1Q&oe=6AB74D95",
+      "profileTitle": "Alex Lima (@alekissss10) • Instagram photos and videos",
+      "checkedAt": "2026-09-21T19:35:48.2436238Z",
+      "name": "Alex Lima",
+      "sourceField": "og:image da página do perfil",
+      "handle": "alekissss10",
+      "localImage": "/images/profiles/alekissss10.webp",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Foto original convertida e redimensionada ao centro para 240×240, sem filtros de cor.",
+      "problems": [
+        "og:image forneceu miniatura de perfil menor que 240 px; ampliada para as dimensões solicitadas."
+      ]
+    },
+    {
+      "status": "saved",
+      "instagram": "https://www.instagram.com/samuelzechin/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/721035589_18605748268011734_9008385788945314236_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=hGY1efpedDYQ7kNvwER83P1&_nc_oc=AdpTn6YHqy9JZZFin0b2TrwG_iakvo3SN9IxbW-kqLJNtwMqvyajCqRluuX83mAAKqo6vVzBXXAp_VgV9E6JMID0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=rJwOeGM2F0urG__W1ISrXA&_nc_ss=7d60f&oh=00_AQInixsT7EqwgqEmIot3Re-Noh0p0muDwMWCyJeSK-BYdw&oe=6AB75A84",
+      "profileTitle": "Samuel Zechin (@samuelzechin) • Instagram photos and videos",
+      "checkedAt": "2026-09-21T19:35:49.0299414Z",
+      "name": "Samuel Zechin",
+      "sourceField": "og:image da página do perfil",
+      "handle": "samuelzechin",
+      "localImage": "/images/profiles/samuelzechin.webp",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Foto original convertida e redimensionada ao centro para 240×240, sem filtros de cor.",
+      "problems": [
+        "og:image forneceu miniatura de perfil menor que 240 px; ampliada para as dimensões solicitadas."
+      ]
+    },
+    {
+      "name": "Thiago Campos",
+      "handle": "thiagocamposofficial",
+      "instagram": "https://www.instagram.com/thiagocamposofficial/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/534324444_18515982448007255_2549081900942007390_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=-PHRidK2vhIQ7kNvwFkaNOo&_nc_oc=AdoZY03oDheheqiE-bs3YWc_hjvMq0eVLmXy0ZTfg9BUzfeCFIcsLKVibIs6swsDk2gqDc1PIWO5R7A1IOzYHhke&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=eqgHoWfSTEjfFR597wn1RQ&_nc_ss=7f689&oh=00_AQKXmPQWzAd11g9qTJlgeKUOAaPCUPS7dW1THjHzgWyKEA&oe=6AB76058",
+      "sourceField": "og:image da página do perfil; reutilizada da coleta de bandas/VRA",
+      "profileTitle": "Thiago Campos (@thiagocamposofficial) • Instagram photos and videos",
+      "localImage": "/images/profiles/thiagocamposofficial.webp",
+      "status": "reused",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Arquivo compartilhado com VRA, convertido pelo agente de bandas; nenhuma reescrita neste trabalho.",
+      "problems": [
+        "og:image forneceu miniatura 100×100; ampliação para 240×240 documentada na fonte compartilhada."
+      ],
+      "evidenceFile": "docs/research/profile-images-bands.json"
+    },
+    {
+      "status": "saved",
+      "instagram": "https://www.instagram.com/gustavoguerraguitarrista/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/434525159_1144282486999696_8266864997493962796_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=8LUg-5ZjETsQ7kNvwGIYeBl&_nc_oc=AdpezPBEYxJxvteGEm_RJEU5EbGzD9arWbpGCjVxY5Aav-_v8S_c7pLzmxd7C_dHI9Y08Bn3y_-aaHyAo4MwHJWt&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7d60f&oh=00_AQKfM8mMNptCWk4ndeF91IHcyJVRp1E13_Nm75giwMYing&oe=6AB752E0",
+      "profileTitle": "Gustavo Guerra (@gustavoguerraguitarrista) • Instagram photos and videos",
+      "checkedAt": "2026-09-21T19:35:49.6616941Z",
+      "name": "Gustavo Guerra",
+      "sourceField": "og:image da página do perfil",
+      "handle": "gustavoguerraguitarrista",
+      "localImage": "/images/profiles/gustavoguerraguitarrista.webp",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Foto original convertida e redimensionada ao centro para 240×240, sem filtros de cor.",
+      "problems": [
+        "og:image forneceu miniatura de perfil menor que 240 px; ampliada para as dimensões solicitadas."
+      ]
+    },
+    {
+      "status": "saved",
+      "instagram": "https://www.instagram.com/brunogodinhoguitar/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/301424704_212245814460881_9129520705120150047_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42NTkuQzMifQ%3D%3D&_nc_ohc=sVtWgkLh2FoQ7kNvwG7nRgg&_nc_oc=Ado3nniZU6PS36GgY2Dib7OS2kr7LtEjq0F-2BG7Wfjo7XjP3uSAASKSCIZzcuf_WN1LxRNINTRJ1i0kc8m3FyPH&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7d60f&oh=00_AQLefeNIbQ0yQNuajE8XcKpzqcTs59f_fzQgnxym3FkV5A&oe=6AB74B9C",
+      "profileTitle": "Bruno Godinho (@brunogodinhoguitar) • Instagram photos and videos",
+      "checkedAt": "2026-09-21T19:35:50.4010338Z",
+      "name": "Bruno Godinho",
+      "sourceField": "og:image da página do perfil",
+      "handle": "brunogodinhoguitar",
+      "localImage": "/images/profiles/brunogodinhoguitar.webp",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "output": {
+        "width": 240,
+        "height": 240,
+        "format": "webp",
+        "quality": 85
+      },
+      "processing": "Foto original convertida e redimensionada ao centro para 240×240, sem filtros de cor.",
+      "problems": [
+        "og:image forneceu miniatura de perfil menor que 240 px; ampliada para as dimensões solicitadas."
+      ]
+    }
+  ]
+}

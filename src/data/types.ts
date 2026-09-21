@@ -10,7 +10,7 @@ export interface Video {
   viewCount: number; location: string; countryCode: 'BR';
 }
 export interface CoverBand {
-  name: string; location?: string; description: string; instagram: string; youtube?: string; website?: string;
+  name: string; location?: string; description: string; instagram: string; youtube?: string; website?: string; image?: string;
   sourceUrls: string[]; activityNote: string; instagramLabel?: string;
 }
 export interface CoverMusician {

@@ -1,4 +1,5 @@
-// Fontes e covers verificados: docs/research/cover-musicians.json
+// Fontes e covers: docs/research/cover-musicians.json
+// Fotos de perfil: docs/research/profile-images-rhythm-keys.json
 import type { CoverMusician } from './types';
 
 export const bassists: CoverMusician[] = [
@@ -13,7 +14,8 @@ export const bassists: CoverMusician[] = [
       "https://www.youtube.com/watch?v=N9f2c4ZdI7w",
       "https://www.dreamtheatercover.com/collaborators",
       "https://www.thiagocamposofficial.com/vra-split-screen-covers"
-    ]
+    ],
+    "image": "/images/profiles/felipecamposbass.webp"
   },
   {
     "name": "Alexandre Panta",
@@ -29,7 +31,8 @@ export const bassists: CoverMusician[] = [
       "https://www.youtube.com/watch?v=wVs4c7SMARg",
       "https://www.youtube.com/watch?v=1avKqiXl1Lc",
       "https://www.youtube.com/watch?v=jHfYf-yP-V4"
-    ]
+    ],
+    "image": "/images/profiles/alexandre_panta.webp"
   },
   {
     "name": "Felipe Andreoli",
@@ -46,7 +49,8 @@ export const bassists: CoverMusician[] = [
       "https://www.youtube.com/watch?v=iAsCPjlpvhU",
       "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
       "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
-    ]
+    ],
+    "image": "/images/profiles/felipeandreoli.webp"
   }
 ];
 
@@ -65,7 +69,8 @@ export const keyboardists: CoverMusician[] = [
       "https://www.youtube.com/watch?v=w3LeWmhZ164",
       "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372",
       "https://www.sympla.com.br/evento/dream-theater-tribute-brasilia/2832103"
-    ]
+    ],
+    "image": "/images/profiles/daniel_jorge.webp"
   },
   {
     "name": "César Zolhof",
@@ -78,7 +83,8 @@ export const keyboardists: CoverMusician[] = [
       "https://www.youtube.com/watch?v=jGnVZV_HaW8",
       "https://www.dreamtheatercover.com/collaborators",
       "https://www.thiagocamposofficial.com/vra-split-screen-covers"
-    ]
+    ],
+    "image": "/images/profiles/zolhof.webp"
   },
   {
     "name": "Junior Carelli",
@@ -95,7 +101,7 @@ export const keyboardists: CoverMusician[] = [
       "https://www.wikimetal.com.br/musicos-do-noturnall-fazem-cover-de-dance-of-eternity-do-dream-theater/",
       "https://www.facebook.com/noturnallband/videos/10155222468942668/",
       "https://whiplash.net/materias/news_814/205838-noturnall.html"
-    ]
+    ],
+    "image": "/images/profiles/juninhocarelli.webp"
   }
 ];
-

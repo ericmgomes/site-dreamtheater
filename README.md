@@ -45,9 +45,9 @@ Os dados ficam em `src/data/`, separados da apresentação:
 | `setlists.ts` | Datas, locais, turnês e links individuais |
 | `videos.ts` | Ranking brasileiro, IDs YouTube, contagens, local e canal |
 | `shows.ts` | Dados reservados para futuras apresentações; bloco temporariamente fora da página |
-| `coverBands.ts` | Tributos, redes e evidências de atividade |
+| `coverBands.ts` | Tributos, redes, fotos de perfil e evidências de atividade |
 | `guitarists.ts` | Guitarristas, redes, retratos e evidências |
-| `coverMusicians.ts` | Baixistas e tecladistas, redes e evidências |
+| `coverMusicians.ts` | Baixistas e tecladistas, redes, fotos de perfil e evidências |
 | `materials.ts` | Produtos e materiais por instrumento |
 | `discography.ts` | Índice oficial, capas e Spotify por álbum |
 | `site.ts` | Metadados, data da pesquisa e WhatsApp |
@@ -56,7 +56,9 @@ Consulte `docs/research/` para as URLs e evidências, inclusive as limitações 
 
 Para atualizar o ranking, pesquise registros brasileiros, confira título/descrição, contagem inteira, canal e disponibilidade territorial no YouTube. Atualize os arquivos `docs/research/youtube-*-candidates.json`, o manifesto `youtube-ranking.json` e `src/data/videos.ts`. A validação exige que os 26 selecionados sejam os mais vistos entre os candidatos elegíveis e que os seis destaques permitam incorporação. As contagens são totais do vídeo, não apenas de espectadores brasileiros. Sem JavaScript, os 20 links continuam disponíveis na área de rolagem.
 
-Para atualizar a discografia, consulte primeiro o índice e cada página em `dreamtheater.net`, atualize `docs/research/discography.json` e execute `npm run sync:images`. Esse comando de manutenção baixa as capas oficiais, gera WebP local e atualiza `discography.ts`. Exige acesso à internet; não faz parte do build. Os retratos são dos sites dos músicos e as fontes estão documentadas.
+Para atualizar a discografia, consulte primeiro o índice e cada página em `dreamtheater.net`, atualize `docs/research/discography.json` e execute `npm run sync:images`. Esse comando de manutenção baixa as capas oficiais, gera WebP local e atualiza `discography.ts`. Exige acesso à internet; não faz parte do build.
+
+As fotos de perfil dos covers e músicos ficam em `public/images/profiles/`, em WebP, com fontes registradas em `docs/research/profile-images-*.json`. São cópias dos perfis públicos do Instagram; Felipe Campos e César Zolhof usam as fotos dos canais oficiais do YouTube, pois não há Instagram confirmado. A atualização das fotos é manual: confira o perfil, substitua o arquivo local e registre a fonte e a data. O site não depende de URLs temporárias do Instagram nem faz consultas à rede durante o build. As fotos são exibidas em cores, com recorte circular e carregamento tardio; um item sem imagem usa as iniciais como alternativa.
 
 ## Verificações
 

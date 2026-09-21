@@ -1,0 +1,109 @@
+{
+  "asOf": "2026-09-21",
+  "method": "Metadados públicos og:image e og:title dos perfis Instagram cadastrados; páginas e imagens responderam HTTP 200.",
+  "processing": {
+    "format": "webp",
+    "width": 240,
+    "height": 240,
+    "quality": 85,
+    "filters": "Nenhum",
+    "note": "As sete imagens de origem oferecidas pelo og:image tinham 100 × 100 pixels e foram ampliadas para 240 × 240; a conversão não recupera detalhes ausentes. Todas já eram quadradas, sem recorte adicional."
+  },
+  "notes": [
+    "URLs do CDN do Instagram podem expirar; os arquivos locais preservam as imagens públicas consultadas nesta data.",
+    "A imagem de perfil pode conter cartaz ou logotipo conforme escolhido pela conta; nenhuma imagem de postagem foi selecionada separadamente."
+  ],
+  "bands": [
+    {
+      "name": "Dream Theater Tribute",
+      "instagram": "https://www.instagram.com/tributedreamtheater/",
+      "profileTitle": "Dream Theater Tribute (@tributedreamtheater) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/479508671_9308314625858078_2609322079740575801_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nN_q7v11QOgQ7kNvwFOMjr4&_nc_oc=AdoLP8Ky3kH1UB97YsgdVsQxCXAplLhzMKs9v7w6PIjB9AsB4I2Mvo2wU24QmMlyHiBYnRFH7pJgqjyIyfpxJZl-&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQIsojdhjRoEDgnv0EbTfzV9-C76BSDUVkQTcHO5zApZmg&oe=6AB769E5",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/tributedreamtheater.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    },
+    {
+      "name": "Dream Theater Cover",
+      "instagram": "https://www.instagram.com/dreamtheatercover/",
+      "profileTitle": "Dream Theater Cover (@dreamtheatercover) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/95516557_919874418441620_1181604580404756480_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=HYD3bBAES5MQ7kNvwGRLFxU&_nc_oc=AdqtqolIP6rMQ4Vhy3OhDDDBpC5wHZHpORCoNCTVWFSD3lq0DYlbtrzPJNk7Px7StsQMcRPwJQU5ywfqDatkm2l_&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQIjQ9t6zOEHOu3N1pQuw4l4Tiqr0e4YZVLTbFOj3TL3dA&oe=6AB75883",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/dreamtheatercover.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    },
+    {
+      "name": "Dream Theater Classics",
+      "instagram": "https://www.instagram.com/dtclassics/",
+      "profileTitle": "Dream Theater Classics (@dtclassics) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/409216975_1038253510546411_8501695820691077187_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MzMuQzMifQ%3D%3D&_nc_ohc=udFc1ce2yNUQ7kNvwEf-Ut_&_nc_oc=AdpxNZIvFt3i4J-eJWlBzmNaDuUcZumepBM2WCoei20fTl1Cni0Wah7P-Map_3xrlw1an2VwGnoqlwY_-zJbaey-&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQIVgTjETYtLeK6NTHbrjS-CPR7Yw2cLymc0DLhXidE0sg&oe=6AB76057",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/dtclassics.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    },
+    {
+      "name": "OctaDream",
+      "instagram": "https://www.instagram.com/octadream/",
+      "profileTitle": "OctaDream (@octadream) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/88138743_235730467461445_8109347396758011904_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDAwLkMzIn0%3D&_nc_ohc=JUH0LGxDP-wQ7kNvwH8Jahk&_nc_oc=AdrU_JVKRv7pq7ckalLA65R85WKUzJrUS9KZeRFPP0zJIlklfMegYB3b-fGXU3NUYg0TJdmbIh74IJWvnZqRoVAg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQKAcSVSAk8CwRgLEDA45c1FRWknCVOo1PILEGidIBUp7A&oe=6AB76512",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/octadream.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    },
+    {
+      "name": "VRA! — Dream Theater Cover",
+      "instagram": "https://www.instagram.com/thiagocamposofficial/",
+      "profileTitle": "Thiago Campos (@thiagocamposofficial) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/534324444_18515982448007255_2549081900942007390_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=-PHRidK2vhIQ7kNvwFkaNOo&_nc_oc=AdoZY03oDheheqiE-bs3YWc_hjvMq0eVLmXy0ZTfg9BUzfeCFIcsLKVibIs6swsDk2gqDc1PIWO5R7A1IOzYHhke&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=eqgHoWfSTEjfFR597wn1RQ&_nc_ss=7f689&oh=00_AQKXmPQWzAd11g9qTJlgeKUOAaPCUPS7dW1THjHzgWyKEA&oe=6AB76058",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/thiagocamposofficial.webp",
+      "status": "ok",
+      "note": "Foto do perfil de Thiago Campos, usado pelo VRA! e identificado como tal no site."
+    },
+    {
+      "name": "Dream Theater Cover BH",
+      "instagram": "https://www.instagram.com/dreamtheatercoverbh/",
+      "profileTitle": "Dream Theater Cover BH (@dreamtheatercoverbh) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/472526893_1623768814877164_879072612296518514_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45MDcuQzMifQ%3D%3D&_nc_ohc=ZV--554ILBYQ7kNvwH7lJjM&_nc_oc=AdornrZZ2-nUZC1UEwy7wV1h_F3tF1u3PVGryyhocctVnfoOQP2SyCAwGvMO8KT226TdLN_vRYntuQiRFK2hkslK&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQIg6DV38_k3dWGMimDLRQCmiARd7zgvWorDbUsY37Oe3g&oe=6AB75043",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/dreamtheatercoverbh.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    },
+    {
+      "name": "Banda Dream Machine",
+      "instagram": "https://www.instagram.com/dreamtheatercover.rj/",
+      "profileTitle": "Banda Dream Machine (@dreamtheatercover.rj) • Instagram photos and videos",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/434576913_1422118751745290_1513307120583058719_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=TkHW6DlpppkQ7kNvwENDMMp&_nc_oc=Adoq6hR5tcR9MothIgIwpmmqQm4en0qSRkB3v3iwG4HwkR_nS9n94T5J1e8GoTw5GK7N6NHg_yJQt8_cMooMYg67&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQLwyfkFRaSadbwBjKOwUGJCVKwlcfpH5UFFxeODTGgruA&oe=6AB75C8D",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "localImage": "/images/profiles/dreamtheatercover.rj.webp",
+      "status": "ok",
+      "note": "Imagem obtida exclusivamente do og:image da página pública do perfil."
+    }
+  ]
+}

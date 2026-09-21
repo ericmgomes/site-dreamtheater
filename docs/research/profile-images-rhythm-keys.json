@@ -1,0 +1,168 @@
+{
+  "asOf": "2026-09-21",
+  "methodology": "Fotos públicas de perfis oficiais. Instagram: og:image da página pública, sem autenticação. Se Instagram não for confirmado, avatar do canal oficial do YouTube como fallback identificado. Conversão para WebP 240x240, qualidade 85, recorte central, sem filtros. As fotos de Instagram disponibilizadas publicamente têm 100x100 pixels e foram ampliadas para o formato de saída; isso não acrescenta detalhes. Os dois avatares de YouTube têm 900x900 pixels. Nenhum HTML foi armazenado.",
+  "profiles": [
+    {
+      "name": "Felipe Campos",
+      "instagram": null,
+      "sourceType": "youtube-channel-avatar-fallback",
+      "sourcePageUrl": "https://www.youtube.com/user/FelipeCamposBass/about",
+      "channelId": "UC0Wrp-2YW-B2Bsc3hdFKqAQ",
+      "sourceImageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_nNlA0Xt6JMlBvvqYgwsn90O_R4ONfWfzJVxrDlA3Y3Dyw=s900-c-k-c0x00ffffff-no-rj",
+      "localImage": "/images/profiles/felipecamposbass.webp",
+      "identityEvidence": [
+        {
+          "url": "https://www.youtube.com/user/FelipeCamposBass/about",
+          "finding": "A descrição do canal identifica Felipe Campos como baixista do Bad Salad e VRA!, em Brasília."
+        },
+        {
+          "url": "https://www.thiagocamposofficial.com/vra-split-screen-covers",
+          "finding": "O site oficial de Thiago Campos identifica Felipe Campos (baixo) e César Zolhof (teclados) na formação inicial do VRA!."
+        },
+        {
+          "url": "https://ultimatemetal.com/threads/vra-split-screen-constant-motion-dream-theater.620225/",
+          "finding": "Publicação do próprio integrante zolhof relaciona César Zolhof ao canal /zolhof e Felipe Campos ao canal /FelipeCamposBass."
+        }
+      ],
+      "status": "downloaded-youtube-fallback",
+      "limitation": "Nenhum Instagram vinculado foi encontrado nas páginas públicas dos canais oficiais, no site do projeto VRA! ou nas buscas pelo nome com VRA!/Bad Salad; não foi atribuído perfil de homônimo.",
+      "sourceDimensions": {
+        "width": 900,
+        "height": 900
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    },
+    {
+      "name": "Alexandre Panta",
+      "instagram": "https://www.instagram.com/alexandre_panta/",
+      "sourceType": "instagram-profile",
+      "sourcePageUrl": "https://www.instagram.com/alexandre_panta/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/729582508_18608777320020098_1734501944055308950_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=1SMyeYjksWEQ7kNvwHDVibo&_nc_oc=Adr5QOhKREnEfLuHnpAMYJ8KIJIOiRmtto_hY8ZD-hrxFgFUh41BagvMUWNBvBf2gxDprVqN7PBm1uu7S4dTrtSt&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Xb_2Rm9JfEDCPTPlrS4-Iw&_nc_ss=7d60f&oh=00_AQImjCP3suKA3RSsbarNUFAfuJtwP02b9ckxI7eZfrcI1g&oe=6AB773FF",
+      "localImage": "/images/profiles/alexandre_panta.webp",
+      "identityEvidence": [
+        {
+          "finding": "O site oficial do músico aponta para este perfil de Instagram.",
+          "url": "https://alexandrepanta.com.br/"
+        }
+      ],
+      "status": "downloaded",
+      "ogImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/729582508_18608777320020098_1734501944055308950_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=1SMyeYjksWEQ7kNvwHDVibo&_nc_oc=Adr5QOhKREnEfLuHnpAMYJ8KIJIOiRmtto_hY8ZD-hrxFgFUh41BagvMUWNBvBf2gxDprVqN7PBm1uu7S4dTrtSt&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Xb_2Rm9JfEDCPTPlrS4-Iw&_nc_ss=7d60f&oh=00_AQImjCP3suKA3RSsbarNUFAfuJtwP02b9ckxI7eZfrcI1g&oe=6AB773FF",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    },
+    {
+      "name": "Felipe Andreoli",
+      "instagram": "https://www.instagram.com/felipeandreoli/",
+      "sourceType": "instagram-profile",
+      "sourcePageUrl": "https://www.instagram.com/felipeandreoli/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/778915952_18624019078042382_6242891820060446405_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=cyotJUIkdqYQ7kNvwE0kFfs&_nc_oc=AdoMIywRUDeIzMeosQxC4pMqlHPHFhFReelh5oGbaq-DrK9u7bHrMjJPCeSCXma92_rVJ_6MGlp9zOTPMHQ51oZU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=NgVmD-8fhKPZDwXJZjjwRA&_nc_ss=7d60f&oh=00_AQKtTz6qmHtDlYMX2JcdH5rFGe-z9HxxpUAztb46E07oCw&oe=6AB74AF2",
+      "localImage": "/images/profiles/felipeandreoli.webp",
+      "identityEvidence": [
+        {
+          "finding": "O site oficial do músico aponta para este perfil de Instagram.",
+          "url": "https://www.felipeandreoli.com/"
+        }
+      ],
+      "status": "downloaded",
+      "ogImageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/778915952_18624019078042382_6242891820060446405_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=111&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=cyotJUIkdqYQ7kNvwE0kFfs&_nc_oc=AdoMIywRUDeIzMeosQxC4pMqlHPHFhFReelh5oGbaq-DrK9u7bHrMjJPCeSCXma92_rVJ_6MGlp9zOTPMHQ51oZU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=NgVmD-8fhKPZDwXJZjjwRA&_nc_ss=7d60f&oh=00_AQKtTz6qmHtDlYMX2JcdH5rFGe-z9HxxpUAztb46E07oCw&oe=6AB74AF2",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    },
+    {
+      "name": "Daniel Jorge",
+      "instagram": "https://www.instagram.com/daniel_jorge/",
+      "sourceType": "instagram-profile",
+      "sourcePageUrl": "https://www.instagram.com/daniel_jorge/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/491508176_18500579743061400_4826576084597957721_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=vNR7ffi9W_UQ7kNvwE4gHro&_nc_oc=Adq5hAtXCGhOQciQ-qDikUfuPQi4q8QVO_UqPOYkOIR4DOGSA0sXFhOvQGdVvYNvMSlPmg1yZHTqiVFoMMOpy35v&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=sLzUYzAm-riukqWbHh8Twg&_nc_ss=7d60f&oh=00_AQKlOVoLHxy-SZ8NP_XcrGr3XQOA7ksXfm_ZoCLKL3_ZLg&oe=6AB73DFB",
+      "localImage": "/images/profiles/daniel_jorge.webp",
+      "identityEvidence": [
+        {
+          "finding": "O site oficial do músico aponta para este perfil de Instagram.",
+          "url": "https://linktr.ee/daniel_jorge"
+        }
+      ],
+      "status": "downloaded",
+      "ogImageUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/491508176_18500579743061400_4826576084597957721_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=vNR7ffi9W_UQ7kNvwE4gHro&_nc_oc=Adq5hAtXCGhOQciQ-qDikUfuPQi4q8QVO_UqPOYkOIR4DOGSA0sXFhOvQGdVvYNvMSlPmg1yZHTqiVFoMMOpy35v&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=sLzUYzAm-riukqWbHh8Twg&_nc_ss=7d60f&oh=00_AQKlOVoLHxy-SZ8NP_XcrGr3XQOA7ksXfm_ZoCLKL3_ZLg&oe=6AB73DFB",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    },
+    {
+      "name": "César Zolhof",
+      "instagram": null,
+      "sourceType": "youtube-channel-avatar-fallback",
+      "sourcePageUrl": "https://www.youtube.com/user/zolhof/about",
+      "channelId": "UC2Y_RtRvnC-As0bkJVHoJ8A",
+      "sourceImageUrl": "https://yt3.googleusercontent.com/ytc/AIdro_n-PtSjrRLOEBeArYGbJzKZLCUA3rLcFFvtB29CKW2Wvzc=s900-c-k-c0x00ffffff-no-rj",
+      "localImage": "/images/profiles/zolhof.webp",
+      "identityEvidence": [
+        {
+          "url": "https://www.youtube.com/user/zolhof/about",
+          "finding": "A descrição do canal identifica César Zolhof como compositor, tecladista e baterista; as palavras-chave incluem VRA! e Dream Theater."
+        },
+        {
+          "url": "https://www.thiagocamposofficial.com/vra-split-screen-covers",
+          "finding": "O site oficial de Thiago Campos identifica Felipe Campos (baixo) e César Zolhof (teclados) na formação inicial do VRA!."
+        },
+        {
+          "url": "https://ultimatemetal.com/threads/vra-split-screen-constant-motion-dream-theater.620225/",
+          "finding": "Publicação do próprio integrante zolhof relaciona César Zolhof ao canal /zolhof e Felipe Campos ao canal /FelipeCamposBass."
+        }
+      ],
+      "status": "downloaded-youtube-fallback",
+      "limitation": "Nenhum Instagram vinculado foi encontrado nas páginas públicas dos canais oficiais, no site do projeto VRA! ou nas buscas pelo nome com VRA!/Bad Salad; não foi atribuído perfil de homônimo.",
+      "sourceDimensions": {
+        "width": 900,
+        "height": 900
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    },
+    {
+      "name": "Junior Carelli",
+      "instagram": "https://www.instagram.com/juninhocarelli/",
+      "sourceType": "instagram-profile",
+      "sourcePageUrl": "https://www.instagram.com/juninhocarelli/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/427104146_1303227380372279_1314022723139781184_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=5I0zwZ7x4igQ7kNvwFlcmOg&_nc_oc=Adom9g9fK4BEpLmSS0cNihX4ALhtJcdyiYKl3GcTGEZfzKNxF-Y2nRsZhN1XjSY-nUBVeThfj78f7BzOMZfzpiSw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7d60f&oh=00_AQLj_0K_t7vllGNWO7Y9wRYcePLzB70rfB6EItvt4xc91A&oe=6AB752EB",
+      "localImage": "/images/profiles/juninhocarelli.webp",
+      "identityEvidence": [
+        {
+          "finding": "O site oficial do músico aponta para este perfil de Instagram.",
+          "url": "https://www.juniorcarelli.com/"
+        }
+      ],
+      "status": "downloaded",
+      "ogImageUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/427104146_1303227380372279_1314022723139781184_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=5I0zwZ7x4igQ7kNvwFlcmOg&_nc_oc=Adom9g9fK4BEpLmSS0cNihX4ALhtJcdyiYKl3GcTGEZfzKNxF-Y2nRsZhN1XjSY-nUBVeThfj78f7BzOMZfzpiSw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7d60f&oh=00_AQLj_0K_t7vllGNWO7Y9wRYcePLzB70rfB6EItvt4xc91A&oe=6AB752EB",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
+    }
+  ]
+}

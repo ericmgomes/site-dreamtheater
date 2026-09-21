@@ -1,4 +1,4 @@
-// Curadoria pesquisada em 19/09/2026. Evidencias em docs/research/.
+// Curadoria e fotos de perfil: docs/research/.
 import type { CoverBand } from './types';
 
 export const coverBands: CoverBand[] = [
@@ -12,7 +12,8 @@ export const coverBands: CoverBand[] = [
       "https://baladapp.com.br/pt-BR/evento/dream-theater-tribute/6372"
     ],
     "activityNote": "Shows confirmados em Goiânia (17/04/2025) e Brasília (18/04/2025). O Instagram é vinculado pelo Linktree do tecladista Daniel Jorge. Não inferir cidade-base a partir de local dos shows. YouTube dedicado não confirmado.",
-    "instagramLabel": "Instagram"
+    "instagramLabel": "Instagram",
+    "image": "/images/profiles/tributedreamtheater.webp"
   },
   {
     "name": "Dream Theater Cover",
@@ -22,7 +23,8 @@ export const coverBands: CoverBand[] = [
       "https://www.instagram.com/dreamtheatercover/",
       "https://linktr.ee/daniel_jorge"
     ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome Dream Theater Cover confirmado nos metadados públicos do Instagram em 19/09/2026; bio menciona Igor Ferrante, Samuel Zechin, Daniel Jorge e Lucas Dias. Não inferir cidade ou datas recentes de shows. Projeto distinto do VRA!, cujo site é dreamtheatercover.com."
+    "activityNote": "Inclusão solicitada pelo usuário. Nome Dream Theater Cover confirmado nos metadados públicos do Instagram em 19/09/2026; bio menciona Igor Ferrante, Samuel Zechin, Daniel Jorge e Lucas Dias. Não inferir cidade ou datas recentes de shows. Projeto distinto do VRA!, cujo site é dreamtheatercover.com.",
+    "image": "/images/profiles/dreamtheatercover.webp"
   },
   {
     "name": "Dream Theater Classics",
@@ -32,7 +34,8 @@ export const coverBands: CoverBand[] = [
       "https://www.instagram.com/dtclassics/",
       "https://linktr.ee/sobersband"
     ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome e foco do tributo confirmados na bio pública do Instagram em 19/09/2026. Linktree oficial da Sobers divulga apresentação conjunta com DT Classics em 08/05; sem inferir cidade-base ou ano do show apenas por esse anúncio."
+    "activityNote": "Inclusão solicitada pelo usuário. Nome e foco do tributo confirmados na bio pública do Instagram em 19/09/2026. Linktree oficial da Sobers divulga apresentação conjunta com DT Classics em 08/05; sem inferir cidade-base ou ano do show apenas por esse anúncio.",
+    "image": "/images/profiles/dtclassics.webp"
   },
   {
     "name": "OctaDream",
@@ -41,7 +44,8 @@ export const coverBands: CoverBand[] = [
     "sourceUrls": [
       "https://www.instagram.com/octadream/"
     ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome OctaDream e bio ‘Banda Cover de Dream Theater de SP’ confirmados nos metadados públicos do Instagram em 21/09/2026. Sem cidade-base específica, datas de shows ou outros canais confirmados."
+    "activityNote": "Inclusão solicitada pelo usuário. Nome OctaDream e bio ‘Banda Cover de Dream Theater de SP’ confirmados nos metadados públicos do Instagram em 21/09/2026. Sem cidade-base específica, datas de shows ou outros canais confirmados.",
+    "image": "/images/profiles/octadream.webp"
   },
   {
     "name": "VRA! — Dream Theater Cover",
@@ -58,7 +62,8 @@ export const coverBands: CoverBand[] = [
       "https://t.me/s/thiagocamposofficial"
     ],
     "activityNote": "Show em 20/11/2025 no UK Music Hall confirmado pela página do organizador. Site oficial lista Sacrificed Sons (14/05/2025) e Night Terror (20/12/2024). O Instagram e o YouTube são os canais do criador Thiago Campos, onde o projeto é publicado; rotular Instagram de Thiago / VRA!, sem sugerir perfil independente da banda.",
-    "instagramLabel": "Instagram · Thiago / VRA!"
+    "instagramLabel": "Instagram · Thiago / VRA!",
+    "image": "/images/profiles/thiagocamposofficial.webp"
   },
   {
     "name": "Dream Theater Cover BH",
@@ -67,7 +72,8 @@ export const coverBands: CoverBand[] = [
     "sourceUrls": [
       "https://www.instagram.com/dreamtheatercoverbh/"
     ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente."
+    "activityNote": "Inclusão solicitada pelo usuário. Nome e formação por instrumentos confirmados nos metadados públicos do perfil em 19/09/2026. BH aparece no nome; cidade-base e datas recentes de atividade não foram confirmadas separadamente.",
+    "image": "/images/profiles/dreamtheatercoverbh.webp"
   },
   {
     "name": "Banda Dream Machine",
@@ -77,6 +83,7 @@ export const coverBands: CoverBand[] = [
     "sourceUrls": [
       "https://www.instagram.com/dreamtheatercover.rj/"
     ],
-    "activityNote": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados."
+    "activityNote": "Inclusão solicitada pelo usuário. Nome Banda Dream Machine e cidade Rio de Janeiro confirmados no título e na bio pública do Instagram em 19/09/2026. Sem datas recentes de atividade ou canal próprio de YouTube confirmados.",
+    "image": "/images/profiles/dreamtheatercover.rj.webp"
   }
 ];
