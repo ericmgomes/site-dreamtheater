@@ -166,10 +166,11 @@
   .cover-item { position: relative; border-top: 1px solid #686e5d; padding-block: 23px 8px; }
   .profile-photo { display: block; width: 80px; height: 80px; flex: 0 0 80px; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); }
   .profile-photo-placeholder { display: grid; place-items: center; color: var(--muted); font: 500 1.5rem/1 var(--heading); }
-  .cover-item > .profile-photo { margin-bottom: 18px; }
+  .cover-heading { display: flex; align-items: center; gap: 16px; padding-right: 36px; }
+  .cover-heading-text { min-width: 0; overflow-wrap: anywhere; }
   .cover-index { position: absolute; top: 20px; right: 0; font: 500 2.2rem/1 var(--heading); color: #63685b; }
-  .cover-item .eyebrow { margin-bottom: 18px; padding-right: 35px; }
-  .cover-item h4 { font: 600 2.3rem/1.05 var(--heading); text-transform: uppercase; max-width: 90%; }
+  .cover-item .eyebrow { margin-bottom: 7px; }
+  .cover-item h4 { font: 600 2.3rem/1.05 var(--heading); text-transform: uppercase; }
   .cover-description { color: var(--muted); font-size: .875rem; margin-block: 14px 19px; }
   .social-links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; }
   .social-links a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: .75rem; }
@@ -301,8 +302,8 @@
     .subsection-heading { flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 36px; }
     .subsection-heading h3 { font-size: 1.125rem; }
     .cover-grid { grid-template-columns: 1fr; gap: 24px; }
-    .cover-item h4 { font-size: 2.5rem; }
-    .cover-item .eyebrow { margin-bottom: 10px; }
+    .cover-heading { gap: 14px; padding-right: 30px; }
+    .cover-item h4 { font-size: 2rem; }
     .cover-description { margin-block: 10px 13px; }
     .musician-grid { grid-template-columns: 1fr; gap: 24px; }
     .musician-item { gap: 16px; }
