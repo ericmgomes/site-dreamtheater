@@ -200,7 +200,6 @@
   .instrument-group .material-note { margin-top: 8px; }
   .album-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 36px 24px; }
   .album-art { display: block; position: relative; aspect-ratio: 1; background: var(--surface); overflow: hidden; }
-  .album[data-category='studio'] .album-art { box-shadow: 0 0 0 2px var(--accent); }
   .album-art img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s; }
   .album-listen { position: absolute; inset: auto 0 0; padding: 30px 12px 12px; display: flex; gap: 8px; align-items: center; justify-content: center; font-size: .75rem; color: #fff; background: linear-gradient(transparent, rgb(0 0 0 / 88%)); opacity: 0; transform: translateY(4px); transition: opacity .2s, transform .2s; }
   .album-art:hover img { transform: scale(1.04); }
