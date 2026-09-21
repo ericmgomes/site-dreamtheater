@@ -35,6 +35,15 @@ export const coverBands: CoverBand[] = [
     "activityNote": "Inclusão solicitada pelo usuário. Nome e foco do tributo confirmados na bio pública do Instagram em 19/09/2026. Linktree oficial da Sobers divulga apresentação conjunta com DT Classics em 08/05; sem inferir cidade-base ou ano do show apenas por esse anúncio."
   },
   {
+    "name": "OctaDream",
+    "description": "Banda cover de Dream Theater de São Paulo.",
+    "instagram": "https://www.instagram.com/octadream/",
+    "sourceUrls": [
+      "https://www.instagram.com/octadream/"
+    ],
+    "activityNote": "Inclusão solicitada pelo usuário. Nome OctaDream e bio ‘Banda Cover de Dream Theater de SP’ confirmados nos metadados públicos do Instagram em 21/09/2026. Sem cidade-base específica, datas de shows ou outros canais confirmados."
+  },
+  {
     "name": "VRA! — Dream Theater Cover",
     "location": "Brasília, DF",
     "description": "Split-screen covers e tributo ao vivo liderado por Thiago Campos.",
