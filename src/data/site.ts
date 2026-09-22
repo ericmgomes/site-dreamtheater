@@ -9,7 +9,7 @@ export const site = {
 };
 export const sections = [
   { id: 'relembre', label: 'Shows', number: '01' },
-  { id: 'veja', label: 'Veja', number: '02' },
+  { id: 'veja', label: 'Assista', number: '02' },
   { id: 'va', label: 'Covers', number: '03' },
   { id: 'toque', label: 'Toque', number: '04' },
   { id: 'ouca', label: 'Ouça', number: '05' },
