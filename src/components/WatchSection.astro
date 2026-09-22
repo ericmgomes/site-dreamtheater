@@ -5,7 +5,7 @@ import { videos, moreVideos, rankingMetadata } from '../data/videos';
 const views = (count: number) => new Intl.NumberFormat('pt-BR').format(count);
 ---
 <section class="section watch" id="veja" aria-labelledby="watch-title"><div class="wrap">
-  <SectionHeading id="watch-title" number="02" title="Assista" description="O Dream Theater no Brasil. Aperte o play." />
+  <SectionHeading id="watch-title" number="02" title="Assista" description="O Dream Theater no Brasil." />
   <div class="section-toolbar"><span class="quiet-label">TOP 50 · SHOWS NO BRASIL</span><span class="data-note">Os 6 mais vistos da seleção</span></div>
   <div class="video-grid">{videos.map((video, index) => <article class="video-card">
     <div class="video-media">

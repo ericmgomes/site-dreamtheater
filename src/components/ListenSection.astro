@@ -5,7 +5,7 @@ import { discography } from '../data/discography';
 const categories = { studio: 'Studio Albums', live: 'Live Albums', compilation: 'Compilations', ep: 'EPs / Mini Albums' };
 ---
 <section class="section listen wrap" id="ouca" aria-labelledby="listen-title">
-  <SectionHeading id="listen-title" number="05" title="Ouça" description="Escolha um disco. Entre em outro universo." />
+  <SectionHeading id="listen-title" number="05" title="Ouça" />
   <div class="section-toolbar"><div class="filters album-filters" role="group" aria-label="Filtrar discografia" data-filter-group="album"><button type="button" data-filter="all" aria-pressed="true">Todos</button><button type="button" data-filter="studio" aria-pressed="false">Studio</button><button type="button" data-filter="live" aria-pressed="false">Live</button><button type="button" data-filter="compilation" aria-pressed="false">Compilations</button><button type="button" data-filter="ep" aria-pressed="false">EPs</button></div><span class="quiet-label">DISCOGRAFIA OFICIAL</span></div>
   <p class="sr-only" aria-live="polite" data-album-status></p>
   <div class="album-grid">{discography.map(album => <article class="album" data-album data-category={album.category}>

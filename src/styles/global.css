@@ -59,9 +59,6 @@
   .hero-country { color: #fff; }
   .hero-country > span { display: inline-block; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .hero-bottom { margin-top: 20px; display: flex; justify-content: space-between; gap: 24px; align-items: center; }
-  .hero-verbs { font-family: var(--heading); font-weight: 600; text-transform: uppercase; font-size: 1.65rem; line-height: 1.2; }
-  .hero-verbs span { padding-inline: 5px; color: #64665e; }
-  .hero-verbs a:hover { color: var(--accent); }
   .hero-subtitle { color: var(--muted); font-size: .875rem; line-height: 1.65; }
   .section { padding-block: 68px; }
   .remember { padding-top: 46px; }
@@ -246,7 +243,6 @@
     .brand-monogram { display: none; }
     .hero h1 { font-size: clamp(3rem, 8vw, 5.4rem); }
     .hero-bottom { align-items: flex-start; }
-    .hero-verbs { font-size: 1.4rem; }
     .setlist-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .album-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
@@ -271,8 +267,6 @@
     .hero h1 { font-size: clamp(2rem, 11.8vw, 5rem); line-height: 1.2; }
     .hero-country { flex-basis: 100%; }
     .hero-bottom { flex-direction: column; gap: 14px; margin-top: 19px; }
-    .hero-verbs { font-size: clamp(1.1rem, 4.2vw, 1.6rem); }
-    .hero-verbs span { padding-inline: 2px; }
     .desktop-break { display: none; }
     .hero-subtitle { font-size: .8125rem; }
     .section { padding-block: 44px; }

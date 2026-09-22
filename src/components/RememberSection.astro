@@ -12,7 +12,7 @@ const cityCount = (city: string) => setlists.filter(show => show.city === city).
 const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => cityCount(b) - cityCount(a) || a.localeCompare(b, 'pt-BR'));
 ---
 <section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
-  <SectionHeading id="remember-title" number="01" title="Shows" description="O show acaba. A memória fica." />
+  <SectionHeading id="remember-title" number="01" title="Shows" />
   <div class="section-toolbar"><span class="quiet-label">SHOWS NO BRASIL · SETLIST.FM</span><span class="data-note">{setlists.length} shows · {firstYear}–{lastYear}</span></div>
   <div class="show-city-filter" data-setlist-filter hidden>
     <label for="show-city">Cidade</label>

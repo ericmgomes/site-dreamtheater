@@ -6,7 +6,7 @@ import type { Instrument } from '../data/types';
 const instruments: { id: Instrument; label: string; number: string }[] = [{ id: 'guitar', label: 'Guitarra', number: '01' }, { id: 'bass', label: 'Baixo', number: '02' }, { id: 'drums', label: 'Bateria', number: '03' }, { id: 'keys', label: 'Teclado', number: '04' }];
 ---
 <section class="section play" id="toque" aria-labelledby="play-title"><div class="wrap">
-  <SectionHeading id="play-title" number="04" title="Toque" description="Da primeira nota ao último compasso." />
+  <SectionHeading id="play-title" number="04" title="Toque" />
   <div class="materials-grid">{instruments.map(instrument => <div class="instrument-group"><div class="instrument-title"><span class="item-number">{instrument.number}</span><h3>{instrument.label}</h3></div><ul>{materials.filter(material => material.instrument === instrument.id).map(material => <li><span class="material-type">{material.type}</span><h4><a href={material.url} target="_blank" rel="noopener noreferrer">{material.title}<Icon size={17}/></a></h4><p>{material.source}</p>{material.note && <p class="material-note">{material.note}</p>}</li>)}</ul></div>)}</div>
   <div class="section-foot"><a class="text-link" href="https://www.freenote.com.br/busca.asp?f_stype=ALL&amp;f_instru=ALL&amp;f_search_string=dream%20theater" target="_blank" rel="noopener noreferrer">Mais Dream Theater na Freenote <Icon size={17}/></a><span class="data-note">Livros físicos e digitais · Disponibilidade e condições nas lojas de origem.</span></div>
 </div></section>

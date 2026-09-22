@@ -6,7 +6,7 @@ interface Props { id: string; title: string; label: string; musicians: CoverMusi
 const { id, title, label, musicians } = Astro.props;
 ---
 <div class="musician-group" data-instrument={id}>
-  <div class="subsection-heading musician-heading"><h3 id={`covers-${id}`}>{title}</h3><span class="eyebrow">{musicians.length} {label}</span></div>
+  <div class="subsection-heading musician-heading"><h3 id={`covers-${id}`}>{title}</h3><span class="eyebrow">{label}</span></div>
   <div class="musician-grid" aria-labelledby={`covers-${id}`}>
     {musicians.map(musician => <article class="musician-item">
       <ProfilePhoto name={musician.name} image={musician.image} />
