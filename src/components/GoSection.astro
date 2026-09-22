@@ -9,7 +9,13 @@ import { bassists, keyboardists } from '../data/coverMusicians';
 ---
 <section class="section go wrap" id="va" aria-labelledby="go-title">
   <SectionHeading id="go-title" number="03" title="Covers" description="O som do Dream Theater nas mãos de brasileiros." />
-  <div class="subsection-heading"><h3>O som é deles. A cena é nossa.</h3><span class="eyebrow">Tributos brasileiros</span></div>
+  <nav class="cover-shortcuts" aria-label="Navegar pelos covers">
+    <a href="#covers-bands">Bandas covers</a>
+    <a href="#covers-guitar">Guitarristas</a>
+    <a href="#covers-bass">Baixistas</a>
+    <a href="#covers-keys">Tecladistas</a>
+  </nav>
+  <div class="subsection-heading"><h3 id="covers-bands">O som é deles. A cena é nossa.</h3><span class="eyebrow">Tributos brasileiros</span></div>
   <div class="cover-grid">
     {coverBands.map((band, index) => (
       <article class="cover-item">

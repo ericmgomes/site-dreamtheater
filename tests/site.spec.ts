@@ -235,6 +235,12 @@ test('fixed navigation, anchors, WhatsApp and enlarged text', async ({ page }) =
     expect(header!.y).toBe(0);
   }
   const whatsapp=page.getByRole('link',{name:/Fale com.*WhatsApp/});
+  for (const id of ['covers-bands', 'covers-guitar', 'covers-bass', 'covers-keys']) {
+    await page.getByRole('navigation', { name: 'Navegar pelos covers' }).locator(`a[href="#${id}"]`).click();
+    await expect(page).toHaveURL(new RegExp(`#${id}$`));
+    await expect(page.locator(`#${id}`)).toBeInViewport();
+    expect((await page.locator(`#${id}`).boundingBox())!.y).toBeGreaterThanOrEqual((await page.locator('header').boundingBox())!.height);
+  }
   await expect(whatsapp).toHaveAttribute('href','https://wa.me/5511999503930');
   await expect(whatsapp).toHaveAttribute('target','_blank');
   expect((await whatsapp.boundingBox())!.width).toBeGreaterThanOrEqual(44);
