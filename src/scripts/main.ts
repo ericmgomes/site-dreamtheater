@@ -75,6 +75,23 @@ initializeScrollPagination('setlist', '[data-setlist]', 'shows', 'Histórico com
 initializeScrollPagination('ranking', '[data-ranked-video]', 'vídeos', 'Lista completa · Do mais visto ao menos visto.');
 initializeShowTimeline();
 
+const copyStatus = document.querySelector<HTMLElement>('[data-copy-status]');
+document.querySelectorAll<HTMLButtonElement>('[data-copy-anchor]').forEach(button => {
+  button.hidden = false;
+  button.addEventListener('click', async () => {
+    const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href ?? location.href;
+    const url = new URL(canonical);
+    url.search = '';
+    url.hash = button.dataset.copyAnchor!;
+    try {
+      await navigator.clipboard.writeText(url.href);
+      if (copyStatus) copyStatus.textContent = `Link de ${button.dataset.copyLabel} copiado!`;
+    } catch {
+      if (copyStatus) copyStatus.textContent = `Copie o link: ${url.href}`;
+    }
+  });
+});
+
 document.querySelectorAll<HTMLElement>('[data-filter-group="album"]').forEach(group => {
   const items = document.querySelectorAll<HTMLElement>('[data-album]');
   const status = document.querySelector<HTMLElement>('[data-album-status]');

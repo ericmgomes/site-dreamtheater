@@ -6,14 +6,21 @@ import ProfilePhoto from './ProfilePhoto.astro';
 import { coverBands } from '../data/coverBands';
 import { guitarists } from '../data/guitarists';
 import { bassists, keyboardists } from '../data/coverMusicians';
+const shortcuts = [
+  { id: 'covers-bands', label: 'Bandas covers' },
+  { id: 'covers-guitar', label: 'Guitarristas' },
+  { id: 'covers-bass', label: 'Baixistas' },
+  { id: 'covers-keys', label: 'Tecladistas' },
+];
 ---
 <section class="section go wrap" id="va" aria-labelledby="go-title">
   <SectionHeading id="go-title" number="03" title="Covers" />
   <nav class="cover-shortcuts" aria-label="Navegar pelos covers">
-    <a href="#covers-bands">Bandas covers</a>
-    <a href="#covers-guitar">Guitarristas</a>
-    <a href="#covers-bass">Baixistas</a>
-    <a href="#covers-keys">Tecladistas</a>
+    {shortcuts.map(({ id, label }) => <span class="cover-shortcut">
+      <a href={`#${id}`}>{label}</a>
+      <button type="button" class="copy-anchor" data-copy-anchor={id} data-copy-label={label} aria-label={`Copiar link: ${label}`} title={`Copiar link: ${label}`} hidden><Icon name="copy" size={14} /></button>
+    </span>)}
+    <span class="copy-link-status data-note" data-copy-status role="status" aria-live="polite"></span>
   </nav>
   <div class="subsection-heading"><h3 id="covers-bands">O som é deles. A cena é nossa.</h3><span class="eyebrow">Tributos brasileiros</span></div>
   <div class="cover-grid">

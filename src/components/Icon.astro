@@ -1,7 +1,8 @@
 ---
-interface Props { name?: 'arrow' | 'play' | 'instagram' | 'youtube' | 'spotify' | 'close' | 'whatsapp'; size?: number; }
+interface Props { name?: 'arrow' | 'play' | 'instagram' | 'youtube' | 'spotify' | 'close' | 'whatsapp' | 'copy'; size?: number; }
 const { name = 'arrow', size = 20 } = Astro.props;
 const paths = {
+  copy: 'M9 9h12v12H9V9ZM15 9V3H3v12h6',
   arrow: 'M7 17 17 7M7 7h10v10',
   play: 'm9 5 11 7-11 7V5Z',
   instagram: 'M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm9 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm1.5-5.5h.01',
