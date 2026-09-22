@@ -103,5 +103,12 @@ export const keyboardists: CoverMusician[] = [
       "https://www.thiagocamposofficial.com/vra-split-screen-covers"
     ],
     "image": "/images/profiles/zolhof.webp"
+  },
+  {
+    "name": "Caio Vargas",
+    "description": "Tecladista brasileiro que toca Dream Theater. Acompanhe seu trabalho no Instagram.",
+    "instagram": "https://www.instagram.com/caiocesarvargas/",
+    "sourceUrls": ["https://www.instagram.com/caiocesarvargas/"],
+    "image": "/images/profiles/caiocesarvargas.webp"
   }
 ];

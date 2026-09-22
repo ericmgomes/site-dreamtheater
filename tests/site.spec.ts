@@ -185,7 +185,7 @@ test('Brazil video ranking scrolls independently and covers are grouped by instr
   await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
   // Loading videos must not consume a page of the separate show history.
   await expect(page.locator('[data-setlist]:visible')).toHaveCount(12);
-  for (const [instrument,count] of [['guitar',6],['bass',3],['keys',3]] as const) {
+  for (const [instrument,count] of [['guitar',6],['bass',3],['keys',4]] as const) {
     await expect(page.locator(`#va [data-instrument="${instrument}"] .musician-item`)).toHaveCount(count);
   }
   for (const name of ['Samuel Zechin','Marcelo Barbosa','Alex Lima']) await expect(page.locator('#va').getByRole('heading',{name,exact:true})).toHaveCount(1);

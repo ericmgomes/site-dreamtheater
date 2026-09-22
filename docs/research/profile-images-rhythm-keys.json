@@ -163,6 +163,30 @@
         "width": 240,
         "height": 240
       }
+    },
+    {
+      "name": "Caio Vargas",
+      "instagram": "https://www.instagram.com/caiocesarvargas/",
+      "sourceType": "instagram-profile",
+      "sourcePageUrl": "https://www.instagram.com/caiocesarvargas/",
+      "sourceImageUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/503628184_17850563259486696_4792347597695548498_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=yFirMOu_TdAQ7kNvwH2vbUE&_nc_oc=Adp0N7iHYe1Z0HTkPmfwnSIrMn9vu0WbF3V0AZNnafMxG7c-mSxGXQC6UZ-C6xFoNXS7fXYLoIzjVTy6bkbuXvKf&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=-oEn2IpcNRHZ140LWk-nPA&_nc_ss=7f689&oh=00_AQJ59ZICVtyBM4Je6A4d3I_aRAT1goxBVNJwJTcPLTtjIw&oe=6AB7E2A9",
+      "localImage": "/images/profiles/caiocesarvargas.webp",
+      "asOf": "2026-09-22",
+      "identityEvidence": [
+        {
+          "url": "https://www.instagram.com/caiocesarvargas/",
+          "finding": "Perfil indicado pelo usuário como o tecladista Caio Vargas; metadados públicos identificam Caio Vargas (@caiocesarvargas)."
+        }
+      ],
+      "status": "downloaded",
+      "sourceDimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "outputDimensions": {
+        "width": 240,
+        "height": 240
+      }
     }
   ]
 }
