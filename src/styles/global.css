@@ -58,7 +58,8 @@
   .hero-band-name { font-family: 'Dream Theater', Georgia, serif; font-weight: 400; font-synthesis: none; letter-spacing: 0; }
   .hero-country { color: #fff; }
   .hero-country > span { display: inline-block; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .hero-bottom { margin-top: 20px; display: flex; justify-content: space-between; gap: 24px; align-items: center; }
+  .hero-main { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 24px; align-items: center; }
+  .hero-bottom { display: flex; justify-content: flex-end; align-items: center; }
   .hero-subtitle { margin-left: auto; text-align: right; color: var(--muted); font-size: .875rem; line-height: 1.65; }
   .section { padding-block: 68px; }
   .remember { padding-top: 46px; }
@@ -248,7 +249,8 @@
     .site-header nav { gap: 22px; }
     .brand-monogram { display: none; }
     .hero h1 { font-size: clamp(3rem, 8vw, 5.4rem); }
-    .hero-bottom { align-items: flex-start; }
+    .hero-main { display: block; }
+    .hero-bottom { margin-top: 12px; }
     .setlist-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .album-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
