@@ -8,7 +8,8 @@ const pageSize = 12;
 const firstYear = setlists.at(-1)?.date.slice(0, 4);
 const lastYear = setlists[0]?.date.slice(0, 4);
 const years = [...new Set(setlists.map(show => show.date.slice(0, 4)))];
-const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+const cityCount = (city: string) => setlists.filter(show => show.city === city).length;
+const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => cityCount(b) - cityCount(a) || a.localeCompare(b, 'pt-BR'));
 ---
 <section class="section remember wrap" id="relembre" aria-labelledby="remember-title">
   <SectionHeading id="remember-title" number="01" title="Shows" description="O show acaba. A memória fica." />
@@ -17,7 +18,7 @@ const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => a.lo
     <label for="show-city">Cidade</label>
     <select id="show-city" data-setlist-city aria-controls="setlist-history">
       <option value="">Todas as cidades</option>
-      {cities.map(city => <option value={city}>{city} ({setlists.filter(show => show.city === city).length})</option>)}
+      {cities.map(city => <option value={city}>{city} ({cityCount(city)})</option>)}
     </select>
   </div>
   <div class="setlist-browser" data-setlist-browser>

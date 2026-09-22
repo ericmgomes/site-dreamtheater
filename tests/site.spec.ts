@@ -79,7 +79,7 @@ test('city filter updates shows, timeline and pagination when returning to all c
   await page.goto('/');
   const filter = page.getByRole('combobox', {name:'Cidade',exact:true});
   const scroller = page.locator('[data-setlist-scroll]');
-  const cities = [...new Set(setlists.map(show => show.city))].sort((a,b) => a.localeCompare(b,'pt-BR'));
+  const cities = ['São Paulo', 'Rio de Janeiro', 'Curitiba', 'Porto Alegre', 'Belo Horizonte', 'Brasília', 'Santo André', 'Fortaleza', 'Olinda'];
   expect(await filter.locator('option').evaluateAll(options => options.map(option => (option as HTMLOptionElement).value))).toEqual(['',...cities]);
   for (const city of cities) {
     await filter.selectOption(city);
