@@ -59,7 +59,7 @@
   .hero-country { color: #fff; }
   .hero-country > span { display: inline-block; background: linear-gradient(90deg, #009b3a 0%, #ffdf00 50%, #2875df 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .hero-bottom { margin-top: 20px; display: flex; justify-content: space-between; gap: 24px; align-items: center; }
-  .hero-subtitle { color: var(--muted); font-size: .875rem; line-height: 1.65; }
+  .hero-subtitle { margin-left: auto; text-align: right; color: var(--muted); font-size: .875rem; line-height: 1.65; }
   .section { padding-block: 68px; }
   .remember { padding-top: 46px; }
   .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 28px; }

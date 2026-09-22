@@ -91,6 +91,13 @@ export const keyboardists: CoverMusician[] = [
     "image": "/images/profiles/juninhocarelli.webp"
   },
   {
+    "name": "Caio Vargas",
+    "description": "Tecladista brasileiro que toca Dream Theater. Acompanhe seu trabalho no Instagram.",
+    "instagram": "https://www.instagram.com/caiocesarvargas/",
+    "sourceUrls": ["https://www.instagram.com/caiocesarvargas/"],
+    "image": "/images/profiles/caiocesarvargas.webp"
+  },
+  {
     "name": "César Zolhof",
     "description": "Tecladista dos primeiros covers do VRA!, com versões de Metropolis Pt. 1, The Mirror e Pull Me Under.",
     "youtube": "https://www.youtube.com/user/zolhof",
@@ -103,12 +110,5 @@ export const keyboardists: CoverMusician[] = [
       "https://www.thiagocamposofficial.com/vra-split-screen-covers"
     ],
     "image": "/images/profiles/zolhof.webp"
-  },
-  {
-    "name": "Caio Vargas",
-    "description": "Tecladista brasileiro que toca Dream Theater. Acompanhe seu trabalho no Instagram.",
-    "instagram": "https://www.instagram.com/caiocesarvargas/",
-    "sourceUrls": ["https://www.instagram.com/caiocesarvargas/"],
-    "image": "/images/profiles/caiocesarvargas.webp"
   }
 ];
