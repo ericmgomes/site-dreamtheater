@@ -4,7 +4,9 @@ import path from 'node:path';
 
 const html = await readFile('dist/index.html', 'utf8');
 assert.equal((html.match(/<h1\b/g) || []).length, 1, 'Exactly one H1');
-assert(!/<iframe\b/.test(html), 'Players must not be present initially');
+const frames = [...html.matchAll(/<iframe\b[^>]*>/g)].map(match => match[0]);
+assert.equal(frames.length, 1, 'Only the GTM noscript iframe may be present initially');
+assert(frames[0].includes('data-gtm') && frames[0].includes('https://www.googletagmanager.com/ns.html?id=GTM-WJCQK4MP'), 'Expected GTM fallback');
 assert(!/<astro-island\b/.test(html), 'No hydrated framework needed');
 assert(html.includes('lang="pt-BR"'));
 assert(html.includes('href="https://dreamtheater.com.br/" rel="canonical"') || html.includes('rel="canonical" href="https://dreamtheater.com.br/"'));

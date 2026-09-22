@@ -1,3 +1,4 @@
+import { measureFrame, afterLayout } from './layout-frame';
 // Follow the records, not the changing scrollHeight of the paginated list.
 export function initializeShowTimeline() {
   const browser = document.querySelector<HTMLElement>('[data-setlist-browser]');
@@ -10,22 +11,11 @@ export function initializeShowTimeline() {
   const status = timeline.querySelector<HTMLElement>('[data-timeline-status]');
   if (!cards.length || !ticks.length) return;
   let activeYear: string | undefined;
-  let scheduled = false;
 
   function update() {
-    scheduled = false;
     const matching = cards.filter(card => card.dataset.filterMatch !== 'false');
     const years = [...new Set(matching.map(card => card.dataset.year!))];
     const positions = new Map(years.map((year, index) => [year, index / Math.max(1, years.length - 1) * 100]));
-    ticks.forEach(tick => {
-      tick.hidden = !positions.has(tick.dataset.timelineYear!);
-      const target = matching.find(card => card.dataset.year === tick.dataset.timelineYear);
-      const link = tick.querySelector('a');
-      if (target && link) link.href = `#${target.id}`;
-      tick.style.setProperty('--year-position', `${positions.get(tick.dataset.timelineYear!) ?? 0}%`);
-    });
-    timeline!.hidden = matching.length === 0;
-    browser!.classList.toggle('has-timeline', matching.length > 0);
     const visible = matching.filter(card => !card.hidden);
     const bounds = visible.map(card => card.getBoundingClientRect());
     if (!bounds.length) return;
@@ -51,18 +41,31 @@ export function initializeShowTimeline() {
     const nextYear = visible[Math.min(index + 1, visible.length - 1)].dataset.year!;
     const start = positions.get(year) ?? 0;
     const end = positions.get(nextYear) ?? start;
-    timeline!.style.setProperty('--timeline-progress', `${start + (end - start) * (position - index)}%`);
-    if (year !== activeYear) {
+    return () => {
       ticks.forEach(tick => {
-        if (tick.dataset.timelineYear === year) tick.setAttribute('aria-current', 'date');
-        else tick.removeAttribute('aria-current');
+        const tickYear = tick.dataset.timelineYear!;
+        tick.hidden = !positions.has(tickYear);
+        const target = matching.find(card => card.dataset.year === tickYear);
+        const link = tick.querySelector('a');
+        if (target && link) link.setAttribute('href', `#${target.id}`);
+        const value = `${positions.get(tickYear) ?? 0}%`;
+        if (tick.style.getPropertyValue('--year-position') !== value) tick.style.setProperty('--year-position', value);
       });
-      if (status) status.textContent = `Ano em destaque: ${year}.`;
-      activeYear = year;
-    }
+      timeline!.hidden = matching.length === 0;
+      browser!.classList.toggle('has-timeline', matching.length > 0);
+      timeline!.style.setProperty('--timeline-progress', `${start + (end - start) * (position - index)}%`);
+      if (year !== activeYear) {
+        ticks.forEach(tick => {
+          if (tick.dataset.timelineYear === year) tick.setAttribute('aria-current', 'date');
+          else tick.removeAttribute('aria-current');
+        });
+        if (status) status.textContent = `Ano em destaque: ${year}.`;
+        activeYear = year;
+      }
+    };
   }
   function schedule() {
-    if (!scheduled) { scheduled = true; requestAnimationFrame(update); }
+    measureFrame(update);
   }
   timeline.hidden = false;
   ticks.forEach(tick => tick.querySelector('a')?.addEventListener('click', event => {
@@ -71,16 +74,22 @@ export function initializeShowTimeline() {
     if (!target) return;
     event.preventDefault();
     scroller.dispatchEvent(new CustomEvent('listreveal', { detail: target }));
-    target.querySelector('a')?.focus({ preventScroll: true });
-    const inset = parseFloat(getComputedStyle(scroller).paddingTop) || 0;
-    scroller.scrollTo({ top: scroller.scrollTop + target.getBoundingClientRect().top - scroller.getBoundingClientRect().top - scroller.clientTop - inset, behavior: 'instant' });
-    schedule();
+    afterLayout(() => {
+      if (target.hidden || target.dataset.filterMatch === 'false') return;
+      const inset = parseFloat(getComputedStyle(scroller).paddingTop) || 0;
+      const top = scroller.scrollTop + target.getBoundingClientRect().top - scroller.getBoundingClientRect().top - scroller.clientTop - inset;
+      return () => {
+        target.querySelector('a')?.focus({ preventScroll: true });
+        scroller.scrollTo({ top, behavior: 'instant' });
+        schedule();
+      };
+    });
   }));
   browser.classList.add('has-timeline');
   scroller.addEventListener('scroll', schedule, { passive: true });
-  scroller.addEventListener('listpagechange', schedule);
+  scroller.addEventListener('listpagechange', () => afterLayout(update));
   window.addEventListener('resize', schedule, { passive: true });
   if (typeof ResizeObserver === 'function') new ResizeObserver(schedule).observe(list);
   document.fonts.ready.then(schedule);
-  update();
+  afterLayout(update);
 }

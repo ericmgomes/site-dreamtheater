@@ -3,6 +3,25 @@ import AxeBuilder from '@axe-core/playwright';
 import { setlists } from '../src/data/setlists';
 import { videos, moreVideos } from '../src/data/videos';
 
+test.beforeEach(async ({ page }) => {
+  // Exercise the real bootstrap/CSP without sending test visits to the container.
+  await page.route('https://www.googletagmanager.com/**', route => route.fulfill({ contentType: 'application/javascript', body: '' }));
+});
+
+test('GTM bootstrap loads once through CSP and has a no-JS fallback', async ({ page, browser }) => {
+  const requests: string[] = [];
+  page.on('request', request => { if (request.url().includes('/gtm.js?id=')) requests.push(request.url()); });
+  await page.goto('/');
+  await expect.poll(() => requests).toEqual(['https://www.googletagmanager.com/gtm.js?id=GTM-WJCQK4MP']);
+  expect(await page.evaluate(() => (window as unknown as { dataLayer: { event: string }[] }).dataLayer.some(item => item.event === 'gtm.js'))).toBeTruthy();
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  await context.route('https://www.googletagmanager.com/**', route => route.fulfill({ contentType: 'text/html', body: '<!doctype html><title>GTM fallback</title>' }));
+  const noJS = await context.newPage();
+  await noJS.goto('http://127.0.0.1:4322/');
+  await expect(noJS.locator('body > noscript iframe[data-gtm]')).toHaveAttribute('src', 'https://www.googletagmanager.com/ns.html?id=GTM-WJCQK4MP');
+  await context.close();
+});
+
 test('cover cards copy individual canonical links and offer a manual fallback', async ({ page }) => {
   const copied: string[] = [];
   await page.exposeFunction('captureCopiedLink', (value: string) => copied.push(value));
@@ -29,6 +48,19 @@ test('cover cards copy individual canonical links and offer a manual fallback', 
   await expect(page.locator('#cover-caio-vargas [data-copy-status]')).toHaveText('Copie o link: https://dreamtheater.com.br/#cover-caio-vargas');
 });
 
+test('production CSP blocks injected inline scripts and declares a referrer policy', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('meta[name="referrer"]')).toHaveAttribute('content', 'strict-origin-when-cross-origin');
+  const violation = await page.evaluate(() => new Promise<string>(resolve => {
+    document.addEventListener('securitypolicyviolation', event => resolve(event.effectiveDirective), { once: true });
+    const script = document.createElement('script');
+    script.textContent = 'document.documentElement.dataset.injectedScript = "executed"';
+    document.body.append(script);
+  }));
+  expect(violation).toBe('script-src-elem');
+  await expect(page.locator('html')).not.toHaveAttribute('data-injected-script', 'executed');
+});
+
 test('static page, metadata, chronology, assets and responsive layout', async ({ page }, testInfo) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -38,7 +70,7 @@ test('static page, metadata, chronology, assets and responsive layout', async ({
   await expect(page).toHaveTitle('Dream Theater Brasil — Shows, Vídeos, Covers, Songbooks e Discografia');
   await expect(page.locator('h1')).toHaveCount(1);
   expect(await page.locator('main > section').evaluateAll(sections => sections.map(s => s.id))).toEqual(['inicio','relembre','veja','va','toque','ouca']);
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   expect(embedRequests).toEqual([]);
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href','https://dreamtheater.com.br/');
   const dates = await page.locator('[data-setlist] time').evaluateAll(items => items.map(item => item.getAttribute('datetime')!));
@@ -288,15 +320,15 @@ test('YouTube and Spotify load only on demand and release previous players', asy
   // Isolate our interaction contract from advertising, cookies and regional player restrictions.
   await page.route(/youtube-nocookie\.com\/embed|open\.spotify\.com\/embed/,route => route.fulfill({contentType:'text/html',body:'<!doctype html><title>Player boundary test</title><p>External media</p>'}));
   await page.goto('/');
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   const firstVideo = page.locator('.video-trigger').first();
   const videoModal = page.locator('.video-dialog');
   await activate(firstVideo);
   await expect(videoModal).toBeVisible();
   await expect(page.getByRole('button', { name: 'Fechar vídeo' })).toBeFocused();
-  await expect(page.locator('iframe')).toHaveCount(1);
-  await expect(page.locator('iframe')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${videos[0].youtubeId}?autoplay=1&rel=0`);
-  await expect(page.frameLocator('iframe').getByText('External media')).toBeVisible();
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(1);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${videos[0].youtubeId}?autoplay=1&rel=0`);
+  await expect(page.frameLocator('iframe:not([data-gtm])').getByText('External media')).toBeVisible();
   const bounds = await videoModal.boundingBox();
   expect(bounds!.width).toBeGreaterThan(page.viewportSize()!.width * .94);
   expect(bounds!.width).toBeLessThan(page.viewportSize()!.width);
@@ -306,35 +338,35 @@ test('YouTube and Spotify load only on demand and release previous players', asy
   expect(modalA11y.violations).toEqual([]);
   await page.keyboard.press('Escape');
   await expect(videoModal).not.toBeVisible();
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await expect(firstVideo).toBeFocused();
   const caption = page.locator('.video-caption [data-video]').last();
   await activate(caption);
-  await expect(page.locator('iframe')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${videos[5].youtubeId}?autoplay=1&rel=0`);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${videos[5].youtubeId}?autoplay=1&rel=0`);
   await activate(page.getByRole('button', {name:'Fechar vídeo'}));
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await expect(caption).toBeFocused();
   const rankedVideo = page.locator('.ranked-video-link').first();
   await activate(rankedVideo);
-  await expect(page.locator('iframe')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${moreVideos[0].youtubeId}?autoplay=1&rel=0`);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveAttribute('src',`https://www.youtube-nocookie.com/embed/${moreVideos[0].youtubeId}?autoplay=1&rel=0`);
   // The small outer gutter is the modal backdrop on desktop and mobile.
   await page.mouse.click(1, 1);
   await expect(videoModal).not.toBeVisible();
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await expect(rankedVideo).toBeFocused();
   const album=page.locator('[data-spotify]').first();
   await activate(album);
   await expect(page.locator('.spotify-dialog')).toBeVisible();
-  await expect(page.locator('iframe')).toHaveCount(1);
-  await expect(page.locator('iframe')).toHaveAttribute('src',/open\.spotify\.com\/embed\/album\/0VIr9Gyc0xkTFfAf18iPRB/);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(1);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveAttribute('src',/open\.spotify\.com\/embed\/album\/0VIr9Gyc0xkTFfAf18iPRB/);
   await page.keyboard.press('Escape');
   await expect(page.locator('.spotify-dialog')).not.toBeVisible();
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await expect(album).toBeFocused();
   await activate(page.locator('[data-spotify]').nth(1));
   await expect(page.locator('#player-title')).toHaveText('Parasomnia');
   await activate(page.getByRole('button',{name:'Fechar player'}));
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await expect(page.getByRole('link',{name:'Ver Live at Luna Park no site oficial',exact:true})).not.toHaveAttribute('data-spotify');
 });
 
@@ -360,6 +392,6 @@ test('core content and external destinations work without JavaScript', async ({ 
   await expect(page.locator('[data-ranked-video]:visible')).toHaveCount(44);
   await expect(page.getByRole('button',{name:'Carregar mais vídeos'})).toBeHidden();
   await expect(page.locator('[data-spotify]').first()).toHaveAttribute('href','https://open.spotify.com/album/0VIr9Gyc0xkTFfAf18iPRB');
-  await expect(page.locator('iframe')).toHaveCount(0);
+  await expect(page.locator('iframe:not([data-gtm])')).toHaveCount(0);
   await context.close();
 });

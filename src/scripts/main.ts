@@ -1,4 +1,5 @@
 import { initializeShowTimeline } from './show-timeline';
+import { measureFrame, afterLayout } from './layout-frame';
 
 // Static content stays complete without JS; each scroll area reveals its own pages.
 function initializeScrollPagination(prefix: string, rowSelector: string, noun: string, completeHint: string) {
@@ -117,21 +118,19 @@ document.querySelectorAll<HTMLElement>('[data-filter-group="album"]').forEach(gr
 // Anchors remain functional without JavaScript. Only the current-section marker needs JS.
 const navLinks = [...document.querySelectorAll<HTMLAnchorElement>('[data-nav]')];
 const sections = navLinks.map(link => document.getElementById(link.dataset.nav!)).filter((section): section is HTMLElement => !!section);
-let scheduled = false;
 function updateActiveSection() {
   const header = document.querySelector('header')?.getBoundingClientRect().height ?? 100;
   const active = [...sections].reverse().find(section => section.getBoundingClientRect().top <= header + 100);
-  navLinks.forEach(link => {
+  return () => navLinks.forEach(link => {
     if (link.dataset.nav === active?.id) link.setAttribute('aria-current', 'location');
     else link.removeAttribute('aria-current');
   });
-  scheduled = false;
 }
 window.addEventListener('scroll', () => {
-  if (!scheduled) { scheduled = true; requestAnimationFrame(updateActiveSection); }
+  measureFrame(updateActiveSection);
 }, { passive: true });
-window.addEventListener('resize', updateActiveSection, { passive: true });
-updateActiveSection();
+window.addEventListener('resize', () => measureFrame(updateActiveSection), { passive: true });
+afterLayout(updateActiveSection);
 
 // Native modal keeps videos large while links still work without JavaScript.
 const videoDialog = document.querySelector<HTMLDialogElement>('.video-dialog');

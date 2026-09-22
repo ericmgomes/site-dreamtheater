@@ -1,0 +1,21 @@
+/* Avoid late font swaps on slow connections; preloads prioritize the main faces. */
+@font-face {
+  font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: optional;
+  src: url('@fontsource/inter/files/inter-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: optional;
+  src: url('@fontsource/inter/files/inter-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: optional;
+  src: url('@fontsource/inter/files/inter-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed'; font-style: normal; font-weight: 600; font-display: optional;
+  src: url('@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed'; font-style: normal; font-weight: 700; font-display: optional;
+  src: url('@fontsource/barlow-condensed/files/barlow-condensed-latin-700-normal.woff2') format('woff2');
+}

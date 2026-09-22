@@ -1,0 +1,10 @@
+{
+  "name": "dreamtheater-response",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-22",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "dreamtheater.com.br/*", "zone_name": "dreamtheater.com.br" },
+    { "pattern": "www.dreamtheater.com.br/*", "zone_name": "dreamtheater.com.br" }
+  ]
+}

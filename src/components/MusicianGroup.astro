@@ -9,7 +9,7 @@ const { id, title, label, musicians } = Astro.props;
 ---
 <div class="musician-group" data-instrument={id}>
   <div class="subsection-heading musician-heading"><h3 id={`covers-${id}`}>{title}</h3><span class="eyebrow">{label}</span></div>
-  <div class="musician-grid" aria-labelledby={`covers-${id}`}>
+  <div class="musician-grid" role="group" aria-labelledby={`covers-${id}`}>
     {musicians.map(musician => <article class="musician-item" id={coverAnchor(musician.name)}>
       <ProfilePhoto name={musician.name} image={musician.image} />
       <div class="musician-info"><div class="cover-name"><h4>{musician.name}</h4><CopyAnchor id={coverAnchor(musician.name)} label={musician.name} /></div><p>{musician.description}</p><div class="social-links">
