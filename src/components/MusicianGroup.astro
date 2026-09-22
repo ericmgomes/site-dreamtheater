@@ -1,6 +1,8 @@
 ---
 import Icon from './Icon.astro';
 import ProfilePhoto from './ProfilePhoto.astro';
+import CopyAnchor from './CopyAnchor.astro';
+import { coverAnchor } from '../utils/anchors';
 import type { CoverMusician } from '../data/types';
 interface Props { id: string; title: string; label: string; musicians: CoverMusician[]; }
 const { id, title, label, musicians } = Astro.props;
@@ -8,9 +10,9 @@ const { id, title, label, musicians } = Astro.props;
 <div class="musician-group" data-instrument={id}>
   <div class="subsection-heading musician-heading"><h3 id={`covers-${id}`}>{title}</h3><span class="eyebrow">{label}</span></div>
   <div class="musician-grid" aria-labelledby={`covers-${id}`}>
-    {musicians.map(musician => <article class="musician-item">
+    {musicians.map(musician => <article class="musician-item" id={coverAnchor(musician.name)}>
       <ProfilePhoto name={musician.name} image={musician.image} />
-      <div class="musician-info"><h4>{musician.name}</h4><p>{musician.description}</p><div class="social-links">
+      <div class="musician-info"><div class="cover-name"><h4>{musician.name}</h4><CopyAnchor id={coverAnchor(musician.name)} label={musician.name} /></div><p>{musician.description}</p><div class="social-links">
         {musician.instagram && <a class="instagram-link" href={musician.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={19}/> Instagram <Icon size={15}/></a>}
         {musician.youtube && <a href={musician.youtube} target="_blank" rel="noopener noreferrer">YouTube <Icon size={15}/></a>}
         {musician.website && <a href={musician.website} target="_blank" rel="noopener noreferrer">Site <Icon size={15}/></a>}

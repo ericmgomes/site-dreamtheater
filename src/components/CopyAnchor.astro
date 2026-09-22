@@ -1,0 +1,9 @@
+---
+import Icon from './Icon.astro';
+interface Props { id: string; label: string; }
+const { id, label } = Astro.props;
+---
+<span class="copy-link-control">
+  <button type="button" class="copy-anchor" data-copy-anchor={id} data-copy-label={label} aria-label={`Copiar link: ${label}`} title={`Copiar link: ${label}`} hidden><Icon name="link" size={16} /></button>
+  <span class="copy-link-status data-note" data-copy-status role="status" aria-live="polite"></span>
+</span>

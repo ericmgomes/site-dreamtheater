@@ -3,6 +3,8 @@ import SectionHeading from './SectionHeading.astro';
 import Icon from './Icon.astro';
 import MusicianGroup from './MusicianGroup.astro';
 import ProfilePhoto from './ProfilePhoto.astro';
+import CopyAnchor from './CopyAnchor.astro';
+import { coverAnchor } from '../utils/anchors';
 import { coverBands } from '../data/coverBands';
 import { guitarists } from '../data/guitarists';
 import { bassists, keyboardists } from '../data/coverMusicians';
@@ -16,20 +18,16 @@ const shortcuts = [
 <section class="section go wrap" id="va" aria-labelledby="go-title">
   <SectionHeading id="go-title" number="03" title="Covers" />
   <nav class="cover-shortcuts" aria-label="Navegar pelos covers">
-    {shortcuts.map(({ id, label }) => <span class="cover-shortcut">
-      <a href={`#${id}`}>{label}</a>
-      <button type="button" class="copy-anchor" data-copy-anchor={id} data-copy-label={label} aria-label={`Copiar link: ${label}`} title={`Copiar link: ${label}`} hidden><Icon name="copy" size={14} /></button>
-    </span>)}
-    <span class="copy-link-status data-note" data-copy-status role="status" aria-live="polite"></span>
+    {shortcuts.map(({ id, label }) => <a href={`#${id}`}>{label}</a>)}
   </nav>
   <div class="subsection-heading"><h3 id="covers-bands">O som é deles. A cena é nossa.</h3><span class="eyebrow">Tributos brasileiros</span></div>
   <div class="cover-grid">
     {coverBands.map((band, index) => (
-      <article class="cover-item">
+      <article class="cover-item" id={coverAnchor(band.name)}>
         <span class="cover-index">{String(index + 1).padStart(2, '0')}</span>
         <div class="cover-heading">
           <ProfilePhoto name={band.name} image={band.image} />
-          <div class="cover-heading-text"><p class="eyebrow">{band.location || 'Brasil'}</p><h4>{band.name}</h4></div>
+          <div class="cover-heading-text"><p class="eyebrow">{band.location || 'Brasil'}</p><div class="cover-name"><h4>{band.name}</h4><CopyAnchor id={coverAnchor(band.name)} label={band.name} /></div></div>
         </div>
         <p class="cover-description">{band.description}</p>
         <div class="social-links">

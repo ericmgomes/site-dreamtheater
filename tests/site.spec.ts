@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { setlists } from '../src/data/setlists';
 import { videos, moreVideos } from '../src/data/videos';
 
-test('cover shortcuts copy canonical links and offer a manual fallback', async ({ page }) => {
+test('cover cards copy individual canonical links and offer a manual fallback', async ({ page }) => {
   const copied: string[] = [];
   await page.exposeFunction('captureCopiedLink', (value: string) => copied.push(value));
   await page.addInitScript(() => {
@@ -12,16 +12,21 @@ test('cover shortcuts copy canonical links and offer a manual fallback', async (
     } });
   });
   await page.goto('/?tracking=test');
-  for (const id of ['covers-bands', 'covers-guitar', 'covers-bass', 'covers-keys']) {
+  const ids = await page.locator('[data-copy-anchor]').evaluateAll(buttons => buttons.map(button => (button as HTMLElement).dataset.copyAnchor!));
+  expect(ids).toHaveLength(20);
+  expect(new Set(ids).size).toBe(20);
+  for (const id of ids) {
     const button = page.locator(`[data-copy-anchor="${id}"]`);
     await button.focus();
     await page.keyboard.press('Enter');
     await expect.poll(() => copied.at(-1)).toBe(`https://dreamtheater.com.br/#${id}`);
-    await expect(page.locator('[data-copy-status]')).toContainText('copiado!');
+    await expect(page.locator(`#${id} [data-copy-status]`)).toContainText('copiado!');
+    await page.goto(`/#${id}`);
+    await expect(page.locator(`#${id}`)).toBeInViewport();
   }
   await page.evaluate(() => { navigator.clipboard.writeText = async () => { throw new Error('Clipboard denied'); }; });
-  await page.locator('[data-copy-anchor="covers-bands"]').click();
-  await expect(page.locator('[data-copy-status]')).toHaveText('Copie o link: https://dreamtheater.com.br/#covers-bands');
+  await page.locator('[data-copy-anchor="cover-caio-vargas"]').click();
+  await expect(page.locator('#cover-caio-vargas [data-copy-status]')).toHaveText('Copie o link: https://dreamtheater.com.br/#cover-caio-vargas');
 });
 
 test('static page, metadata, chronology, assets and responsive layout', async ({ page }, testInfo) => {
