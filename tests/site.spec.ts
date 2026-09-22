@@ -48,6 +48,19 @@ test('cover cards copy individual canonical links and offer a manual fallback', 
   await expect(page.locator('#cover-caio-vargas [data-copy-status]')).toHaveText('Copie o link: https://dreamtheater.com.br/#cover-caio-vargas');
 });
 
+test('CSP permits the configured Analytics collection endpoints', async ({ page }) => {
+  const endpoints = ['https://www.google-analytics.com/g/collect', 'https://www.google.com/g/collect'];
+  const received: string[] = [];
+  for (const endpoint of endpoints) await page.route(endpoint, route => {
+    received.push(route.request().url());
+    return route.fulfill({ status: 204, headers: { 'Access-Control-Allow-Origin': '*' } });
+  });
+  await page.goto('/');
+  const results = await page.evaluate(async urls => Promise.all(urls.map(async url => (await fetch(url, { method: 'POST', body: 'test' })).status)), endpoints);
+  expect(results).toEqual([204, 204]);
+  expect(received.sort()).toEqual([...endpoints].sort());
+});
+
 test('production CSP blocks injected inline scripts and declares a referrer policy', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('meta[name="referrer"]')).toHaveAttribute('content', 'strict-origin-when-cross-origin');

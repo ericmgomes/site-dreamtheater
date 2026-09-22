@@ -8,7 +8,7 @@ export const contentSecurityPolicy = [
   "style-src 'self' 'unsafe-inline'", // Timeline positions and the no-JS filter style.
   "img-src 'self' https://i.ytimg.com https://www.googletagmanager.com",
   "font-src 'self'",
-  "connect-src 'self' https://www.googletagmanager.com",
+  "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com",
   "frame-src https://www.youtube-nocookie.com https://open.spotify.com https://www.googletagmanager.com",
   "object-src 'none'",
   "base-uri 'none'",
