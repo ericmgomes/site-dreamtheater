@@ -44,6 +44,13 @@ function initializeScrollPagination(prefix: string, rowSelector: string, noun: s
   };
   more.addEventListener('click', () => loadMore(true));
   more.addEventListener('blur', observeNext);
+  scroller.addEventListener('listreveal', event => {
+    const index = matchingRows.indexOf((event as CustomEvent<HTMLElement>).detail);
+    if (index < 0) return;
+    visibleCount = Math.min(matchingRows.length, Math.max(visibleCount, Math.ceil((index + 1) / pageSize) * pageSize));
+    update();
+    observeNext();
+  });
   update();
   if (supportsAutoLoad && visibleCount < rows.length) {
     observer = new IntersectionObserver(entries => {

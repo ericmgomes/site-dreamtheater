@@ -24,6 +24,27 @@ test('static page, metadata, chronology, assets and responsive layout', async ({
   expect(errors).toEqual([]);
 });
 
+test('timeline year links reveal unloaded shows and respect the selected city', async ({ page }) => {
+  await page.goto('/');
+  const timeline = page.locator('[data-show-timeline]');
+  const scroller = page.locator('[data-setlist-scroll]');
+  await timeline.getByRole('link', { name: 'Ver shows de 1997', exact: true }).click();
+  await expect(page.locator('[data-setlist]:visible')).toHaveCount(48);
+  await expect(page.locator('[data-setlist][data-year="1997"]').first().locator('a')).toBeFocused();
+  expect(await scroller.evaluate(el => el.scrollTop)).toBeGreaterThan(0);
+  await timeline.getByRole('link', { name: 'Ver shows de 2026', exact: true }).click();
+  await expect.poll(() => scroller.evaluate(el => el.scrollTop)).toBe(0);
+  await page.locator('[data-setlist-city]').selectOption('São Paulo');
+  await expect(timeline.locator('[data-timeline-year="1997"]')).toBeHidden();
+  const link = timeline.getByRole('link', { name: 'Ver shows de 1998', exact: true });
+  await link.focus();
+  await page.keyboard.press('Enter');
+  const target = page.locator('[data-setlist][data-year="1998"][data-city="São Paulo"]').first();
+  await expect(target.locator('a')).toBeFocused();
+  await expect(target).toBeInViewport();
+  expect(await page.locator('[data-setlist]:visible').evaluateAll(items => items.every(item => (item as HTMLElement).dataset.city === 'São Paulo'))).toBeTruthy();
+});
+
 test('Brazilian history loads every page while scrolling and preserves earlier shows', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('group',{name:'Filtrar shows por país'})).toHaveCount(0);

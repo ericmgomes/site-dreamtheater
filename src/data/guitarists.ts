@@ -14,13 +14,21 @@ export const guitarists: Guitarist[] = [
     "image": "/images/profiles/marcelobarbosagtr.webp"
   },
   {
-    "name": "Alex Lima",
-    "description": "Dream Theater na guitarra. Conheça o trabalho de Alex Lima no Instagram.",
-    "instagram": "https://www.instagram.com/alekissss10/",
+    "name": "Bruno Godinho",
+    "description": "Covers, solos e estudos de Petrucci: Overture 1928, The Glass Prison, A Rite of Passage e Erotomania.",
+    "instagram": "https://www.instagram.com/brunogodinhoguitar/",
+    "youtube": "https://www.youtube.com/@BrunoGodinhoGuitar",
+    "image": "/images/profiles/brunogodinhoguitar.webp",
     "sourceUrls": [
-      "https://www.instagram.com/alekissss10/"
-    ],
-    "image": "/images/profiles/alekissss10.webp"
+      "https://brunogodinho.com/",
+      "https://brunogodinho.com/aulas-particulares/",
+      "https://www.youtube.com/@BrunoGodinhoGuitar/search?query=dream%20theater",
+      "https://www.youtube.com/watch?v=HRsx7z3kQck",
+      "https://www.youtube.com/watch?v=J-NCsxGEjZU",
+      "https://www.youtube.com/watch?v=MwczvzzHAmY",
+      "https://www.youtube.com/watch?v=NvIkcspMcU8",
+      "https://whiplash.net/materias/biografias/245826-dreamtheater.html"
+    ]
   },
   {
     "name": "Samuel Zechin",
@@ -32,6 +40,15 @@ export const guitarists: Guitarist[] = [
       "https://whiplash.net/materias/news_731/330991-brucedickinson.html"
     ],
     "image": "/images/profiles/samuelzechin.webp"
+  },
+  {
+    "name": "Alex Lima",
+    "description": "Dream Theater na guitarra. Conheça o trabalho de Alex Lima no Instagram.",
+    "instagram": "https://www.instagram.com/alekissss10/",
+    "sourceUrls": [
+      "https://www.instagram.com/alekissss10/"
+    ],
+    "image": "/images/profiles/alekissss10.webp"
   },
   {
     "name": "Thiago Campos",
@@ -65,22 +82,5 @@ export const guitarists: Guitarist[] = [
       "https://www.youtube.com/watch?v=dm0viYuQwEc"
     ],
     "image": "/images/profiles/gustavoguerraguitarrista.webp"
-  },
-  {
-    "name": "Bruno Godinho",
-    "description": "Covers, solos e estudos de Petrucci: Overture 1928, The Glass Prison, A Rite of Passage e Erotomania.",
-    "instagram": "https://www.instagram.com/brunogodinhoguitar/",
-    "youtube": "https://www.youtube.com/@BrunoGodinhoGuitar",
-    "image": "/images/profiles/brunogodinhoguitar.webp",
-    "sourceUrls": [
-      "https://brunogodinho.com/",
-      "https://brunogodinho.com/aulas-particulares/",
-      "https://www.youtube.com/@BrunoGodinhoGuitar/search?query=dream%20theater",
-      "https://www.youtube.com/watch?v=HRsx7z3kQck",
-      "https://www.youtube.com/watch?v=J-NCsxGEjZU",
-      "https://www.youtube.com/watch?v=MwczvzzHAmY",
-      "https://www.youtube.com/watch?v=NvIkcspMcU8",
-      "https://whiplash.net/materias/biografias/245826-dreamtheater.html"
-    ]
   }
 ];

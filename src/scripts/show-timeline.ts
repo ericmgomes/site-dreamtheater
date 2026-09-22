@@ -19,6 +19,9 @@ export function initializeShowTimeline() {
     const positions = new Map(years.map((year, index) => [year, index / Math.max(1, years.length - 1) * 100]));
     ticks.forEach(tick => {
       tick.hidden = !positions.has(tick.dataset.timelineYear!);
+      const target = matching.find(card => card.dataset.year === tick.dataset.timelineYear);
+      const link = tick.querySelector('a');
+      if (target && link) link.href = `#${target.id}`;
       tick.style.setProperty('--year-position', `${positions.get(tick.dataset.timelineYear!) ?? 0}%`);
     });
     timeline!.hidden = matching.length === 0;
@@ -62,6 +65,17 @@ export function initializeShowTimeline() {
     if (!scheduled) { scheduled = true; requestAnimationFrame(update); }
   }
   timeline.hidden = false;
+  ticks.forEach(tick => tick.querySelector('a')?.addEventListener('click', event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const target = cards.find(card => card.dataset.year === tick.dataset.timelineYear && card.dataset.filterMatch !== 'false');
+    if (!target) return;
+    event.preventDefault();
+    scroller.dispatchEvent(new CustomEvent('listreveal', { detail: target }));
+    target.querySelector('a')?.focus({ preventScroll: true });
+    const inset = parseFloat(getComputedStyle(scroller).paddingTop) || 0;
+    scroller.scrollTo({ top: scroller.scrollTop + target.getBoundingClientRect().top - scroller.getBoundingClientRect().top - scroller.clientTop - inset, behavior: 'instant' });
+    schedule();
+  }));
   browser.classList.add('has-timeline');
   scroller.addEventListener('scroll', schedule, { passive: true });
   scroller.addEventListener('listpagechange', schedule);

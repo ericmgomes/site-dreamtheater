@@ -25,14 +25,14 @@ const cities = [...new Set(setlists.map(show => show.city))].sort((a, b) => a.lo
     <span class="timeline-label">Ano</span>
     <div class="timeline-track">
       <span class="timeline-progress" aria-hidden="true"></span>
-      <ol class="timeline-years" role="list">{years.map((year, index) => <li data-timeline-year={year} style={`--year-position: ${index / Math.max(1, years.length - 1) * 100}%`}>{year}</li>)}</ol>
+      <ol class="timeline-years" role="list">{years.map((year, index) => <li data-timeline-year={year} style={`--year-position: ${index / Math.max(1, years.length - 1) * 100}%`}><a href={`#show-${setlists.findIndex(show => show.date.startsWith(year))}`} aria-label={`Ver shows de ${year}`}>{year}</a></li>)}</ol>
       <span class="timeline-marker" data-timeline-marker aria-hidden="true"></span>
     </div>
     <p class="sr-only" data-timeline-status></p>
   </aside>
   <div class="setlist-scroll" id="setlist-history" role="region" aria-label="Histórico de shows no Brasil" aria-describedby="setlist-status" tabindex="0" data-setlist-scroll data-page-size={pageSize} data-load-margin="32">
     <ul class="setlist-list" role="list">
-      {setlists.map(show => <li class="setlist-card" data-setlist data-city={show.city} data-year={show.date.slice(0, 4)} data-country={show.countryCode}>
+      {setlists.map((show, index) => <li id={`show-${index}`} class="setlist-card" data-setlist data-city={show.city} data-year={show.date.slice(0, 4)} data-country={show.countryCode}>
         <a href={show.url} target="_blank" rel="noopener noreferrer" class="setlist-card-link" aria-label={`Ver setlist: ${show.city}, ${formatDate(show.date)}, ${show.venue}${show.tour ? `, ${show.tour}` : ''}`}>
           <div class="show-card-top"><time datetime={show.date}>{formatDate(show.date)}</time><span>Setlist <Icon size={14}/></span></div>
           <div class="show-location"><h3>{show.city}{show.region && <span>, {show.region}</span>}</h3><p>{show.venue}</p></div>
